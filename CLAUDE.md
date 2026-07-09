@@ -15,7 +15,8 @@ In this repo, act as the user's Commander (EDH) research curator and product-des
 - Note naming convention: research `YYYY-MM-DD-short-topic.md`. Decklists are named after the deck itself (see above), not dated, since they get re-synced as they're updated.
 
 ## Decklist extraction
-- `scripts/archidekt_extract.py <archidekt-url-or-deck-id>` fetches a deck from Archidekt's API and writes it straight into `knowledgebase/decklists/<owner>/<deck-slug>.md`. Prefer this over manually transcribing an Archidekt deck.
+- `scripts/archidekt_extract.py <archidekt-url-or-deck-id>` fetches one deck from Archidekt's API and writes it straight into `knowledgebase/decklists/<owner>/<deck-slug>.md`. Prefer this over manually transcribing an Archidekt deck.
+- `scripts/archidekt_extract.py --user <archidekt-username>` bulk-extracts every deck that username has public on Archidekt (one file each). The lookup endpoint is unauthenticated, so it can only ever return public decks — no separate public/private filtering needed, and deck folder placement (a private, account-side organizational detail) is intentionally ignored.
 - The script determines mainboard cards by requiring *every* category a card is tagged with to be `includedInDeck` on Archidekt (a single "any" check overcounts — maybeboard/outbound cards can share a category with mainboard ones).
 - Only Archidekt is supported so far. If a deck comes from Moxfield or elsewhere, extend the script (same pattern: fetch → filter mainboard → detect commander via color identity → group by type) rather than transcribing by hand.
 

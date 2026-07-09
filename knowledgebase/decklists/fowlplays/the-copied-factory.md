@@ -8,7 +8,7 @@ power_level:
 tags: []
 related: []
 last_updated: 2026-06-19
-source: https://archidekt.com/decks/14300891/the_copied_factory
+source: https://archidekt.com/decks/14300891
 ---
 
 ## Decklist
@@ -122,4 +122,4 @@ source: https://archidekt.com/decks/14300891/the_copied_factory
 ## Notes
 
 - Archidekt bracket: 3
-- Imported from [Archidekt](https://archidekt.com/decks/14300891/the_copied_factory)
+- Imported from [Archidekt](https://archidekt.com/decks/14300891)

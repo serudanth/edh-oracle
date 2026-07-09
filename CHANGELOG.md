@@ -1,5 +1,18 @@
 # Changelog
 
+## 2026-07-09 (import pod decklists)
+
+- **[kb]** Extracted the pod's public Archidekt decks: `J-Py` (1), `LTO888` (11), `Xanoh` (1), `mjsnoozer` (5) — 18 decks total, each under `knowledgebase/decklists/<owner>/`.
+
+## 2026-07-09 (sync to fowlplays' updated public decks)
+
+- **[kb]** User tightened privacy on several Archidekt decks after noticing the earlier bulk import had pulled some they didn't intend to be public. Re-ran `archidekt_extract.py --user fowlplays` and removed the 5 decks no longer public: `food-bending`, `scions-spellcraft-redux`, `the-best-of-friends-legacy`, `the-chocobo-forest`, `the-season-of-giving`. 12 decks remain, matching the current public profile.
+
+## 2026-07-09 (bulk import fowlplays' Archidekt profile)
+
+- **[tooling]** `scripts/archidekt_extract.py` gained `--user <username>` to bulk-extract every public deck for an Archidekt user in one run, instead of one URL at a time.
+- **[kb]** Imported all 17 of `fowlplays`' public decks into `knowledgebase/decklists/fowlplays/`.
+
 ## 2026-07-09 (Archidekt decklist extraction)
 
 - **[tooling]** Added `scripts/archidekt_extract.py` — pulls a deck from Archidekt's API and writes it into `knowledgebase/decklists/<owner>/<deck-slug>.md`.
