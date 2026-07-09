@@ -8,7 +8,7 @@ Read the linked file when the task matches the tags or trigger.
 
 ## decklists/
 
-Grouped by owner. `fowlplays` is the user's own; the rest are pod members. All pulled from each owner's public Archidekt profile.
+Grouped by owner. `fowlplays` is the user's own; the rest are pod members. Pulled from each owner's public Archidekt or Moxfield profile.
 
 ### fowlplays
 
@@ -109,6 +109,56 @@ Commander: Hazel of the Rootbloom (BG) — food
 
 ### decklists/mjsnoozer/stella-lee.md
 Commander: Stella Lee, Wild Card (UR)
+
+### reimaru
+
+### decklists/reimaru/aura-battler-feather.md
+Commander: Feather, Radiant Arbiter (WR)
+
+### decklists/reimaru/feathers-spell-all-you-can.md
+Commander: Feather, the Redeemed (WR)
+
+### decklists/reimaru/marneus-calgar-captain-of-tokens.md
+Commander: Marneus Calgar (WUB) — tokens
+
+### decklists/reimaru/miirym-miirym-on-the-wall.md
+Commander: Miirym, Sentinel Wyrm (URG) — dragons
+
+### decklists/reimaru/saheeli-copy-brilliance.md
+Commander: Saheeli, the Sun's Brilliance (UR) — copy
+
+### decklists/reimaru/sarumans-mighty-meaty-army.md
+Commander: Saruman, the White Hand (UBR)
+
+### decklists/reimaru/silverquill-likes-to-bring-a-crowd.md
+Commander: Silverquill, the Disputant (WB)
+
+### decklists/reimaru/sionas-enchanting-soldiers.md
+Commander: Siona, Captain of the Pyleas (WG) — enchantments
+
+### decklists/reimaru/solphim-and-suffering.md
+Commander: Solphim, Mayhem Dominus (R)
+
+### decklists/reimaru/stop-sacing-sephiroth.md
+Commander: Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (B)
+
+### decklists/reimaru/swords-and-slicer.md
+Commander: Slicer, Hired Muscle // Slicer, High-Speed Antagonist (R)
+
+### decklists/reimaru/syr-gwyn-armed-and-crazy.md
+Commander: Syr Gwyn, Hero of Ashvale (WBR) — voltron/equipment
+
+### decklists/reimaru/thats-a-lot-of-swords-cloud.md
+Commander: Cloud, Midgar Mercenary (W)
+
+### decklists/reimaru/thraximundar-lord-of-sacs.md
+Commander: Thraximundar (UBR) — sacrifice
+
+### decklists/reimaru/wherere-the-rats-wick.md
+Commander: Wick, the Whorled Mind (UBR)
+
+### decklists/reimaru/yshtolas-trigger-trigger-frown-and-fall.md
+Commander: Y'shtola, Night's Blessed (WUB)
 
 ---
 

@@ -5,6 +5,10 @@
 ignore/
 .ignore/
 
+# Python
+__pycache__/
+*.pyc
+
 # Misc
 .DS_Store
 *.log

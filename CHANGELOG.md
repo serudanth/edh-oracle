@@ -1,5 +1,11 @@
 # Changelog
 
+## 2026-07-09 (Moxfield support)
+
+- **[tooling]** Added `scripts/moxfield_extract.py` (single-deck and `--user` bulk mode, mirroring the Archidekt extractor). Moxfield has no official API; uses the same unauthenticated `api2.moxfield.com` endpoints moxfield.com's frontend calls, confirmed via the Aleqsd/moxfield-api wrapper's source rather than guessed.
+- **[tooling]** Factored shared markdown/frontmatter rendering out of `archidekt_extract.py` into `scripts/decklist_common.py` so both extractors build identically-formatted decklist files.
+- **[kb]** Imported all 16 of `reimaru`'s public Moxfield decks into `knowledgebase/decklists/reimaru/`.
+
 ## 2026-07-09 (import pod decklists)
 
 - **[kb]** Extracted the pod's public Archidekt decks: `J-Py` (1), `LTO888` (11), `Xanoh` (1), `mjsnoozer` (5) — 18 decks total, each under `knowledgebase/decklists/<owner>/`.
