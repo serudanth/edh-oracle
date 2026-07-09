@@ -1,0 +1,10 @@
+# Claude Code project settings (local only)
+.claude/
+
+# Local scratch / ignored working folder
+ignore/
+.ignore/
+
+# Misc
+.DS_Store
+*.log
