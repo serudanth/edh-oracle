@@ -1,8 +1,32 @@
 # Knowledgebase Index
 
 Signpost only — no content here. One entry per file.
-Order: decklists → research.
+Order: users → decklists → research.
 Read the linked file when the task matches the tags or trigger.
+
+---
+
+## users/
+
+Deckbuilder profiles, one per decklist owner. Each analyzes tendencies across that owner's `decklists/<owner>/` folder rather than duplicating deck contents — read a profile before picking or evaluating a deck for that person, or when spotting cross-deck/cross-pod patterns.
+
+### users/fowlplays.md
+Profile: fowlplays (12 decks) — heavy Universes Beyond reliance, red-leaning, repeated voltron via different vectors.
+
+### users/j-py.md
+Profile: J-Py (1 deck, provisional) — Boros Feather spellslinger, synergy-first over raw power.
+
+### users/lto888.md
+Profile: LTO888 (11 decks) — black-anchored, near-universal Sol Ring/The One Ring reliance, FF/ATLA crossover-heavy.
+
+### users/mjsnoozer.md
+Profile: mjsnoozer (5 decks) — red-based UB-commander shells, repeated Izzet/Grixis storm-combo signature build.
+
+### users/reimaru.md
+Profile: reimaru (16 decks, largest sample) — Rakdos-leaning, repeated equipment-voltron and aristocrats/sac-drain signatures, near-total green avoidance.
+
+### users/xanoh.md
+Profile: Xanoh (1 deck, provisional) — Gruul big-mana ramp with a Final Fantasy crossover theme.
 
 ---
 
@@ -164,4 +188,5 @@ Commander: Y'shtola, Night's Blessed (WUB)
 
 ## research/
 
-_(none yet)_
+### research/2026-07-10-the-copied-factory-deck-profile.md
+Deck profile: The Copied Factory (fowlplays, Inalla, Archmage Ritualist) — card-by-card mechanical read plus owner-confirmed playstyle: the practiced win con is ping-token burn (not the on-paper ETB-copy engine), with a deliberately piloted Dualcaster Mage + Ghostly Flicker infinite combo. Read when evaluating or discussing this specific deck, or as a template for future single-deck profiles.
