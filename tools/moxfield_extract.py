@@ -2,8 +2,8 @@
 """Fetch decklist(s) from Moxfield and write them into knowledgebase/decklists/.
 
 Usage:
-    python scripts/moxfield_extract.py <moxfield-url-or-deck-id>
-    python scripts/moxfield_extract.py --user <moxfield-username>
+    python tools/moxfield_extract.py <moxfield-url-or-deck-id>
+    python tools/moxfield_extract.py --user <moxfield-username>
 
 Single-deck mode writes one file. --user mode extracts every public deck
 the given username has on Moxfield.

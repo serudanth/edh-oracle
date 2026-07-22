@@ -2,8 +2,8 @@
 """Fetch decklist(s) from Archidekt and write them into knowledgebase/decklists/.
 
 Usage:
-    python scripts/archidekt_extract.py <archidekt-url-or-deck-id>
-    python scripts/archidekt_extract.py --user <archidekt-username>
+    python tools/archidekt_extract.py <archidekt-url-or-deck-id>
+    python tools/archidekt_extract.py --user <archidekt-username>
 
 Single-deck mode writes one file. --user mode extracts every deck the
 Archidekt API returns for that username — since that endpoint is

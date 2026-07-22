@@ -21,8 +21,8 @@
 
 ## 2026-07-09 (Moxfield support)
 
-- **[tooling]** Added `scripts/moxfield_extract.py` (single-deck and `--user` bulk mode, mirroring the Archidekt extractor). Moxfield has no official API; uses the same unauthenticated `api2.moxfield.com` endpoints moxfield.com's frontend calls, confirmed via the Aleqsd/moxfield-api wrapper's source rather than guessed.
-- **[tooling]** Factored shared markdown/frontmatter rendering out of `archidekt_extract.py` into `scripts/decklist_common.py` so both extractors build identically-formatted decklist files.
+- **[tooling]** Added `tools/moxfield_extract.py` (single-deck and `--user` bulk mode, mirroring the Archidekt extractor). Moxfield has no official API; uses the same unauthenticated `api2.moxfield.com` endpoints moxfield.com's frontend calls, confirmed via the Aleqsd/moxfield-api wrapper's source rather than guessed.
+- **[tooling]** Factored shared markdown/frontmatter rendering out of `archidekt_extract.py` into `tools/decklist_common.py` so both extractors build identically-formatted decklist files.
 - **[kb]** Imported all 16 of `reimaru`'s public Moxfield decks into `knowledgebase/decklists/reimaru/`.
 
 ## 2026-07-09 (import pod decklists)
@@ -35,12 +35,12 @@
 
 ## 2026-07-09 (bulk import fowlplays' Archidekt profile)
 
-- **[tooling]** `scripts/archidekt_extract.py` gained `--user <username>` to bulk-extract every public deck for an Archidekt user in one run, instead of one URL at a time.
+- **[tooling]** `tools/archidekt_extract.py` gained `--user <username>` to bulk-extract every public deck for an Archidekt user in one run, instead of one URL at a time.
 - **[kb]** Imported all 17 of `fowlplays`' public decks into `knowledgebase/decklists/fowlplays/`.
 
 ## 2026-07-09 (Archidekt decklist extraction)
 
-- **[tooling]** Added `scripts/archidekt_extract.py` — pulls a deck from Archidekt's API and writes it into `knowledgebase/decklists/<owner>/<deck-slug>.md`.
+- **[tooling]** Added `tools/archidekt_extract.py` — pulls a deck from Archidekt's API and writes it into `knowledgebase/decklists/<owner>/<deck-slug>.md`.
 - **[kb]** First decklist logged: `knowledgebase/decklists/fowlplays/the-copied-factory.md` (Inalla, Archmage Ritualist — UBR).
 - **[kb]** `_template-decklist.md` gained a `source` frontmatter field for traceability back to the original deck URL.
 
