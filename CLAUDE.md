@@ -17,6 +17,8 @@ In this repo, act as the user's Commander (EDH) research curator and product-des
 
 ## Decklist extraction
 - `tools/decklist_common.py` holds shared logic (slugify, type classification, markdown/frontmatter rendering, file writing) used by every source-specific extractor. Each extractor's job is just: fetch → normalize into `{"name", "qty", "type", "foil"}` dicts + commander names/colors → hand off to `decklist_common.build_markdown`/`write_decklist`.
+
+Note: A small unittest suite exists at tests/test_decklist_common.py covering slugify and classify_type; run with `python -m unittest`.
 - `tools/archidekt_extract.py <url-or-deck-id>` / `--user <username>` — Archidekt. Uses Archidekt's own public API (`archidekt.com/api/...`). Mainboard cards require *every* category a card is tagged with to be `includedInDeck` (a single "any" check overcounts — maybeboard/outbound cards can share a category with mainboard ones).
 - `tools/moxfield_extract.py <url-or-deck-id>` / `--user <username>` — Moxfield. Moxfield has **no official public API**; this uses the same unauthenticated `api2.moxfield.com` endpoints moxfield.com's own frontend calls (`/v3/decks/all/{id}` for a deck, `/v2/decks/search-sfw?authorUserNames=` for a user's public decks), reverse-engineered via the [Aleqsd/moxfield-api](https://github.com/Aleqsd/moxfield-api) wrapper's source rather than guessed — if these ever break, re-check that project (or another Moxfield API wrapper) for the current paths before re-guessing blind.
 - Both `--user` modes only need public-endpoint results as the truth of what's public — no separate private/unlisted filtering, since an unauthenticated request can't see anything else.

@@ -9,7 +9,11 @@ Quick status / tooling
 - Runtime: Python scripts in /tools are standalone and use only stdlib. Use Python 3.9+ to run them.
 
 Build / test / lint commands
-- None exist. There are no test suites or linters configured.
+- There is no CI or linting configured. A small test suite was added for core helpers.
+- Run tests (unittest):
+  - Run the full tests: python -m unittest
+  - Run the specific decklist_common module tests: python -m unittest tests.test_decklist_common
+  - Run a single test case: python -m unittest tests.test_decklist_common.TestDecklistCommon.test_slugify
 - Running a single extractor (the practical runnable operations):
   - Single deck (Archidekt):
     python tools/archidekt_extract.py https://archidekt.com/decks/<deck-id>
