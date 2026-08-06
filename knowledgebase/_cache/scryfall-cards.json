@@ -1,0 +1,382 @@
+{
+  "Aligned Heart": {
+    "cmc": 3.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 5389,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Flurry"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}",
+    "oracle_text": "Flurry — Whenever you cast your second spell each turn, put a rally counter on this enchantment. Then create a 1/1 white Monk creature token with prowess for each rally counter on it. (Whenever you cast a noncreature spell, the token gets +1/+1 until end of turn.)",
+    "prices_usd": "0.27",
+    "prices_usd_foil": null,
+    "released_at": "2025-04-11",
+    "scryfall_uri": "https://scryfall.com/card/tdc/12/aligned-heart?utm_source=api",
+    "set": "tdc",
+    "type_line": "Enchantment"
+  },
+  "Command Tower": {
+    "cmc": 0.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 2,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": null,
+    "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
+    "prices_usd": "0.30",
+    "prices_usd_foil": null,
+    "released_at": "2026-06-26",
+    "scryfall_uri": "https://scryfall.com/card/msc/233/command-tower?utm_source=api",
+    "set": "msc",
+    "type_line": "Land"
+  },
+  "Convolute": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 10888,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "Counter target spell unless its controller pays {4}.",
+    "prices_usd": "0.17",
+    "prices_usd_foil": "0.34",
+    "released_at": "2020-04-24",
+    "scryfall_uri": "https://scryfall.com/card/iko/45/convolute?utm_source=api",
+    "set": "iko",
+    "type_line": "Instant"
+  },
+  "Dovin's Veto": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U",
+      "W"
+    ],
+    "colors": [
+      "U",
+      "W"
+    ],
+    "edhrec_rank": 242,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{W}{U}",
+    "oracle_text": "This spell can't be countered.\nCounter target noncreature spell.",
+    "prices_usd": "3.33",
+    "prices_usd_foil": "4.20",
+    "released_at": "2019-05-03",
+    "scryfall_uri": "https://scryfall.com/card/war/193/dovins-veto?utm_source=api",
+    "set": "war",
+    "type_line": "Instant"
+  },
+  "Ghostly Prison": {
+    "cmc": 3.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 161,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}",
+    "oracle_text": "Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.",
+    "prices_usd": "5.97",
+    "prices_usd_foil": null,
+    "released_at": "2026-04-24",
+    "scryfall_uri": "https://scryfall.com/card/soc/146/ghostly-prison?utm_source=api",
+    "set": "soc",
+    "type_line": "Enchantment"
+  },
+  "Haytham Kenway": {
+    "cmc": 4.0,
+    "color_identity": [
+      "U",
+      "W"
+    ],
+    "colors": [
+      "U",
+      "W"
+    ],
+    "edhrec_rank": 8577,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Protection"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}{U}",
+    "oracle_text": "Protection from Assassins\nOther Knights you control get +2/+2 and have protection from Assassins.\nWhen Haytham Kenway enters, for each opponent, exile up to one target creature that player controls until Haytham Kenway leaves the battlefield.",
+    "prices_usd": "0.34",
+    "prices_usd_foil": "0.38",
+    "released_at": "2024-07-05",
+    "scryfall_uri": "https://scryfall.com/card/acr/57/haytham-kenway?utm_source=api",
+    "set": "acr",
+    "type_line": "Legendary Creature — Human Knight"
+  },
+  "Kindred Discovery": {
+    "cmc": 5.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 343,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{U}{U}",
+    "oracle_text": "As this enchantment enters, choose a creature type.\nWhenever a creature you control of the chosen type enters or attacks, draw a card.",
+    "prices_usd": "5.66",
+    "prices_usd_foil": null,
+    "released_at": "2026-06-26",
+    "scryfall_uri": "https://scryfall.com/card/msc/150/kindred-discovery?utm_source=api",
+    "set": "msc",
+    "type_line": "Enchantment"
+  },
+  "Kinsbaile Cavalier": {
+    "cmc": 4.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 6682,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{W}",
+    "oracle_text": "Knight creatures you control have double strike.",
+    "prices_usd": "13.64",
+    "prices_usd_foil": null,
+    "released_at": "2011-04-01",
+    "scryfall_uri": "https://scryfall.com/card/ddg/17/kinsbaile-cavalier?utm_source=api",
+    "set": "ddg",
+    "type_line": "Creature — Kithkin Knight"
+  },
+  "Mirrormind Crown": {
+    "cmc": 4.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 4997,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Equip"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{4}",
+    "oracle_text": "As long as this Equipment is attached to a creature, the first time you would create one or more tokens each turn, you may instead create that many tokens that are copies of equipped creature.\nEquip {2}",
+    "prices_usd": "0.75",
+    "prices_usd_foil": "1.26",
+    "released_at": "2026-01-23",
+    "scryfall_uri": "https://scryfall.com/card/ecl/258/mirrormind-crown?utm_source=api",
+    "set": "ecl",
+    "type_line": "Artifact — Equipment"
+  },
+  "Path to Exile": {
+    "cmc": 1.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 15,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{W}",
+    "oracle_text": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+    "prices_usd": "1.24",
+    "prices_usd_foil": null,
+    "released_at": "2026-06-26",
+    "scryfall_uri": "https://scryfall.com/card/msc/141/path-to-exile?utm_source=api",
+    "set": "msc",
+    "type_line": "Instant"
+  },
+  "Sol Ring": {
+    "cmc": 1.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 1,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{1}",
+    "oracle_text": "{T}: Add {C}{C}.",
+    "prices_usd": "1.40",
+    "prices_usd_foil": null,
+    "released_at": "2026-06-26",
+    "scryfall_uri": "https://scryfall.com/card/msc/211/sol-ring?utm_source=api",
+    "set": "msc",
+    "type_line": "Artifact"
+  },
+  "Storm of Saruman": {
+    "cmc": 6.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 3601,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Ward"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{4}{U}{U}",
+    "oracle_text": "Ward {3}\nWhenever you cast your second spell each turn, copy it, except the copy isn't legendary. You may choose new targets for the copy. (A copy of a permanent spell becomes a token.)",
+    "prices_usd": "3.41",
+    "prices_usd_foil": "4.32",
+    "released_at": "2023-06-23",
+    "scryfall_uri": "https://scryfall.com/card/ltr/72/storm-of-saruman?utm_source=api",
+    "set": "ltr",
+    "type_line": "Enchantment"
+  },
+  "Summon: Knights of Round": {
+    "cmc": 8.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 2316,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Indestructible"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{6}{W}{W}",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after V.)\nI, II, III, IV — Create three 2/2 white Knight creature tokens.\nV — Ultimate End — Other creatures you control get +2/+2 until end of turn. Put an indestructible counter on each of them.\nIndestructible",
+    "prices_usd": "13.36",
+    "prices_usd_foil": "14.42",
+    "released_at": "2025-06-13",
+    "scryfall_uri": "https://scryfall.com/card/fin/36/summon:-knights-of-round?utm_source=api",
+    "set": "fin",
+    "type_line": "Enchantment Creature — Saga Knight"
+  },
+  "Swords to Plowshares": {
+    "cmc": 1.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 11,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{W}",
+    "oracle_text": "Exile target creature. Its controller gains life equal to its power.",
+    "prices_usd": "1.34",
+    "prices_usd_foil": null,
+    "released_at": "2026-06-26",
+    "scryfall_uri": "https://scryfall.com/card/msc/143/swords-to-plowshares?utm_source=api",
+    "set": "msc",
+    "type_line": "Instant"
+  },
+  "The Circle of Loyalty": {
+    "cmc": 6.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 6686,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Affinity"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{4}{W}{W}",
+    "oracle_text": "Affinity for Knights (This spell costs {1} less to cast for each Knight you control.)\nCreatures you control get +1/+1.\nWhenever you cast a legendary spell, create a 2/2 white Knight creature token with vigilance.\n{3}{W}, {T}: Create a 2/2 white Knight creature token with vigilance.",
+    "prices_usd": "0.80",
+    "prices_usd_foil": null,
+    "released_at": "2022-09-09",
+    "scryfall_uri": "https://scryfall.com/card/dmc/98/the-circle-of-loyalty?utm_source=api",
+    "set": "dmc",
+    "type_line": "Legendary Artifact"
+  },
+  "The Council of Four": {
+    "cmc": 5.0,
+    "color_identity": [
+      "U",
+      "W"
+    ],
+    "colors": [
+      "U",
+      "W"
+    ],
+    "edhrec_rank": 2159,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{W}{U}",
+    "oracle_text": "Whenever a player draws their second card during their turn, you draw a card.\nWhenever a player casts their second spell during their turn, you create a 2/2 white Knight creature token.",
+    "prices_usd": "2.33",
+    "prices_usd_foil": "2.48",
+    "released_at": "2022-06-10",
+    "scryfall_uri": "https://scryfall.com/card/clb/271/the-council-of-four?utm_source=api",
+    "set": "clb",
+    "type_line": "Legendary Creature — Human Noble"
+  },
+  "Unwind": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 1055,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "Counter target noncreature spell. Untap up to three lands.",
+    "prices_usd": "1.04",
+    "prices_usd_foil": "16.01",
+    "released_at": "2018-04-27",
+    "scryfall_uri": "https://scryfall.com/card/dom/72/unwind?utm_source=api",
+    "set": "dom",
+    "type_line": "Instant"
+  },
+  "Vanquisher's Banner": {
+    "cmc": 5.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 367,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{5}",
+    "oracle_text": "As this artifact enters, choose a creature type.\nCreatures you control of the chosen type get +1/+1.\nWhenever you cast a creature spell of the chosen type, draw a card.",
+    "prices_usd": "4.97",
+    "prices_usd_foil": null,
+    "released_at": "2023-11-17",
+    "scryfall_uri": "https://scryfall.com/card/lcc/316/vanquishers-banner?utm_source=api",
+    "set": "lcc",
+    "type_line": "Artifact"
+  }
+}

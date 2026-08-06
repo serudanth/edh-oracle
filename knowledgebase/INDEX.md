@@ -42,6 +42,9 @@ Commander: Zenos yae Galvus // Shinryu, Transcendent Rival (B)
 ### decklists/fowlplays/the-copied-factory.md
 Commander: Inalla, Archmage Ritualist (UBR) — wizard spellslinger/storm
 
+### decklists/fowlplays/the-crystal-braves.md
+Commander: Alisaie Leveilleur, Alphinaud Leveilleur (WU) — knights/tempo token support
+
 ### decklists/fowlplays/the-dirt-kicker.md
 Commander: Tifa Lockhart (G)
 
@@ -190,3 +193,12 @@ Commander: Y'shtola, Night's Blessed (WUB)
 
 ### research/2026-07-10-the-copied-factory-deck-profile.md
 Deck profile: The Copied Factory (fowlplays, Inalla, Archmage Ritualist) — card-by-card mechanical read plus owner-confirmed playstyle: the practiced win con is ping-token burn (not the on-paper ETB-copy engine), with a deliberately piloted Dualcaster Mage + Ghostly Flicker infinite combo. Read when evaluating or discussing this specific deck, or as a template for future single-deck profiles.
+
+---
+
+## _cache/
+
+Not read-when content — a machine-maintained cache, not research. Listed here only per the "update INDEX.md on any knowledgebase/ change" convention.
+
+### _cache/scryfall-cards.json
+Persistent cache of Scryfall card lookups (oracle text, mana cost, color identity, prices, etc.), keyed by card name, to avoid re-hitting the throttled `r.jina.ai` Scryfall proxy for cards already looked up. Maintained per the `edh-research` skill's cache workflow — check before fetching, write back after.
