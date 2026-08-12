@@ -194,6 +194,9 @@ Commander: Y'shtola, Night's Blessed (WUB)
 ### research/2026-07-10-the-copied-factory-deck-profile.md
 Deck profile: The Copied Factory (fowlplays, Inalla, Archmage Ritualist) — card-by-card mechanical read plus owner-confirmed playstyle: the practiced win con is ping-token burn (not the on-paper ETB-copy engine), with a deliberately piloted Dualcaster Mage + Ghostly Flicker infinite combo. Read when evaluating or discussing this specific deck, or as a template for future single-deck profiles.
 
+### research/2026-08-06-the-crystal-braves-deck-profile.md
+Deck profile: The Crystal Braves (fowlplays, Alisaie Leveilleur // Alphinaud Leveilleur) — card-by-card mechanical read plus owner-confirmed sequencing: cheap cantrips are cast first to spend that slot, so the real payoff spell lands second and gets Dualcast's discount, Eukrasia's draw, and the deck's other second-spell triggers at once. Converts that engine into a Knight board via typal lords/payoffs; no cataloged Commander Spellbook combo for the pairing. Read when evaluating or discussing this specific deck.
+
 ---
 
 ## _cache/

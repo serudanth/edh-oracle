@@ -22,6 +22,81 @@
     "set": "tdc",
     "type_line": "Enchantment"
   },
+  "Alisaie Leveilleur": {
+    "cmc": 3.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 4022,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Dualcast",
+      "Partner with",
+      "First strike",
+      "Partner"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}",
+    "oracle_text": "Partner with Alphinaud Leveilleur (When this creature enters, target player may put Alphinaud Leveilleur into their hand from their library, then shuffle.)\nFirst strike\nDualcast — The second spell you cast each turn costs {2} less to cast.",
+    "prices_usd": "0.31",
+    "prices_usd_foil": null,
+    "released_at": "2025-06-13",
+    "scryfall_uri": "https://scryfall.com/card/fic/9/alisaie-leveilleur?utm_source=api",
+    "set": "fic",
+    "type_line": "Legendary Creature — Elf Wizard"
+  },
+  "Alphinaud Leveilleur": {
+    "cmc": 4.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 4654,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Partner with",
+      "Vigilance",
+      "Eukrasia",
+      "Partner"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{U}",
+    "oracle_text": "Partner with Alisaie Leveilleur (When this creature enters, target player may put Alisaie Leveilleur into their hand from their library, then shuffle.)\nVigilance\nEukrasia — Whenever you cast your second spell each turn, draw a card.",
+    "prices_usd": "0.27",
+    "prices_usd_foil": null,
+    "released_at": "2025-06-13",
+    "scryfall_uri": "https://scryfall.com/card/fic/33/alphinaud-leveilleur?utm_source=api",
+    "set": "fic",
+    "type_line": "Legendary Creature — Elf Wizard"
+  },
+  "Cathar Commando": {
+    "cmc": 2.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Flash"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{W}",
+    "oracle_text": "Flash\n{1}, Sacrifice this creature: Destroy target artifact or enchantment.",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Creature — Human Soldier"
+  },
   "Command Tower": {
     "cmc": 0.0,
     "color_identity": [],
@@ -59,6 +134,51 @@
     "scryfall_uri": "https://scryfall.com/card/iko/45/convolute?utm_source=api",
     "set": "iko",
     "type_line": "Instant"
+  },
+  "Cosmogrand Zenith": {
+    "cmc": 3.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}",
+    "oracle_text": "Whenever you cast your second spell each turn, choose one —\n• Create two 1/1 white Human Soldier creature tokens.\n• Put a +1/+1 counter on each creature you control.",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Creature — Human Soldier"
+  },
+  "Dion, Bahamut's Dominant // Bahamut, Warden of Light": {
+    "cmc": 4.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Transform",
+      "Saga"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{W}",
+    "oracle_text": "Dion, Bahamut's Dominant: Dragonfire Dive — During your turn, Dion and other Knights you control have flying. When Dion enters, create a 2/2 white Knight creature token. {4}{W}{W}, {T}: Exile Dion, then return it to the battlefield transformed under its owner's control.\n//\nBahamut, Warden of Light: I, II — Wings of Light — Put a +1/+1 counter on each other creature you control. Those creatures gain flying until end of turn. III — Gigaflare — Destroy target permanent. Exile Bahamut, then return it to the battlefield (front face up).\nFlying",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Legendary Creature — Human Noble Knight // Legendary Enchantment Creature — Saga Dragon"
   },
   "Dovin's Veto": {
     "cmc": 2.0,
@@ -129,6 +249,29 @@
     "set": "acr",
     "type_line": "Legendary Creature — Human Knight"
   },
+  "Highspire Bell-Ringer": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Flying"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "Flying\nThe second spell you cast each turn costs {1} less to cast.",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Creature — Djinn Monk"
+  },
   "Kindred Discovery": {
     "cmc": 5.0,
     "color_identity": [
@@ -171,6 +314,123 @@
     "set": "ddg",
     "type_line": "Creature — Kithkin Knight"
   },
+  "Knight Exemplar": {
+    "cmc": 3.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "First strike"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{W}{W}",
+    "oracle_text": "First strike\nOther Knight creatures you control get +1/+1 and have indestructible.",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Creature — Human Knight"
+  },
+  "Lavinia, Foil to Conspiracy": {
+    "cmc": 3.0,
+    "color_identity": [
+      "W",
+      "U"
+    ],
+    "colors": [
+      "W",
+      "U"
+    ],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Vigilance",
+      "Investigate"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{W/U}{W/U}",
+    "oracle_text": "Vigilance\nWhenever you cast your second spell each turn, investigate. (Create a Clue token. It's an artifact with \"{2}, Sacrifice this token: Draw a card.\")\n{T}: Add {C}{C}. Activate only during an opponent's turn.",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Legendary Creature — Human Detective"
+  },
+  "Ledger Shredder": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Flying",
+      "Connive"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}",
+    "oracle_text": "Flying\nWhenever a player casts their second spell each turn, this creature connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on this creature.)",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Creature — Bird Advisor"
+  },
+  "Marshal of Zhalfir": {
+    "cmc": 2.0,
+    "color_identity": [
+      "W",
+      "U"
+    ],
+    "colors": [
+      "W",
+      "U"
+    ],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{W}{U}",
+    "oracle_text": "Other Knights you control get +1/+1.\n{W}{U}, {T}: Tap another target creature.",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Creature — Human Knight"
+  },
+  "Michiko Konda, Truth Seeker": {
+    "cmc": 4.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{W}",
+    "oracle_text": "Whenever a source an opponent controls deals damage to you, that player sacrifices a permanent of their choice.",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Legendary Creature — Human Advisor"
+  },
   "Mirrormind Crown": {
     "cmc": 4.0,
     "color_identity": [],
@@ -210,6 +470,51 @@
     "scryfall_uri": "https://scryfall.com/card/msc/141/path-to-exile?utm_source=api",
     "set": "msc",
     "type_line": "Instant"
+  },
+  "Razzle-Dazzler": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}",
+    "oracle_text": "Whenever you cast your second spell each turn, put a +1/+1 counter on this creature. It can't be blocked this turn.",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Creature — Human Wizard"
+  },
+  "Silverwing Squadron": {
+    "cmc": 6.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Flying",
+      "Vigilance"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{5}{W}",
+    "oracle_text": "Flying, vigilance\nSilverwing Squadron's power and toughness are each equal to the number of creatures you control.\nWhenever this creature attacks, create a number of 2/2 white Knight creature tokens with vigilance equal to the number of opponents you have.",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Creature — Human Knight"
   },
   "Sol Ring": {
     "cmc": 1.0,
@@ -273,6 +578,31 @@
     "scryfall_uri": "https://scryfall.com/card/fin/36/summon:-knights-of-round?utm_source=api",
     "set": "fin",
     "type_line": "Enchantment Creature — Saga Knight"
+  },
+  "Suppressor Skyguard": {
+    "cmc": 4.0,
+    "color_identity": [
+      "W",
+      "U"
+    ],
+    "colors": [
+      "W",
+      "U"
+    ],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Flying"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}{U}",
+    "oracle_text": "Flying\nWhenever a player attacks you, if that player has another opponent who isn't being attacked, prevent all combat damage that would be dealt to you this combat.",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Creature — Human Knight"
   },
   "Swords to Plowshares": {
     "cmc": 1.0,
@@ -341,6 +671,30 @@
     "set": "clb",
     "type_line": "Legendary Creature — Human Noble"
   },
+  "Unwelcome Sprite": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Flying",
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}",
+    "oracle_text": "Flying\nWhenever you cast a spell during an opponent's turn, surveil 2.",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Creature — Faerie Rogue"
+  },
   "Unwind": {
     "cmc": 3.0,
     "color_identity": [
@@ -362,6 +716,27 @@
     "set": "dom",
     "type_line": "Instant"
   },
+  "Uthros Psionicist": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "The second spell you cast each turn costs {2} less to cast.",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Creature — Jellyfish Scientist"
+  },
   "Vanquisher's Banner": {
     "cmc": 5.0,
     "color_identity": [],
@@ -378,5 +753,118 @@
     "scryfall_uri": "https://scryfall.com/card/lcc/316/vanquishers-banner?utm_source=api",
     "set": "lcc",
     "type_line": "Artifact"
+  },
+  "Virtue of Loyalty // Ardenvale Fealty": {
+    "cmc": 5.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Adventure"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{W}{W} // {1}{W}",
+    "oracle_text": "Virtue of Loyalty: At the beginning of your end step, put a +1/+1 counter on each creature you control. Untap those creatures.\n//\nArdenvale Fealty: Create a 2/2 white Knight creature token with vigilance. (Then exile this card. You may cast the enchantment later from exile.)",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Enchantment // Instant — Adventure"
+  },
+  "Vodalian Wave-Knight": {
+    "cmc": 4.0,
+    "color_identity": [
+      "W",
+      "U"
+    ],
+    "colors": [
+      "W",
+      "U"
+    ],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}{U}",
+    "oracle_text": "Whenever you draw a card, put a +1/+1 counter on each other Merfolk and/or Knight you control.",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Creature — Merfolk Knight"
+  },
+  "White Auracite": {
+    "cmc": 4.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}{W}",
+    "oracle_text": "When this artifact enters, exile target nonland permanent an opponent controls until this artifact leaves the battlefield.\n{T}: Add {W}.",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Artifact"
+  },
+  "Wingblade Disciple": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Flying",
+      "Flurry"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "Flying\nFlurry — Whenever you cast your second spell each turn, create a 1/1 white Bird creature token with flying.",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Creature — Human Monk"
+  },
+  "Xerex Strobe-Knight": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": null,
+    "fetched_at": "2026-08-06",
+    "keywords": [
+      "Flying",
+      "Vigilance"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "Flying, vigilance\n{T}: Create a 2/2 white and blue Knight creature token with vigilance. Activate only if you've cast two or more spells this turn.",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "released_at": null,
+    "scryfall_uri": null,
+    "set": null,
+    "type_line": "Creature — Human Knight"
   }
 }
