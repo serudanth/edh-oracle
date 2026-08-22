@@ -3,13 +3,13 @@ type: profile
 title: "The Crystal Braves — Deck Profile"
 domain: strategy
 tags: [#profile, #deck-profile, #knights, #spellslinger, #azorius, #tokens, #alisaie-leveilleur, #alphinaud-leveilleur]
-related: [decklists/fowlplays/the-crystal-braves, users/fowlplays]
+related: [podlist/fowlplays/decks/the-crystal-braves, podlist/fowlplays/profile]
 source: fowlplays
 last_updated: 2026-08-06
 ---
 
 <!--
-  Analysis note for a specific decklist (knowledgebase/decklists/fowlplays/the-crystal-braves.md).
+  Analysis note for a specific decklist (knowledgebase/podlist/fowlplays/decks/the-crystal-braves.md).
   Card-by-card oracle text confirmed via Scryfall (r.jina.ai proxy, cached in
   knowledgebase/_cache/scryfall-cards.json) before writing this. Sequencing/intent
   in Mechanical Identity and Playstyle is the owner's own account, not inferred.
@@ -70,4 +70,4 @@ Alisaie Leveilleur // Alphinaud Leveilleur (WU), Archidekt deck `24427121`, a *F
 
 ## Cross-References
 
-Commander oracle text, EDHREC synergy data, and the Commander Spellbook combo check above were gathered directly for this profile (not yet reflected in `knowledgebase/users/fowlplays.md`, which predates this deck). All Scryfall lookups used are cached in `knowledgebase/_cache/scryfall-cards.json`.
+Commander oracle text, EDHREC synergy data, and the Commander Spellbook combo check above were gathered directly for this profile (not yet reflected in `knowledgebase/podlist/fowlplays/profile.md`, which predates this deck). All Scryfall lookups used are cached in `knowledgebase/_cache/scryfall-cards.json`.

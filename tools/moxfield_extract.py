@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch decklist(s) from Moxfield and write them into knowledgebase/decklists/.
+"""Fetch decklist(s) from Moxfield and write them into knowledgebase/podlist/.
 
 Usage:
     python tools/moxfield_extract.py <moxfield-url-or-deck-id>
@@ -12,12 +12,13 @@ Moxfield has no official public API; this uses the same unauthenticated
 endpoints (api2.moxfield.com) moxfield.com's own frontend calls; see
 CLAUDE.md for the source used to confirm them.
 
-Writes to knowledgebase/decklists/<owner-username>/<deck-name-slug>.md,
+Writes to knowledgebase/podlist/<owner-username>/decks/<deck-name-slug>.md,
 following the knowledgebase/_template-decklist.md frontmatter.
 """
 import argparse
 import json
 import re
+import urllib.error
 import urllib.request
 
 from decklist_common import REPO_ROOT, build_markdown, classify_type, write_decklist
@@ -32,9 +33,20 @@ def deck_id_from_arg(arg: str) -> str:
 
 
 def fetch_json(url: str) -> dict:
+    """Direct fetch, falling back to the r.jina.ai reader proxy on a 403
+    (some networks block api2.moxfield.com directly; see CLAUDE.md/SKILL.md)."""
     req = urllib.request.Request(url, headers=HEADERS)
-    with urllib.request.urlopen(req) as resp:
-        return json.load(resp)
+    try:
+        with urllib.request.urlopen(req) as resp:
+            return json.load(resp)
+    except urllib.error.HTTPError as e:
+        if e.code != 403:
+            raise
+        proxied = urllib.request.Request(f"https://r.jina.ai/{url}")
+        with urllib.request.urlopen(proxied) as resp:
+            text = resp.read().decode("utf-8")
+        _, _, body = text.partition("Markdown Content:\n")
+        return json.loads(body.strip())
 
 
 def fetch_deck(deck_id: str) -> dict:

@@ -1,190 +1,193 @@
 # Knowledgebase Index
 
 Signpost only — no content here. One entry per file.
-Order: users → decklists → research.
+Order: podlist (profile → decks, grouped by owner) → research.
 Read the linked file when the task matches the tags or trigger.
 
 ---
 
-## users/
+## podlist/
 
-Deckbuilder profiles, one per decklist owner. Each analyzes tendencies across that owner's `decklists/<owner>/` folder rather than duplicating deck contents — read a profile before picking or evaluating a deck for that person, or when spotting cross-deck/cross-pod patterns.
-
-### users/fowlplays.md
-Profile: fowlplays (12 decks) — heavy Universes Beyond reliance, red-leaning, repeated voltron via different vectors.
-
-### users/j-py.md
-Profile: J-Py (1 deck, provisional) — Boros Feather spellslinger, synergy-first over raw power.
-
-### users/lto888.md
-Profile: LTO888 (11 decks) — black-anchored, near-universal Sol Ring/The One Ring reliance, FF/ATLA crossover-heavy.
-
-### users/mjsnoozer.md
-Profile: mjsnoozer (5 decks) — red-based UB-commander shells, repeated Izzet/Grixis storm-combo signature build.
-
-### users/reimaru.md
-Profile: reimaru (16 decks, largest sample) — Rakdos-leaning, repeated equipment-voltron and aristocrats/sac-drain signatures, near-total green avoidance.
-
-### users/xanoh.md
-Profile: Xanoh (1 deck, provisional) — Gruul big-mana ramp with a Final Fantasy crossover theme.
-
----
-
-## decklists/
-
-Grouped by owner. `fowlplays` is the user's own; the rest are pod members. Pulled from each owner's public Archidekt or Moxfield profile.
+Grouped by owner. `fowlplays` is the user's own; the rest are pod members. Each owner folder has one `profile.md` (deckbuilder tendencies — read before picking or evaluating a deck for that person, or when spotting cross-deck/cross-pod patterns) and a `decks/` folder (one file per deck, pulled from that owner's public Archidekt or Moxfield profile).
 
 ### fowlplays
 
-### decklists/fowlplays/the-best-of-friends.md
+### podlist/fowlplays/profile.md
+Profile: fowlplays (14 decks, 1 unlisted) — heavy Universes Beyond reliance, red-leaning, repeated voltron via different vectors.
+
+### podlist/fowlplays/decks/the-best-of-friends.md
 Commander: Zenos yae Galvus // Shinryu, Transcendent Rival (B)
 
-### decklists/fowlplays/the-copied-factory.md
+### podlist/fowlplays/decks/the-copied-factory.md
 Commander: Inalla, Archmage Ritualist (UBR) — wizard spellslinger/storm
 
-### decklists/fowlplays/the-crystal-braves.md
+### podlist/fowlplays/decks/discard-mill-assassin.md
+Commander: Altaïr Ibn-La'Ahad (B) — discard/mill. Unlisted on Archidekt as of 2026-08-22 (excluded from the public profile listing, but still direct-link accessible; see source field) — not deleted, just no longer synced via `--user` mode.
+
+### podlist/fowlplays/decks/the-crystal-braves.md
 Commander: Alisaie Leveilleur, Alphinaud Leveilleur (WU) — knights/tempo token support
 
-### decklists/fowlplays/the-dirt-kicker.md
+### podlist/fowlplays/decks/the-dirt-kicker.md
 Commander: Tifa Lockhart (G)
 
-### decklists/fowlplays/the-gate-of-babylon.md
+### podlist/fowlplays/decks/the-gate-of-babylon.md
 Commander: Bruenor Battlehammer (WR) — Voltron/equipment
 
-### decklists/fowlplays/the-hamster-catapult.md
+### podlist/fowlplays/decks/the-hamster-catapult.md
 Commander: Minsc & Boo, Timeless Heroes (RG)
 
-### decklists/fowlplays/the-koronation.md
+### podlist/fowlplays/decks/the-koronation.md
 Commander: Miirym, Sentinel Wyrm (URG) — dragons
 
-### decklists/fowlplays/the-last-ride.md
+### podlist/fowlplays/decks/the-last-ride.md
 Commander: Balthier and Fran (RG) — vehicles/extra combats
 
-### decklists/fowlplays/the-lorehold-redux.md
+### podlist/fowlplays/decks/the-lorehold-redux.md
 Commander: Quintorius, History Chaser (WR) — graveyard/self-mill
 
-### decklists/fowlplays/the-master-chef.md
+### podlist/fowlplays/decks/the-master-chef.md
 Commander: Master Chef, Lae'zel, Vlaakith's Champion (WG) — +1/+1 counters/tokens
 
-### decklists/fowlplays/the-queen-of-theft.md
+### podlist/fowlplays/decks/the-queen-of-theft.md
 Commander: Tasha, the Witch Queen (UB) — theft/mill
 
-### decklists/fowlplays/the-rush.md
+### podlist/fowlplays/decks/the-rush.md
 Commander: Winota, Joiner of Forces (WR) — aggro tokens
 
-### decklists/fowlplays/the-warrior-of-darkness.md
+### podlist/fowlplays/decks/the-warrior-of-darkness.md
 Commander: Ardbert, Warrior of Darkness (WB) — legends/+1+1 counters
 
 ### J-Py
 
-### decklists/j-py/miku-madness-miku-sparta.md
+### podlist/j-py/profile.md
+Profile: J-Py (1 deck, provisional) — Boros Feather spellslinger, synergy-first over raw power.
+
+### podlist/j-py/decks/miku-madness-miku-sparta.md
 Commander: Feather, the Redeemed (WR)
 
 ### LTO888
 
-### decklists/lto888/bau-bau-nyaa.md
+### podlist/lto888/profile.md
+Profile: LTO888 (12 decks) — black-anchored, near-universal Sol Ring/The One Ring reliance, FF/ATLA crossover-heavy. **Stale**: profile text still says "no four- or five-color builds," contradicted by the new 5c Turtle Power, Powered deck — needs re-derivation.
+
+### podlist/lto888/decks/bau-bau-nyaa.md
 Commander: Rin and Seri, Inseparable (WRG)
 
-### decklists/lto888/celes-recursion.md
+### podlist/lto888/decks/celes-recursion.md
 Commander: Celes, Rune Knight (WBR)
 
-### decklists/lto888/lightning-equip-extra-attacks.md
+### podlist/lto888/decks/lightning-equip-extra-attacks.md
 Commander: Lightning, Army of One (WR) — equipment/extra combats
 
-### decklists/lto888/maralen-faelves.md
+### podlist/lto888/decks/maralen-faelves.md
 Commander: Maralen, Fae Ascendant (UBG)
 
-### decklists/lto888/prismari-artistry.md
+### podlist/lto888/decks/prismari-artistry.md
 Commander: Rootha, Mastering the Moment (UR)
 
-### decklists/lto888/sephiroth-pain-is-love.md
+### podlist/lto888/decks/sephiroth-pain-is-love.md
 Commander: Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (B)
 
-### decklists/lto888/so-i-started-blasting-with-azula.md
+### podlist/lto888/decks/so-i-started-blasting-with-azula.md
 Commander: Fire Lord Azula (UBR)
 
-### decklists/lto888/squirrels.md
+### podlist/lto888/decks/squirrels.md
 Commander: The Unbeatable Squirrel Girl (G)
 
-### decklists/lto888/yshtola-slingy-wingy.md
+### podlist/lto888/decks/turtle-power-powered.md
+Commander: Leonardo, the Balance, Michelangelo, the Heart (WUBRG) — 5-color TMNT partners
+
+### podlist/lto888/decks/yshtola-slingy-wingy.md
 Commander: Y'shtola, Night's Blessed (WUB)
 
-### decklists/lto888/yuna-enchantress.md
+### podlist/lto888/decks/yuna-enchantress.md
 Commander: Yuna, Hope of Spira (WG) — enchantress
 
-### decklists/lto888/yuriko-good-ol-ninjas.md
+### podlist/lto888/decks/yuriko-good-ol-ninjas.md
 Commander: Yuriko, the Tiger's Shadow (UB) — ninjas
 
 ### Xanoh
 
-### decklists/xanoh/forresta.md
+### podlist/xanoh/profile.md
+Profile: Xanoh (2 decks) — Gruul big-mana ramp with a Final Fantasy crossover theme (Forresta) alongside an unrelated Orzhov control/stax build (The Sundering); no cross-deck pattern yet.
+
+### podlist/xanoh/decks/forresta.md
 Commander: Gladiolus Amicitia (RG)
+
+### podlist/xanoh/decks/the-sundering.md
+Commander: Ardbert, Warrior of Darkness (WB) — Orzhov control/stax
 
 ### mjsnoozer
 
-### decklists/mjsnoozer/cloud-ex-soldier-upgraded.md
+### podlist/mjsnoozer/profile.md
+Profile: mjsnoozer (5 decks) — red-based UB-commander shells, repeated Izzet/Grixis storm-combo signature build.
+
+### podlist/mjsnoozer/decks/cloud-ex-soldier-upgraded.md
 Commander: Cloud, Ex-SOLDIER (WRG)
 
-### decklists/mjsnoozer/edward-kenway-treasure-pirates-and-vehicles-deck.md
+### podlist/mjsnoozer/decks/edward-kenway-treasure-pirates-and-vehicles-deck.md
 Commander: Edward Kenway (UBR) — vehicles
 
-### decklists/mjsnoozer/fire-lord-azula.md
+### podlist/mjsnoozer/decks/fire-lord-azula.md
 Commander: Fire Lord Azula (UBR)
 
-### decklists/mjsnoozer/squirreled-away---food-build.md
+### podlist/mjsnoozer/decks/squirreled-away---food-build.md
 Commander: Hazel of the Rootbloom (BG) — food
 
-### decklists/mjsnoozer/stella-lee.md
+### podlist/mjsnoozer/decks/stella-lee.md
 Commander: Stella Lee, Wild Card (UR)
 
 ### reimaru
 
-### decklists/reimaru/aura-battler-feather.md
+### podlist/reimaru/profile.md
+Profile: reimaru (16 decks, largest sample) — Rakdos-leaning, repeated equipment-voltron and aristocrats/sac-drain signatures, near-total green avoidance.
+
+### podlist/reimaru/decks/aura-battler-feather.md
 Commander: Feather, Radiant Arbiter (WR)
 
-### decklists/reimaru/feathers-spell-all-you-can.md
+### podlist/reimaru/decks/feathers-spell-all-you-can.md
 Commander: Feather, the Redeemed (WR)
 
-### decklists/reimaru/marneus-calgar-captain-of-tokens.md
+### podlist/reimaru/decks/marneus-calgar-captain-of-tokens.md
 Commander: Marneus Calgar (WUB) — tokens
 
-### decklists/reimaru/miirym-miirym-on-the-wall.md
+### podlist/reimaru/decks/miirym-miirym-on-the-wall.md
 Commander: Miirym, Sentinel Wyrm (URG) — dragons
 
-### decklists/reimaru/saheeli-copy-brilliance.md
+### podlist/reimaru/decks/saheeli-copy-brilliance.md
 Commander: Saheeli, the Sun's Brilliance (UR) — copy
 
-### decklists/reimaru/sarumans-mighty-meaty-army.md
+### podlist/reimaru/decks/sarumans-mighty-meaty-army.md
 Commander: Saruman, the White Hand (UBR)
 
-### decklists/reimaru/silverquill-likes-to-bring-a-crowd.md
+### podlist/reimaru/decks/silverquill-likes-to-bring-a-crowd.md
 Commander: Silverquill, the Disputant (WB)
 
-### decklists/reimaru/sionas-enchanting-soldiers.md
+### podlist/reimaru/decks/sionas-enchanting-soldiers.md
 Commander: Siona, Captain of the Pyleas (WG) — enchantments
 
-### decklists/reimaru/solphim-and-suffering.md
+### podlist/reimaru/decks/solphim-and-suffering.md
 Commander: Solphim, Mayhem Dominus (R)
 
-### decklists/reimaru/stop-sacing-sephiroth.md
+### podlist/reimaru/decks/stop-sacing-sephiroth.md
 Commander: Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (B)
 
-### decklists/reimaru/swords-and-slicer.md
+### podlist/reimaru/decks/swords-and-slicer.md
 Commander: Slicer, Hired Muscle // Slicer, High-Speed Antagonist (R)
 
-### decklists/reimaru/syr-gwyn-armed-and-crazy.md
+### podlist/reimaru/decks/syr-gwyn-armed-and-crazy.md
 Commander: Syr Gwyn, Hero of Ashvale (WBR) — voltron/equipment
 
-### decklists/reimaru/thats-a-lot-of-swords-cloud.md
+### podlist/reimaru/decks/thats-a-lot-of-swords-cloud.md
 Commander: Cloud, Midgar Mercenary (W)
 
-### decklists/reimaru/thraximundar-lord-of-sacs.md
+### podlist/reimaru/decks/thraximundar-lord-of-sacs.md
 Commander: Thraximundar (UBR) — sacrifice
 
-### decklists/reimaru/wherere-the-rats-wick.md
+### podlist/reimaru/decks/wherere-the-rats-wick.md
 Commander: Wick, the Whorled Mind (UBR)
 
-### decklists/reimaru/yshtolas-trigger-trigger-frown-and-fall.md
+### podlist/reimaru/decks/yshtolas-trigger-trigger-frown-and-fall.md
 Commander: Y'shtola, Night's Blessed (WUB)
 
 ---
@@ -196,6 +199,9 @@ Deck profile: The Copied Factory (fowlplays, Inalla, Archmage Ritualist) — car
 
 ### research/2026-08-06-the-crystal-braves-deck-profile.md
 Deck profile: The Crystal Braves (fowlplays, Alisaie Leveilleur // Alphinaud Leveilleur) — card-by-card mechanical read plus owner-confirmed sequencing: cheap cantrips are cast first to spend that slot, so the real payoff spell lands second and gets Dualcast's discount, Eukrasia's draw, and the deck's other second-spell triggers at once. Converts that engine into a Knight board via typal lords/payoffs; no cataloged Commander Spellbook combo for the pairing. Read when evaluating or discussing this specific deck.
+
+### research/2026-08-22-pod-threat-profile.md
+Cross-player reference: threat mark, pay-to-win tier, and build style for all 6 pod members, plus a full deck index (commander/bracket/archetype) per player. Read when picking a matchup, calibrating table power level, or getting oriented on who plays what across the whole pod.
 
 ---
 

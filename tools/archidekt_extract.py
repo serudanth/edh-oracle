@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Fetch decklist(s) from Archidekt and write them into knowledgebase/decklists/.
+"""Fetch decklist(s) from Archidekt and write them into knowledgebase/podlist/.
 
 Usage:
     python tools/archidekt_extract.py <archidekt-url-or-deck-id>
@@ -11,7 +11,7 @@ unauthenticated, it only ever returns what's publicly visible on their
 profile (folder placement is private account organization, not a public
 signal, so it's ignored).
 
-Writes to knowledgebase/decklists/<owner-username>/<deck-name-slug>.md,
+Writes to knowledgebase/podlist/<owner-username>/decks/<deck-name-slug>.md,
 following the knowledgebase/_template-decklist.md frontmatter.
 """
 import argparse

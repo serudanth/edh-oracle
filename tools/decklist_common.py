@@ -6,7 +6,7 @@ import re
 from pathlib import Path
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
-DECKLISTS_ROOT = REPO_ROOT / "knowledgebase" / "decklists"
+PODLIST_ROOT = REPO_ROOT / "knowledgebase" / "podlist"
 
 TYPE_PRIORITY = [
     "Creature", "Planeswalker", "Battle", "Instant", "Sorcery",
@@ -77,7 +77,7 @@ def build_markdown(
 
 
 def write_decklist(owner: str, deck_name: str, markdown: str) -> Path:
-    out_dir = DECKLISTS_ROOT / slugify(owner)
+    out_dir = PODLIST_ROOT / slugify(owner) / "decks"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / f"{slugify(deck_name)}.md"
     out_path.write_text(markdown, encoding="utf-8")

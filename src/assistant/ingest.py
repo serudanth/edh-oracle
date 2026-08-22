@@ -1,8 +1,8 @@
 """Simple knowledgebase ingestion helpers for the future assistant.
 
 Provides small, dependency-free utilities to list and read decklist markdown
-files under knowledgebase/decklists and parse their frontmatter into a
-Python dict.
+files under knowledgebase/podlist/<owner>/decks/ and parse their frontmatter
+into a Python dict.
 """
 from __future__ import annotations
 import ast
@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Dict, List, Tuple, Optional
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
-DECKLISTS_ROOT = REPO_ROOT / "knowledgebase" / "decklists"
+PODLIST_ROOT = REPO_ROOT / "knowledgebase" / "podlist"
 
 _FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
 
@@ -43,16 +43,17 @@ def _parse_frontmatter(text: str) -> Dict[str, object]:
 def list_decklists() -> List[Tuple[str, str, Path]]:
     """Return list of (owner, slug, path) for every decklist file.
 
-    Owner is the immediate folder name under knowledgebase/decklists.
+    Owner is the immediate folder name under knowledgebase/podlist.
     Slug is the filename without extension.
     """
     out: List[Tuple[str, str, Path]] = []
-    if not DECKLISTS_ROOT.exists():
+    if not PODLIST_ROOT.exists():
         return out
-    for owner_dir in sorted(DECKLISTS_ROOT.iterdir()):
-        if not owner_dir.is_dir():
+    for owner_dir in sorted(PODLIST_ROOT.iterdir()):
+        decks_dir = owner_dir / "decks"
+        if not decks_dir.is_dir():
             continue
-        for md in sorted(owner_dir.glob("*.md")):
+        for md in sorted(decks_dir.glob("*.md")):
             out.append((owner_dir.name, md.stem, md))
     return out
 
@@ -61,7 +62,7 @@ def read_deck(owner: str, slug: str) -> Optional[Dict[str, object]]:
     """Read and return a dict with keys: path, frontmatter (dict), content (str).
     Returns None if not found.
     """
-    path = DECKLISTS_ROOT / owner / f"{slug}.md"
+    path = PODLIST_ROOT / owner / "decks" / f"{slug}.md"
     if not path.exists():
         return None
     text = path.read_text(encoding="utf-8")

@@ -3,13 +3,13 @@ type: profile
 title: "The Copied Factory — Deck Profile"
 domain: strategy
 tags: [#profile, #deck-profile, #wizards, #spellslinger, #storm, #inalla]
-related: [decklists/fowlplays/the-copied-factory, users/fowlplays]
+related: [podlist/fowlplays/decks/the-copied-factory, podlist/fowlplays/profile]
 source: fowlplays
 last_updated: 2026-07-10
 ---
 
 <!--
-  Analysis note for a specific decklist (knowledgebase/decklists/fowlplays/the-copied-factory.md).
+  Analysis note for a specific decklist (knowledgebase/podlist/fowlplays/decks/the-copied-factory.md).
   Card-by-card oracle text confirmed via Scryfall (r.jina.ai proxy) per CLAUDE.md before writing this.
   Playstyle/history sections below are the owner's own account, not inferred.
 -->
@@ -69,4 +69,4 @@ Inalla, Archmage Ritualist (UBR), Archidekt bracket 3, a Final Fantasy-skinned W
 
 ## Cross-References
 
-See `knowledgebase/users/fowlplays.md`'s External Cross-References section for the full EDHREC/Commander Spellbook/Scryfall verification on this deck, including the Dualcaster Mage + Ghostly Flicker combo citation and a note on a possible larger three-card variant involving Inalla herself that isn't independently hosted on Commander Spellbook.
+See `knowledgebase/podlist/fowlplays/profile.md`'s External Cross-References section for the full EDHREC/Commander Spellbook/Scryfall verification on this deck, including the Dualcaster Mage + Ghostly Flicker combo citation and a note on a possible larger three-card variant involving Inalla herself that isn't independently hosted on Commander Spellbook.

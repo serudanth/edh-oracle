@@ -14,7 +14,7 @@
     ],
     "legal_commander": "legal",
     "mana_cost": "{2}{W}",
-    "oracle_text": "Flurry — Whenever you cast your second spell each turn, put a rally counter on this enchantment. Then create a 1/1 white Monk creature token with prowess for each rally counter on it. (Whenever you cast a noncreature spell, the token gets +1/+1 until end of turn.)",
+    "oracle_text": "Flurry \u2014 Whenever you cast your second spell each turn, put a rally counter on this enchantment. Then create a 1/1 white Monk creature token with prowess for each rally counter on it. (Whenever you cast a noncreature spell, the token gets +1/+1 until end of turn.)",
     "prices_usd": "0.27",
     "prices_usd_foil": null,
     "released_at": "2025-04-11",
@@ -40,13 +40,13 @@
     ],
     "legal_commander": "legal",
     "mana_cost": "{2}{W}",
-    "oracle_text": "Partner with Alphinaud Leveilleur (When this creature enters, target player may put Alphinaud Leveilleur into their hand from their library, then shuffle.)\nFirst strike\nDualcast — The second spell you cast each turn costs {2} less to cast.",
+    "oracle_text": "Partner with Alphinaud Leveilleur (When this creature enters, target player may put Alphinaud Leveilleur into their hand from their library, then shuffle.)\nFirst strike\nDualcast \u2014 The second spell you cast each turn costs {2} less to cast.",
     "prices_usd": "0.31",
     "prices_usd_foil": null,
     "released_at": "2025-06-13",
     "scryfall_uri": "https://scryfall.com/card/fic/9/alisaie-leveilleur?utm_source=api",
     "set": "fic",
-    "type_line": "Legendary Creature — Elf Wizard"
+    "type_line": "Legendary Creature \u2014 Elf Wizard"
   },
   "Alphinaud Leveilleur": {
     "cmc": 4.0,
@@ -66,13 +66,32 @@
     ],
     "legal_commander": "legal",
     "mana_cost": "{3}{U}",
-    "oracle_text": "Partner with Alisaie Leveilleur (When this creature enters, target player may put Alisaie Leveilleur into their hand from their library, then shuffle.)\nVigilance\nEukrasia — Whenever you cast your second spell each turn, draw a card.",
+    "oracle_text": "Partner with Alisaie Leveilleur (When this creature enters, target player may put Alisaie Leveilleur into their hand from their library, then shuffle.)\nVigilance\nEukrasia \u2014 Whenever you cast your second spell each turn, draw a card.",
     "prices_usd": "0.27",
     "prices_usd_foil": null,
     "released_at": "2025-06-13",
     "scryfall_uri": "https://scryfall.com/card/fic/33/alphinaud-leveilleur?utm_source=api",
     "set": "fic",
-    "type_line": "Legendary Creature — Elf Wizard"
+    "type_line": "Legendary Creature \u2014 Elf Wizard"
+  },
+  "Astral Dragon": {
+    "cmc": 8.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "fetched_at": "2026-08-22",
+    "keywords": [
+      "Flying"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{6}{U}{U}",
+    "oracle_text": "Flying. Project Image \u2014 When this creature enters, create two tokens that are copies of target noncreature permanent, except they are 3/3 Dragon creatures in addition to their other types, and they have flying.",
+    "prices_usd": "19.23",
+    "prices_usd_foil": null,
+    "type_line": "Creature \u2014 Dragon"
   },
   "Cathar Commando": {
     "cmc": 2.0,
@@ -95,7 +114,7 @@
     "released_at": null,
     "scryfall_uri": null,
     "set": null,
-    "type_line": "Creature — Human Soldier"
+    "type_line": "Creature \u2014 Human Soldier"
   },
   "Command Tower": {
     "cmc": 0.0,
@@ -148,13 +167,30 @@
     "keywords": [],
     "legal_commander": "legal",
     "mana_cost": "{2}{W}",
-    "oracle_text": "Whenever you cast your second spell each turn, choose one —\n• Create two 1/1 white Human Soldier creature tokens.\n• Put a +1/+1 counter on each creature you control.",
+    "oracle_text": "Whenever you cast your second spell each turn, choose one \u2014\n\u2022 Create two 1/1 white Human Soldier creature tokens.\n\u2022 Put a +1/+1 counter on each creature you control.",
     "prices_usd": null,
     "prices_usd_foil": null,
     "released_at": null,
     "scryfall_uri": null,
     "set": null,
-    "type_line": "Creature — Human Soldier"
+    "type_line": "Creature \u2014 Human Soldier"
+  },
+  "Cursed Mirror": {
+    "cmc": 3.0,
+    "color_identity": [
+      "R"
+    ],
+    "colors": [
+      "R"
+    ],
+    "fetched_at": "2026-08-22",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{R}",
+    "oracle_text": "{T}: Add {R}. As this artifact enters, you may have it become a copy of any creature on the battlefield until end of turn, except it has haste.",
+    "prices_usd": "0.49",
+    "prices_usd_foil": null,
+    "type_line": "Artifact"
   },
   "Dion, Bahamut's Dominant // Bahamut, Warden of Light": {
     "cmc": 4.0,
@@ -172,13 +208,13 @@
     ],
     "legal_commander": "legal",
     "mana_cost": "{3}{W}",
-    "oracle_text": "Dion, Bahamut's Dominant: Dragonfire Dive — During your turn, Dion and other Knights you control have flying. When Dion enters, create a 2/2 white Knight creature token. {4}{W}{W}, {T}: Exile Dion, then return it to the battlefield transformed under its owner's control.\n//\nBahamut, Warden of Light: I, II — Wings of Light — Put a +1/+1 counter on each other creature you control. Those creatures gain flying until end of turn. III — Gigaflare — Destroy target permanent. Exile Bahamut, then return it to the battlefield (front face up).\nFlying",
+    "oracle_text": "Dion, Bahamut's Dominant: Dragonfire Dive \u2014 During your turn, Dion and other Knights you control have flying. When Dion enters, create a 2/2 white Knight creature token. {4}{W}{W}, {T}: Exile Dion, then return it to the battlefield transformed under its owner's control.\n//\nBahamut, Warden of Light: I, II \u2014 Wings of Light \u2014 Put a +1/+1 counter on each other creature you control. Those creatures gain flying until end of turn. III \u2014 Gigaflare \u2014 Destroy target permanent. Exile Bahamut, then return it to the battlefield (front face up).\nFlying",
     "prices_usd": null,
     "prices_usd_foil": null,
     "released_at": null,
     "scryfall_uri": null,
     "set": null,
-    "type_line": "Legendary Creature — Human Noble Knight // Legendary Enchantment Creature — Saga Dragon"
+    "type_line": "Legendary Creature \u2014 Human Noble Knight // Legendary Enchantment Creature \u2014 Saga Dragon"
   },
   "Dovin's Veto": {
     "cmc": 2.0,
@@ -202,6 +238,19 @@
     "scryfall_uri": "https://scryfall.com/card/war/193/dovins-veto?utm_source=api",
     "set": "war",
     "type_line": "Instant"
+  },
+  "Dragonstorm Globe": {
+    "cmc": 3.0,
+    "color_identity": [],
+    "colors": [],
+    "fetched_at": "2026-08-22",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{3}",
+    "oracle_text": "Each Dragon you control enters with an additional +1/+1 counter on it. {T}: Add one mana of any color.",
+    "prices_usd": "0.30",
+    "prices_usd_foil": null,
+    "type_line": "Artifact"
   },
   "Ghostly Prison": {
     "cmc": 3.0,
@@ -247,7 +296,20 @@
     "released_at": "2024-07-05",
     "scryfall_uri": "https://scryfall.com/card/acr/57/haytham-kenway?utm_source=api",
     "set": "acr",
-    "type_line": "Legendary Creature — Human Knight"
+    "type_line": "Legendary Creature \u2014 Human Knight"
+  },
+  "Herald's Horn": {
+    "cmc": 3.0,
+    "color_identity": [],
+    "colors": [],
+    "fetched_at": "2026-08-22",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{3}",
+    "oracle_text": "As this artifact enters, choose a creature type. Creature spells you cast of the chosen type cost {1} less to cast. At the beginning of your upkeep, look at the top card of your library. If it's a creature card of the chosen type, you may reveal it and put it into your hand.",
+    "prices_usd": "5.14",
+    "prices_usd_foil": null,
+    "type_line": "Artifact"
   },
   "Highspire Bell-Ringer": {
     "cmc": 3.0,
@@ -270,7 +332,7 @@
     "released_at": null,
     "scryfall_uri": null,
     "set": null,
-    "type_line": "Creature — Djinn Monk"
+    "type_line": "Creature \u2014 Djinn Monk"
   },
   "Kindred Discovery": {
     "cmc": 5.0,
@@ -312,7 +374,7 @@
     "released_at": "2011-04-01",
     "scryfall_uri": "https://scryfall.com/card/ddg/17/kinsbaile-cavalier?utm_source=api",
     "set": "ddg",
-    "type_line": "Creature — Kithkin Knight"
+    "type_line": "Creature \u2014 Kithkin Knight"
   },
   "Knight Exemplar": {
     "cmc": 3.0,
@@ -335,7 +397,7 @@
     "released_at": null,
     "scryfall_uri": null,
     "set": null,
-    "type_line": "Creature — Human Knight"
+    "type_line": "Creature \u2014 Human Knight"
   },
   "Lavinia, Foil to Conspiracy": {
     "cmc": 3.0,
@@ -361,7 +423,7 @@
     "released_at": null,
     "scryfall_uri": null,
     "set": null,
-    "type_line": "Legendary Creature — Human Detective"
+    "type_line": "Legendary Creature \u2014 Human Detective"
   },
   "Ledger Shredder": {
     "cmc": 2.0,
@@ -385,7 +447,7 @@
     "released_at": null,
     "scryfall_uri": null,
     "set": null,
-    "type_line": "Creature — Bird Advisor"
+    "type_line": "Creature \u2014 Bird Advisor"
   },
   "Marshal of Zhalfir": {
     "cmc": 2.0,
@@ -408,7 +470,7 @@
     "released_at": null,
     "scryfall_uri": null,
     "set": null,
-    "type_line": "Creature — Human Knight"
+    "type_line": "Creature \u2014 Human Knight"
   },
   "Michiko Konda, Truth Seeker": {
     "cmc": 4.0,
@@ -429,7 +491,7 @@
     "released_at": null,
     "scryfall_uri": null,
     "set": null,
-    "type_line": "Legendary Creature — Human Advisor"
+    "type_line": "Legendary Creature \u2014 Human Advisor"
   },
   "Mirrormind Crown": {
     "cmc": 4.0,
@@ -448,7 +510,21 @@
     "released_at": "2026-01-23",
     "scryfall_uri": "https://scryfall.com/card/ecl/258/mirrormind-crown?utm_source=api",
     "set": "ecl",
-    "type_line": "Artifact — Equipment"
+    "type_line": "Artifact \u2014 Equipment"
+  },
+  "Mox Jasper": {
+    "cmc": 0.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 2624,
+    "fetched_at": "2026-08-22",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{0}",
+    "oracle_text": "{T}: Add one mana of any color. Activate only if you control a Dragon.",
+    "prices_usd": "11.96",
+    "prices_usd_foil": null,
+    "type_line": "Legendary Artifact"
   },
   "Path to Exile": {
     "cmc": 1.0,
@@ -490,7 +566,20 @@
     "released_at": null,
     "scryfall_uri": null,
     "set": null,
-    "type_line": "Creature — Human Wizard"
+    "type_line": "Creature \u2014 Human Wizard"
+  },
+  "Relic of Legends": {
+    "cmc": 3.0,
+    "color_identity": [],
+    "colors": [],
+    "fetched_at": "2026-08-22",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{3}",
+    "oracle_text": "{T}: Add one mana of any color. Tap an untapped legendary creature you control: Add one mana of any color.",
+    "prices_usd": "0.98",
+    "prices_usd_foil": null,
+    "type_line": "Artifact"
   },
   "Silverwing Squadron": {
     "cmc": 6.0,
@@ -514,7 +603,7 @@
     "released_at": null,
     "scryfall_uri": null,
     "set": null,
-    "type_line": "Creature — Human Knight"
+    "type_line": "Creature \u2014 Human Knight"
   },
   "Sol Ring": {
     "cmc": 1.0,
@@ -571,13 +660,13 @@
     ],
     "legal_commander": "legal",
     "mana_cost": "{6}{W}{W}",
-    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after V.)\nI, II, III, IV — Create three 2/2 white Knight creature tokens.\nV — Ultimate End — Other creatures you control get +2/+2 until end of turn. Put an indestructible counter on each of them.\nIndestructible",
+    "oracle_text": "(As this Saga enters and after your draw step, add a lore counter. Sacrifice after V.)\nI, II, III, IV \u2014 Create three 2/2 white Knight creature tokens.\nV \u2014 Ultimate End \u2014 Other creatures you control get +2/+2 until end of turn. Put an indestructible counter on each of them.\nIndestructible",
     "prices_usd": "13.36",
     "prices_usd_foil": "14.42",
     "released_at": "2025-06-13",
     "scryfall_uri": "https://scryfall.com/card/fin/36/summon:-knights-of-round?utm_source=api",
     "set": "fin",
-    "type_line": "Enchantment Creature — Saga Knight"
+    "type_line": "Enchantment Creature \u2014 Saga Knight"
   },
   "Suppressor Skyguard": {
     "cmc": 4.0,
@@ -602,7 +691,7 @@
     "released_at": null,
     "scryfall_uri": null,
     "set": null,
-    "type_line": "Creature — Human Knight"
+    "type_line": "Creature \u2014 Human Knight"
   },
   "Swords to Plowshares": {
     "cmc": 1.0,
@@ -669,7 +758,7 @@
     "released_at": "2022-06-10",
     "scryfall_uri": "https://scryfall.com/card/clb/271/the-council-of-four?utm_source=api",
     "set": "clb",
-    "type_line": "Legendary Creature — Human Noble"
+    "type_line": "Legendary Creature \u2014 Human Noble"
   },
   "Unwelcome Sprite": {
     "cmc": 2.0,
@@ -693,7 +782,7 @@
     "released_at": null,
     "scryfall_uri": null,
     "set": null,
-    "type_line": "Creature — Faerie Rogue"
+    "type_line": "Creature \u2014 Faerie Rogue"
   },
   "Unwind": {
     "cmc": 3.0,
@@ -735,7 +824,7 @@
     "released_at": null,
     "scryfall_uri": null,
     "set": null,
-    "type_line": "Creature — Jellyfish Scientist"
+    "type_line": "Creature \u2014 Jellyfish Scientist"
   },
   "Vanquisher's Banner": {
     "cmc": 5.0,
@@ -775,7 +864,7 @@
     "released_at": null,
     "scryfall_uri": null,
     "set": null,
-    "type_line": "Enchantment // Instant — Adventure"
+    "type_line": "Enchantment // Instant \u2014 Adventure"
   },
   "Vodalian Wave-Knight": {
     "cmc": 4.0,
@@ -798,7 +887,7 @@
     "released_at": null,
     "scryfall_uri": null,
     "set": null,
-    "type_line": "Creature — Merfolk Knight"
+    "type_line": "Creature \u2014 Merfolk Knight"
   },
   "White Auracite": {
     "cmc": 4.0,
@@ -835,13 +924,13 @@
     ],
     "legal_commander": "legal",
     "mana_cost": "{2}{U}",
-    "oracle_text": "Flying\nFlurry — Whenever you cast your second spell each turn, create a 1/1 white Bird creature token with flying.",
+    "oracle_text": "Flying\nFlurry \u2014 Whenever you cast your second spell each turn, create a 1/1 white Bird creature token with flying.",
     "prices_usd": null,
     "prices_usd_foil": null,
     "released_at": null,
     "scryfall_uri": null,
     "set": null,
-    "type_line": "Creature — Human Monk"
+    "type_line": "Creature \u2014 Human Monk"
   },
   "Xerex Strobe-Knight": {
     "cmc": 3.0,
@@ -865,6 +954,6 @@
     "released_at": null,
     "scryfall_uri": null,
     "set": null,
-    "type_line": "Creature — Human Knight"
+    "type_line": "Creature \u2014 Human Knight"
   }
 }
