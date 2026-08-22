@@ -13,16 +13,13 @@ Grouped by owner. `fowlplays` is the user's own; the rest are pod members. Each 
 ### fowlplays
 
 ### podlist/fowlplays/profile.md
-Profile: fowlplays (14 decks, 1 unlisted) — heavy Universes Beyond reliance, red-leaning, repeated voltron via different vectors.
+Profile: fowlplays (13 decks) — heavy Universes Beyond reliance, red-leaning, repeated voltron via different vectors. Covers all 13 active decks including Crystal Braves. "Discard Mill Assassin" was removed from the archive — per the owner it was a concept-board item, never an active build.
 
 ### podlist/fowlplays/decks/the-best-of-friends.md
 Commander: Zenos yae Galvus // Shinryu, Transcendent Rival (B)
 
 ### podlist/fowlplays/decks/the-copied-factory.md
 Commander: Inalla, Archmage Ritualist (UBR) — wizard spellslinger/storm
-
-### podlist/fowlplays/decks/discard-mill-assassin.md
-Commander: Altaïr Ibn-La'Ahad (B) — discard/mill. Unlisted on Archidekt as of 2026-08-22 (excluded from the public profile listing, but still direct-link accessible; see source field) — not deleted, just no longer synced via `--user` mode.
 
 ### podlist/fowlplays/decks/the-crystal-braves.md
 Commander: Alisaie Leveilleur, Alphinaud Leveilleur (WU) — knights/tempo token support
@@ -68,7 +65,7 @@ Commander: Feather, the Redeemed (WR)
 ### LTO888
 
 ### podlist/lto888/profile.md
-Profile: LTO888 (12 decks) — black-anchored, near-universal Sol Ring/The One Ring reliance, FF/ATLA crossover-heavy. **Stale**: profile text still says "no four- or five-color builds," contradicted by the new 5c Turtle Power, Powered deck — needs re-derivation.
+Profile: LTO888 (12 decks) — black-anchored, near-universal Sol Ring/The One Ring reliance, FF/ATLA/TMNT crossover-heavy, now includes a 5-color build (Turtle Power). Re-derived 2026-08-22: fixed the stale "no 4-5 color builds"/Treno claims, re-verified Azula has no assemblable Spellbook combo as built.
 
 ### podlist/lto888/decks/bau-bau-nyaa.md
 Commander: Rin and Seri, Inseparable (WRG)
@@ -109,7 +106,7 @@ Commander: Yuriko, the Tiger's Shadow (UB) — ninjas
 ### Xanoh
 
 ### podlist/xanoh/profile.md
-Profile: Xanoh (2 decks) — Gruul big-mana ramp with a Final Fantasy crossover theme (Forresta) alongside an unrelated Orzhov control/stax build (The Sundering); no cross-deck pattern yet.
+Profile: Xanoh (2 decks) — Forresta is a landfall payoff/combat-pump deck built around Gladiolus Amicitia's actual trigger (not generic ramp); The Sundering is a legendary-dense stax/wipe/reanimation control shell that deliberately skips Ardbert's popular go-wide anthem plan. Cross-deck pattern: both builds maximize the commander's literal ability over its EDHREC-default archetype.
 
 ### podlist/xanoh/decks/forresta.md
 Commander: Gladiolus Amicitia (RG)
@@ -120,7 +117,7 @@ Commander: Ardbert, Warrior of Darkness (WB) — Orzhov control/stax
 ### mjsnoozer
 
 ### podlist/mjsnoozer/profile.md
-Profile: mjsnoozer (5 decks) — red-based UB-commander shells, repeated Izzet/Grixis storm-combo signature build.
+Profile: mjsnoozer (5 decks on file, 4 active) — equipment-draw voltron (Cloud), Grixis spell-copy (Azula), squirrel/aristocrats tokens (Hazel), pirate/vehicle treasure (Kenway); Stella Lee retired, dismantled into Azula.
 
 ### podlist/mjsnoozer/decks/cloud-ex-soldier-upgraded.md
 Commander: Cloud, Ex-SOLDIER (WRG)
@@ -135,12 +132,12 @@ Commander: Fire Lord Azula (UBR)
 Commander: Hazel of the Rootbloom (BG) — food
 
 ### podlist/mjsnoozer/decks/stella-lee.md
-Commander: Stella Lee, Wild Card (UR)
+Commander: Stella Lee, Wild Card (UR) — **retired**, per the owner: dismantled and rebuilt into Fire Lord Azula. File kept for historical reference; not an active deck.
 
 ### reimaru
 
 ### podlist/reimaru/profile.md
-Profile: reimaru (16 decks, largest sample) — Rakdos-leaning, repeated equipment-voltron and aristocrats/sac-drain signatures, near-total green avoidance.
+Profile: reimaru (16 decks, largest sample) — Rakdos-leaning, repeated equipment-voltron and aristocrats/sac-drain signatures, near-total green avoidance. Re-verified 2026-08-22: Wick deck is one card (Conspiracy) from a real 2-card infinite combo with the commander; Feather EDHREC tags reordered since original check (same drift as j-py's Feather).
 
 ### podlist/reimaru/decks/aura-battler-feather.md
 Commander: Feather, Radiant Arbiter (WR)
