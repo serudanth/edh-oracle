@@ -7,7 +7,7 @@ colors: [U, R, G]
 power_level:
 tags: []
 related: []
-last_updated: 2026-08-22
+last_updated: 2026-08-23
 source: https://archidekt.com/decks/15340360
 ---
 
@@ -57,16 +57,15 @@ source: https://archidekt.com/decks/15340360
 - 1x Heritage Reclamation
 - 1x Run Away Together
 
-### Sorcery (7)
+### Sorcery (6)
 - 1x Cultivate
-- 1x Draconic Intervention
 - 1x Farseek
 - 1x Kodama's Reach
 - 1x Many Partings
 - 1x Molten Exhale
 - 1x Nature's Rhythm
 
-### Artifact (9)
+### Artifact (10)
 - 1x Arcane Signet
 - 1x Carnelian Orb of Dragonkind
 - 1x Cursed Mirror
@@ -74,6 +73,7 @@ source: https://archidekt.com/decks/15340360
 - 1x Dragonstorm Globe
 - 1x Herald's Horn *(foil)*
 - 1x Lapis Orb of Dragonkind *(foil)*
+- 1x Mox Jasper
 - 1x Relic of Legends
 - 1x Sol Ring
 

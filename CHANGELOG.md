@@ -1,4 +1,128 @@
-# Changelog
+## 2026-09-03 (the crystal braves deck review & report)
+
+- **[kb]** Added comprehensive deck review and optimization report `knowledgebase/research/2026-09-03-the-crystal-braves-deck-review.md` covering mechanical identity, local engine metrics, engine friction points (cantrip deficit, Vanquisher's Banner non-bo, 3-drop bottleneck), 1-for-1 upgrade tables, and sequencing heuristics.
+- **[kb]** Refreshed `knowledgebase/podlist/fowlplays/decks/the-crystal-braves.md` from Archidekt and generated deterministic analysis output `knowledgebase/podlist/fowlplays/analysis/the-crystal-braves.json`.
+- **[kb]** Updated `knowledgebase/INDEX.md` with the new deck review research entry.
+
+## 2026-08-25 (threat assessment document synchronization)
+
+- **[kb]** Updated `knowledgebase/research/2026-08-25-threat-pillar-assessment.md` and `knowledgebase/research/2026-08-22-pod-threat-profile.md` with the deterministic Power Scores (1.0-10.0 scale), EDH Brackets (1-4), fast mana totals, tutor densities, and verified combo counts computed by `tools/deck_analyzer_engine.py`.
+
+## 2026-08-25 (player profile sync with local analyzer results)
+
+- **[kb]** Synchronized all 6 player deckbuilder profiles (`fowlplays`, `j-py`, `lto888`, `mjsnoozer`, `reimaru`, `xanoh`) and `knowledgebase/INDEX.md` teasers with the Power Scores, EDH Brackets, piloting archetypes, fast mana counts, and tutor densities computed by `tools/deck_analyzer_engine.py`.
+
+## 2026-08-25 (local deck analyzer engine implementation)
+
+- **[tools]** Built `tools/deck_analyzer_engine.py` to calculate deterministic metrics, power scores, brackets, and combo lines using Scryfall cache data, user-defined categories (source of truth), EDHRec package aggregates, and Commander Spellbook combo detection.
+- **[kb]** Added `knowledgebase/podlist/<owner>/analysis/<deck-slug>.json` directories and ran batch analysis across all 51 pod decks.
+- **[tests]** Added `tests/test_deck_analyzer_engine.py` covering category resolution, archetype classification, combo matching, and analysis file generation.
+
+## 2026-08-25 (pdd deck analyzer engine specification)
+
+- **[kb]** Created Product Design Document (PDD) `knowledgebase/research/2026-08-25-pdd-deck-analyzer-engine.md` detailing the architectural specification, algorithmic scoring formulas, classification rules, and schema mapping for the automated local EDH deck analyzer engine.
+- **[kb]** Updated `knowledgebase/INDEX.md` with the new research note entry.
+
+## 2026-08-25 (external analysis extraction sub-tool)
+
+- **[tools]** Added `tools/external_analysis_extract.py` and prompt specification `tools/prompts/external_analysis_agent.md` for fetching, normalizing, and archiving external deck-analysis outputs across ScryCheck, EDHCheck, RateMyDecks, CommanderPowerMeter, ArcMind, and PowerDeckAI.
+- **[tests]** Added `tests/test_external_analysis.py` covering schema compliance, metrics mapping, status reporting, and `null` handling.
+
+## 2026-08-25 (canonical public deck URL)
+
+- **[kb]** Updated Xanoh's Forresta source link to the canonical public Archidekt URL (`https://archidekt.com/decks/21400503/forresta`) used for independent ScryCheck imports.
+
+## 2026-08-25 (fowlplays percentile threat reassessment)
+
+- **[kb]** Thoroughly reassessed all 13 eligible fowlplays decks across Speed, Consistency, Resource Development, Interaction, Resilience, and Win Conversion using the current pod-relative percentile methodology and exact weighted index formula.
+- **[kb]** Preliminary second-pass recalculation of fowlplays to a **52.9 median**, **56.4 mean**, **81.6 high**, and **40.3 low**; this snapshot was superseded by the owner-clarification pass below, which added The Rush's complete infinite-combat line and revised its portfolio totals.
+- **[kb]** Updated the fowlplays profile, index teaser, and assessment evidence; no decklists, cache entries, or play records were changed.
+
+## 2026-08-25 (targeted combo reassessment)
+
+- **[kb]** Reassessed The Copied Factory after distinguishing its repeatable Dualcaster Mage + Ghostly Flicker loop from a winning combo; set its Deck Threat Index to **76.7** because the list has no clearly documented payoff for going infinite.
+- **[kb]** Reassessed LTO888's Sephiroth Pain is Love after confirming the complete Sanguine Bond + Exquisite Blood infinite, tutors, fast mana, recursion, sacrifice outlets, redundant drain finishes, and a broad forced-sacrifice control package; set its Deck Threat Index to **88.7**.
+- **[kb]** Updated the affected fowlplays and LTO888 profile summaries and threat observations.
+- **[kb]** Updated the player portfolio summary so fowlplays' peak reflects The Rush at **80.3**, and synchronized the dedicated Copied Factory research note and index entry with the no-payoff loop assessment.
+
+## 2026-08-25 (fowlplays clarification pass)
+
+- **[kb]** Updated fowlplays' assessment after owner clarification: The Rush contains the complete Kiki-Jiki + Combat Celebrant infinite-combat line; Queen of Theft is theft-first with mill as fuel and Rise of the Dark Realms as a secondary close; Crystal Braves uses its second-spell engine to support Knights and board development.
+- **[kb]** Recalculated fowlplays to a **52.9** median, **56.7** mean, **83.4** peak, and **40.3** floor; updated the relevant deck scores and profile/index summaries.
+- **[kb]** Recorded Impact Tremors as the removed former payoff for The Copied Factory's Dualcaster Mage + Ghostly Flicker loop.
+
+## 2026-08-25 (limited-sample rating caveats)
+
+- **[kb]** Clarified in the J-Py and Xanoh profiles that their star ratings are provisional because they are based on one and two eligible decks, respectively.
+- **[kb]** Updated their `INDEX.md` teasers to carry the same limited-sample warning.
+- **[kb]** Added a literal asterisk to the Median Threat value in both limited-sample profiles.
+
+## 2026-08-25 (profile star ratings and summary rewrite)
+
+- **[kb]** Replaced profile median threat index displays with a star system: 0-19 = one star, 20-39 = two, 40-59 = three, 60-79 = four, and 80-100 = five.
+- **[kb]** Rewrote all six profile summaries and designations to reflect the new assessment's speed, consistency, resource development, interaction, resilience, win-conversion, and threat-mode findings.
+- **[kb]** Updated `INDEX.md` teasers to match the revised star ratings, designations, and summaries.
+
+## 2026-08-25 (percentile threat assessment applied)
+
+- **[kb]** Recalculated the 48 eligible decks and six player portfolios under the six-pillar pod-relative percentile system with weighted Deck Threat Indexes, threat modes, and median/mean/peak/floor portfolio figures.
+- **[kb]** Updated the threat assessment, pod threat reference, all six player profiles, and `INDEX.md`; retired decks and the two one-card LTO888 stubs remain excluded.
+
+## 2026-08-25 (percentile threat assessment redesign)
+
+- **[kb]** Replaced the legacy four-pillar 0-40 and D-to-SSS threat model with six deck-level dimensions scored as explicit 0-100 percentiles: Speed, Consistency, Resource Development, Interaction, Resilience, and Win Conversion.
+- **[kb]** Defined pod-relative and benchmark-relative percentile semantics, weighted composite scoring, threat-mode labels, evidence-based assessment steps, and a player portfolio report using median, mean, highest, lowest, and eligible deck count.
+- **[kb]** Marked the previous four-pillar scores as legacy; existing decks and profiles require a fresh percentile pass before new scores are reported.
+
+## 2026-08-25 (four-pillar threat assessment, 0-10 reassessment)
+
+- **[kb]** Reassessed all 48 fully built decks with differentiated 0-10 scores for Ramp, Card Advantage, Interaction, and Win Conditions; scores were not mechanically doubled from the earlier pass.
+- **[kb]** Recalculated ranks from the new averages: fowlplays **SS** (27.62), j-py **A** (21.00), lto888 **SS** (28.75), mjsnoozer **S** (26.00), reimaru **S** (26.63), and xanoh **SS** (29.50).
+
+## 2026-08-25 (planeswalker-style profile summaries)
+
+- **[kb]** Rewrote all six overview summaries in flavorful planeswalker voice while keeping each summary grounded in the player's owned deck archetypes.
+- **[kb]** Updated `INDEX.md` teasers to match the new summaries.
+
+## 2026-08-25 (profile table playstyle revision)
+
+- **[kb]** Reworked each overview table's designation and one-line summary to describe the player's owned deck archetypes and gameplay patterns rather than construction habits.
+- **[kb]** Updated `INDEX.md` teasers to match the revised playstyle labels.
+
+## 2026-08-25 (overview profile tables)
+
+- **[kb]** Moved each player's threat rank to a standardized table at the beginning of `Overview`.
+- **[kb]** Added a concise profile designation and one-line player summary to all six overview tables.
+- **[kb]** Updated `INDEX.md` teasers with the new designations.
+
+## 2026-08-25 (Notable Patterns strategy reassessment)
+
+- **[kb]** Completely rewrote Notable Patterns in all six player profiles around repeated construction systems, resource engines, interaction, mana risk, deck contrast, and win-condition reliability.
+- **[kb]** Removed crossover, foil, printing, title, and other collection-oriented observations from those sections.
+
+## 2026-08-25 (color and archetype profile reassessment)
+
+- **[kb]** Replaced the Color & Archetype Tendencies section in all six player profiles with commander-identity color tables covering White, Blue, Black, Red, Green, and Colorless.
+- **[kb]** Completely rewrote the archetype analysis around deckbuilding behavior, recurring engines, interaction, mana philosophy, and strategic cohesion.
+- **[kb]** Updated `INDEX.md` profile teasers to reflect the new playstyle-focused assessments.
+
+## 2026-08-25 (player profile reassessment)
+
+- **[kb]** Reassessed all six player overviews around deckbuilding behavior, consistency, interaction, mana philosophy, and win-condition reliability rather than crossover flavor.
+- **[kb]** Kept the concise threat rankings: lto888 **SSS**, reimaru **SS**, fowlplays **S**, xanoh and mjsnoozer **A**, and j-py **B**.
+- **[kb]** Updated `INDEX.md` and the pod threat reference so their summaries use the same playstyle-focused language.
+
+## 2026-08-25 (profile overviews stylized and threat ranks standardized)
+
+- **[kb]** Rewrote every player profile overview with in-lore Magic framing and a shared D-to-SSS table-threat scale: lto888 **SSS**, reimaru **SS**, fowlplays **S**, xanoh and mjsnoozer **A**, and j-py **B**.
+- **[kb]** Preserved the existing evidence-heavy profile sections and called out LTO888's two one-card mid-build stubs without folding them into the analyzed 12-deck sample.
+- **[kb]** Updated `INDEX.md` and the pod threat reference to use the same letter ranks and labels.
+
+## 2026-08-25 (archived LTO888's two mid-build stubs)
+
+- **[kb]** Added `knowledgebase/podlist/lto888/decks/doran-the-exploder.md` (Doran, Besieged by Time) and `knowledgebase/podlist/lto888/decks/cid-cid-and-cid-with-cid.md` (Cid, Timeless Artificer) via `tools/archidekt_extract.py` — both new on LTO888's Archidekt account as of today, both a single card in so far. Archived as bare stubs only; no analysis, EDHREC/Spellbook cross-referencing, or profile.md re-derivation, since there's nothing to analyze yet.
+- **[kb]** `INDEX.md` gained entries for both, flagged as mid-build stubs not yet worth analyzing.
+- `knowledgebase/podlist/lto888/profile.md` intentionally left untouched (still describes the prior 12-deck sample) — revisit once either stub is actually built out.
 
 ## 2026-08-22 (removed Discard Mill Assassin — concept-board item, never an active deck)
 

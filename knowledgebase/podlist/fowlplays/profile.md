@@ -5,19 +5,35 @@ owner: fowlplays
 tags: [#profile]
 related: []
 decks: knowledgebase/podlist/fowlplays/decks/
-last_updated: 2026-08-22
+last_updated: 2026-08-25
 ---
 
 ## Overview
-13 decks on file now (up from the 12 this profile was originally built on). The addition since the last pass is The Crystal Braves (WU, its own dedicated deep-dive at `research/2026-08-06-the-crystal-braves-deck-profile.md`). A second deck, "Discard Mill Assassin," briefly appeared in the archive after showing up in an Archidekt `--user` sync, but per the owner it was never an active build — it lived on a concept board, not the proper decklist, so it's been removed from the archive rather than tracked as a 14th deck. fowlplays still builds two-color decks almost exclusively (9 of 13), splitting between aggressive/synergy shells at Archidekt bracket 2 and more interactive, staple-dense shells at bracket 3, with a single bracket-4 outlier and 1 deck (Crystal Braves) with no bracket recorded yet. A defining trait of the archive is heavy use of Universes Beyond commanders and cards — Final Fantasy above all, plus D&D and Baldur's Gate 3 — layered onto otherwise conventional archetypes (voltron, aristocrats, tribal, recursion). Land bases are built with real attention to fixing rather than defaulted to basics, except in the mono-color decks, which lean almost entirely on basics instead.
+| Profile Field | Assessment |
+|---|---|
+| Median Threat | **★★★☆☆** |
+| Designation | **Adaptive Combat-Engine Architect** |
+| Summary | A roaming planeswalker who builds each deck around a distinct engine, turning beasts, armies, graveyards, stolen power, and copied spells into pressure. Most battles are fought through combat and board development, but a few lists sharpen that broad arsenal into denial, explosive tempo, or a deterministic combat finish. |
+
+fowlplays has 13 eligible decks with a mean local Power Score of **5.6 / 10.0**, a median of **5.2** (★★★☆☆), and a range of **4.2–7.0** (brackets 1–3). Under the EDH Oracle Analyzer Engine, the portfolio primary piloting archetypes are **Midrange / Engine Value** (11 decks), **Big Mana / Landfall** (1 deck), and **Voltron / Equipment** (1 deck). Across the 13 decks, the portfolio holds 15 fast mana sources, 10 tutors, and 2 verified combo configurations (*The Rush* and *The Copied Factory*). Automated analysis records are stored in `knowledgebase/podlist/fowlplays/analysis/`.
+
+fowlplays prefers distinct game plans over repeatedly tuning one shell. The decks are generally creature-, combat-, and value-oriented, with carefully built mana bases and a creative spread of strategies rather than a uniform power level.
 
 ## Color & Archetype Tendencies
-- Red is still the most-played color (7 of 13 decks), followed by White (6, +1 from Crystal Braves), Green (5), and Black and Blue tied for least common (4 each, Blue +1 from Crystal Braves). No color is avoided outright, same as before.
-- Blue's "only in bracket-3 decks" pattern now has an asterisk: Crystal Braves is blue (WU) but has no bracket recorded at all, so it neither confirms nor breaks the pattern — it's simply unlabeled. The pattern holds for every blue deck that *does* have a bracket (Koronation, Queen of Theft, Copied Factory all bracket 3; still zero blue decks at bracket 2).
-- Boros (W/R) remains the single most-repeated exact two-color pair at 3 of 13 (Lorehold Redux, Gate of Babylon, Rush).
-- Gruul (R/G) still appears twice (Hamster Catapult, Last Ride), both creature/vehicle-forward midrange-aggro shells.
-- Archetype spread gains one more non-overlapping entry: an Azorius spellslinger/Knight-typal build powered by a shared "second spell each turn" partner-commander trigger (Crystal Braves — see its dedicated research note for the full mechanical breakdown). Otherwise the spread stays broad and mostly non-overlapping: dragon tribal (Koronation), wizard tribal/spellslinger (Copied Factory), two separate voltron builds via different vectors — equipment (Gate of Babylon) and totem-armor auras/Enchantress (Dirt Kicker) — two aristocrats/drain builds (Warrior of Darkness, Best of Friends), a graveyard-recursion value engine (Lorehold Redux), a Dimir control/mill-steal deck (Queen of Theft), and a hatebears/combo-aggro outlier (The Rush).
-- Voltron still shows up twice via completely different card pools (equipment in Gate of Babylon, totem-armor auras in Dirt Kicker), suggesting it's a strategy fowlplays returns to independent of any specific card-pool preference.
+Color identity across 13 active decks:
+
+| Color | Commander identities | Share |
+|---|---:|---:|
+| White | 6 | 46.2% |
+| Blue | 4 | 30.8% |
+| Black | 4 | 30.8% |
+| Red | 7 | 53.8% |
+| Green | 5 | 38.5% |
+| Colorless | 0 | 0% |
+
+- fowlplays builds broadly, but not randomly: each deck starts with a commander-specific engine and commits to a recognizable proactive plan. The portfolio favors creature combat, board development, and value over spell-heavy control, with The Queen of Theft and The Copied Factory as the main interactive exceptions.
+- The player revisits strategic categories without simply copying lists. Equipment and aura voltron use different resource systems, while the aristocrats, recursion, tribal, and token decks each turn narrow commander text into a separate shell.
+- Construction is generally deliberate and resilient rather than maximally fast. Land counts and fixing are well-supported, singleton discipline is strong, and higher-efficiency staples are concentrated in the bracket-3/4 decks instead of spread uniformly across the collection.
 
 ## Power Level & Construction Habits
 - Archidekt brackets, updated for 13 decks: six at bracket 2, five at bracket 3, one outlier at bracket 4 (The Rush, a Winota hatebears/combo-aggro build with Drannith Magistrate, Aven Mindcensor, Thalia, Spirit of the Labyrinth, and Eidolon of Rhetoric as stax pieces), and **1 with no bracket recorded at all** (Crystal Braves, the only addition to the archive since the original pass). The original 12-deck bracket distribution is unchanged.
@@ -28,12 +44,10 @@ last_updated: 2026-08-22
 - Singleton discipline is intact throughout all 13 decklists — no repeated nonbasic cards within any single decklist.
 
 ## Notable Patterns
-- 9 of 13 commanders are licensed crossover characters rather than native Magic characters: D&D (Minsc & Boo, Bruenor Battlehammer, Tasha), Final Fantasy/FFXIV (Balthier and Fran, Tifa Lockhart, Ardbert, Zenos yae Galvus // Shinryu, and Alisaie // Alphinaud in Crystal Braves), and Baldur's Gate 3 (Master Chef, Lae'zel). Only 4 decks run a native-Magic commander (Miirym, Quintorius, Winota, Inalla).
-- Final Fantasy crossover cards saturate the card pool well beyond the commanders — Sazh Katzroy, Tifa Lockhart, Zack Fair, and Skyclave Apparition (a non-FF staple but the single most-repeated nonland card) each show up in 2-4 different decks, and the FF land Zanarkand, Ancient Metropolis // Lasting Fayth appears in three separate decks (Hamster Catapult, Master Chef, Dirt Kicker).
-- Beyond Final Fantasy and D&D, the archive dips into a wide range of other crossover IP: Avatar: The Last Airbender (Master Chef, Dirt Kicker, Last Ride), Teenage Mutant Ninja Turtles (Hamster Catapult), Assassin's Creed (Warrior of Darkness), Lord of the Rings (The Rush), Transformers and Fallout-flavored artifacts (Last Ride), and Warhammer 40K (Warrior of Darkness) — the player draws from Universes Beyond broadly, not just one franchise.
-- Modal double-faced cards are unusually dense across the archive (dozens total, e.g. Cecil//Redeemed Paladin, Kefka//Ruler of Ruin, Emet-Selch//Hades, Murderous Rider//Swift End, Midgar//Reactor Raid), many sourced from the same Final Fantasy and other UB sets driving the crossover-card pattern above.
-- Foil variants are called out liberally throughout nearly every deck rather than concentrated in one or two lists, suggesting an ongoing collection/foiling habit rather than one-off splurges.
-- The Rush stands apart from the rest of the archive on every axis at once: it's the only bracket-4 deck, the only deck under 36 lands, and one of the only decks whose card choices (hatebears, tempo stax pieces) are chosen for competitive function over theme or synergy.
+- The portfolio is deliberately wide: fowlplays repeatedly explores a commander-specific engine instead of tuning one preferred shell. The result is unusually low overlap between decks, but the underlying construction quality remains consistent.
+- Most lists are proactive creature or combat decks that generate value while advancing a board. The exceptions are meaningful: The Queen of Theft plays a slower resource-denial game, The Copied Factory uses spell and enter-the-battlefield engines, and The Rush shifts toward taxes and tempo.
+- Voltron, aristocrats, recursion, tokens, and tribal plans are not interchangeable labels here. Each uses a different primary resource: equipment, deaths, graveyards, token production, or creature density. This suggests experimentation with mechanics rather than superficial commander swaps.
+- The strongest strategic pattern is a split ceiling: most decks sit near the pod midpoint, while The Rush reaches the upper tail through a low land count, Winota pressure, hatebears, extra combats, protection, and the complete Kiki-Jiki + Combat Celebrant infinite-combat route. The Copied Factory remains a highly consistent spell engine, but its Dualcaster Mage + Ghostly Flicker loop has no clearly documented payoff in the list, so its high setup and interaction scores do not become deterministic Win Conversion. The Queen of Theft is theft-first rather than pure mill: milling supplies the graveyards Tasha needs to access opposing cards, while stolen threats and Rise of the Dark Realms provide credible secondary closes. The deck-specific index matters more than the portfolio median when choosing a table matchup.
 
 ## Decks
 Full decklist archive: `knowledgebase/podlist/fowlplays/decks/` (13 decks — see `INDEX.md` for individual entries).

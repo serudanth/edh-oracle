@@ -7,13 +7,12 @@ Read the linked file when the task matches the tags or trigger.
 ---
 
 ## podlist/
-
 Grouped by owner. `fowlplays` is the user's own; the rest are pod members. Each owner folder has one `profile.md` (deckbuilder tendencies — read before picking or evaluating a deck for that person, or when spotting cross-deck/cross-pod patterns) and a `decks/` folder (one file per deck, pulled from that owner's public Archidekt or Moxfield profile).
 
 ### fowlplays
 
 ### podlist/fowlplays/profile.md
-Profile: fowlplays (13 decks) — heavy Universes Beyond reliance, red-leaning, repeated voltron via different vectors. Covers all 13 active decks including Crystal Braves. "Discard Mill Assassin" was removed from the archive — per the owner it was a concept-board item, never an active build.
+Profile: fowlplays (13 eligible decks) — **★★★☆☆ median threat, Adaptive Combat-Engine Architect**, a roaming planeswalker building distinct engines that turn beasts, armies, graveyards, stolen power, and copied spells into pressure, with The Rush's infinite-combat peak and Queen of Theft's theft-first control shell.
 
 ### podlist/fowlplays/decks/the-best-of-friends.md
 Commander: Zenos yae Galvus // Shinryu, Transcendent Rival (B)
@@ -57,7 +56,7 @@ Commander: Ardbert, Warrior of Darkness (WB) — legends/+1+1 counters
 ### J-Py
 
 ### podlist/j-py/profile.md
-Profile: J-Py (1 deck, provisional) — Boros Feather spellslinger, synergy-first over raw power.
+Profile: J-Py (1 eligible deck, limited sample; rating provisional) — **★★★★☆ median threat, Recursive Combat Spellcaster**, a battle-mage planeswalker recycling cheap targeted spells into cards, tokens, prowess, and protection.
 
 ### podlist/j-py/decks/miku-madness-miku-sparta.md
 Commander: Feather, the Redeemed (WR)
@@ -65,13 +64,19 @@ Commander: Feather, the Redeemed (WR)
 ### LTO888
 
 ### podlist/lto888/profile.md
-Profile: LTO888 (12 decks) — black-anchored, near-universal Sol Ring/The One Ring reliance, FF/ATLA/TMNT crossover-heavy, now includes a 5-color build (Turtle Power). Re-derived 2026-08-22: fixed the stale "no 4-5 color builds"/Treno claims, re-verified Azula has no assemblable Spellbook combo as built.
+Profile: LTO888 (12 eligible decks plus 2 mid-build stubs) — **★★★★☆ median threat, Staple-Forged Engine Conductor**, a planeswalker giving tribes, tokens, graveyards, spell copies, and control shells the same disciplined foundation. The stubs are archived but excluded.
 
 ### podlist/lto888/decks/bau-bau-nyaa.md
 Commander: Rin and Seri, Inseparable (WRG)
 
 ### podlist/lto888/decks/celes-recursion.md
 Commander: Celes, Rune Knight (WBR)
+
+### podlist/lto888/decks/cid-cid-and-cid-with-cid.md
+Commander: Cid, Timeless Artificer — **stub, mid-build (1 card as of 2026-08-25)**, not yet worth analyzing
+
+### podlist/lto888/decks/doran-the-exploder.md
+Commander: Doran, Besieged by Time — **stub, mid-build (1 card as of 2026-08-25)**, not yet worth analyzing
 
 ### podlist/lto888/decks/lightning-equip-extra-attacks.md
 Commander: Lightning, Army of One (WR) — equipment/extra combats
@@ -106,7 +111,7 @@ Commander: Yuriko, the Tiger's Shadow (UB) — ninjas
 ### Xanoh
 
 ### podlist/xanoh/profile.md
-Profile: Xanoh (2 decks) — Forresta is a landfall payoff/combat-pump deck built around Gladiolus Amicitia's actual trigger (not generic ramp); The Sundering is a legendary-dense stax/wipe/reanimation control shell that deliberately skips Ardbert's popular go-wide anthem plan. Cross-deck pattern: both builds maximize the commander's literal ability over its EDHREC-default archetype.
+Profile: Xanoh (2 eligible decks, limited sample; rating provisional) — **★★★★☆ median threat, Cohesion-First Control Strategist**, a deliberate planeswalker who turns extra lands into combat pressure or uses taxes, wipes, and mass reanimation to force inevitability.
 
 ### podlist/xanoh/decks/forresta.md
 Commander: Gladiolus Amicitia (RG)
@@ -117,7 +122,7 @@ Commander: Ardbert, Warrior of Darkness (WB) — Orzhov control/stax
 ### mjsnoozer
 
 ### podlist/mjsnoozer/profile.md
-Profile: mjsnoozer (5 decks on file, 4 active) — equipment-draw voltron (Cloud), Grixis spell-copy (Azula), squirrel/aristocrats tokens (Hazel), pirate/vehicle treasure (Kenway); Stella Lee retired, dismantled into Azula.
+Profile: mjsnoozer (5 decks on file) — **★★★★☆ median threat, Burst-Momentum Artificer**, an aggressive planeswalker channeling weapons, copied incantations, tokens, and Treasure into sudden surges.
 
 ### podlist/mjsnoozer/decks/cloud-ex-soldier-upgraded.md
 Commander: Cloud, Ex-SOLDIER (WRG)
@@ -137,7 +142,7 @@ Commander: Stella Lee, Wild Card (UR) — **retired**, per the owner: dismantled
 ### reimaru
 
 ### podlist/reimaru/profile.md
-Profile: reimaru (16 decks, largest sample) — Rakdos-leaning, repeated equipment-voltron and aristocrats/sac-drain signatures, near-total green avoidance. Re-verified 2026-08-22: Wick deck is one card (Conspiracy) from a real 2-card infinite combo with the commander; Feather EDHREC tags reordered since original check (same drift as j-py's Feather).
+Profile: reimaru (16 eligible decks, largest sample) — **★★★★☆ median threat, Resilient Combat-Engine Warlord**, a warlord planeswalker turning equipment, sacrifice, tokens, enchantments, and creature deaths into durable engines.
 
 ### podlist/reimaru/decks/aura-battler-feather.md
 Commander: Feather, Radiant Arbiter (WR)
@@ -192,13 +197,22 @@ Commander: Y'shtola, Night's Blessed (WUB)
 ## research/
 
 ### research/2026-07-10-the-copied-factory-deck-profile.md
-Deck profile: The Copied Factory (fowlplays, Inalla, Archmage Ritualist) — card-by-card mechanical read plus owner-confirmed playstyle: the practiced win con is ping-token burn (not the on-paper ETB-copy engine), with a deliberately piloted Dualcaster Mage + Ghostly Flicker infinite combo. Read when evaluating or discussing this specific deck, or as a template for future single-deck profiles.
+Deck profile: The Copied Factory (fowlplays, Inalla, Archmage Ritualist) — card-by-card mechanical read plus owner-confirmed playstyle: the practiced win con is ping-token burn; Dualcaster Mage + Ghostly Flicker is a real repeatable loop but has no clearly documented payoff in the archived list. Read when evaluating or discussing this specific deck, or as a template for future single-deck profiles.
 
 ### research/2026-08-06-the-crystal-braves-deck-profile.md
 Deck profile: The Crystal Braves (fowlplays, Alisaie Leveilleur // Alphinaud Leveilleur) — card-by-card mechanical read plus owner-confirmed sequencing: cheap cantrips are cast first to spend that slot, so the real payoff spell lands second and gets Dualcast's discount, Eukrasia's draw, and the deck's other second-spell triggers at once. Converts that engine into a Knight board via typal lords/payoffs; no cataloged Commander Spellbook combo for the pairing. Read when evaluating or discussing this specific deck.
 
 ### research/2026-08-22-pod-threat-profile.md
-Cross-player reference: threat mark, pay-to-win tier, and build style for all 6 pod members, plus a full deck index (commander/bracket/archetype) per player. Read when picking a matchup, calibrating table power level, or getting oriented on who plays what across the whole pod.
+Cross-player reference: percentile-based portfolio threat figures, pay-to-win tier, and build style for all 6 pod members, plus a full deck index (commander/bracket/archetype) per player. Read when picking a matchup, calibrating table power level, or getting oriented on who plays what across the whole pod.
+
+### research/2026-08-25-threat-pillar-assessment.md
+Threat assessment methodology: six deck-level dimensions scored as pod- or benchmark-relative 0-100 percentiles, with median, mean, peak, and sample-size reporting for player portfolios. Read when reassessing threat or replacing the legacy four-pillar ranks.
+
+### research/2026-08-25-pdd-deck-analyzer-engine.md
+PDD (Product Design Document): Architectural specification for a 100% deterministic local EDH deck analyzer engine. Calculates power scores (1.0-10.0), EDH brackets (1-4), fast mana counts, tutor counts, interaction scores, and combo lines via Scryfall cache + Commander Spellbook API, outputting normalized schema matching `external_analysis_extract.py`. Read when building or extending automated deck metrics tooling.
+
+### research/2026-09-03-the-crystal-braves-deck-review.md
+Deck review & optimization report: The Crystal Braves (fowlplays, Alisaie Leveilleur // Alphinaud Leveilleur) — comprehensive architectural review evaluating the double-spell/flurry engine, token payoffs, Knight lords, curve bottlenecks, and false typal traps (e.g. Vanquisher's Banner). Includes deterministic engine metrics, 1-for-1 swap table, cantrip enablers, and piloting heuristics. Read when upgrading or piloting this deck.
 
 ---
 

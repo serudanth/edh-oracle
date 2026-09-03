@@ -5,39 +5,49 @@ owner: lto888
 tags: [#profile]
 related: []
 decks: knowledgebase/podlist/lto888/decks/
-last_updated: 2026-08-22
+last_updated: 2026-08-25
 ---
 
 ## Overview
-Twelve decks on file, the newest a 5-color "Turtle Power, Powered" build (Leonardo, the Balance // Michelangelo, the Heart) that breaks what used to be a clean "no four- or five-color builds" pattern — that claim, and a few adjacent stats, are corrected below from the prior pass. LTO888 builds a wide spread of color-combos around synergy-driven tribal/subtheme shells (squirrels, cats-and-dogs, ninjutsu, enchantress, mutant-turtle counters) rather than a single repeated archetype. Black is the most common color, present in exactly half the decks. Universes Beyond commanders anchor half the sample (Final Fantasy, Avatar: The Last Airbender, Teenage Mutant Ninja Turtles), with crossover cards from those and several other properties turning up even in decks with no crossover-commander theme. Card pools lean on efficient, well-known staples (Sol Ring in 11 of 12, The One Ring in 8 of 12) over budget or janky choices.
+| Profile Field | Assessment |
+|---|---|
+| Median Threat | **★★★★☆** |
+| Designation | **Staple-Forged Engine Conductor** |
+| Summary | A planeswalker of many schools who gives tribes, tokens, enchantments, ninjas, graveyards, and spell copies the same disciplined foundation of ramp, tutors, reusable value, and efficient answers. The portfolio's typical deck is already elevated, while its control and sacrifice engines can climb toward an explosive, creature-locking, or nearly inevitable finish. |
+
+lto888 has 14 decks evaluated by the EDH Oracle Analyzer Engine with a median Power Score of **7.9 / 10.0** (★★★★☆), a mean of **7.1**, and a range of **2.0–9.1** (brackets 1–4; developed deck peak 9.1). Archetypes span **Midrange / Engine Value** (9 decks), **Spellslinger / Storm** (4 decks), and **Cheat / Aggro Tempo** (1 deck). LTO888 leads the pod in efficiency density with **53 total tutors**, **24 fast mana sources**, and 3 verified combo lines. Automated analysis records are stored in `knowledgebase/podlist/lto888/analysis/`.
+
+LTO888's decks show the pod's strongest preference for efficient, reusable staples: Sol Ring appears in 11 of 12 developed lists, The One Ring in 8, and tutors plus free interaction recur across the portfolio. Several efficient engine decks make the upper tail dangerous when they get time to develop.
 
 ## Color & Archetype Tendencies
-- Black is the most common color at 7 of 12 decks (Celes, Maralen, Sephiroth, Azula, Turtle Power, Y'shtola, Yuriko); white, red, and blue are tied at 6 each; green is least common at 5 — the same relative ordering as before, just with updated counts now that Turtle Power (WUBRG) touches every color.
-- Color-combo split, corrected for 12 decks: 2 mono-color (mono-G Squirrels, mono-B Sephiroth), 4 two-color (Lightning WR, Prismari Artistry UR, Yuriko UB, Yuna WG), 5 three-color (Bau Bau Nyaa WRG, Celes WBR, Maralen UBG, Azula UBR, Y'shtola WUB), and **1 five-color (Turtle Power WUBRG)** — the prior "no four- or five-color builds" claim no longer holds.
-- Each commander's archetype is legible from its own text, and in a couple of cases that reading refines what the EDHREC tag alone would suggest (full detail in External Cross-References):
-  - **Rootha, Mastering the Moment**'s trigger only cares about the *single highest-mana-value* instant/sorcery cast that turn, not spell count — a genuinely different math than the "magecraft" creatures also in the deck (Veyran, Storm-Kiln Artist, Harmonic Prodigy), which care about count, not size. Prismari Artistry runs both a cheap-cantrip suite (for the count-based payoffs) and several X-cost/expensive spells (Rite of Replication, Twinflame, Chain Reaction) specifically to keep Rootha's own token big — two engines with different inputs bundled in one deck, not a single undifferentiated "spells matter" pile.
-  - **Fire Lord Azula**'s copy trigger only fires on spells cast *while she's attacking* — combat-window, instant-speed only, same mechanical constraint noted on mjsnoozer's independent Azula build.
-  - **Leonardo, the Balance** / **Michelangelo, the Heart** both key off tokens and combat/raid into +1/+1 counters — Doubling Season, Corpsejack Menace, and Hardened Scales all sit on top of that shared counters axis, each doubling/incrementing a different step (tokens created, counters placed, or both), rather than being generic goodstuff enchantments.
-  - **Yuriko, the Tiger's Shadow**'s payoff triggers off *any* Ninja dealing combat damage, and her own ninjutsu ability lets her (or other Ninjas) sneak in unblocked for cheap — the deck's cheap-evasive-creature density matters because it's the enabler for repeated ninjutsu swaps, not just a generic aggro curve.
-- Squirrels and Bau Bau Nyaa remain sibling builds post-resync: both still run Doubling Season, Parallel Lives, and Beastmaster Ascension on different commanders/tribes (Bau Bau Nyaa's Enchantment section also picked up Gleaming Splendor and Smothering Tithe in the latest sync, without dropping the shared package).
+Color identity across 12 developed decks; the two one-card stubs are excluded:
+
+| Color | Commander identities | Share |
+|---|---:|---:|
+| White | 6 | 50.0% |
+| Blue | 6 | 50.0% |
+| Black | 7 | 58.3% |
+| Red | 6 | 50.0% |
+| Green | 5 | 41.7% |
+| Colorless | 0 | 0% |
+
+- lto888 builds around clear commanders and recognizable synergies, but applies a relatively consistent power package across them. Tribal, token, enchantment, ninjutsu, graveyard, and spellslinger plans are all present, while Sol Ring, card advantage, tutors, and free interaction provide a common baseline.
+- The player is comfortable with both linear proactive decks and more controlling shells. Most lists develop a board or engine and attack through combat, but the bracket-4 Sephiroth and Y'shtola decks show a willingness to use attrition, sweepers, and control when the commander supports it.
+- The main construction habit is stacking multipliers and repeatable value rather than pursuing fast mana. Counter doublers, token doublers, cost reduction, and commander-specific triggers appear as layered engines; the result is high consistency without a fully cEDH-speed approach.
 
 ## Power Level & Construction Habits
 - Only 2 of 12 decks now note an Archidekt bracket (Sephiroth, Y'shtola, both bracket 4) — Squirrels' bracket tag was cleared by the owner since the last pass (previously 3 of 11 had one); power level for the rest still has to be inferred from card choices.
 - Sol Ring appears in 11 of 12 decks (missing only from Maralen) and The One Ring in 8 of 12 (missing from Prismari Artistry, Maralen, Yuriko, and the new Turtle Power) — near-universal reliance on the same top-tier staples regardless of archetype, Turtle Power included on Sol Ring but not yet on The One Ring.
 - Deadly Rollick appears in 7 of 12 decks (Turtle Power included) and Vampiric Tutor in 5 — the "free interaction + tutor" habit holds at updated counts.
 - Land counts run 32-41 across the sample; Turtle Power's 41 lands is the new high end for the archive, consistent with a 5-color manabase needing more raw land count and fixing than any 2-3 color list here.
-- No fast-mana outliers (no Mana Crypt, Mox, or similar) and — per the Commander Spellbook check below — no assembled infinite combo confirmed in any single list as currently built, Azula included. Power sits in efficient-staples-plus-tutors territory rather than cEDH-adjacent speed.
+- No fast-mana outliers (no Mana Crypt, Mox, or similar), but Sephiroth is a confirmed assembled-infinite outlier; Azula remains without a confirmed assembled infinite. Power sits in efficient-staples-plus-tutors territory rather than cEDH-adjacent speed for the typical deck.
 - Strict singleton discipline throughout; no near-duplicate effects stacked beyond the intentional doubling-effects packages already noted.
 
 ## Notable Patterns
-- Six of 12 commanders are Universes Beyond crossover characters — three Final Fantasy-flavored (Sephiroth, Celes, Y'shtola FFXIV-adjacent; Lightning and Yuna also FF), one Avatar: The Last Airbender (Azula), and now the Turtle Power partner pair (Teenage Mutant Ninja Turtles) — UB commanders are now half the sample rather than "roughly half," an exact split.
-- UB cards leak into decks that aren't thematically UB at all: the mono-green Squirrels deck runs Ba Sing Se (ATLA), Spider-Ham Peter Porker and Undercover Skrull (Marvel), and Peregrin Took (LOTR); the Boros equipment deck runs Bruenor Battlehammer, Merry Esquire of Rohan (LOTR), and Karlach, Fury of Avernus (BG3/D&D); Turtle Power itself runs Peregrin Took again (LOTR) inside an otherwise TMNT-flavored crossover shell. LTO888 treats crossover cards as a pool to mine for mechanical fit, not something restricted to a matching-theme deck.
-- Wan Shi Tong, Librarian (ATLA) still appears in both the Azula and Y'shtola lists — a specific crossover card reused across two unrelated IP themes.
-- Sephiroth, Fabled SOLDIER (a commander here) still shows up as a maindeck card inside the Celes list — commander-as-inclusion crossover between two of LTO888's own decks.
-- Yuna's enchantress build still folds the Final Fantasy "Summon" Saga cycle directly into the enchantment-matters shell, since Sagas are enchantments.
-- **Correction from the prior pass**: Treno, Dark City no longer appears in two decks — it was cut from the Azula list in the last resync and now only appears in Yuriko. The "crossover picks extend into the manabase" point still holds generally (Midgar, Susur Secundi still in Sephiroth's mono-black list), just not via this specific card anymore.
-- Azula remains the outlier on instant density and low land count within the sample; Turtle Power is now the outlier on the other end — highest land count (41) and only 5-color deck, by construction the most fixing-dependent list in the archive.
-- LTO888's physical copy of Yuriko, the Tiger's Shadow is specifically the *Final Fantasy: Through the Ages* printing (set `FCA`, an FFVII-themed alternate art) rather than one of her more common printings (Commander 2018, Commander Legends, Commander Masters) — consistent with the archive-wide pattern of leaning into FF flavor even where the commander itself isn't a Final Fantasy character. Printing/set isn't tracked by the decklist extractor, so this is recorded here rather than in the decklist file.
+- LTO888 repeatedly combines a focused commander engine with a shared suite of efficient staples. This makes the decks recognizable as different archetypes while giving them a similar floor for ramp, card advantage, and interaction. Sephiroth is the clearest combo exception: its complete Sanguine Bond + Exquisite Blood line is backed by tutors, fast mana, recursion, and multiple sacrifice-based backup finishes.
+- The portfolio alternates between go-wide and engine-centric plans: token and tribal decks build board presence, while Azula and Rootha turn spell sequencing into copied or oversized payoffs. Yuriko and Yuna show the same preference for commanders that convert a narrow action into recurring advantage.
+- The player is willing to use control when the commander rewards it. Y'shtola and the more interactive portions of Celes and Maralen are not exceptions to the overall style so much as its slower mode: establish a repeatable advantage, then deny opponents the time to catch up. Sephiroth adds a harsher creature-control angle, repeatedly forcing sacrifices through Grave Pact, Dictate of Erebos, and a deep edict-creature package.
+- LTO888's decks are unusually efficient without being fast-mana decks. The recurring Sol Ring, tutor, free-interaction, and payoff packages raise consistency; Sephiroth is the exception, combining a deterministic life-drain line with forced-sacrifice control, while the typical win pattern remains engine-driven rather than deterministic.
 
 ## Decks
 Full decklist archive: `knowledgebase/podlist/lto888/decks/` (12 decks — see `INDEX.md` for individual entries).

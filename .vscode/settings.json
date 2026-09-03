@@ -1,0 +1,10 @@
+{
+    "python-envs.defaultEnvManager": "ms-python.python:system",
+    "chat.tools.terminal.autoApprove": {
+        "/^python -m unittest && python -c \"from pathlib import Path; profiles = list\\(Path\\('knowledgebase/podlist'\\)\\.glob\\('\\*/profile\\.md'\\)\\); assert len\\(profiles\\) == 6; assert all\\('Threat Rank:' in p\\.read_text\\(\\) and '\\*\\*D\\*\\*' in p\\.read_text\\(\\) and '\\*\\*SSS\\*\\*' in p\\.read_text\\(\\) for p in profiles\\); print\\(f'Validated \\{len\\(profiles\\)\\} player profiles with D-to-SSS rankings\\.'\\)\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        },
+        "command": true
+    }
+}

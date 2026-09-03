@@ -5,16 +5,33 @@ owner: xanoh
 tags: [#profile]
 related: []
 decks: knowledgebase/podlist/xanoh/decks/
-last_updated: 2026-08-22
+last_updated: 2026-08-25
 ---
 
 ## Overview
-Two decks on file, two colors, two unrelated gameplans — but a real pattern shows up once you read both commanders' actual triggered abilities instead of their reputation: neither deck is built the way EDHREC's aggregate data says its commander is "supposed to" be built. "Forresta" (Gladiolus Amicitia, RG) reads as a landfall payoff/combat-pump deck built tightly around what the commander's own ability does — not generic ramp-into-big-stuff — stacking eight separate landfall triggers behind a trigger-doubler. "The Sundering" (Ardbert, Warrior of Darkness, WB) reads as a stax/wipe/reanimation control shell riding an unusually legendary-dense creature base, rather than the go-wide anthem/+1+1-counters aggro plan most Ardbert decks default to. Both decks look like "figure out what this specific card wants, then build that" rather than "reach for whatever's popular for this commander" — see External Cross-References below for the specific comparisons.
+| Profile Field | Assessment |
+|---|---|
+| Median Threat | **★★★★☆**\* |
+| Designation | **Cohesion-First Control Strategist** |
+| Summary | A deliberate planeswalker who builds from each commander's trigger outward, turning extra lands into escalating combat pressure in one deck and taxes, removal, wipes, and mass reanimation into inevitability in the other. The sample is small, but both lists are tightly sequenced engines with elevated threat and little wasted motion. |
+
+xanoh has 2 decks evaluated by the EDH Oracle Analyzer Engine with a median Power Score of **7.1 / 10.0** (★★★★☆\*, mean **7.1**, range **6.7–7.4**, brackets 2–3). **Limited sample:** the four-star rating is provisional and describes these two observed decks (*Forresta* and *The Sundering*). Primary piloting archetypes are classified as **Big Mana / Landfall** (*Forresta*) and **Midrange / Engine Value** (*The Sundering*). Across 2 decks, the portfolio holds 5 tutors and 1 fast mana source. Automated analysis records are stored in `knowledgebase/podlist/xanoh/analysis/`.
 
 ## Color & Archetype Tendencies
-- Two colors on file, no overlap: Gruul (RG, Forresta) and Orzhov (WB, The Sundering). At two decks this is coverage, not a preference signal — "avoids X" claims aren't meaningful yet.
-- Forresta's archetype, read off Gladiolus Amicitia's own text (ETB: fetch a land tapped; Landfall — another target creature gets +2/+2 and trample), is a landfall-payoff combat deck: the list runs eight separate landfall-triggered abilities (the commander, Scute Swarm, Chocobo Racetrack, Tannuk Memorial Ensign, Sabotender, Sazh's Chocobo, Tifa Lockhart, Mightform Harmonizer) plus Ancient Greenwarden, whose static ability makes every one of those triggers fire a second time. That's an engine, not a ramp-into-threats deck that happens to have a landfall commander.
-- The Sundering's archetype, read off Ardbert's own text (a white spell cast puts a +1/+1 counter and vigilance on every legendary creature you control; a black spell does the same plus menace instead of vigilance), is control/stax/reanimation layered on an unusually legendary-dense creature base — roughly 30 of 32 creatures are legendary — rather than the wide anthem-and-swing shell EDHREC's aggregate data treats as the default for this commander (see below). Ardbert's buff triggers passively off whatever legendaries survive; the actual win condition is board control (Rule of Law, Ghostly Prison, single-target Auras that neutralize instead of kill) into a wipe (No Witnesses, Final Act) into Rise of the Dark Realms as a mass-reanimation finisher.
+Color identity across 2 decks:
+
+| Color | Commander identities | Share |
+|---|---:|---:|
+| White | 1 | 50.0% |
+| Blue | 0 | 0% |
+| Black | 1 | 50.0% |
+| Red | 1 | 50.0% |
+| Green | 1 | 50.0% |
+| Colorless | 0 | 0% |
+
+- xanoh's two decks are narrow but highly intentional. Both begin with the commander's literal trigger and build the surrounding 99 to maximize it, rather than importing a generic version of the popular archetype.
+- The two plans are structurally opposite: Forresta converts land acceleration into repeated combat growth, while The Sundering uses taxes, removal, and wipes to control the board before reanimating a large finish. Neither is a loose goodstuff deck.
+- The result is strong internal cohesion and clear sequencing, but not broad evidence of a general construction style yet. Both decks use conventional land counts and artifact ramp, with no fast mana or assembled infinite combo.
 
 ## Power Level & Construction Habits
 - Neither deck has an Archidekt bracket or `power_level` set — power tier isn't recorded for either, same gap as before.
@@ -24,10 +41,10 @@ Two decks on file, two colors, two unrelated gameplans — but a real pattern sh
 - Fixing approaches differ for a structural reason, not just taste: Forresta leans on green ramp spells over a dual-heavy manabase, and in this specific 2-color list Farseek can *only* ever fetch a Mountain (its search text is Plains/Island/Swamp/Mountain — Forest is deliberately excluded from that template so green decks can't just grab a Forest with it), so it functions here as a narrow "fetch a Mountain," not a general fixer. The Sundering instead runs actual WB dual/pain lands (Godless Shrine, Shattered Sanctum, Silent Clearing, Scoured Barrens) since it has no ramp subtheme to fold fixing into.
 
 ## Notable Patterns
-- Both decks deviate from their commander's EDHREC-default archetype in the same direction: toward maximizing the commander's literal triggered-ability text over the community's popular aggregate build for that commander. See External Cross-References for the specific case-by-case comparison.
-- Forresta's landfall package compounds in a way no single card shows on its own: Doubling Season and Primal Vigor double the tokens Scute Swarm and Chocobo Racetrack create off landfall; Master Chef gives every entering creature (including those already-doubled tokens) a bonus +1/+1 counter; that counter then gets doubled again by Doubling Season/Primal Vigor. A single late-game land drop can chain into several 2/2-or-bigger tokens without any one card in that chain being a "combo piece" by itself.
-- The Sundering's board wipes aren't purely defensive — No Witnesses and Final Act set up Rise of the Dark Realms (reanimate every creature card from every graveyard, not just yours) as a finisher, and incidentally re-trigger the deck's creature-enters/creature-dies lifegain-drain cluster (Elas il-Kor, Elenda, Liesa, Judge Magister Gabranth) along the way. The wipe-then-reanimate line is the actual game plan, not a defensive backstop around an aggro deck.
-- Neither commander has a cataloged Commander Spellbook combo with the current 99 (checked via the whole-decklist combo endpoint for both lists) — both decks are synergy-dense rather than combo-reliant.
+- Both decks are built from the commander's text outward. This is the strongest signal in the small sample: xanoh appears to optimize for mechanical coherence before adding generic staples.
+- Forresta treats ramp as a trigger multiplier, not merely a way to reach expensive threats. The list favors land-search effects that create multiple landfall events and compounds those events with trigger and token multipliers.
+- The Sundering uses a slower control sequence: taxes and neutralizing effects buy time, wipes reset the board, and mass reanimation turns the reset into a win. Its dense legendary creature base supports the commander but is not the primary engine.
+- The decks share a preference for clear sequencing and conventional mana support, but not a common win condition. Neither relies on a cataloged infinite combo, leaving their strength in repeatable value and planned finishers.
 
 ## Decks
 Full decklist archive: `knowledgebase/podlist/xanoh/decks/` (2 decks — see `INDEX.md` for the entries).

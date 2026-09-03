@@ -5,7 +5,7 @@ domain: strategy
 tags: [#pod, #meta, #reference]
 related: [podlist/fowlplays/profile, podlist/lto888/profile, podlist/reimaru/profile, podlist/xanoh/profile, podlist/mjsnoozer/profile, podlist/j-py/profile, podlist/fowlplays/decks/the-best-of-friends, podlist/fowlplays/decks/the-crystal-braves, podlist/xanoh/decks/forresta, podlist/xanoh/decks/the-sundering]
 source: oracle-pod-audit-2026-07
-last_updated: 2026-08-22
+last_updated: 2026-08-25
 ---
 
 <!--
@@ -16,14 +16,16 @@ last_updated: 2026-08-22
 
 ## Pod Overview
 
-| Player     | Decks | Distinct Archetypes | Threat Mark (MH-style)                        | Pay-to-Win Tier | Build Style              |
-|------------|-------|----------------------|------------------------------------------------|------------------|---------------------------|
-| lto888     | 11    | ~9                   | ★9 — Elder Dragon Class, Arch-Tempered         | 1 (highest)      | Staple/goodstuff, repeats same power pieces across commanders |
-| reimaru    | 16    | ~9                   | ★7 — Apex Pack, Variable Subspecies            | 2                | Most unconventional commander picks, staple-heavy 99s |
-| fowlplays  | 13    | ~12 (least overlap)  | ★6 — Large Monster, Standard Territorial       | 3 (foil-heavy, not power-heavy) | Creative reinterpretation within known archetypes |
-| xanoh      | 2     | 2                    | ★4 — Brute Wyvern, Telegraphed Charge          | 4                | Textbook top-of-page build |
-| mjsnoozer  | 5     | 4                    | ★4 — Small Monster Pack, one Frenzied Individual (Stella Lee) | 5 (tied)  | Competent netdeck, low variety |
-| j-py       | 1     | n/a                  | ★3 — Endemic Life, Enrage State Unconfirmed (Zada line) | 5 (tied) | Textbook Feather shell |
+| Player     | Eligible Decks | Distinct Archetypes | Median Deck Threat Index | Local Engine Power Score (1-10) | Pay-to-Win Tier | Build Style              |
+|------------|-------|----------------------|------------------------------------------------|-------------------|------------------|---------------------------|
+| lto888     | 14 | ~9 | **65.3 (Elevated)** | **7.9 / 10.0 (★★★★☆)** | 1 (highest) | Staple/goodstuff, repeats same power pieces across commanders |
+| reimaru    | 16 | ~9 | **58.8 (Typical)** | **7.2 / 10.0 (★★★★☆)** | 2 | Most unconventional commander picks, staple-heavy 99s |
+| mjsnoozer  | 5 | 4 | **54.4 (Typical)** | **7.2 / 10.0 (★★★★☆)** | 5 (tied) | Competent netdeck, low variety |
+| xanoh      | 2 | 2 | **65.5 (Elevated), limited sample** | **7.1 / 10.0 (★★★★☆\*)** | 4 | Textbook top-of-page build |
+| j-py       | 1 | n/a | **57.5 (Typical), limited sample** | **7.6 / 10.0 (★★★★☆\*)** | 5 (tied) | Textbook Feather shell |
+| fowlplays  | 13 | ~12 (least overlap) | **51.1 (Typical)** | **5.2 / 10.0 (★★★☆☆)** | 3 (foil-heavy, not power-heavy) | Creative reinterpretation within known archetypes |
+
+The component metrics, dynamic archetype weighting, fast mana/tutor totals, and automated analysis outputs are maintained in [`2026-08-25-threat-pillar-assessment.md`](2026-08-25-threat-pillar-assessment.md) and `tools/deck_analyzer_engine.py`.
 
 ## Deck Index
 

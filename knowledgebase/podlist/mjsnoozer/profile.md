@@ -5,21 +5,35 @@ owner: mjsnoozer
 tags: [#profile]
 related: []
 decks: knowledgebase/podlist/mjsnoozer/decks/
-last_updated: 2026-08-22
+last_updated: 2026-08-25
 ---
 
 ## Overview
-Five decks on file, one of them (**Stella Lee, Wild Card — retired**, per the owner: dismantled and used as the physical foundation for the Azula build) no longer an active deck. Treat it as historical lineage for Azula, not a fifth live data point — four decks are currently active. mjsnoozer's decks cluster around red-based multicolor shells built on Universes Beyond commanders (Final Fantasy, Assassin's Creed, Avatar: The Last Airbender headline three of the four active decks), with crossover product showing up even inside the builds whose commander isn't itself a crossover card. Fire Lord Azula is a direct descendant of the retired Stella Lee build — not an independently convergent design, an actual card-for-card evolution — sharing nine core pieces down to specific combo-adjacent cards. Land counts run below the 36-40 norm across the board, compensated with varying rock/ramp packages rather than raw basics.
+| Profile Field | Assessment |
+|---|---|
+| Median Threat | **★★★★☆** |
+| Designation | **Burst-Momentum Artificer** |
+| Summary | An aggressive planeswalker who turns every attack, copied incantation, token, and Treasure into momentum, building toward sudden bursts of cards, mana, and damage. The engines are coherent and capable of explosive turns, but lean mana and limited interaction make the portfolio less forgiving when the first surge is stopped. |
+
+mjsnoozer has 5 decks evaluated by the EDH Oracle Analyzer Engine with a median Power Score of **7.2 / 10.0** (★★★★☆), a mean of **7.0**, and a range of **5.4–8.3** (brackets 2–3). Archetypes span **Spellslinger / Storm** (2 decks), **Midrange / Engine Value** (2 decks), and **Voltron / Equipment** (1 deck). Across 5 decks, the portfolio holds 12 tutors and 7 fast mana sources. Automated analysis records are stored in `knowledgebase/podlist/mjsnoozer/analysis/`.
+
+Across four active decks, mjsnoozer consistently chooses proactive engines that can create sudden bursts of cards, mana, combat damage, or copied spells. The builds are coherent, but their low land counts make early development less forgiving, and none has a recorded bracket or confirmed live infinite.
 
 ## Color & Archetype Tendencies
-- Among the four active decks: red appears in three (Cloud, Azula, Edward Kenway); only Hazel (B/G food/squirrels) skips it. Blue and black both appear in two (Azula, Kenway — both Grixis/UBR).
-- White and green are the least-used colors — white only in Cloud (Naya, WRG), green only in Cloud and Hazel.
-- Each commander's archetype is legible directly from its own oracle text, not just from what's popular for it (see External Cross-References for where that matters):
-  - **Cloud, Ex-SOLDIER** draws a card *per equipped attacking creature*, not just for Cloud himself — the deck's actual ask is multiple cheaply-equipped attackers each combat, not a single voltron stack. Puresteel Paladin's Metalcraft clause (equip {0} with 3+ artifacts, easily met among 27 artifacts here) directly serves that: free re-equips let the same equipment spread across several attackers turn over turn instead of staying locked on one creature.
-  - **Fire Lord Azula**'s copy trigger only fires for spells cast *while she's attacking* — meaning only instant-speed casting counts. Leyline of Anticipation isn't a generic value enchantment here; it's what lets the deck's five sorceries (Cruel Tutor, Grapeshot, Mizzix's Mastery, Ponder, Preordain) ever qualify for her trigger at all, by granting flash. Without it resolved, those five cards are simply dead to Azula's ability during combat.
-  - **Hazel of the Rootbloom** copies a token at end step, doubled specifically if it's a Squirrel — Chatterfang, Squirrel General (any token effect also makes that many bonus Squirrel tokens) converts the deck's whole token package, squirrel-flavored or not, into fuel for Hazel's stronger doubling mode rather than the two mechanics running in parallel.
-  - **Edward Kenway** makes Treasures off *tapped* Assassins/Pirates/Vehicles at end step (not just attackers) and separately rewards Vehicles specifically for connecting in combat — two distinct payoffs bundled in one card, tribal-go-wide plus a narrower vehicle-raid subtheme.
-- The retired Stella Lee shell (Grixis-adjacent UR spellslinger, 18 creatures/18 instants/17 sorceries) is the direct ancestor of Azula's build — see Notable Patterns.
+Color identity across 4 active decks; retired Stella Lee is excluded:
+
+| Color | Commander identities | Share |
+|---|---:|---:|
+| White | 1 | 25.0% |
+| Blue | 2 | 50.0% |
+| Black | 2 | 50.0% |
+| Red | 3 | 75.0% |
+| Green | 2 | 50.0% |
+| Colorless | 0 | 0% |
+
+- mjsnoozer favors proactive engines that generate resources through action: equipped attackers draw cards, attacking Azula copies spells, Hazel multiplies tokens, and Kenway converts tapped creatures into Treasures. Each deck turns its central commander trigger into momentum.
+- The portfolio is more midrange and burst-oriented than controlling. Threats are developed through creatures, artifacts, and combat, then amplified in a decisive turn; broad removal and defensive redundancy are less central than acceleration and payoff density.
+- The lists show practical adaptation rather than a single repeated shell. Azula inherited a spell package from Stella Lee, but Cloud, Hazel, and Kenway use different resource engines. The main structural weakness is mana margin, especially in Kenway's 25-land build.
 
 ## Power Level & Construction Habits
 - None of the four active Archidekt imports has a bracket number recorded — power level has to be inferred from card choices.
@@ -29,11 +43,10 @@ Five decks on file, one of them (**Stella Lee, Wild Card — retired**, per the 
 - Foils are concentrated in Cloud (Cloud, Planet's Champion; Buster Sword; Mantle of the Ancients; Thornspire Verge) and Azula (Bria, Riptide Rogue; Enduring Curiosity) — no foils recorded in Hazel or Kenway, suggesting these two are the more personally-invested active builds.
 
 ## Notable Patterns
-- **Azula is Stella Lee's direct successor, not a coincidentally similar build.** Per the owner, Stella Lee was physically dismantled to build Azula — the nine shared pieces (Archmage Emeritus, Storm-Kiln Artist, Goblin Electromancer, Guttersnipe, Veyran Voice of Duality, Seething Song, Grapeshot, Mizzix's Mastery, Galvanic Iteration) are literal card lineage, not independent convergent design. Worth keeping in mind for any future "why do these two decks look alike" question — the answer is simply that one is the other's rebuild, not a pattern in mjsnoozer's deckbuilding habits generally.
-- mjsnoozer's crossover-commander picks pull in extra crossover product beyond the commander itself: Cloud adds Assassin's Creed (Excalibur, Sword of Eden) and Fallout (Pip-Boy 3000, Pre-War Formalwear) alongside its Final Fantasy core; Azula is built around a full Avatar: The Last Airbender subtheme (Ty Lee, Wan Shi Tong, Fire Nation Turret/Occupation/Palace/Drill, Realm of Koh, The Rise of Sozin) plus one Final Fantasy card (Vivi Ornitier); Kenway is a full Assassin's Creed cast (Adéwalé, Cosima // The Omenkeel, Adrestia, Crystal Skull, Jackdaw, Abstergo Entertainment). Even Hazel, the one deck without a crossover-commander anchor, includes an LOTR land (The Shire).
-- Cross-checked against the rest of the pod: reimaru independently runs a different Cloud commander (Cloud, Midgar Mercenary, mono-W) and landed on much of the same equipment-voltron core (Buster Sword, Ultima Weapon, Genji Glove, Mantle of the Ancients, Sigarda's Aid, Danitha Capashen, Puresteel Paladin, Sram Senior Edificer, Cid Freeflier Pilot). LTO888 also runs Fire Lord Azula and converges on much of the same shell (Archmage Emeritus, Fire Sages, Firebending Student, Goblin Electromancer, Guttersnipe, Storm-Kiln Artist, Torrential Gearhulk, Wan Shi Tong, Bender's Waterskin, Sol Ring) independently of mjsnoozer's build. Unlike the Stella Lee → Azula lineage above, these look like the commanders' own build space being narrow and well-defined rather than any copying between pod members.
-- Fixing philosophy is inconsistent between the active decks: Azula skips Arcane Signet for three guild Signets instead; Cloud, Hazel, and Kenway all run Arcane Signet; Command Tower only appears in Kenway.
-- Singleton discipline holds throughout — no duplicate nonbasic cards in any active list.
+- The active decks all seek resource generation through action rather than passive control: attacks draw cards or create Treasures, spells are copied, and tokens are multiplied. This gives the portfolio a consistent preference for momentum and visible board development.
+- The four lists occupy different engine spaces, but Azula and Cloud are the clearest examples of payoff-first construction. Cloud needs many equipped attackers instead of one voltron threat, while Azula needs combat-window spell timing and flash support to convert attacks into advantage.
+- Mana is treated as a constraint to solve with artifacts and cost reduction. The approach supports explosive turns, but the low land totals, especially Kenway's 25, make missed land drops more punishing than in a conventional midrange portfolio.
+- The retired Stella Lee list matters as construction history, not as a separate pattern: Azula inherited its spell core. The active decks therefore show adaptation around a few proven engines more than broad experimentation with control or combo.
 
 ## Decks
 Full decklist archive: `knowledgebase/podlist/mjsnoozer/decks/` (5 decks on file — 4 active, 1 retired; see `INDEX.md` for individual entries).

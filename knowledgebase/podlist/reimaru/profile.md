@@ -5,23 +5,35 @@ owner: reimaru
 tags: [#profile]
 related: []
 decks: knowledgebase/podlist/reimaru/decks/
-last_updated: 2026-08-22
+last_updated: 2026-08-25
 ---
 
 ## Overview
+| Profile Field | Assessment |
+|---|---|
+| Median Threat | **★★★★☆** |
+| Designation | **Resilient Combat-Engine Warlord** |
+| Summary | A warlord planeswalker who repeatedly turns equipment, sacrifice, tokens, enchantments, and creature deaths into durable engines, advancing the board while banking value for the next exchange. Most decks win through combat or attrition, but a control peak and several resilient sacrifice shells can make the battlefield increasingly difficult to recover. |
 
-Across 16 decks, reimaru builds almost exclusively in the bracket 2-3 band, favoring Rakdos-adjacent (red/black) color combinations and near-total avoidance of green. Two macro-archetypes recur more than any others: equipment voltron (three decks sharing a near-identical Sword/Cloak/Kusari-Gama package) and aristocrats/sacrifice-drain (four decks across four different color combinations). The card pool leans on a consistent low-variance ramp suite (Sol Ring, Arcane Signet, signets/talismans) rather than premium fast mana, and is unusually saturated with Universes Beyond crossover cards — Final Fantasy above all, but also Warhammer 40k, LOTR, Fallout, Avatar, and Doctor Who — often mixed multiple crossovers into a single deck.
+reimaru has 16 decks evaluated by the EDH Oracle Analyzer Engine with a median Power Score of **7.2 / 10.0** (★★★★☆), a mean of **7.1**, and a range of **5.1–8.6** (brackets 2–4; Y'shtola Control peak 8.6). Primary piloting archetypes span **Midrange / Engine Value** (6 decks), **Spellslinger / Storm** (5 decks), **Voltron / Equipment** (3 decks), **Aristocrats / Sacrifice** (1 deck), and **Cheat / Aggro Tempo** (1 deck). Across 16 decks, the portfolio holds 32 tutors and 22 fast mana sources. Automated analysis records are stored in `knowledgebase/podlist/reimaru/analysis/`.
+
+reimaru's decks reveal a repeatable construction system: dependable artifact ramp, familiar interaction, and a small number of proven engines adapted across many commanders. Equipment-voltron and aristocrats recur most often, while the Wick list is one card from a documented infinite. Most decks avoid fast mana.
 
 ## Color & Archetype Tendencies
+Color identity across 16 decks:
 
-- Color frequency across the 16 decks: R appears in 10, W and B each in 8, U in 7, G in only 2. Green is never a primary or mono color and never pairs with black — no Golgari/Abzan/Jund/Sultai combination appears anywhere in the sample.
-- Grixis (U/B/R) is the single most-repeated color combination, used for three separate decks (Saruman, Thraximundar, Wick) with three different strategies (LOTR spells/Orcs, aristocrats/edicts, spellslinger/magecraft) — a favored shell reused for different plans rather than a repeated build.
-- Boros (W/R) and Esper (W/U/B) each appear twice; the two Boros decks are both built around Feather (see below), and the two Esper decks (Marneus Calgar, Y'shtola) sit at opposite ends of the power curve (bracket 2 token/aristocrats hybrid vs. bracket 4 stax/control).
-- Mono-color decks (Solphim - R, Stop Sac'ing Sephiroth - B, Swords and Slicer - R, Cloud - W) are used for the most aggressively linear strategies: burn, equipment voltron, and aristocrats stripped to one color.
-- **Equipment voltron** is a distinct three-deck signature: Swords and Slicer (mono-R), Syr Gwyn Armed and Crazy (Mardu), and That's a Lot of Swords, Cloud (mono-W) all share Commander's Sphere, Kusari-Gama, Sword of Feast and Famine, Sword of Hearth and Home, and Whispersilk Cloak, plus overlapping pieces (Blackblade Reforged, Two-Handed Axe, The Reaver Cleaver, Brotherhood Regalia, Sculpting Steel, Goldvein Pick). This is the most literal repeated "build" in the whole sample — the same equipment shell reskinned across three color identities.
-- **Aristocrats/sacrifice-drain** is the most repeated archetype by deck count (four decks: Marneus Calgar, Silverquill, Stop Sac'ing Sephiroth, Thraximundar), spanning W/U/B, W/B, mono-B, and U/B/R. Common pieces recur across three or more of these: Blood Artist, Pitiless Plunderer, Warren Soultrader, Reassembling Skeleton, and Skullclamp (Skullclamp alone shows up in 4 of the 16 decks total, including Saheeli).
-- **Enchantress/aura voltron** shows up twice with very different color pairs (Aura Battler Feather in W/R, Siona's Enchanting Soldiers in W/G) — both stack auras onto evasive/protected threats and run heavy enchantment counts (22 and 26 respectively), the two highest enchantment counts in the sample.
-- Feather appears as commander in two decks and diverges sharply in execution (see Notable Patterns) rather than being rebuilt as the same list twice.
+| Color | Commander identities | Share |
+|---|---:|---:|
+| White | 8 | 50.0% |
+| Blue | 7 | 43.8% |
+| Black | 8 | 50.0% |
+| Red | 10 | 62.5% |
+| Green | 2 | 12.5% |
+| Colorless | 0 | 0% |
+
+- reimaru's defining habit is iterative construction: a dependable ramp and interaction package is reused across many commanders, then reshaped into the commander's preferred engine. This produces a broad portfolio without sacrificing baseline consistency.
+- Two strategic families dominate. Equipment decks spread or stack artifacts onto combat threats, while aristocrats decks turn sacrifice into cards, mana, and life swings. Feather, enchantress, dragons, tokens, and spellslinger lists expand the range without displacing those recurring systems.
+- The player generally prefers proactive board development and value loops over pure control, but maintains one clear control/stax peak in Y'shtola. Green avoidance and the absence of fast mana impose a ceiling on speed, while repeated staples make the decks reliable once they establish themselves.
 
 ## Power Level & Construction Habits
 
@@ -34,14 +46,10 @@ Across 16 decks, reimaru builds almost exclusively in the bracket 2-3 band, favo
 
 ## Notable Patterns
 
-- **The two Feather decks are built as opposites, not variants.** Aura Battler Feather (Feather, Radiant Arbiter) is an aura-voltron/enchantress deck — 22 enchantments, only 13 instants, payoffs like Kor Spiritdancer and Ondu Spiritdancer drawing off auras stacked on a protected threat. Feather's Spell All You Can (Feather, the Redeemed) is a low-to-the-ground spellslinger/prowess build — 28 instants (more than double the other deck's total) and only 2 enchantments, with Monastery Mentor, Young Pyromancer, Zada Hedron Grinder, and a Sunforger toolbox chaining cheap pump spells for value/damage rather than building one big threat. Same commander concept and colors, functionally unrelated game plans.
-- **The two Final Fantasy rival decks (Sephiroth and Cloud) are mechanical opposites, not thematic pairs.** Stop Sac'ing, Sephiroth is mono-black aristocrats/attrition (Priest of Forgotten Gods, Warren Soultrader, Zulaport Cutthroat, Massacre Wurm, Bolas's Citadel) at bracket 3. That's a Lot of Swords, Cloud is mono-white equipment-voltron aggro (35 artifacts, essentially every Sword cycle card plus Buster Sword and Ultima Weapon) at bracket 2. The FFVII rivalry is preserved in flavor only — ironically, the sacrifice-averse-sounding "Stop Sac'ing" deck is the most sacrifice-dense list in the whole collection, and Sephiroth himself also shows up as a supporting card in the (also-aristocrats) Silverquill deck.
-- **Final Fantasy is the dominant crossover, but it's never the only one in a given deck.** Three commanders are FF characters (Sephiroth, Cloud, Y'shtola — the latter built almost entirely from FFXIV "Scions of the Seventh Dawn" characters as creatures). FF cards also surface as support pieces in non-FF decks (Silverquill runs Sephiroth and Hildibrand; Syr Gwyn runs Dion, Bahamut's Dominant alongside LOTR's Boromir and Merry in the same 99; Marneus Calgar mixes Warhammer 40k with a LOTR card, Prince Imrahil the Fair). Crossover-stacking within a single deck, rather than one UB theme per deck, looks deliberate.
-- **Rogue's Passage is a personal staple**, appearing in 10 of the 16 decks (Aura Battler Feather, Miirym, Saruman, Silverquill, Siona, Sephiroth, Slicer, Cloud, Thraximundar, Wick) — a consistent evasion/finisher habit independent of archetype or color.
-- **Temple of the False God appears in 6 of 16 decks** (both Feather decks, Miirym, Saruman, Thraximundar, Y'shtola) despite being a generally weak "trap" land (enters tapped with no upside unless already on 4+ lands) — one of the more identifiable non-optimal habits in the card pool.
-- **MDFC-as-flavor-payoff shows up repeatedly**: Ishgard, the Holy See // Faith & Grief appears in three different white decks (Syr Gwyn, Cloud, Y'shtola), and Midgar, City of Mako // Reactor Raid appears in both FF-heavy decks (Sephiroth, Y'shtola) — crossover MDFC lands doing double duty as both fixing and theming.
-- **Wick, the Whorled Mind is exactly one card away from a real, documented two-card infinite combo with the commander itself** — checked via Commander Spellbook's whole-decklist endpoint, not just a commander-reputation check. Wick + Conspiracy (naming Rat): Conspiracy makes non-legendary creatures you control the chosen type, so the Snail token Wick's own ability creates also becomes a Rat, re-triggering Wick, which the site's verified combo engine confirms produces a mandatory infinite loop (ends the game in a draw if not interacted with, per CR 104.4). Reimaru's actual 99 doesn't run Conspiracy, so this isn't live as built — but it's a single specific card away from an assembled combo, a tighter gap than the general "no fast-mana outliers" read in Power Level would suggest for this one deck specifically.
-- The one deck that breaks the overall power ceiling (Y'shtola, bracket 4) is also the only deck with a genuine stax/control shell (Ghostly Prison, Propaganda, Rhystic Study, Toxic Deluge, counterspell suite) — the rest of the sample is proactive/creature-and-value-based even at bracket 3.
+- The two Feather decks demonstrate that reimaru adapts a commander concept instead of copying a list. One is aura-voltron with a high enchantment count; the other is a low-curve spellslinger deck with more than twice as many instants and a token/prowess finish.
+- Equipment is the clearest repeated construction system: three decks share a substantial equipment and artifact-ramp core. This is a proven way to turn combat into cards, mana, or evasion rather than merely a repeated card package.
+- Aristocrats is the other major system. Multiple decks reuse sacrifice outlets and death payoffs to convert creatures into cards, Treasures, and drain, giving the player a resilient plan that can recover value from board wipes.
+- The portfolio is overwhelmingly proactive and value-oriented, with Y'shtola as the deliberate control exception. Even at its highest bracket, it uses conventional ramp rather than fast mana; Wick's missing Conspiracy is a near-combo warning, not a live combo.
 
 ## Decks
 

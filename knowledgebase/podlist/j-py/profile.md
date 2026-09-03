@@ -5,18 +5,35 @@ owner: j-py
 tags: [#profile]
 related: []
 decks: knowledgebase/podlist/j-py/decks/
-last_updated: 2026-08-22
+last_updated: 2026-08-25
 ---
 
 ## Overview
-This profile is based on a single public decklist (Feather, the Redeemed, Boros spellslinger), so any pattern below is provisional — one deck cannot establish a real trend, only a starting impression. Within that one data point, the deck reads as a focused, on-theme build around a specific mechanical payoff (cheap targeted instants triggering Feather and other spells-matter creatures) rather than a generic goodstuff pile.
+| Profile Field | Assessment |
+|---|---|
+| Median Threat | **★★★★☆**\* |
+| Designation | **Recursive Combat Spellcaster** |
+| Summary | A battle-mage planeswalker who recycles cheap targeted spells into a growing storm of cards, tokens, prowess, and protection, pressing the attack through a chosen champion while accepting that stalled combat and broad disruption can halt the assault. |
+
+j-py has 1 eligible deck evaluated by the EDH Oracle Analyzer Engine at a Power Score of **7.6 / 10.0** (★★★★☆\*, Bracket 3). **Limited sample:** the four-star rating describes this single observed deck only (*Miku Madness!?!? Miku Sparta!!!*). Its primary piloting archetype is classified as **Spellslinger / Storm** (high instant/sorcery density with cheap targeted instant recycling). Automated analysis file is stored in `knowledgebase/podlist/j-py/analysis/miku-madness-miku-sparta.json`.
+
+With one deck, the clearest pattern is a focused Feather spellslinger plan: cheap targeted instants recur for value while prowess and token payoffs turn repeated casting into pressure. The list is light on ramp, sweepers, and broad interaction.
 
 ## Color & Archetype Tendencies
-- Colors: White/Red (Boros).
-- Commander: Feather, the Redeemed — a "spells that target your own creatures" payoff engine.
-- The 96-card body is built tightly around that payoff: 30 instants (the largest category by far) and 7 sorceries, most of them cheap pump/protection spells (Defiant Strike, Gods Willing, Guided Strike, Shelter, Boon of Safety, Valorous Stance, Temur Battle Rage) rather than removal-heavy or ramp-heavy staples.
-- Secondary sub-theme: prowess/spellslinger creatures that also benefit from a high spell count independent of Feather — Young Pyromancer, Guttersnipe, Electrostatic Infantry, Tenth District Legionnaire, Zada, Hedron Grinder — so the deck is doing double duty as both a Feather deck and a generic Boros spells deck.
-- Light angel sub-theme (Giada, Font of Hope; Gisela, Blade of Goldnight; Anya, Merciless Angel; Akroma, Angel of Fury; two separate Aurelias) sits on top without being the deck's main engine.
+Color identity across 1 active deck:
+
+| Color | Commander identities | Share |
+|---|---:|---:|
+| White | 1 | 100% |
+| Blue | 0 | 0% |
+| Black | 0 | 0% |
+| Red | 1 | 100% |
+| Green | 0 | 0% |
+| Colorless | 0 | 0% |
+
+- j-py builds a single, tightly focused engine: Feather rewards repeatedly casting cheap spells that target friendly creatures, and the rest of the deck converts that repetition into cards, tokens, prowess, and combat damage.
+- The deck is aggressive and protection-oriented rather than controlling. Its interaction is mostly attached to combat tricks, with only one sweeper and a very small ramp package, so it wants to keep pressure on the table instead of trading resources broadly.
+- The list shows a preference for synergy density over raw card quality. The angel package is secondary, while Zada and the other spells-matter creatures provide redundancy when Feather is unavailable.
 
 ## Power Level & Construction Habits
 - No `power_level` or Archidekt bracket is recorded in the frontmatter or notes for this deck, unlike the template's expectation — worth checking the source link if a bracket number is needed later.
@@ -26,10 +43,10 @@ This profile is based on a single public decklist (Feather, the Redeemed, Boros 
 - Ramp is light (Sol Ring, Talisman of Conviction only) — no dedicated ramp package, consistent with a curve that's cheap by design (lots of 1-2 mana instants).
 
 ## Notable Patterns
-- Deck title ("Miku Madness!?!? Miku Sparta!!!") references Hatsune Miku, but the decklist itself contains no Universes Beyond or Miku cards — the name appears to be a meme/flavor title unrelated to the card pool, not a crossover-themed build.
-- Land base is 37 lands, roughly two-thirds basics (24 of 37) with a modest but real nonbasic fixing/utility suite (Command Tower, Path of Ancestry, Boros Garrison, Furycalm Snarl, Stone Quarry, Abraded Bluffs, Wind-Scarred Crag, Temple of Triumph, two creature-lands in Needle Spires and Slayers' Stronghold, Windbrisk Heights, Sunhome) — enough fixing to support a two-color deck without over-investing in expensive nonbasics.
-- Includes two different "Aurelia" legendaries (Aurelia, Exemplar of Justice and Aurelia, the Law Above) as non-commander creatures — plausibly a thematic/character preference rather than pure power-level optimization, since neither is the build-around.
-- One foil-flagged pair (Feather, Radiant Arbiter and Boros Charm) suggests at least some cards were picked/kept for collectibility as well as function.
+- The deck is built around redundancy rather than a single fragile combo: Feather, Zada, Young Pyromancer, Guttersnipe, and prowess creatures all reward the same high volume of cheap targeted spells in different ways.
+- Its strongest turns are recursive and explosive, but its interaction is mostly protective or combat-based. That makes the deck good at forcing damage through and preserving an engine, less good at answering a developed opposing board.
+- The 37-land base is conservative for the low curve and compensates for the unusually light ramp package. This is a deliberate trade: reliable land drops support repeated spell turns, while card slots remain committed to the central engine.
+- The list's main limitation is conversion. It can generate a large board or a tall attacker, but it has no confirmed infinite and few sweepers, so stalled combat or repeated board wipes are difficult to recover from.
 
 ## Decks
 Full decklist archive: `knowledgebase/podlist/j-py/decks/` (1 deck — see `INDEX.md` for the entry).

@@ -1,0 +1,69 @@
+{
+  "deck_name": "Fire Lord Azula",
+  "commander": "Fire Lord Azula",
+  "sources": [
+    {
+      "source": "EDHOracleLocalEngine",
+      "status": "success",
+      "error": null,
+      "metrics": {
+        "power_score": 8.3,
+        "bracket": 3,
+        "combo_score": 5.3,
+        "interaction_score": 8.0,
+        "ramp_score": 10.0,
+        "consistency_score": 9.6,
+        "speed_score": 10.0,
+        "tutor_count": 4,
+        "fast_mana_count": 3,
+        "combo_count": 0
+      },
+      "source_metrics": {
+        "piloting_archetype": "Spellslinger / Storm",
+        "average_cmc": "2.66",
+        "non_land_cards": 61,
+        "land_cards": 27
+      },
+      "text": {
+        "summary": "Spellslinger / Storm deck built around Fire Lord Azula. Average CMC: 2.66.",
+        "explanations": [
+          "Identified Piloting Archetype as 'Spellslinger / Storm'; applied adaptive strategic weighting profile."
+        ],
+        "strengths": [
+          "Fast Mana acceleration: 3 source(s)",
+          "Tutor density: 4 tutor(s)",
+          "Repeatable draw engines: 3"
+        ],
+        "weaknesses": [
+          "Sensitive to targeted disruption if key engines are neutralized."
+        ],
+        "recommendations": [],
+        "suggested_changes": [],
+        "combo_lines": [],
+        "mulligan_advice": [
+          "Keep hands with early mana acceleration and at least 2 lands."
+        ]
+      },
+      "raw_result": {
+        "engine_version": "1.1.0",
+        "sub_pillar_scores": {
+          "velocity": 100.0,
+          "engine": 96.0,
+          "interaction": 80.0,
+          "resource": 100.0,
+          "resilience": 36.0,
+          "closing": 53.0,
+          "mana": 85.0
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "deck_url": "https://archidekt.com/decks/19929007",
+    "analysis_time": "2026-08-25T10:12:57Z",
+    "successful_sources": [
+      "EDHOracleLocalEngine"
+    ],
+    "failed_sources": []
+  }
+}

@@ -2449,6 +2449,29 @@
     "prices_usd_foil": "3.04",
     "type_line": "Legendary Creature \u2014 Human Wizard"
   },
+  "Bard, King of Dale": {
+    "cmc": 6.0,
+    "color_identity": [
+      "U",
+      "W"
+    ],
+    "colors": [
+      "U",
+      "W"
+    ],
+    "edhrec_rank": 12764,
+    "fetched_at": "2026-08-25",
+    "keywords": [
+      "Reach",
+      "Vigilance"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{4}{W}{U}",
+    "oracle_text": "Reach, vigilance. If you would draw a card except the first one you draw in each of your draw steps, draw two cards instead. If one or more tokens would be created under your control, twice that many of those tokens are created instead.",
+    "prices_usd": "6.44",
+    "prices_usd_foil": "8.81",
+    "type_line": "Legendary Creature \u2014 Human Noble Archer"
+  },
   "Barren Moor": {
     "cmc": 0.0,
     "color_identity": [
@@ -34817,5 +34840,141 @@
     "prices_usd": "0.47",
     "prices_usd_foil": "1.12",
     "type_line": "Legendary Creature \u2014 Human Knight"
+  },
+  "Monk Class": {
+    "mana_cost": "{W}{U}",
+    "cmc": 2.0,
+    "type_line": "Enchantment \u2014 Class",
+    "oracle_text": "(Gain the next level as a sorcery to add its ability.)\nThe second spell you cast each turn costs {1} less to cast.\n{W}{U}: Level 2\nWhen this Class becomes level 2, return up to one target nonland permanent to its owner's hand.\n{1}{W}{U}: Level 3\nAt the beginning of your upkeep, exile the top card of your library. For as long as it remains exiled, it has \"You may cast this card from exile as long as you've cast another spell this turn.\"",
+    "colors": [
+      "U",
+      "W"
+    ],
+    "color_identity": [
+      "U",
+      "W"
+    ],
+    "keywords": [],
+    "legal_commander": "legal",
+    "prices_usd": "0.40",
+    "prices_usd_foil": "0.49",
+    "edhrec_rank": 9734,
+    "scryfall_uri": "https://scryfall.com/card/afr/228/monk-class?utm_source=api",
+    "set": "afr",
+    "released_at": "2021-07-23",
+    "fetched_at": "2026-09-03"
+  },
+  "Consider": {
+    "mana_cost": "{U}",
+    "cmc": 1.0,
+    "type_line": "Instant",
+    "oracle_text": "Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\nDraw a card.",
+    "colors": [
+      "U"
+    ],
+    "color_identity": [
+      "U"
+    ],
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "prices_usd": "0.31",
+    "prices_usd_foil": "1.53",
+    "edhrec_rank": 378,
+    "scryfall_uri": "https://scryfall.com/card/tle/157/consider?utm_source=api",
+    "set": "tle",
+    "released_at": "2025-11-21",
+    "fetched_at": "2026-09-03"
+  },
+  "Inspiring Leader": {
+    "mana_cost": "{2}{W}",
+    "cmc": 3.0,
+    "type_line": "Legendary Enchantment \u2014 Background",
+    "oracle_text": "Commander creatures you own have \"Creature tokens you control get +2/+2.\"",
+    "colors": [
+      "W"
+    ],
+    "color_identity": [
+      "W"
+    ],
+    "keywords": [],
+    "legal_commander": "legal",
+    "prices_usd": "0.37",
+    "prices_usd_foil": "4.48",
+    "edhrec_rank": 2818,
+    "scryfall_uri": "https://scryfall.com/card/clb/28/inspiring-leader?utm_source=api",
+    "set": "clb",
+    "released_at": "2022-06-10",
+    "fetched_at": "2026-09-03"
+  },
+  "Teferi's Ageless Insight": {
+    "mana_cost": "{2}{U}{U}",
+    "cmc": 4.0,
+    "type_line": "Legendary Enchantment",
+    "oracle_text": "If you would draw a card except the first one you draw in each of your draw steps, draw two cards instead.",
+    "colors": [
+      "U"
+    ],
+    "color_identity": [
+      "U"
+    ],
+    "keywords": [],
+    "legal_commander": "legal",
+    "prices_usd": "5.85",
+    "prices_usd_foil": null,
+    "edhrec_rank": 588,
+    "scryfall_uri": "https://scryfall.com/card/mkc/119/teferis-ageless-insight?utm_source=api",
+    "set": "mkc",
+    "released_at": "2024-02-09",
+    "fetched_at": "2026-09-03"
+  },
+  "Battle Angels of Tyr": {
+    "mana_cost": "{2}{W}{W}",
+    "cmc": 4.0,
+    "type_line": "Creature \u2014 Angel Knight",
+    "oracle_text": "Flying, myriad\nWhenever this creature deals combat damage to a player, draw a card if that player has more cards in hand than each other player. Then you create a Treasure token if that player controls more lands than each other player. Then you gain 3 life if that player has more life than each other player.",
+    "colors": [
+      "W"
+    ],
+    "color_identity": [
+      "W"
+    ],
+    "keywords": [
+      "Myriad",
+      "Flying",
+      "Treasure"
+    ],
+    "legal_commander": "legal",
+    "prices_usd": "29.63",
+    "prices_usd_foil": "29.96",
+    "edhrec_rank": 1776,
+    "scryfall_uri": "https://scryfall.com/card/clb/9/battle-angels-of-tyr?utm_source=api",
+    "set": "clb",
+    "released_at": "2022-06-10",
+    "fetched_at": "2026-09-03"
+  },
+  "Moonshaker Cavalry": {
+    "mana_cost": "{5}{W}{W}{W}",
+    "cmc": 8.0,
+    "type_line": "Creature \u2014 Spirit Knight",
+    "oracle_text": "Flying\nWhen this creature enters, creatures you control gain flying and get +X/+X until end of turn, where X is the number of creatures you control.",
+    "colors": [
+      "W"
+    ],
+    "color_identity": [
+      "W"
+    ],
+    "keywords": [
+      "Flying"
+    ],
+    "legal_commander": "legal",
+    "prices_usd": "8.65",
+    "prices_usd_foil": null,
+    "edhrec_rank": 1214,
+    "scryfall_uri": "https://scryfall.com/card/soc/110/moonshaker-cavalry?utm_source=api",
+    "set": "soc",
+    "released_at": "2026-04-24",
+    "fetched_at": "2026-09-03"
   }
 }
