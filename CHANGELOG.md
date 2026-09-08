@@ -124,6 +124,19 @@
 - **[kb]** `INDEX.md` gained entries for both, flagged as mid-build stubs not yet worth analyzing.
 - `knowledgebase/podlist/lto888/profile.md` intentionally left untouched (still describes the prior 12-deck sample) — revisit once either stub is actually built out.
 
+## 2026-08-22 (Copied Factory profile: Naban loot-doubling finding, patience-first piloting update)
+
+- **[kb]** Updated  with a new Mechanical Identity finding: Naban, Dean of Iteration's oracle text ("if a Wizard you control entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time") doubles *any* Wizard's own ETB trigger, not just Inalla's Eminence — confirmed via Scryfall for Naban, Kefka Court Mage, Emet-Selch Unsundered, and Inalla. This gives Kefka and Emet-Selch a genuine loot/card-selection role independent of the ping/burn package they were already correctly excluded from. Layering Eminence on top (also Naban-doubled) can push a single hardcast Kefka to 4 total discard/loot triggers off one token copy.
+- **[kb]** Added a dated History & Trajectory entry (owner's account): a recent game where prioritizing draw engines behind blockers — rather than committing to the burn plan on tempo — worked well, directly addressing the profile's previously-documented #1 weakness (sequencing/patience). Emet-Selch flipped into Hades twice with Naban doubling its loot triggers; Kefka never transformed. The Eminence-into-4x-Kefka-loot line was identified post-game but not yet piloted.
+- **[repo]**  gained 4 new entries (Naban, Inalla, Kefka, Emet-Selch), bringing the cache to 1,947 total.
+- **[kb]** 's Copied Factory entry updated to mention both additions.
+
+## 2026-08-22 (new pod matchup analysis — profile review plus comparative deck strength)
+
+- **[kb]** Added : a review of all 6 owner profiles for rigor/completeness (one gap flagged, not fixed — lto888's whole-decklist Commander Spellbook combo check has only been run on 2 of 12 decks despite that player having the pod's highest staple/tutor density), plus a comparative "who's actually favored" ranking built on inevitability, interaction, and resilience rather than raw power. Distinct from the existing , which measures threat/cost, not matchup favorability — the two rank the top of the pod differently, which the new note calls out explicitly as a politics/perception effect rather than a data conflict.
+- **[kb]** No new external lookups were run for this pass — it synthesizes findings already cross-referenced in the six profiles and the two dedicated deck deep-dives (Copied Factory, Crystal Braves) as of today's re-verification pass.
+- **[kb]**  updated with the new entry.
+
 ## 2026-08-22 (removed Discard Mill Assassin — concept-board item, never an active deck)
 
 - **[kb]** Per the owner: "Discard Mill Assassin" (fowlplays, Altaïr Ibn-La'Ahad) was never an active build — it lived on an Archidekt concept board, not the proper decklist, and only entered this archive because the `--user` sync endpoint returned it alongside real active decks. Deleted `knowledgebase/podlist/fowlplays/decks/discard-mill-assassin.md` outright (the earlier session's find that it had gone "unlisted" on Archidekt is superseded by this — it wasn't hidden-but-real, it was a concept item the sync shouldn't have picked up as a decklist in the first place).

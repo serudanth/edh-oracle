@@ -205,6 +205,9 @@ Deck profile: The Crystal Braves (fowlplays, Alisaie Leveilleur // Alphinaud Lev
 ### research/2026-08-22-pod-threat-profile.md
 Cross-player reference: percentile-based portfolio threat figures, pay-to-win tier, and build style for all 6 pod members, plus a full deck index (commander/bracket/archetype) per player. Read when picking a matchup, calibrating table power level, or getting oriented on who plays what across the whole pod.
 
+### research/2026-08-22-pod-matchup-analysis.md
+Profile review of all 6 owner profiles (quality/rigor assessment, one flagged gap: lto888's uneven Spellbook combo-check coverage) plus a comparative matchup ranking — reimaru rated strongest (only real control deck + resilient recursion package), fowlplays second (sole assembled infinite combo, in The Copied Factory), j-py last (single deck, least redundancy, provisional). Includes specific favorable-matchup callouts (e.g. xanoh's Sundering vs. the pod's token decks and, incidentally, fowlplays' multi-spell engines) and a caveat that Threat Mark and matchup strength diverge at the top of the pod. Read when picking a matchup or judging who's actually favored, not just who's scariest on paper.
+
 ### research/2026-08-25-threat-pillar-assessment.md
 Threat assessment methodology: six deck-level dimensions scored as pod- or benchmark-relative 0-100 percentiles, with median, mean, peak, and sample-size reporting for player portfolios. Read when reassessing threat or replacing the legacy four-pillar ranks.
 
