@@ -1,3 +1,13 @@
+## 2026-09-10 (full pod decklist re-sync & audit)
+
+- **[kb]** Re-ran `tools/archidekt_extract.py --user` for fowlplays, j-py, lto888, mjsnoozer, xanoh, and `tools/moxfield_extract.py --user` for reimaru — a comprehensive re-sync of all 6 owners' public decklists against remote sources:
+  - **`fowlplays`**: Extracted 13 decks. *The Queen of Theft* gained `Peer into the Abyss`.
+  - **`lto888`**: Extracted 15 decks. Discovered 1 new deck stub: `knowledgebase/podlist/lto888/decks/thor-voltron-slinger.md` (Thor, God of Thunder, Mono-Red, 24 cards). Major upgrade for `turtle-power-powered.md` (added `The One Ring`, `Vampiric Tutor`, `Fierce Guardianship`, `Cyclonic Rift`, `Walking Ballista`, and TMNT creatures). Minor upgrades across `squirrels.md` (`Sylvan Library`, `Shang-Chi`, `Yavimaya`), `so-i-started-blasting-with-azula.md` (`Big Score`, `Frantic Search`, dual lands), `sephiroth-pain-is-love.md` (`K'rrik, Son of Yawgmoth`), and `lightning-equip-extra-attacks.md` (`Kíli`, `Blacksmith's Talent`).
+  - **`j-py`, `mjsnoozer`, `reimaru`, `xanoh`**: Re-extracted; card compositions unchanged.
+- **[cache]** Added 11 newly discovered cards (`Peer into the Abyss`, `Kíli the Resourceful`, `Blightstep Pathway // Searstep Pathway`, `Shang-Chi, Master of Kung Fu`, `Sylvan Library`, `Yavimaya, Cradle of Growth`, `Leonardo, Cutting Edge`, `Michelangelo, Weirdness to 11`, `Prehistoric Pet`, `Raph & Mikey, Troublemakers`, `Thor, God of Thunder`) to persistent cache `knowledgebase/_cache/scryfall-cards.json`.
+- **[tools]** Executed `python tools/deck_analyzer_engine.py --all --write-kb` across all 52 decks. *The Copied Factory* re-classified to `Spellslinger / Storm` with Power Score 7.8 (EDH Bracket 3). *The Best of Friends* successfully analyzed at Power Score 5.2 (EDH Bracket 2). *Turtle Power, Powered* surged from Power Score 6.3 to 7.3 (Bracket 3).
+- **[kb]** Updated `knowledgebase/INDEX.md`, `knowledgebase/podlist/lto888/profile.md`, `knowledgebase/podlist/fowlplays/profile.md`, `knowledgebase/research/2026-08-25-threat-pillar-assessment.md`, and `knowledgebase/research/2026-08-22-pod-threat-profile.md` with the new deck, updated staple counts, and recalculated engine metrics.
+
 ## 2026-09-03 (the crystal braves deck review & report)
 
 - **[kb]** Added comprehensive deck review and optimization report `knowledgebase/research/2026-09-03-the-crystal-braves-deck-review.md` covering mechanical identity, local engine metrics, engine friction points (cantrip deficit, Vanquisher's Banner non-bo, 3-drop bottleneck), 1-for-1 upgrade tables, and sequencing heuristics.

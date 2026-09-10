@@ -7,25 +7,25 @@
       "status": "success",
       "error": null,
       "metrics": {
-        "power_score": 8.6,
+        "power_score": 8.5,
         "bracket": 4,
         "combo_score": 9.0,
         "interaction_score": 2.4,
         "ramp_score": 10.0,
         "consistency_score": 10.0,
-        "speed_score": 10.0,
+        "speed_score": 9.8,
         "tutor_count": 5,
         "fast_mana_count": 3,
         "combo_count": 1
       },
       "source_metrics": {
         "piloting_archetype": "Midrange / Engine Value",
-        "average_cmc": "2.80",
-        "non_land_cards": 95,
+        "average_cmc": "2.84",
+        "non_land_cards": 96,
         "land_cards": 15
       },
       "text": {
-        "summary": "Midrange / Engine Value deck built around Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel. Average CMC: 2.80.",
+        "summary": "Midrange / Engine Value deck built around Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel. Average CMC: 2.84.",
         "explanations": [
           "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile."
         ],
@@ -49,7 +49,7 @@
       "raw_result": {
         "engine_version": "1.1.0",
         "sub_pillar_scores": {
-          "velocity": 99.5,
+          "velocity": 98.0,
           "engine": 100.0,
           "interaction": 24.0,
           "resource": 100.0,
@@ -62,7 +62,7 @@
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/13966160",
-    "analysis_time": "2026-08-25T10:12:57Z",
+    "analysis_time": "2026-09-10T08:09:50Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

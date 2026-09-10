@@ -7,32 +7,32 @@
       "status": "success",
       "error": null,
       "metrics": {
-        "power_score": 6.8,
+        "power_score": 7.8,
         "bracket": 3,
         "combo_score": 7.8,
         "interaction_score": 4.8,
         "ramp_score": 5.6,
-        "consistency_score": 8.4,
+        "consistency_score": 10.0,
         "speed_score": 10.0,
         "tutor_count": 4,
         "fast_mana_count": 1,
         "combo_count": 1
       },
       "source_metrics": {
-        "piloting_archetype": "Midrange / Engine Value",
-        "average_cmc": "2.19",
-        "non_land_cards": 31,
+        "piloting_archetype": "Spellslinger / Storm",
+        "average_cmc": "2.29",
+        "non_land_cards": 34,
         "land_cards": 20
       },
       "text": {
-        "summary": "Midrange / Engine Value deck built around Inalla, Archmage Ritualist. Average CMC: 2.19.",
+        "summary": "Spellslinger / Storm deck built around Inalla, Archmage Ritualist. Average CMC: 2.29.",
         "explanations": [
-          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile."
+          "Identified Piloting Archetype as 'Spellslinger / Storm'; applied adaptive strategic weighting profile."
         ],
         "strengths": [
           "Fast Mana acceleration: 1 source(s)",
           "Tutor density: 4 tutor(s)",
-          "Repeatable draw engines: 2"
+          "Repeatable draw engines: 4"
         ],
         "weaknesses": [
           "Sensitive to targeted disruption if key engines are neutralized."
@@ -50,7 +50,7 @@
         "engine_version": "1.1.0",
         "sub_pillar_scores": {
           "velocity": 100.0,
-          "engine": 84.0,
+          "engine": 100.0,
           "interaction": 48.0,
           "resource": 56.0,
           "resilience": 0.0,
@@ -62,7 +62,7 @@
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/14300891",
-    "analysis_time": "2026-08-25T10:12:56Z",
+    "analysis_time": "2026-09-10T08:09:50Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

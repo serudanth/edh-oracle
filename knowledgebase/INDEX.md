@@ -64,7 +64,7 @@ Commander: Feather, the Redeemed (WR)
 ### LTO888
 
 ### podlist/lto888/profile.md
-Profile: LTO888 (12 eligible decks plus 2 mid-build stubs) — **★★★★☆ median threat, Staple-Forged Engine Conductor**, a planeswalker giving tribes, tokens, graveyards, spell copies, and control shells the same disciplined foundation. The stubs are archived but excluded.
+Profile: LTO888 (12 eligible decks plus 3 mid-build stubs) — **★★★★☆ median threat, Staple-Forged Engine Conductor**, a planeswalker giving tribes, tokens, graveyards, spell copies, and control shells the same disciplined foundation. The stubs are archived but excluded.
 
 ### podlist/lto888/decks/bau-bau-nyaa.md
 Commander: Rin and Seri, Inseparable (WRG)
@@ -95,6 +95,9 @@ Commander: Fire Lord Azula (UBR)
 
 ### podlist/lto888/decks/squirrels.md
 Commander: The Unbeatable Squirrel Girl (G)
+
+### podlist/lto888/decks/thor-voltron-slinger.md
+Commander: Thor, God of Thunder — **stub, mid-build (24 cards as of 2026-08-28)**, not yet worth analyzing
 
 ### podlist/lto888/decks/turtle-power-powered.md
 Commander: Leonardo, the Balance, Michelangelo, the Heart (WUBRG) — 5-color TMNT partners

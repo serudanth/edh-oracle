@@ -5,7 +5,7 @@ owner: lto888
 tags: [#profile]
 related: []
 decks: knowledgebase/podlist/lto888/decks/
-last_updated: 2026-08-25
+last_updated: 2026-09-10
 ---
 
 ## Overview
@@ -15,12 +15,12 @@ last_updated: 2026-08-25
 | Designation | **Staple-Forged Engine Conductor** |
 | Summary | A planeswalker of many schools who gives tribes, tokens, enchantments, ninjas, graveyards, and spell copies the same disciplined foundation of ramp, tutors, reusable value, and efficient answers. The portfolio's typical deck is already elevated, while its control and sacrifice engines can climb toward an explosive, creature-locking, or nearly inevitable finish. |
 
-lto888 has 14 decks evaluated by the EDH Oracle Analyzer Engine with a median Power Score of **7.9 / 10.0** (★★★★☆), a mean of **7.1**, and a range of **2.0–9.1** (brackets 1–4; developed deck peak 9.1). Archetypes span **Midrange / Engine Value** (9 decks), **Spellslinger / Storm** (4 decks), and **Cheat / Aggro Tempo** (1 deck). LTO888 leads the pod in efficiency density with **53 total tutors**, **24 fast mana sources**, and 3 verified combo lines. Automated analysis records are stored in `knowledgebase/podlist/lto888/analysis/`.
+lto888 has 15 decks evaluated by the EDH Oracle Analyzer Engine with a median Power Score of **7.8 / 10.0** (★★★★☆; developed deck median **8.0**), a mean of **6.9**, and a range of **2.0–9.1** (brackets 1–4; developed deck peak 9.1). Archetypes span **Midrange / Engine Value** (9 decks), **Spellslinger / Storm** (5 decks), and **Cheat / Aggro Tempo** (1 deck). LTO888 leads the pod in efficiency density with **55 total tutors**, **25 fast mana sources**, and 3 verified combo lines. Automated analysis records are stored in `knowledgebase/podlist/lto888/analysis/`.
 
-LTO888's decks show the pod's strongest preference for efficient, reusable staples: Sol Ring appears in 11 of 12 developed lists, The One Ring in 8, and tutors plus free interaction recur across the portfolio. Several efficient engine decks make the upper tail dangerous when they get time to develop.
+LTO888's decks show the pod's strongest preference for efficient, reusable staples: Sol Ring appears in 11 of 12 developed lists, The One Ring in 9, and tutors plus free interaction recur across the portfolio. Several efficient engine decks make the upper tail dangerous when they get time to develop.
 
 ## Color & Archetype Tendencies
-Color identity across 12 developed decks; the two one-card stubs are excluded:
+Color identity across 12 developed decks; the three stubs (Cid, Doran, Thor) are excluded:
 
 | Color | Commander identities | Share |
 |---|---:|---:|
@@ -37,9 +37,9 @@ Color identity across 12 developed decks; the two one-card stubs are excluded:
 
 ## Power Level & Construction Habits
 - Only 2 of 12 decks now note an Archidekt bracket (Sephiroth, Y'shtola, both bracket 4) — Squirrels' bracket tag was cleared by the owner since the last pass (previously 3 of 11 had one); power level for the rest still has to be inferred from card choices.
-- Sol Ring appears in 11 of 12 decks (missing only from Maralen) and The One Ring in 8 of 12 (missing from Prismari Artistry, Maralen, Yuriko, and the new Turtle Power) — near-universal reliance on the same top-tier staples regardless of archetype, Turtle Power included on Sol Ring but not yet on The One Ring.
-- Deadly Rollick appears in 7 of 12 decks (Turtle Power included) and Vampiric Tutor in 5 — the "free interaction + tutor" habit holds at updated counts.
-- Land counts run 32-41 across the sample; Turtle Power's 41 lands is the new high end for the archive, consistent with a 5-color manabase needing more raw land count and fixing than any 2-3 color list here.
+- Sol Ring appears in 11 of 12 decks (missing only from Maralen) and The One Ring in 9 of 12 (missing from Prismari Artistry, Maralen, and Yuriko) — near-universal reliance on the same top-tier staples regardless of archetype, with Turtle Power having added The One Ring in its latest revision.
+- Deadly Rollick appears in 7 of 12 decks and Vampiric Tutor in 6 (Turtle Power included) — the "free interaction + tutor" habit holds at updated counts.
+- Land counts run 32-39 across the sample (Turtle Power trimmed from 41 down to 39 lands as high-tier ramp and tutors were slotted in).
 - No fast-mana outliers (no Mana Crypt, Mox, or similar), but Sephiroth is a confirmed assembled-infinite outlier; Azula remains without a confirmed assembled infinite. Power sits in efficient-staples-plus-tutors territory rather than cEDH-adjacent speed for the typical deck.
 - Strict singleton discipline throughout; no near-duplicate effects stacked beyond the intentional doubling-effects packages already noted.
 
@@ -50,7 +50,7 @@ Color identity across 12 developed decks; the two one-card stubs are excluded:
 - LTO888's decks are unusually efficient without being fast-mana decks. The recurring Sol Ring, tutor, free-interaction, and payoff packages raise consistency; Sephiroth is the exception, combining a deterministic life-drain line with forced-sacrifice control, while the typical win pattern remains engine-driven rather than deterministic.
 
 ## Decks
-Full decklist archive: `knowledgebase/podlist/lto888/decks/` (12 decks — see `INDEX.md` for individual entries).
+Full decklist archive: `knowledgebase/podlist/lto888/decks/` (12 developed decks plus 3 mid-build stubs — see `INDEX.md` for individual entries).
 
 ## External Cross-References
 

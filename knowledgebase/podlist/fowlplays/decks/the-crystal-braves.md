@@ -8,7 +8,7 @@ power_level:
 tags: []
 related: []
 last_updated: 2026-08-22
-source: https://archidekt.com/decks/24427121/the_crystal_braves
+source: https://archidekt.com/decks/24427121
 ---
 
 ## Decklist
@@ -101,4 +101,4 @@ source: https://archidekt.com/decks/24427121/the_crystal_braves
 
 ## Notes
 
-- Imported from [Archidekt](https://archidekt.com/decks/24427121/the_crystal_braves)
+- Imported from [Archidekt](https://archidekt.com/decks/24427121)

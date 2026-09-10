@@ -7,25 +7,25 @@
       "status": "success",
       "error": null,
       "metrics": {
-        "power_score": 5.2,
+        "power_score": 5.0,
         "bracket": 2,
         "combo_score": 1.7,
         "interaction_score": 1.6,
         "ramp_score": 3.8,
         "consistency_score": 6.0,
-        "speed_score": 10.0,
+        "speed_score": 9.2,
         "tutor_count": 1,
         "fast_mana_count": 1,
         "combo_count": 0
       },
       "source_metrics": {
         "piloting_archetype": "Midrange / Engine Value",
-        "average_cmc": "2.67",
-        "non_land_cards": 15,
+        "average_cmc": "3.00",
+        "non_land_cards": 16,
         "land_cards": 15
       },
       "text": {
-        "summary": "Midrange / Engine Value deck built around Quintorius, History Chaser. Average CMC: 2.67.",
+        "summary": "Midrange / Engine Value deck built around Quintorius, History Chaser. Average CMC: 3.00.",
         "explanations": [
           "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile."
         ],
@@ -47,7 +47,7 @@
       "raw_result": {
         "engine_version": "1.1.0",
         "sub_pillar_scores": {
-          "velocity": 100.0,
+          "velocity": 92.5,
           "engine": 60.0,
           "interaction": 16.0,
           "resource": 38.0,
@@ -60,7 +60,7 @@
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/22431119",
-    "analysis_time": "2026-08-25T10:12:56Z",
+    "analysis_time": "2026-09-10T08:09:50Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

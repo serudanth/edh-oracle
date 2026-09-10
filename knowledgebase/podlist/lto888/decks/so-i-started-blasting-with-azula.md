@@ -7,7 +7,7 @@ colors: [U, B, R]
 power_level:
 tags: []
 related: []
-last_updated: 2026-08-22
+last_updated: 2026-09-08
 source: https://archidekt.com/decks/22514192
 ---
 
@@ -41,8 +41,9 @@ source: https://archidekt.com/decks/22514192
 - 1x Wan Shi Tong, Librarian
 - 1x Zuko, Exiled Prince
 
-### Instant (41)
+### Instant (43)
 - 1x Abrade
+- 1x Big Score
 - 1x Bitter Triumph
 - 1x Bulk Up
 - 1x Burst Lightning
@@ -53,6 +54,7 @@ source: https://archidekt.com/decks/22514192
 - 1x Electrodominance
 - 1x Fierce Guardianship
 - 1x Flashback
+- 1x Frantic Search
 - 1x Galvanic Bombardment
 - 1x Gimli's Fury
 - 1x Kami's Flare
@@ -103,8 +105,9 @@ source: https://archidekt.com/decks/22514192
 - 1x Fated Firepower
 - 1x The Legend of Roku // Avatar Roku
 
-### Land (36)
+### Land (39)
 - 1x Airship Engine Room
+- 1x Blightstep Pathway // Searstep Pathway
 - 1x Blood Crypt
 - 1x Bloodfell Caves
 - 1x Boiling Rock Prison
@@ -114,6 +117,7 @@ source: https://archidekt.com/decks/22514192
 - 1x Dismal Backwater
 - 1x Evolving Wilds
 - 1x Fire Nation Palace
+- 1x Frostboil Snarl
 - 1x Great Hall of the Biblioplex
 - 1x Hidden Lair
 - 5x Island
@@ -124,6 +128,7 @@ source: https://archidekt.com/decks/22514192
 - 1x Shivan Reef
 - 1x Steam Vents
 - 1x Stormcarved Coast
+- 1x Sulfurous Springs
 - 3x Swamp
 - 1x Swiftwater Cliffs
 - 1x Tramway Station

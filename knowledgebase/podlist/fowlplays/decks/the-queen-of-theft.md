@@ -7,7 +7,7 @@ colors: [U, B]
 power_level:
 tags: []
 related: []
-last_updated: 2026-07-24
+last_updated: 2026-08-27
 source: https://archidekt.com/decks/16155734
 ---
 
@@ -50,12 +50,13 @@ source: https://archidekt.com/decks/16155734
 - 1x Psychic Strike
 - 1x Siphon Insight
 
-### Sorcery (9)
+### Sorcery (10)
 - 1x Bribery
 - 1x Dream Harvest
 - 1x Extract Brain
 - 1x Fractured Sanity
 - 1x Maddening Cacophony
+- 1x Peer into the Abyss
 - 1x Praetor's Grasp *(foil)*
 - 1x Rise of the Dark Realms
 - 1x Talent of the Telepath

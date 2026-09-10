@@ -216,54 +216,55 @@ These are pod-relative composition indices, not observed win rates or player rat
 
 ---
 
-## Automated EDH Oracle Engine Power Scores & Archetype Assessment (2026-08-25)
+## Automated EDH Oracle Engine Power Scores & Archetype Assessment (2026-09-10)
 
-The following reflects deterministic calculations produced by `tools/deck_analyzer_engine.py` across all 51 pod deck analysis JSON files (`knowledgebase/podlist/<owner>/analysis/<deck-slug>.json`). Inputs: local Scryfall card cache, user-defined card categories as source of truth, piloting-intent classification, strategy-adaptive dynamic weight profiles, and local combo dictionary resolution. All figures are as of the last full batch run (2026-08-25T10:12Z).
+The following reflects deterministic calculations produced by `tools/deck_analyzer_engine.py` across all 52 pod deck analysis JSON files (`knowledgebase/podlist/<owner>/analysis/<deck-slug>.json`). Inputs: local Scryfall card cache, user-defined card categories as source of truth, piloting-intent classification, strategy-adaptive dynamic weight profiles, and local combo dictionary resolution. All figures are as of the last full batch run (2026-09-10T08:02Z).
 
 ### Portfolio Summary
 
 | Player | Analyzed Decks | Median Power Score | Mean Power Score | Score Range | EDH Brackets | Primary Archetype Distribution | Total Tutors | Fast Mana | Combos | Portfolio Band |
 |---|---:|---:|---:|---:|---|---|---:|---:|---:|---|
-| **fowlplays** | 12 | **5.3** | 5.6 | 4.2 – 7.0 | Brackets 1–3 | Midrange / Engine Value (10), Big Mana / Landfall (1), Voltron / Equipment (1) | 10 | 13 | 2 | **★★★☆☆ (Typical)** |
+| **fowlplays** | 13 | **5.2** | 5.7 | 4.2 – 7.8 | Brackets 1–3 | Midrange / Engine Value (10), Spellslinger / Storm (1), Big Mana / Landfall (1), Voltron / Equipment (1) | 10 | 15 | 2 | **★★★☆☆ (Typical)** |
 | **j-py** | 1 | **7.6** | 7.6 | 7.6 – 7.6 | Bracket 3 | Spellslinger / Storm (1) | 0 | 1 | 0 | **★★★★☆\* (Provisional)** |
-| **lto888** | 14 | **7.9** | 7.1 | 2.0 – 9.1 | Brackets 1–4 | Midrange / Engine Value (9), Spellslinger / Storm (4), Cheat / Aggro Tempo (1) | **53** | **24** | **4** | **★★★★☆ (Elevated)** |
+| **lto888** | 15 | **7.8** | 6.9 | 2.0 – 9.1 | Brackets 1–4 | Midrange / Engine Value (9), Spellslinger / Storm (5), Cheat / Aggro Tempo (1) | **55** | **25** | **3** | **★★★★☆ (Elevated)** |
 | **mjsnoozer** | 5 | **7.2** | 7.0 | 5.4 – 8.3 | Brackets 2–3 | Spellslinger / Storm (2), Midrange / Engine Value (2), Voltron / Equipment (1) | 12 | 7 | 0 | **★★★★☆ (Elevated)** |
 | **reimaru** | 16 | **7.2** | 7.1 | 5.1 – 8.6 | Brackets 2–4 | Midrange / Engine Value (6), Spellslinger / Storm (5), Voltron / Equipment (3), Aristocrats / Sacrifice (1), Cheat / Aggro Tempo (1) | 32 | 22 | 0 | **★★★★☆ (Elevated)** |
 | **xanoh** | 2 | **7.1** | 7.1 | 6.7 – 7.4 | Brackets 2–3 | Big Mana / Landfall (1), Midrange / Engine Value (1) | 5 | 1 | 0 | **★★★★☆\* (Provisional)** |
 
 > [!NOTE]
-> **fowlplays** deck count is 12 eligible (not 13). The Best of Friends was assessed in the percentile table above but is excluded from the engine median because it produced a null score in the current batch run — its stub list was too sparse for a reliable sub-pillar breakdown. It is included in the per-deck table below as a gap marker. **mjsnoozer** includes Stella Lee (active); it was previously retired but the analysis JSON was produced and is counted here.
+> **fowlplays** deck count is 13 eligible. The Best of Friends was successfully evaluated by the engine following the re-sync. **lto888** includes 12 developed decks plus 3 mid-build stubs (Cid, Doran, Thor). **mjsnoozer** includes Stella Lee (active); it was previously retired but the analysis JSON was produced and is counted here.
 
 ### Per-Deck Engine Breakdown
 
 | Player | Deck | Power Score | Archetype | Bracket | Tutors | Fast Mana | Combos |
 |---|---|---:|---|---:|---:|---:|---:|
+| fowlplays | The Copied Factory | 7.8 | Spellslinger / Storm | 3 | 4 | 1 | 1 |
 | fowlplays | The Crystal Braves | 7.0 | Midrange / Engine Value | 3 | 1 | 1 | 0 |
-| fowlplays | The Copied Factory | 6.8 | Midrange / Engine Value | 3 | 4 | 1 | 1 |
 | fowlplays | The Gate of Babylon | 6.8 | Voltron / Equipment | 3 | 1 | 0 | 0 |
 | fowlplays | The Rush | 6.7 | Midrange / Engine Value | 2 | 0 | 2 | 1 |
 | fowlplays | The Queen of Theft | 5.7 | Midrange / Engine Value | 2 | 0 | 2 | 0 |
 | fowlplays | The Dirt Kicker | 5.4 | Big Mana / Landfall | 2 | 0 | 1 | 0 |
-| fowlplays | The Lorehold Redux | 5.2 | Midrange / Engine Value | 2 | 1 | 1 | 0 |
+| fowlplays | The Best of Friends | 5.2 | Midrange / Engine Value | 2 | 0 | 2 | 0 |
 | fowlplays | The Warrior of Darkness | 5.2 | Midrange / Engine Value | 2 | 0 | 1 | 0 |
 | fowlplays | The Hamster Catapult | 5.0 | Midrange / Engine Value | 2 | 1 | 1 | 0 |
+| fowlplays | The Lorehold Redux | 5.0 | Midrange / Engine Value | 2 | 1 | 1 | 0 |
 | fowlplays | The Master Chef | 4.9 | Midrange / Engine Value | 2 | 1 | 1 | 0 |
 | fowlplays | The Koronation | 4.7 | Midrange / Engine Value | 2 | 1 | 1 | 0 |
 | fowlplays | The Last Ride | 4.2 | Midrange / Engine Value | 1 | 0 | 1 | 0 |
-| fowlplays | The Best of Friends | — | — | — | — | — | — |
 | j-py | Miku Madness!?!? Miku Sparta!!! | 7.6 | Spellslinger / Storm | 3 | 0 | 1 | 0 |
 | lto888 | Y'shtola Slingy Wingy | 9.1 | Spellslinger / Storm | 4 | 6 | 3 | 1 |
 | lto888 | So I Started Blasting (with Azula) | 8.8 | Spellslinger / Storm | 4 | 4 | 3 | 0 |
 | lto888 | Celes Recursion | 8.6 | Spellslinger / Storm | 4 | 7 | 4 | 0 |
-| lto888 | Sephiroth Pain is Love | 8.6 | Midrange / Engine Value | 4 | 5 | 3 | 1 |
 | lto888 | Yuna Enchantress | 8.6 | Midrange / Engine Value | 4 | 7 | 1 | 1 |
+| lto888 | Sephiroth Pain is Love | 8.5 | Midrange / Engine Value | 4 | 5 | 3 | 1 |
 | lto888 | Squirrels! | 8.4 | Midrange / Engine Value | 3 | 7 | 2 | 0 |
 | lto888 | Yuriko Good Ol' Ninjas | 8.0 | Cheat / Aggro Tempo | 3 | 3 | 2 | 0 |
 | lto888 | Lightning Equip / Extra Attacks | 7.8 | Midrange / Engine Value | 3 | 3 | 2 | 0 |
 | lto888 | Bau Bau Nyaa | 7.7 | Midrange / Engine Value | 3 | 5 | 2 | 0 |
+| lto888 | Turtle Power, Powered | 7.3 | Spellslinger / Storm | 3 | 3 | 1 | 0 |
 | lto888 | Maralen Faelves | 6.8 | Midrange / Engine Value | 3 | 4 | 0 | 0 |
-| lto888 | Turtle Power, Powered | 6.3 | Midrange / Engine Value | 2 | 2 | 1 | 0 |
 | lto888 | Prismari Artistry | 6.1 | Spellslinger / Storm | 2 | 0 | 1 | 0 |
+| lto888 | Thor Voltron-Slinger | 3.9 | Midrange / Engine Value | 1 | 1 | 1 | 0 |
 | lto888 | Cid, Cid, and Cid, with Cid | 2.0 | Midrange / Engine Value | 1 | 0 | 0 | 0 |
 | lto888 | Doran The Exploder | 2.0 | Midrange / Engine Value | 1 | 0 | 0 | 0 |
 | mjsnoozer | Fire Lord Azula | 8.3 | Spellslinger / Storm | 3 | 4 | 3 | 0 |

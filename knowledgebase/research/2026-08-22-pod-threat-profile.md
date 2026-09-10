@@ -5,7 +5,7 @@ domain: strategy
 tags: [#pod, #meta, #reference]
 related: [podlist/fowlplays/profile, podlist/lto888/profile, podlist/reimaru/profile, podlist/xanoh/profile, podlist/mjsnoozer/profile, podlist/j-py/profile, podlist/fowlplays/decks/the-best-of-friends, podlist/fowlplays/decks/the-crystal-braves, podlist/xanoh/decks/forresta, podlist/xanoh/decks/the-sundering]
 source: oracle-pod-audit-2026-07
-last_updated: 2026-08-25
+last_updated: 2026-09-10
 ---
 
 <!--
@@ -46,7 +46,7 @@ The component metrics, dynamic archetype weighting, fast mana/tutor totals, and 
 | The Rush | Winota, Joiner of Forces | 4 | Go-wide aggro / extra combat |
 | The Warrior of Darkness | Ardbert, Warrior of Darkness | 2 | Legends matter |
 
-### lto888 (11)
+### lto888 (12 active + 3 stubs)
 | Deck | Commander | Bracket | Archetype |
 |---|---|---|---|
 | Bau Bau Nyaa | Rin and Seri, Inseparable | — | Cat/dog tokens |
@@ -57,9 +57,13 @@ The component metrics, dynamic archetype weighting, fast mana/tutor totals, and 
 | Sephiroth Pain is Love | Sephiroth, Fabled SOLDIER // One-Winged Angel | 4 | Aristocrats/reanimator (Sanguine Bond + Exquisite Blood combo) |
 | So I Started Blasting (Azula) | Fire Lord Azula | — | Izzet/Grixis spellslinger |
 | Squirrels! | The Unbeatable Squirrel Girl | 4 | Tokens/combo |
+| Turtle Power, Powered | Leonardo, the Balance, Michelangelo, the Heart | — | 5-color TMNT partners / token-counter value pile |
 | Y'shtola Slingy Wingy | Y'shtola, Night's Blessed | 4 | Control/value pile |
 | Yuna Enchantress | Yuna, Hope of Spira | — | Enchantress |
 | Yuriko Good Ol' Ninjas | Yuriko, the Tiger's Shadow | — | Ninjutsu |
+| Thor Voltron-Slinger | Thor, God of Thunder | — | Voltron / Slinger (stub) |
+| Cid, Cid, and Cid, with Cid | Cid, Timeless Artificer | — | Artifacts (stub) |
+| Doran The Exploder | Doran, Besieged by Time | — | Stompy (stub) |
 
 ### reimaru (16)
 | Deck | Commander | Bracket | Archetype |

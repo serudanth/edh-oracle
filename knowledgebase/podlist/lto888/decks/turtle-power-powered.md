@@ -7,7 +7,7 @@ colors: [W, U, B, R, G]
 power_level:
 tags: []
 related: []
-last_updated: 2026-07-11
+last_updated: 2026-08-29
 source: https://archidekt.com/decks/24256813
 ---
 
@@ -15,7 +15,7 @@ source: https://archidekt.com/decks/24256813
 
 **Commander:** Leonardo, the Balance, Michelangelo, the Heart
 
-### Creature (34)
+### Creature (39)
 - 1x Acidic Slime
 - 1x April O'Neil, Live on the Scene
 - 1x Baxter, Fly in the Ointment
@@ -35,9 +35,13 @@ source: https://archidekt.com/decks/24256813
 - 1x Karai, Future of the Foot
 - 1x Krang, the All-Powerful
 - 1x Leatherhead, Iron Gator
+- 1x Leonardo, Cutting Edge
 - 1x Lita, Little Orphan Amphibian
+- 1x Michelangelo, Weirdness to 11
 - 1x Mona Lisa, Science Geek
 - 1x Peregrin Took
+- 1x Prehistoric Pet
+- 1x Raph & Mikey, Troublemakers
 - 1x Raphael, the Muscle
 - 1x Rat King, Pale Piper
 - 1x Ray Fillet, Wave Warrior
@@ -50,18 +54,22 @@ source: https://archidekt.com/decks/24256813
 - 1x Tokka & Rahzar, Unsupervised
 - 1x Vigor
 - 1x Voracious Hydra
+- 1x Walking Ballista
 
-### Instant (11)
+### Instant (14)
 - 1x Assassin's Trophy
 - 1x Boros Charm *(foil)*
 - 1x Continue?
+- 1x Cyclonic Rift
 - 1x Deadly Rollick
 - 1x Double Jump // Flying Kick
+- 1x Fierce Guardianship
 - 1x Heroic Intervention
 - 1x Shellshock
 - 1x Special Move
 - 1x Swift Demise
 - 1x Teferi's Protection
+- 1x Vampiric Tutor
 - 1x Worldly Tutor
 
 ### Sorcery (11)
@@ -77,16 +85,18 @@ source: https://archidekt.com/decks/24256813
 - 1x Vanquish the Horde
 - 1x Wave Goodbye
 
-### Artifact (9)
+### Artifact (11)
 - 1x Arcade Cabinet
 - 1x Arcane Signet
 - 1x Chromatic Lantern
 - 1x Coin of Mastery
 - 1x Everything Pizza
 - 1x Exploding Barrel
+- 1x Fellwar Stone
 - 1x Foot Chopper
 - 1x Mole Module
 - 1x Sol Ring
+- 1x The One Ring
 
 ### Enchantment (8)
 - 1x Doubling Season
@@ -98,7 +108,7 @@ source: https://archidekt.com/decks/24256813
 - 1x Smothering Tithe
 - 1x Together Forever
 
-### Land (41)
+### Land (39)
 - 1x Ash Barrens
 - 1x Big Apple, 3 a.m.
 - 1x Cinder Glade
@@ -110,7 +120,7 @@ source: https://archidekt.com/decks/24256813
 - 1x Evolving Wilds
 - 1x Exotic Orchard
 - 1x Fabled Passage
-- 4x Forest
+- 3x Forest
 - 1x Grand Coliseum
 - 1x Hidden Hideout
 - 1x Hinterland Harbor
@@ -125,7 +135,7 @@ source: https://archidekt.com/decks/24256813
 - 1x Sodden Verdure
 - 1x Spire Garden
 - 1x Sunken Hollow
-- 2x Swamp
+- 1x Swamp
 - 1x Thriving Grove
 - 1x Thriving Isle
 - 1x Thriving Moor

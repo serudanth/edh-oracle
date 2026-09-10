@@ -97,8 +97,8 @@ source: https://archidekt.com/decks/13286594
 - 1x Island
 - 1x Island
 - 1x Island
-- 2x Island
 - 1x Island
+- 2x Island
 - 1x Island
 - 2x Island
 - 2x Island

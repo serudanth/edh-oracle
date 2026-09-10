@@ -7,7 +7,7 @@ colors: [B]
 power_level:
 tags: []
 related: []
-last_updated: 2026-08-19
+last_updated: 2026-08-24
 source: https://archidekt.com/decks/13966160
 ---
 
@@ -15,7 +15,7 @@ source: https://archidekt.com/decks/13966160
 
 **Commander:** Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel
 
-### Creature (46)
+### Creature (47)
 - 1x Accursed Marauder
 - 1x Avenger of the Fallen
 - 1x Ayara, First of Locthwain
@@ -36,6 +36,7 @@ source: https://archidekt.com/decks/13966160
 - 1x Gravecrawler
 - 1x Gray Merchant of Asphodel
 - 1x Jadar, Ghoulcaller of Nephalia
+- 1x K'rrik, Son of Yawgmoth
 - 1x Lord Skitter, Sewer King
 - 1x Marionette Apprentice
 - 1x Massacre Wurm *(foil)*

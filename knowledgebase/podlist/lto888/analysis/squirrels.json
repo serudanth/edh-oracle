@@ -20,12 +20,12 @@
       },
       "source_metrics": {
         "piloting_archetype": "Midrange / Engine Value",
-        "average_cmc": "2.73",
-        "non_land_cards": 74,
-        "land_cards": 9
+        "average_cmc": "2.71",
+        "non_land_cards": 76,
+        "land_cards": 10
       },
       "text": {
-        "summary": "Midrange / Engine Value deck built around The Unbeatable Squirrel Girl. Average CMC: 2.73.",
+        "summary": "Midrange / Engine Value deck built around The Unbeatable Squirrel Girl. Average CMC: 2.71.",
         "explanations": [
           "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile."
         ],
@@ -60,7 +60,7 @@
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/23982864",
-    "analysis_time": "2026-08-25T10:12:57Z",
+    "analysis_time": "2026-09-10T08:09:50Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

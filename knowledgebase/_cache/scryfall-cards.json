@@ -2575,6 +2575,31 @@
     "prices_usd_foil": "3.49",
     "type_line": "Enchantment"
   },
+  "Battle Angels of Tyr": {
+    "cmc": 4.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 1776,
+    "fetched_at": "2026-09-03",
+    "keywords": [
+      "Myriad",
+      "Flying",
+      "Treasure"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}{W}",
+    "oracle_text": "Flying, myriad\nWhenever this creature deals combat damage to a player, draw a card if that player has more cards in hand than each other player. Then you create a Treasure token if that player controls more lands than each other player. Then you gain 3 life if that player has more life than each other player.",
+    "prices_usd": "29.63",
+    "prices_usd_foil": "29.96",
+    "released_at": "2022-06-10",
+    "scryfall_uri": "https://scryfall.com/card/clb/9/battle-angels-of-tyr?utm_source=api",
+    "set": "clb",
+    "type_line": "Creature \u2014 Angel Knight"
+  },
   "Battle Hymn": {
     "cmc": 2.0,
     "color_identity": [
@@ -3337,6 +3362,38 @@
     "prices_usd": "0.48",
     "prices_usd_foil": "0.59",
     "type_line": "Instant"
+  },
+  "Blightstep Pathway": {
+    "cmc": 0.0,
+    "color_identity": [
+      "B",
+      "R"
+    ],
+    "colors": [],
+    "edhrec_rank": 837,
+    "fetched_at": "2026-09-10",
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "{T}: Add {B}.\n//\n{T}: Add {R}.",
+    "prices_usd": "5.36",
+    "prices_usd_foil": "5.98",
+    "type_line": "Land // Land"
+  },
+  "Blightstep Pathway // Searstep Pathway": {
+    "cmc": 0.0,
+    "color_identity": [
+      "B",
+      "R"
+    ],
+    "colors": [],
+    "edhrec_rank": 837,
+    "fetched_at": "2026-09-10",
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "{T}: Add {B}.\n//\n{T}: Add {R}.",
+    "prices_usd": "5.36",
+    "prices_usd_foil": "5.98",
+    "type_line": "Land // Land"
   },
   "Blind Obedience": {
     "cmc": 2.0,
@@ -6350,6 +6407,29 @@
     "prices_usd": "4.21",
     "prices_usd_foil": "5.54",
     "type_line": "Artifact \u2014 Equipment"
+  },
+  "Consider": {
+    "cmc": 1.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 378,
+    "fetched_at": "2026-09-03",
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{U}",
+    "oracle_text": "Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\nDraw a card.",
+    "prices_usd": "0.31",
+    "prices_usd_foil": "1.53",
+    "released_at": "2025-11-21",
+    "scryfall_uri": "https://scryfall.com/card/tle/157/consider?utm_source=api",
+    "set": "tle",
+    "type_line": "Instant"
   },
   "Consign // Oblivion": {
     "cmc": 7.0,
@@ -9916,6 +9996,30 @@
     "prices_usd": "0.34",
     "type_line": "Legendary Creature \u2014 Elder Wizard"
   },
+  "Emet-Selch, Unsundered // Hades, Sorcerer of Eld": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [
+      "B",
+      "U"
+    ],
+    "edhrec_rank": 6413,
+    "fetched_at": "2026-08-22",
+    "keywords": [
+      "Vigilance",
+      "Echo of the Lost",
+      "Transform"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}{B}",
+    "oracle_text": "Vigilance\nWhenever Emet-Selch enters or attacks, draw a card, then discard a card.\nAt the beginning of your upkeep, if there are fourteen or more cards in your graveyard, you may transform Emet-Selch.\n//\nVigilance\nEcho of the Lost \u2014 During your turn, you may play cards from your graveyard.\nIf a card or token would be put into your graveyard from anywhere, exile it instead.",
+    "prices_usd": "2.22",
+    "prices_usd_foil": "3.89",
+    "type_line": "Legendary Creature \u2014 Elder Wizard // Legendary Creature \u2014 Avatar"
+  },
   "Emry, Lurker of the Loch": {
     "cmc": 3.0,
     "color_identity": [
@@ -13287,6 +13391,29 @@
     "prices_usd": "0.25",
     "type_line": "Land \u2014 Mountain Plains"
   },
+  "Gluntch, the Bestower": {
+    "cmc": 3.0,
+    "color_identity": [
+      "G",
+      "W"
+    ],
+    "colors": [
+      "G",
+      "W"
+    ],
+    "edhrec_rank": 3104,
+    "fetched_at": "2026-09-10",
+    "keywords": [
+      "Flying",
+      "Treasure"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{G}{W}",
+    "oracle_text": "Flying\nAt the beginning of your end step, choose a player. They put two +1/+1 counters on a creature they control. Choose a second player to draw a card. Then choose a third player to create two Treasure tokens.",
+    "prices_usd": "0.48",
+    "prices_usd_foil": "0.90",
+    "type_line": "Legendary Creature \u2014 Jellyfish"
+  },
   "Goblin Anarchomancer": {
     "cmc": 2.0,
     "color_identity": [
@@ -15538,6 +15665,29 @@
     "prices_usd_foil": "0.76",
     "type_line": "Artifact \u2014 Equipment"
   },
+  "Inalla, Archmage Ritualist": {
+    "cmc": 5.0,
+    "color_identity": [
+      "B",
+      "R",
+      "U"
+    ],
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "edhrec_rank": 8458,
+    "fetched_at": "2026-08-22",
+    "keywords": [
+      "Eminence"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}{B}{R}",
+    "oracle_text": "Eminence \u2014 Whenever another nontoken Wizard you control enters, if Inalla is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.\nTap five untapped Wizards you control: Target player loses 7 life.",
+    "prices_usd_foil": "3.93",
+    "type_line": "Legendary Creature \u2014 Human Wizard"
+  },
   "Incinerate": {
     "cmc": 2.0,
     "color_identity": [
@@ -15800,6 +15950,27 @@
     "oracle_text": "Flying\nWhen this creature enters and whenever one or more creature tokens you control deal combat damage to a player, this creature becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\n//\nCreate a token that's a copy of target creature you control. That token gains haste until end of turn.",
     "prices_usd": "0.26",
     "type_line": "Creature \u2014 Lizard Wizard // Sorcery"
+  },
+  "Inspiring Leader": {
+    "cmc": 3.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 2818,
+    "fetched_at": "2026-09-03",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}",
+    "oracle_text": "Commander creatures you own have \"Creature tokens you control get +2/+2.\"",
+    "prices_usd": "0.37",
+    "prices_usd_foil": "4.48",
+    "released_at": "2022-06-10",
+    "scryfall_uri": "https://scryfall.com/card/clb/28/inspiring-leader?utm_source=api",
+    "set": "clb",
+    "type_line": "Legendary Enchantment \u2014 Background"
   },
   "Inspiring Statuary": {
     "cmc": 3.0,
@@ -16974,6 +17145,31 @@
     "prices_usd": "0.53",
     "type_line": "Creature \u2014 Human Soldier"
   },
+  "Kefka, Court Mage // Kefka, Ruler of Ruin": {
+    "cmc": 5.0,
+    "color_identity": [
+      "B",
+      "R",
+      "U"
+    ],
+    "colors": [
+      "B",
+      "R",
+      "U"
+    ],
+    "edhrec_rank": 2980,
+    "fetched_at": "2026-08-22",
+    "keywords": [
+      "Flying",
+      "Transform"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}{B}{R}",
+    "oracle_text": "Whenever Kefka enters or attacks, each player discards a card. Then you draw a card for each card type among cards discarded this way.\n{8}: Each opponent sacrifices a permanent of their choice. Transform Kefka. Activate only as a sorcery.\n//\nFlying\nWhenever an opponent loses life during your turn, you draw that many cards.",
+    "prices_usd": "5.58",
+    "prices_usd_foil": "7.68",
+    "type_line": "Legendary Creature \u2014 Human Wizard // Legendary Creature \u2014 Avatar Wizard"
+  },
   "Kenrith's Transformation": {
     "cmc": 2.0,
     "color_identity": [
@@ -17320,6 +17516,23 @@
     "prices_usd_foil": "4.57",
     "type_line": "Legendary Creature \u2014 Cat Warrior"
   },
+  "K\u00edli the Resourceful": {
+    "cmc": 2.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 8607,
+    "fetched_at": "2026-09-10",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{W}",
+    "oracle_text": "Storied (If you control three or more artifacts, legendaries, and/or Sagas, you have an enduring story for the rest of the game.)\nAs long as you have an enduring story, you may pay {0} rather than pay the equip cost of the first equip ability you activate each turn.\nWhenever another Dwarf or Equipment you control enters, draw a card. This ability triggers only once each turn.",
+    "prices_usd": "1.21",
+    "prices_usd_foil": "1.53",
+    "type_line": "Legendary Creature \u2014 Dwarf Scout"
+  },
   "Lathliss, Dragon Queen": {
     "cmc": 6.0,
     "color_identity": [
@@ -17476,6 +17689,23 @@
     "mana_cost": null,
     "oracle_text": "(Theme color: {W})",
     "type_line": "Card"
+  },
+  "Leonardo, Cutting Edge": {
+    "cmc": 2.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 9605,
+    "fetched_at": "2026-09-10",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{W}",
+    "oracle_text": "Sneak {W} (You may cast this spell for {W} if you also return an unblocked attacker you control to hand during the declare blockers step. He enters tapped and attacking.)\nLifelink\nWhenever you gain life, put a +1/+1 counter on Leonardo.",
+    "prices_usd": "0.85",
+    "prices_usd_foil": "1.20",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle"
   },
   "Leonardo, the Balance": {
     "cmc": 4.0,
@@ -19120,6 +19350,23 @@
     "oracle_text": "(Theme color: {G})",
     "type_line": "Card"
   },
+  "Michelangelo, Weirdness to 11": {
+    "cmc": 2.0,
+    "color_identity": [
+      "G"
+    ],
+    "colors": [
+      "G"
+    ],
+    "edhrec_rank": 5131,
+    "fetched_at": "2026-09-10",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{G}",
+    "oracle_text": "When Michelangelo enters, create a Mutagen token. (It's an artifact with \"{1}, {T}, Sacrifice this token: Put a +1/+1 counter on target creature. Activate only as a sorcery.\")\nIf one or more +1/+1 counters would be put on a creature you control, that many plus one +1/+1 counters are put on it instead.",
+    "prices_usd": "2.65",
+    "prices_usd_foil": "3.40",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle"
+  },
   "Michelangelo, the Heart": {
     "cmc": 2.0,
     "color_identity": [
@@ -19702,6 +19949,29 @@
     "prices_usd_foil": "0.44",
     "type_line": "Creature \u2014 Human Monk"
   },
+  "Monk Class": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U",
+      "W"
+    ],
+    "colors": [
+      "U",
+      "W"
+    ],
+    "edhrec_rank": 9734,
+    "fetched_at": "2026-09-03",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{W}{U}",
+    "oracle_text": "(Gain the next level as a sorcery to add its ability.)\nThe second spell you cast each turn costs {1} less to cast.\n{W}{U}: Level 2\nWhen this Class becomes level 2, return up to one target nonland permanent to its owner's hand.\n{1}{W}{U}: Level 3\nAt the beginning of your upkeep, exile the top card of your library. For as long as it remains exiled, it has \"You may cast this card from exile as long as you've cast another spell this turn.\"",
+    "prices_usd": "0.40",
+    "prices_usd_foil": "0.49",
+    "released_at": "2021-07-23",
+    "scryfall_uri": "https://scryfall.com/card/afr/228/monk-class?utm_source=api",
+    "set": "afr",
+    "type_line": "Enchantment \u2014 Class"
+  },
   "Monologue Tax": {
     "cmc": 3.0,
     "color_identity": [
@@ -19792,6 +20062,29 @@
     "prices_usd": "0.26",
     "prices_usd_foil": "1.39",
     "type_line": "Creature \u2014 Human Ninja"
+  },
+  "Moonshaker Cavalry": {
+    "cmc": 8.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 1214,
+    "fetched_at": "2026-09-03",
+    "keywords": [
+      "Flying"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{5}{W}{W}{W}",
+    "oracle_text": "Flying\nWhen this creature enters, creatures you control gain flying and get +X/+X until end of turn, where X is the number of creatures you control.",
+    "prices_usd": "8.65",
+    "prices_usd_foil": null,
+    "released_at": "2026-04-24",
+    "scryfall_uri": "https://scryfall.com/card/soc/110/moonshaker-cavalry?utm_source=api",
+    "set": "soc",
+    "type_line": "Creature \u2014 Spirit Knight"
   },
   "Moonsnare Specialist": {
     "cmc": 4.0,
@@ -20192,6 +20485,23 @@
     "prices_usd": "16.10",
     "prices_usd_foil": "16.89",
     "type_line": "Instant"
+  },
+  "Naban, Dean of Iteration": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 6101,
+    "fetched_at": "2026-08-22",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}",
+    "oracle_text": "If a Wizard you control entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+    "prices_usd": "0.62",
+    "prices_usd_foil": "1.20",
+    "type_line": "Legendary Creature \u2014 Human Wizard"
   },
   "Nadier's Nightblade": {
     "cmc": 3.0,
@@ -21713,6 +22023,23 @@
     "prices_usd": "0.32",
     "type_line": "Legendary Creature \u2014 Fox Advisor"
   },
+  "Peer into the Abyss": {
+    "cmc": 7.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 1272,
+    "fetched_at": "2026-09-10",
+    "legal_commander": "legal",
+    "mana_cost": "{4}{B}{B}{B}",
+    "oracle_text": "Target player draws cards equal to half the number of cards in their library and loses half their life. Round up each time.",
+    "prices_usd": "3.43",
+    "prices_usd_foil": "4.17",
+    "type_line": "Sorcery"
+  },
   "Pentarch Ward": {
     "cmc": 3.0,
     "color_identity": [
@@ -22274,6 +22601,23 @@
     "prices_usd": "2.36",
     "prices_usd_foil": "4.47",
     "type_line": "Artifact \u2014 Equipment"
+  },
+  "Prehistoric Pet": {
+    "cmc": 1.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 12788,
+    "fetched_at": "2026-09-10",
+    "legal_commander": "legal",
+    "mana_cost": "{W}",
+    "oracle_text": "This creature can't be blocked by creatures with greater power.\n{1}{W}, {T}: Return another target creature you control to its owner's hand. Activate only during your turn.",
+    "prices_usd": "0.29",
+    "prices_usd_foil": "0.36",
+    "type_line": "Creature \u2014 Dinosaur Ninja"
   },
   "Preordain": {
     "cmc": 1.0,
@@ -23195,6 +23539,25 @@
     "prices_usd": "1.57",
     "prices_usd_foil": "1.72",
     "type_line": "Enchantment \u2014 Aura"
+  },
+  "Raph & Mikey, Troublemakers": {
+    "cmc": 7.0,
+    "color_identity": [
+      "G",
+      "R"
+    ],
+    "colors": [
+      "G",
+      "R"
+    ],
+    "edhrec_rank": 6708,
+    "fetched_at": "2026-09-10",
+    "legal_commander": "legal",
+    "mana_cost": "{5}{R/G}{R/G}",
+    "oracle_text": "Trample, haste\nWhenever Raph & Mikey attack, reveal cards from the top of your library until you reveal a creature card. Put that card onto the battlefield tapped and attacking and the rest on the bottom of your library in a random order.",
+    "prices_usd": "2.95",
+    "prices_usd_foil": "3.74",
+    "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle"
   },
   "Raphael, the Muscle": {
     "cmc": 5.0,
@@ -26038,6 +26401,23 @@
     "oracle_text": "Draw a card for each creature you control.\nFerocious \u2014 You gain 4 life for each creature you control with power 4 or greater.",
     "prices_usd": "1.34",
     "type_line": "Sorcery"
+  },
+  "Shang-Chi, Master of Kung Fu": {
+    "cmc": 2.0,
+    "color_identity": [
+      "G"
+    ],
+    "colors": [
+      "G"
+    ],
+    "edhrec_rank": 6224,
+    "fetched_at": "2026-09-10",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{G}",
+    "oracle_text": "You may activate abilities of creatures you control as though those creatures had haste.\n{T}: Add two mana of any one color. Spend this mana only to activate abilities of creature sources.",
+    "prices_usd": "10.65",
+    "prices_usd_foil": "13.72",
+    "type_line": "Legendary Creature \u2014 Human Warrior Hero"
   },
   "Shared Roots": {
     "cmc": 2.0,
@@ -29459,6 +29839,23 @@
     "set": "msc",
     "type_line": "Instant"
   },
+  "Sylvan Library": {
+    "cmc": 2.0,
+    "color_identity": [
+      "G"
+    ],
+    "colors": [
+      "G"
+    ],
+    "edhrec_rank": 260,
+    "fetched_at": "2026-09-10",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{G}",
+    "oracle_text": "At the beginning of your draw step, you may draw two additional cards. If you do, choose two cards in your hand drawn this turn. For each of those cards, pay 4 life or put the card on top of your library.",
+    "prices_usd": "27.90",
+    "prices_usd_foil": "28.17",
+    "type_line": "Enchantment"
+  },
   "Sylvan Scrying": {
     "cmc": 2.0,
     "color_identity": [
@@ -29932,6 +30329,27 @@
     "oracle_text": "Whenever this creature attacks or becomes the target of a spell an opponent controls, choose one \u2014\n\u2022 This creature deals 3 damage to each opponent.\n\u2022 Exile the top two cards of your library. Choose one of them. Until the end of your next turn, you may play that card.",
     "prices_usd": "0.35",
     "type_line": "Creature \u2014 Elemental Giant"
+  },
+  "Teferi's Ageless Insight": {
+    "cmc": 4.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 588,
+    "fetched_at": "2026-09-03",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}{U}",
+    "oracle_text": "If you would draw a card except the first one you draw in each of your draw steps, draw two cards instead.",
+    "prices_usd": "5.85",
+    "prices_usd_foil": null,
+    "released_at": "2024-02-09",
+    "scryfall_uri": "https://scryfall.com/card/mkc/119/teferis-ageless-insight?utm_source=api",
+    "set": "mkc",
+    "type_line": "Legendary Enchantment"
   },
   "Teferi's Protection": {
     "cmc": 3.0,
@@ -30995,6 +31413,23 @@
     "prices_usd": "0.26",
     "prices_usd_foil": "0.39",
     "type_line": "Instant"
+  },
+  "Thor, God of Thunder": {
+    "cmc": 5.0,
+    "color_identity": [
+      "R"
+    ],
+    "colors": [
+      "R"
+    ],
+    "edhrec_rank": 8891,
+    "fetched_at": "2026-09-10",
+    "legal_commander": "legal",
+    "mana_cost": "{3}{R}{R}",
+    "oracle_text": "Flying\nWhen Thor enters, exile target Equipment, instant, or sorcery card from your graveyard. Until the end of your next turn, you may play that card.\nWhenever you cast a noncreature spell, Thor deals damage equal to that spell's mana value to any target.",
+    "prices_usd": "10.97",
+    "prices_usd_foil": "16.06",
+    "type_line": "Legendary Creature \u2014 God Warrior Hero"
   },
   "Thornspire Verge": {
     "cmc": 0.0,
@@ -34439,6 +34874,19 @@
     "prices_usd": "0.15",
     "type_line": "Creature \u2014 Human Druid"
   },
+  "Yavimaya, Cradle of Growth": {
+    "cmc": 0.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 77,
+    "fetched_at": "2026-09-10",
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "Each land is a Forest in addition to its other land types.",
+    "prices_usd": "17.87",
+    "prices_usd_foil": "23.62",
+    "type_line": "Legendary Land"
+  },
   "Yawgmoth, Thran Physician": {
     "cmc": 4.0,
     "color_identity": [
@@ -34840,230 +35288,5 @@
     "prices_usd": "0.47",
     "prices_usd_foil": "1.12",
     "type_line": "Legendary Creature \u2014 Human Knight"
-  },
-  "Monk Class": {
-    "mana_cost": "{W}{U}",
-    "cmc": 2.0,
-    "type_line": "Enchantment \u2014 Class",
-    "oracle_text": "(Gain the next level as a sorcery to add its ability.)\nThe second spell you cast each turn costs {1} less to cast.\n{W}{U}: Level 2\nWhen this Class becomes level 2, return up to one target nonland permanent to its owner's hand.\n{1}{W}{U}: Level 3\nAt the beginning of your upkeep, exile the top card of your library. For as long as it remains exiled, it has \"You may cast this card from exile as long as you've cast another spell this turn.\"",
-    "colors": [
-      "U",
-      "W"
-    ],
-    "color_identity": [
-      "U",
-      "W"
-    ],
-    "keywords": [],
-    "legal_commander": "legal",
-    "prices_usd": "0.40",
-    "prices_usd_foil": "0.49",
-    "edhrec_rank": 9734,
-    "scryfall_uri": "https://scryfall.com/card/afr/228/monk-class?utm_source=api",
-    "set": "afr",
-    "released_at": "2021-07-23",
-    "fetched_at": "2026-09-03"
-  },
-  "Consider": {
-    "mana_cost": "{U}",
-    "cmc": 1.0,
-    "type_line": "Instant",
-    "oracle_text": "Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)\nDraw a card.",
-    "colors": [
-      "U"
-    ],
-    "color_identity": [
-      "U"
-    ],
-    "keywords": [
-      "Surveil"
-    ],
-    "legal_commander": "legal",
-    "prices_usd": "0.31",
-    "prices_usd_foil": "1.53",
-    "edhrec_rank": 378,
-    "scryfall_uri": "https://scryfall.com/card/tle/157/consider?utm_source=api",
-    "set": "tle",
-    "released_at": "2025-11-21",
-    "fetched_at": "2026-09-03"
-  },
-  "Inspiring Leader": {
-    "mana_cost": "{2}{W}",
-    "cmc": 3.0,
-    "type_line": "Legendary Enchantment \u2014 Background",
-    "oracle_text": "Commander creatures you own have \"Creature tokens you control get +2/+2.\"",
-    "colors": [
-      "W"
-    ],
-    "color_identity": [
-      "W"
-    ],
-    "keywords": [],
-    "legal_commander": "legal",
-    "prices_usd": "0.37",
-    "prices_usd_foil": "4.48",
-    "edhrec_rank": 2818,
-    "scryfall_uri": "https://scryfall.com/card/clb/28/inspiring-leader?utm_source=api",
-    "set": "clb",
-    "released_at": "2022-06-10",
-    "fetched_at": "2026-09-03"
-  },
-  "Teferi's Ageless Insight": {
-    "mana_cost": "{2}{U}{U}",
-    "cmc": 4.0,
-    "type_line": "Legendary Enchantment",
-    "oracle_text": "If you would draw a card except the first one you draw in each of your draw steps, draw two cards instead.",
-    "colors": [
-      "U"
-    ],
-    "color_identity": [
-      "U"
-    ],
-    "keywords": [],
-    "legal_commander": "legal",
-    "prices_usd": "5.85",
-    "prices_usd_foil": null,
-    "edhrec_rank": 588,
-    "scryfall_uri": "https://scryfall.com/card/mkc/119/teferis-ageless-insight?utm_source=api",
-    "set": "mkc",
-    "released_at": "2024-02-09",
-    "fetched_at": "2026-09-03"
-  },
-  "Battle Angels of Tyr": {
-    "mana_cost": "{2}{W}{W}",
-    "cmc": 4.0,
-    "type_line": "Creature \u2014 Angel Knight",
-    "oracle_text": "Flying, myriad\nWhenever this creature deals combat damage to a player, draw a card if that player has more cards in hand than each other player. Then you create a Treasure token if that player controls more lands than each other player. Then you gain 3 life if that player has more life than each other player.",
-    "colors": [
-      "W"
-    ],
-    "color_identity": [
-      "W"
-    ],
-    "keywords": [
-      "Myriad",
-      "Flying",
-      "Treasure"
-    ],
-    "legal_commander": "legal",
-    "prices_usd": "29.63",
-    "prices_usd_foil": "29.96",
-    "edhrec_rank": 1776,
-    "scryfall_uri": "https://scryfall.com/card/clb/9/battle-angels-of-tyr?utm_source=api",
-    "set": "clb",
-    "released_at": "2022-06-10",
-    "fetched_at": "2026-09-03"
-  },
-  "Moonshaker Cavalry": {
-    "mana_cost": "{5}{W}{W}{W}",
-    "cmc": 8.0,
-    "type_line": "Creature \u2014 Spirit Knight",
-    "oracle_text": "Flying\nWhen this creature enters, creatures you control gain flying and get +X/+X until end of turn, where X is the number of creatures you control.",
-    "colors": [
-      "W"
-    ],
-    "color_identity": [
-      "W"
-    ],
-    "keywords": [
-      "Flying"
-    ],
-    "legal_commander": "legal",
-    "prices_usd": "8.65",
-    "prices_usd_foil": null,
-    "edhrec_rank": 1214,
-    "scryfall_uri": "https://scryfall.com/card/soc/110/moonshaker-cavalry?utm_source=api",
-    "set": "soc",
-    "released_at": "2026-04-24",
-    "fetched_at": "2026-09-03"
-  },
-  "Emet-Selch, Unsundered // Hades, Sorcerer of Eld": {
-    "cmc": 3.0,
-    "color_identity": [
-      "B",
-      "U"
-    ],
-    "colors": [
-      "B",
-      "U"
-    ],
-    "edhrec_rank": 6413,
-    "fetched_at": "2026-08-22",
-    "keywords": [
-      "Vigilance",
-      "Echo of the Lost",
-      "Transform"
-    ],
-    "legal_commander": "legal",
-    "mana_cost": "{1}{U}{B}",
-    "oracle_text": "Vigilance\nWhenever Emet-Selch enters or attacks, draw a card, then discard a card.\nAt the beginning of your upkeep, if there are fourteen or more cards in your graveyard, you may transform Emet-Selch.\n//\nVigilance\nEcho of the Lost \u2014 During your turn, you may play cards from your graveyard.\nIf a card or token would be put into your graveyard from anywhere, exile it instead.",
-    "prices_usd": "2.22",
-    "prices_usd_foil": "3.89",
-    "type_line": "Legendary Creature \u2014 Elder Wizard // Legendary Creature \u2014 Avatar"
-  },
-  "Inalla, Archmage Ritualist": {
-    "cmc": 5.0,
-    "color_identity": [
-      "B",
-      "R",
-      "U"
-    ],
-    "colors": [
-      "B",
-      "R",
-      "U"
-    ],
-    "edhrec_rank": 8458,
-    "fetched_at": "2026-08-22",
-    "keywords": [
-      "Eminence"
-    ],
-    "legal_commander": "legal",
-    "mana_cost": "{2}{U}{B}{R}",
-    "oracle_text": "Eminence \u2014 Whenever another nontoken Wizard you control enters, if Inalla is in the command zone or on the battlefield, you may pay {1}. If you do, create a token that's a copy of that Wizard. The token gains haste. Exile it at the beginning of the next end step.\nTap five untapped Wizards you control: Target player loses 7 life.",
-    "prices_usd_foil": "3.93",
-    "type_line": "Legendary Creature \u2014 Human Wizard"
-  },
-  "Kefka, Court Mage // Kefka, Ruler of Ruin": {
-    "cmc": 5.0,
-    "color_identity": [
-      "B",
-      "R",
-      "U"
-    ],
-    "colors": [
-      "B",
-      "R",
-      "U"
-    ],
-    "edhrec_rank": 2980,
-    "fetched_at": "2026-08-22",
-    "keywords": [
-      "Flying",
-      "Transform"
-    ],
-    "legal_commander": "legal",
-    "mana_cost": "{2}{U}{B}{R}",
-    "oracle_text": "Whenever Kefka enters or attacks, each player discards a card. Then you draw a card for each card type among cards discarded this way.\n{8}: Each opponent sacrifices a permanent of their choice. Transform Kefka. Activate only as a sorcery.\n//\nFlying\nWhenever an opponent loses life during your turn, you draw that many cards.",
-    "prices_usd": "5.58",
-    "prices_usd_foil": "7.68",
-    "type_line": "Legendary Creature \u2014 Human Wizard // Legendary Creature \u2014 Avatar Wizard"
-  },
-  "Naban, Dean of Iteration": {
-    "cmc": 2.0,
-    "color_identity": [
-      "U"
-    ],
-    "colors": [
-      "U"
-    ],
-    "edhrec_rank": 6101,
-    "fetched_at": "2026-08-22",
-    "legal_commander": "legal",
-    "mana_cost": "{1}{U}",
-    "oracle_text": "If a Wizard you control entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
-    "prices_usd": "0.62",
-    "prices_usd_foil": "1.20",
-    "type_line": "Legendary Creature \u2014 Human Wizard"
   }
 }

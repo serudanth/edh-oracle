@@ -20,12 +20,12 @@
       },
       "source_metrics": {
         "piloting_archetype": "Spellslinger / Storm",
-        "average_cmc": "2.54",
-        "non_land_cards": 78,
-        "land_cards": 23
+        "average_cmc": "2.56",
+        "non_land_cards": 80,
+        "land_cards": 26
       },
       "text": {
-        "summary": "Spellslinger / Storm deck built around Fire Lord Azula. Average CMC: 2.54.",
+        "summary": "Spellslinger / Storm deck built around Fire Lord Azula. Average CMC: 2.56.",
         "explanations": [
           "Identified Piloting Archetype as 'Spellslinger / Storm'; applied adaptive strategic weighting profile."
         ],
@@ -60,7 +60,7 @@
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/22514192",
-    "analysis_time": "2026-08-25T10:12:57Z",
+    "analysis_time": "2026-09-10T08:09:50Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

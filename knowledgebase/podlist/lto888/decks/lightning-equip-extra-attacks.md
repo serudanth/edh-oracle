@@ -7,7 +7,7 @@ colors: [W, R]
 power_level:
 tags: []
 related: []
-last_updated: 2026-08-09
+last_updated: 2026-09-08
 source: https://archidekt.com/decks/22459778
 ---
 
@@ -15,7 +15,7 @@ source: https://archidekt.com/decks/22459778
 
 **Commander:** Lightning, Army of One
 
-### Creature (25)
+### Creature (26)
 - 1x Akiri, Fearless Voyager
 - 1x Armored Skyhunter
 - 1x Aurelia, the Warleader
@@ -32,6 +32,7 @@ source: https://archidekt.com/decks/22459778
 - 1x Jor Kadeen, First Goldwarden
 - 1x Karlach, Fury of Avernus
 - 1x Kediss, Emberclaw Familiar
+- 1x Kíli the Resourceful
 - 1x Lizard Blades
 - 1x Merry, Esquire of Rohan
 - 1x Odric, Lunarch Marshal
@@ -92,7 +93,8 @@ source: https://archidekt.com/decks/22459778
 - 1x The Reaver Cleaver
 - 1x Two-Handed Axe // Sweeping Cleave
 
-### Enchantment (4)
+### Enchantment (5)
+- 1x Blacksmith's Talent
 - 1x Duelist's Heritage
 - 1x Sigarda's Aid
 - 1x Smothering Tithe

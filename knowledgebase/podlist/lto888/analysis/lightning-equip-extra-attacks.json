@@ -13,26 +13,26 @@
         "interaction_score": 3.2,
         "ramp_score": 10.0,
         "consistency_score": 10.0,
-        "speed_score": 8.9,
+        "speed_score": 9.1,
         "tutor_count": 3,
         "fast_mana_count": 2,
         "combo_count": 0
       },
       "source_metrics": {
         "piloting_archetype": "Midrange / Engine Value",
-        "average_cmc": "3.15",
-        "non_land_cards": 72,
+        "average_cmc": "3.11",
+        "non_land_cards": 74,
         "land_cards": 18
       },
       "text": {
-        "summary": "Midrange / Engine Value deck built around Lightning, Army of One. Average CMC: 3.15.",
+        "summary": "Midrange / Engine Value deck built around Lightning, Army of One. Average CMC: 3.11.",
         "explanations": [
           "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile."
         ],
         "strengths": [
           "Fast Mana acceleration: 2 source(s)",
           "Tutor density: 3 tutor(s)",
-          "Repeatable draw engines: 7"
+          "Repeatable draw engines: 8"
         ],
         "weaknesses": [
           "Sensitive to targeted disruption if key engines are neutralized."
@@ -47,7 +47,7 @@
       "raw_result": {
         "engine_version": "1.1.0",
         "sub_pillar_scores": {
-          "velocity": 89.3,
+          "velocity": 91.2,
           "engine": 100.0,
           "interaction": 32.0,
           "resource": 100.0,
@@ -60,7 +60,7 @@
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/22459778",
-    "analysis_time": "2026-08-25T10:12:57Z",
+    "analysis_time": "2026-09-10T08:09:50Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

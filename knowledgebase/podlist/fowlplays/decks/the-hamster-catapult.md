@@ -7,7 +7,7 @@ colors: [R, G]
 power_level:
 tags: []
 related: []
-last_updated: 2026-07-24
+last_updated: 2026-09-10
 source: https://archidekt.com/decks/15733915
 ---
 

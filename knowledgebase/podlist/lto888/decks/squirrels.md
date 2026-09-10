@@ -7,7 +7,7 @@ colors: [G]
 power_level:
 tags: []
 related: []
-last_updated: 2026-08-21
+last_updated: 2026-09-09
 source: https://archidekt.com/decks/23982864
 ---
 
@@ -15,7 +15,7 @@ source: https://archidekt.com/decks/23982864
 
 **Commander:** The Unbeatable Squirrel Girl
 
-### Creature (29)
+### Creature (30)
 - 1x Bakersbane Duo
 - 1x Bushy Bodyguard
 - 1x Circle of Dreams Druid
@@ -37,6 +37,7 @@ source: https://archidekt.com/decks/23982864
 - 1x Scurry Oak
 - 1x Scurry of Squirrels
 - 1x Seedborn Muse
+- 1x Shang-Chi, Master of Kung Fu
 - 1x Solemn Simulacrum
 - 1x Spider-Ham, Peter Porker
 - 1x Squirrel Mob
@@ -89,7 +90,7 @@ source: https://archidekt.com/decks/23982864
 - 1x Sword of the Squeak
 - 1x The One Ring
 
-### Enchantment (9)
+### Enchantment (10)
 - 1x Beastmaster Ascension
 - 1x Cloakwood Hermit
 - 1x Concordant Crossroads
@@ -99,8 +100,9 @@ source: https://archidekt.com/decks/23982864
 - 1x Parallel Lives
 - 1x Squirrel Nest
 - 1x Squirrel Sanctuary
+- 1x Sylvan Library
 
-### Land (35)
+### Land (36)
 - 1x Ba Sing Se
 - 1x Evendo, Waking Haven
 - 27x Forest
@@ -110,6 +112,7 @@ source: https://archidekt.com/decks/23982864
 - 1x Path of Ancestry
 - 1x Reliquary Tower
 - 1x Swarmyard
+- 1x Yavimaya, Cradle of Growth
 
 ## Notes
 

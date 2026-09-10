@@ -8,7 +8,7 @@ power_level:
 tags: []
 related: []
 last_updated: 2026-08-20
-source: https://archidekt.com/decks/21400503/forresta
+source: https://archidekt.com/decks/21400503
 ---
 
 ## Decklist

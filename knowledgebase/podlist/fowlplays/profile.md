@@ -5,7 +5,7 @@ owner: fowlplays
 tags: [#profile]
 related: []
 decks: knowledgebase/podlist/fowlplays/decks/
-last_updated: 2026-08-25
+last_updated: 2026-09-10
 ---
 
 ## Overview
@@ -15,7 +15,7 @@ last_updated: 2026-08-25
 | Designation | **Adaptive Combat-Engine Architect** |
 | Summary | A roaming planeswalker who builds each deck around a distinct engine, turning beasts, armies, graveyards, stolen power, and copied spells into pressure. Most battles are fought through combat and board development, but a few lists sharpen that broad arsenal into denial, explosive tempo, or a deterministic combat finish. |
 
-fowlplays has 13 eligible decks with a mean local Power Score of **5.6 / 10.0**, a median of **5.2** (★★★☆☆), and a range of **4.2–7.0** (brackets 1–3). Under the EDH Oracle Analyzer Engine, the portfolio primary piloting archetypes are **Midrange / Engine Value** (11 decks), **Big Mana / Landfall** (1 deck), and **Voltron / Equipment** (1 deck). Across the 13 decks, the portfolio holds 15 fast mana sources, 10 tutors, and 2 verified combo configurations (*The Rush* and *The Copied Factory*). Automated analysis records are stored in `knowledgebase/podlist/fowlplays/analysis/`.
+fowlplays has 13 eligible decks with a mean local Power Score of **5.7 / 10.0**, a median of **5.2** (★★★☆☆), and a range of **4.2–7.8** (brackets 1–3). Under the EDH Oracle Analyzer Engine, the portfolio primary piloting archetypes are **Midrange / Engine Value** (10 decks), **Spellslinger / Storm** (1 deck), **Big Mana / Landfall** (1 deck), and **Voltron / Equipment** (1 deck). Across the 13 decks, the portfolio holds 15 fast mana sources, 10 tutors, and 2 verified combo configurations (*The Rush* and *The Copied Factory*). Automated analysis records are stored in `knowledgebase/podlist/fowlplays/analysis/`.
 
 fowlplays prefers distinct game plans over repeatedly tuning one shell. The decks are generally creature-, combat-, and value-oriented, with carefully built mana bases and a creative spread of strategies rather than a uniform power level.
 

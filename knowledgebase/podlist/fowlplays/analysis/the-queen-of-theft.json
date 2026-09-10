@@ -13,19 +13,19 @@
         "interaction_score": 4.0,
         "ramp_score": 7.6,
         "consistency_score": 7.2,
-        "speed_score": 10.0,
+        "speed_score": 9.9,
         "tutor_count": 0,
         "fast_mana_count": 2,
         "combo_count": 0
       },
       "source_metrics": {
         "piloting_archetype": "Midrange / Engine Value",
-        "average_cmc": "2.75",
-        "non_land_cards": 20,
+        "average_cmc": "2.95",
+        "non_land_cards": 21,
         "land_cards": 19
       },
       "text": {
-        "summary": "Midrange / Engine Value deck built around Tasha, the Witch Queen. Average CMC: 2.75.",
+        "summary": "Midrange / Engine Value deck built around Tasha, the Witch Queen. Average CMC: 2.95.",
         "explanations": [
           "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile."
         ],
@@ -47,7 +47,7 @@
       "raw_result": {
         "engine_version": "1.1.0",
         "sub_pillar_scores": {
-          "velocity": 100.0,
+          "velocity": 99.3,
           "engine": 72.0,
           "interaction": 40.0,
           "resource": 76.0,
@@ -60,7 +60,7 @@
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/16155734",
-    "analysis_time": "2026-08-25T10:12:57Z",
+    "analysis_time": "2026-09-10T08:09:50Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],
