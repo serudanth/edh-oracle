@@ -11,6 +11,6 @@
 
 ## 2. Authoritative Core References
 
-* Universal Ethics & Risk: [/media/Zodiark/Atelier/agent-core/core/ethics-and-risk.md](file:///media/Zodiark/Atelier/agent-core/core/ethics-and-risk.md)
-* EDH Domain Standards: [/media/Zodiark/Atelier/agent-core/core/domains/edh.md](file:///media/Zodiark/Atelier/agent-core/core/domains/edh.md)
-* Active Host Profile: [/home/richterfowl/.config/agent-device.md](file:///home/richterfowl/.config/agent-device.md)
+* Universal Ethics & Risk: `~/agent-core/core/ethics-and-risk.md`
+* EDH Domain Standards: `~/agent-core/core/domains/edh.md`
+* Active Host Profile: `~/.config/agent-device.md`

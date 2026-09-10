@@ -20,5 +20,5 @@ Operational reference for GitHub Copilot sessions in the EDH Oracle repository.
 ---
 
 ## 3. Authoritative Core References
-* Universal Protocols: `/media/Zodiark/Atelier/agent-core/core/ethics-and-risk.md`
-* EDH Domain Standards: `/media/Zodiark/Atelier/agent-core/core/domains/edh.md`
+* Universal Protocols: `~/agent-core/core/ethics-and-risk.md`
+* EDH Domain Standards: `~/agent-core/core/domains/edh.md`
