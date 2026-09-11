@@ -33,7 +33,7 @@
 1x Chocobo Racetrack
 1x Sol Ring
 1x Arcane Signet
-1x Perpetual Timepiece
+1x Altar of Dementia
 
 # Enchantments
 1x Burgeoning
@@ -73,6 +73,9 @@
 1x Golgari Charm
 
 # Lands
+7x Forest
+3x Plains
+3x Swamp
 1x Dakmor Salvage
 1x Ash Barrens
 1x Scattered Groves
@@ -89,25 +92,12 @@
 1x Brushland
 1x Sunpetal Grove
 1x Fortified Village
-1x Temple of Plenty
-1x Sungrass Prairie
-1x Stirring Wildwood
 1x Llanowar Wastes
 1x Caves of Koilos
-1x Tainted Wood
-1x Tainted Field
 1x Necroblossom Snarl
 1x Shineshadow Snarl
 1x Exotic Orchard
 1x Command Tower
 1x Path of Ancestry
-1x Nesting Grounds
 1x Evolving Wilds
 1x Terramorphic Expanse
-1x Forest
-1x Snow-Covered Forest
-1x Plains
-1x Snow-Covered Plains
-1x Swamp
-1x Snow-Covered Swamp
-1x Witch's Cottage

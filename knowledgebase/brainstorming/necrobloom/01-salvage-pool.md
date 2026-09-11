@@ -28,6 +28,7 @@ Inventory of cards available from dismantled decks (**The Dirt Kicker**, **The M
 | **Llanowar Wastes** | Land | Golgari untapped dual pain land. |
 | **Exotic Orchard** | Land | Multi-color 5-color land in multiplayer pods. |
 | **Beifong's Bounty Hunters** | Creature — Human Mercenary (BG) | Death-trigger earthbend engine: whenever a nonland creature dies (e.g. 2/2 Zombie), earthbends a land for X (turns land into an X/X haste creature that returns tapped if it dies, re-triggering Landfall!). |
+| **Altar of Dementia** | Artifact (Colorless) | 2-mana instant-speed sac outlet & self-mill engine. Combos infinitely with *Beifong's Bounty Hunters* + *The Necrobloom* to mill out all opponents on the spot (or trigger infinite Landfall/ETB/death triggers). |
 
 ---
 
