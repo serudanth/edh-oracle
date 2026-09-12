@@ -2479,6 +2479,28 @@
     "prices_usd_foil": "0.35",
     "type_line": "Legendary Creature \u2014 Bird Wizard"
   },
+  "Balthier and Fran": {
+    "cmc": 3.0,
+    "color_identity": [
+      "G",
+      "R"
+    ],
+    "colors": [
+      "G",
+      "R"
+    ],
+    "edhrec_rank": 14915,
+    "fetched_at": "2026-09-11",
+    "keywords": [
+      "Reach"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{R}{G}",
+    "oracle_text": "Reach\nVehicles you control get +1/+1 and have reach and vigilance.\nWhenever a Vehicle crewed by Balthier and Fran this turn attacks, if it's the first combat phase of the turn, you may pay {1}{R}{G}. If you do, after this phase, there is an additional combat phase.",
+    "prices_usd": "0.25",
+    "prices_usd_foil": "0.40",
+    "type_line": "Legendary Creature \u2014 Human Rabbit"
+  },
   "Banishing Betrayal": {
     "cmc": 2.0,
     "color_identity": [
@@ -31751,6 +31773,26 @@
     "prices_usd_foil": "0.40",
     "type_line": "Legendary Artifact \u2014 Vehicle"
   },
+  "The Cabbage Merchant": {
+    "cmc": 3.0,
+    "color_identity": [
+      "G"
+    ],
+    "colors": [
+      "G"
+    ],
+    "edhrec_rank": 2357,
+    "fetched_at": "2026-09-11",
+    "keywords": [
+      "Food"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{G}",
+    "oracle_text": "Whenever an opponent casts a noncreature spell, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")\nWhenever a creature deals combat damage to you, sacrifice a Food token.\nTap two untapped Foods you control: Add one mana of any color.",
+    "prices_usd": "29.35",
+    "prices_usd_foil": "26.84",
+    "type_line": "Legendary Creature \u2014 Human Citizen"
+  },
   "The Circle of Loyalty": {
     "cmc": 6.0,
     "color_identity": [
@@ -33852,6 +33894,26 @@
     "prices_usd": "0.36",
     "prices_usd_foil": "1.58",
     "type_line": "Instant"
+  },
+  "Unlucky Cabbage Merchant": {
+    "cmc": 2.0,
+    "color_identity": [
+      "G"
+    ],
+    "colors": [
+      "G"
+    ],
+    "edhrec_rank": 8372,
+    "fetched_at": "2026-09-11",
+    "keywords": [
+      "Food"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{G}",
+    "oracle_text": "When this creature enters, create a Food token. (It's an artifact with \"{2}, {T}, Sacrifice this token: You gain 3 life.\")\nWhenever you sacrifice a Food, you may search your library for a basic land card and put it onto the battlefield tapped. If you search your library this way, put this creature on the bottom of its owner's library, then shuffle.",
+    "prices_usd": "0.24",
+    "prices_usd_foil": "0.33",
+    "type_line": "Creature \u2014 Human Citizen"
   },
   "Unravel": {
     "cmc": 3.0,

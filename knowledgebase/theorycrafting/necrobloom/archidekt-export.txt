@@ -24,7 +24,7 @@
 1x Skyclave Apparition
 1x Haywire Mite
 1x Spore Frog
-1x Aven Mindcensor
+1x Morbid Opportunist
 1x Traveling Chocobo
 1x Beifong's Bounty Hunters
 
@@ -34,6 +34,7 @@
 1x Sol Ring
 1x Arcane Signet
 1x Altar of Dementia
+1x Idol of Oblivion
 
 # Enchantments
 1x Burgeoning
@@ -42,7 +43,6 @@
 1x Insidious Roots
 1x Zombie Infestation
 1x Bastion of Remembrance
-1x Deafening Silence
 
 # Sorceries
 1x Reanimate
@@ -53,7 +53,7 @@
 1x Nature's Lore
 1x Cultivate
 1x Rampant Growth
-1x Explore
+1x Shamanic Revelation
 1x Farewell
 1x Austere Command
 1x Victimize
@@ -66,7 +66,7 @@
 1x Reprieve
 1x Your Temple Is Under Attack
 1x Gaea's Gift
-1x Snakeskin Veil
+1x Plumb the Forbidden
 1x Swords to Plowshares
 1x Beast Within
 1x Crop Rotation

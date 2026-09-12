@@ -5,7 +5,7 @@ owner: fowlplays
 commander: "Gluntch, the Bestower"
 colors: [G, W]
 power_level: 6.5
-tags: [#brainstorming, #counters, #group-hug, #reconciled]
+tags: [#theorycrafting, #counters, #group-hug, #reconciled]
 related: [01-the-dirt-kicker, 02-the-master-chef, 03-the-hugs-stub, 05-gluntch-optimized-for-winning]
 last_updated: 2026-09-10
 source: https://archidekt.com/decks/20094425/the_hugs

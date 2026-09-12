@@ -5,7 +5,7 @@ owner: fowlplays
 commander: "Gluntch, the Bestower"
 colors: [G, W]
 power_level: 7.5
-tags: [#brainstorming, #budget-lethal, #combos, #stax, #optimized]
+tags: [#theorycrafting, #budget-lethal, #combos, #stax, #optimized]
 related: [01-the-dirt-kicker, 02-the-master-chef, 03-the-hugs-stub, 04-reconciled-hybrid]
 last_updated: 2026-09-10
 source: 

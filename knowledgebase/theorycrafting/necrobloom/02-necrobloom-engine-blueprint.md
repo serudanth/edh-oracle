@@ -5,15 +5,15 @@ commander: "The Necrobloom"
 colors: [W, B, G]
 power_level: 3.5
 bracket: "Bracket 3 (Optimized Engine / Mid-to-High)"
-target_upgrade_spend: "~$12.60"
-tags: [#brainstorming, #landfall, #dredge, #aristocrats, #gitrog, #budget-upgrade]
+target_upgrade_spend: "~$13.90"
+tags: [#theorycrafting, #landfall, #dredge, #aristocrats, #gitrog, #budget-upgrade]
 related: [README.md, 01-salvage-pool.md]
 last_updated: 2026-09-11
 ---
 
 # The Necrobloom — Budget-Lethal Abzan Engine Blueprint
 
-A high-synergy, tournament-tested engine shell built around **The Necrobloom** that maximizes your existing collection and dismantled donor cards (*The Dirt Kicker*, *The Master Chef*, *Burgeoning*, *Sylvan Library*, *Skullclamp*, *The Gitrog Monster*, *Dakmor Salvage*, *Altar of Dementia*) while keeping the remaining card acquisition strictly budget-friendly (~$12.60 total upgrade spend).
+A high-synergy, tournament-tested engine shell built around **The Necrobloom** that maximizes your existing collection and dismantled donor cards (*The Dirt Kicker*, *The Master Chef*, *Burgeoning*, *Sylvan Library*, *Skullclamp*, *The Gitrog Monster*, *Dakmor Salvage*, *Altar of Dementia*, *Morbid Opportunist*) while keeping the remaining card acquisition strictly budget-friendly (~$13.90 total upgrade spend).
 
 ---
 
@@ -92,29 +92,29 @@ A high-synergy, tournament-tested engine shell built around **The Necrobloom** t
 * 1x **Skyclave Apparition** *(OWNED — The Master Chef)*
 * 1x **Haywire Mite** *(OWNED — The Dirt Kicker)*
 * 1x **Spore Frog** *(OWNED — The Dirt Kicker)* — Repeatable fog defense.
-* 1x **Aven Mindcensor** *(OWNED — The Master Chef)* — Anti-tutor flash flyer.
+* 1x **Morbid Opportunist** *(OWNED — Collection)* — Premier draw engine: triggers once on *each* player's turn whenever any creature dies (draws/dredges up to 4 cards per turn cycle!).
 * 1x **Traveling Chocobo** *(OWNED — The Dirt Kicker)* — Plays lands from top of library; **doubles all landfall triggers** from lands and Birds!
 * 1x **Beifong's Bounty Hunters** *(OWNED — Collection)* — Whenever a nonland creature dies, earthbends a land for X (turns land into an X/X haste creature that returns tapped if it dies, re-triggering Landfall!).
 
 ---
 
-### Artifacts (5)
+### Artifacts (6)
 * 1x **Skullclamp** *(OWNED — Collection)* — Kills 0/1 Plants to draw 2 (or Dredge 4).
 * 1x **Chocobo Racetrack** *(OWNED — The Dirt Kicker)* — Landfall token engine: creates 2/2 Birds that scale with future land drops (doubled by Traveling Chocobo).
 * 1x **Sol Ring** *(OWNED — The Dirt Kicker)*
 * 1x **Arcane Signet** *(OWNED — The Dirt Kicker)*
 * 1x **Altar of Dementia** *(OWNED — Collection)* — Instant-speed sac outlet and self-mill engine; forms a deterministic infinite mill/drain combo with *Beifong's Bounty Hunters* and *The Necrobloom*.
+* 1x **Idol of Oblivion** *(BUDGET UPGRADE — ~$0.40)* — $\{T\}$: Draw a card whenever you create a token (triggers on virtually every land drop).
 
 ---
 
-### Enchantments (7)
+### Enchantments (6)
 * 1x **Burgeoning** *(OWNED — Collection)* — Explodes on turns 1–3, loops bounce lands off-turn.
 * 1x **Sylvan Library** *(OWNED — Collection)* — Replaces draws with free Dredge 2 (zero life paid, zero cards returned).
 * 1x **Abundance** *(OWNED — The Dirt Kicker)* — Guarantees land/nonland selection; prevents decking out.
 * 1x **Insidious Roots** *(BUDGET UPGRADE — ~$1.50)* — Whenever a card leaves your graveyard, creates Plants and gives them mana-tapping counters.
 * 1x **Zombie Infestation** *(BUDGET UPGRADE — ~$0.35)* — Free discard outlet: discard 2 lands $\rightarrow$ make a 2/2 Zombie $\rightarrow$ triggers Gitrog draws.
 * 1x **Bastion of Remembrance** *(OWNED — Collection)* — Board-wipe insurance and aristocrat drain (drains each opponent for 1 and gains 1 life on any creature death).
-* 1x **Deafening Silence** *(OWNED — The Master Chef)* — Slows down combo/storm pods while you win through triggers.
 
 ---
 
@@ -127,7 +127,7 @@ A high-synergy, tournament-tested engine shell built around **The Necrobloom** t
 * 1x **Nature's Lore** *(OWNED — The Master Chef)*
 * 1x **Cultivate** *(OWNED — The Master Chef)*
 * 1x **Rampant Growth** *(OWNED — The Dirt Kicker)*
-* 1x **Explore** *(OWNED — The Master Chef)*
+* 1x **Shamanic Revelation** *(BUDGET UPGRADE — ~$0.40)* — Burst draw: draws a card for each creature you control and gains life.
 * 1x **Farewell** *(OWNED — The Master Chef)* — Emergency reset.
 * 1x **Austere Command** *(OWNED — The Master Chef)* — Modular wipe that preserves your tokens or utility pieces.
 * 1x **Victimize** *(BUDGET UPGRADE — ~$0.30)* — Sac a 0/1 Plant $\rightarrow$ reanimate 2 creatures from graveyard.
@@ -142,7 +142,7 @@ A high-synergy, tournament-tested engine shell built around **The Necrobloom** t
 * 1x **Reprieve** *(OWNED — The Master Chef)* — White tempo pseudo-counter that draws a card.
 * 1x **Your Temple Is Under Attack** *(OWNED — The Master Chef)* — Modal indestructible protection or draw 2.
 * 1x **Gaea's Gift** *(OWNED — The Dirt Kicker)* — Hexproof, indestructible protection.
-* 1x **Snakeskin Veil** *(OWNED — The Dirt Kicker)* — Hexproof protection.
+* 1x **Plumb the Forbidden** *(BUDGET UPGRADE — ~$0.50)* — Instant-speed sac outlet & burst draw: sacrifice any number of tokens to draw cards and dodge board wipes.
 * 1x **Swords to Plowshares** *(OWNED — Collection)* — Premier 1-mana creature exile.
 * 1x **Beast Within** *(BUDGET UPGRADE — ~$0.50)* — Hits any permanent.
 * 1x **Crop Rotation** *(BUDGET UPGRADE — ~$1.50)* — Sacs a land to tutor *any* utility land (e.g. Bojuka Bog, Dakmor, Demolition Field) at instant speed.
@@ -199,9 +199,9 @@ A high-synergy, tournament-tested engine shell built around **The Necrobloom** t
 | Category | Key Additions | Total Estimated Cost |
 |---|---|:---:|
 | **Creatures (5)** | Aftermath Analyst ($0.50), Tireless Provisioner ($1.50), Corpse Knight ($0.25), Elas il-Kor ($0.35), Putrid Imp ($0.40) | **~$3.00** |
-| **Artifacts & Enchantments (2)** | Insidious Roots ($1.50), Zombie Infestation ($0.35) | **~$1.85** |
-| **Instants & Sorceries (5)** | Splendid Reclamation ($2.00), Victimize ($0.30), Dread Return ($0.25), Beast Within ($0.50), Crop Rotation ($1.50) | **~$4.55** |
+| **Artifacts & Enchantments (3)** | Idol of Oblivion ($0.40), Insidious Roots ($1.50), Zombie Infestation ($0.35) | **~$2.25** |
+| **Instants & Sorceries (7)** | Splendid Reclamation ($2.00), Victimize ($0.30), Dread Return ($0.25), Beast Within ($0.50), Crop Rotation ($1.50), Shamanic Revelation ($0.40), Plumb the Forbidden ($0.50) | **~$5.45** |
 | **Lands (8)** | Ghost Quarter ($0.75), Golgari Rot Farm ($0.30), Orzhov Basilica ($0.30), Barren Moor/Tranquil/Secluded ($0.75), Caves of Koilos ($0.50), Snarls ($0.60) | **~$3.20** |
-| **Total Upgrade Spend** | | **~$12.60** |
+| **Total Upgrade Spend** | | **~$13.90** |
 
-*(Note: Every expensive staple in the deck — Burgeoning, Sylvan Library, The Gitrog Monster, Azusa, Skullclamp, Altar of Dementia, Birds of Paradise, Farewell — is 100% covered by your owned cards!)*
+*(Note: Every expensive staple in the deck — Burgeoning, Sylvan Library, The Gitrog Monster, Azusa, Skullclamp, Altar of Dementia, Morbid Opportunist, Birds of Paradise, Farewell — is 100% covered by your owned cards!)*
