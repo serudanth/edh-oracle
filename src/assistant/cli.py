@@ -7,7 +7,11 @@ Usage examples:
 """
 import argparse
 from pathlib import Path
+import sys
 import textwrap
+
+# Ensure src/ is on sys.path when invoked directly
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 
 from assistant import ingest
 

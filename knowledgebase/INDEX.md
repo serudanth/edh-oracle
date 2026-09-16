@@ -14,6 +14,9 @@ Grouped by owner. `fowlplays` is the user's own; the rest are pod members. Each 
 ### podlist/fowlplays/profile.md
 Profile: fowlplays (13 eligible decks) — **★★★☆☆ median threat, Adaptive Combat-Engine Architect**, a roaming planeswalker building distinct engines that turn beasts, armies, graveyards, stolen power, and copied spells into pressure, with The Rush's infinite-combat peak and Queen of Theft's theft-first control shell.
 
+### podlist/fowlplays/persona.md
+Simulated persona: fowlplays — Adaptive Combat-Engine Architect. Johnny/Spike-curious psychology, trigger-sequencing precision, mulligan heuristics, deflection politics, and direct LLM simulation prompt.
+
 ### podlist/fowlplays/decks/the-best-of-friends.md
 Commander: Zenos yae Galvus // Shinryu, Transcendent Rival (B)
 
@@ -58,6 +61,9 @@ Commander: Ardbert, Warrior of Darkness (WB) — legends/+1+1 counters
 ### podlist/j-py/profile.md
 Profile: J-Py (1 eligible deck, limited sample; rating provisional) — **★★★★☆ median threat, Recursive Combat Spellcaster**, a battle-mage planeswalker recycling cheap targeted spells into cards, tokens, prowess, and protection.
 
+### podlist/j-py/persona.md
+Simulated persona: j-py — Recursive Combat Spellcaster. Johnny/Spike psychology, hyper-focused Feather instant recursion loops, defensive mulligans, stax vulnerability, and direct LLM simulation prompt.
+
 ### podlist/j-py/decks/miku-madness-miku-sparta.md
 Commander: Feather, the Redeemed (WR)
 
@@ -65,6 +71,9 @@ Commander: Feather, the Redeemed (WR)
 
 ### podlist/lto888/profile.md
 Profile: LTO888 (12 eligible decks plus 3 mid-build stubs) — **★★★★☆ median threat, Staple-Forged Engine Conductor**, a planeswalker giving tribes, tokens, graveyards, spell copies, and control shells the same disciplined foundation. The stubs are archived but excluded.
+
+### podlist/lto888/persona.md
+Simulated persona: lto888 — Staple-Forged Engine Conductor. Spike/Timmy-Spike psychology, Sol Ring/The One Ring/tutor consistency, Sanguine Bond combo, archenemy politics, and direct LLM simulation prompt.
 
 ### podlist/lto888/decks/bau-bau-nyaa.md
 Commander: Rin and Seri, Inseparable (WRG)
@@ -116,6 +125,9 @@ Commander: Yuriko, the Tiger's Shadow (UB) — ninjas
 ### podlist/xanoh/profile.md
 Profile: Xanoh (2 eligible decks, limited sample; rating provisional) — **★★★★☆ median threat, Cohesion-First Control Strategist**, a deliberate planeswalker who turns extra lands into combat pressure or uses taxes, wipes, and mass reanimation to force inevitability.
 
+### podlist/xanoh/persona.md
+Simulated persona: xanoh — Cohesion-First Control Strategist. Spike/Melvin psychology, strict mechanical cohesion, Rule of Law stax, neutralizing auras, Rise of the Dark Realms, and direct LLM simulation prompt.
+
 ### podlist/xanoh/decks/forresta.md
 Commander: Gladiolus Amicitia (RG)
 
@@ -126,6 +138,9 @@ Commander: Ardbert, Warrior of Darkness (WB) — Orzhov control/stax
 
 ### podlist/mjsnoozer/profile.md
 Profile: mjsnoozer (5 decks on file) — **★★★★☆ median threat, Burst-Momentum Artificer**, an aggressive planeswalker channeling weapons, copied incantations, tokens, and Treasure into sudden surges.
+
+### podlist/mjsnoozer/persona.md
+Simulated persona: mjsnoozer — Burst-Momentum Artificer. Timmy/Johnny-Burst psychology, high-variance greedy landbases, explosive Azula/Kenway burst turns, and direct LLM simulation prompt.
 
 ### podlist/mjsnoozer/decks/cloud-ex-soldier-upgraded.md
 Commander: Cloud, Ex-SOLDIER (WRG)
@@ -146,6 +161,9 @@ Commander: Stella Lee, Wild Card (UR) — **retired**, per the owner: dismantled
 
 ### podlist/reimaru/profile.md
 Profile: reimaru (16 eligible decks, largest sample) — **★★★★☆ median threat, Resilient Combat-Engine Warlord**, a warlord planeswalker turning equipment, sacrifice, tokens, enchantments, and creature deaths into durable engines.
+
+### podlist/reimaru/persona.md
+Simulated persona: reimaru — Resilient Combat-Engine Warlord. Spike/Johnny-Grinder psychology, wipe-resilient Aristocrats recursion, equipment combat, Y'shtola control, and direct LLM simulation prompt.
 
 ### podlist/reimaru/decks/aura-battler-feather.md
 Commander: Feather, Radiant Arbiter (WR)
@@ -219,6 +237,11 @@ PDD (Product Design Document): Architectural specification for a 100% determinis
 
 ### research/2026-09-03-the-crystal-braves-deck-review.md
 Deck review & optimization report: The Crystal Braves (fowlplays, Alisaie Leveilleur // Alphinaud Leveilleur) — comprehensive architectural review evaluating the double-spell/flurry engine, token payoffs, Knight lords, curve bottlenecks, and false typal traps (e.g. Vanquisher's Banner). Includes deterministic engine metrics, 1-for-1 swap table, cantrip enablers, and piloting heuristics. Read when upgrading or piloting this deck.
+
+---
+
+### research/2026-09-16-pod-simulated-personas.md
+Cross-player reference: Behavioral models, mulligan heuristics, table interaction matrix, and LLM simulation prompts for all 6 pod members. Read when simulating games, testing table politics, or evaluating matchup dynamics.
 
 ---
 

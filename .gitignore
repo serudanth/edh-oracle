@@ -4,6 +4,7 @@
 # Local scratch / ignored working folder
 ignore/
 .ignore/
+_bmad/
 
 # Python
 __pycache__/
