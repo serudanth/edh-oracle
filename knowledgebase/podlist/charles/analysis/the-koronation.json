@@ -1,0 +1,69 @@
+{
+  "deck_name": "The Koronation",
+  "commander": "Miirym, Sentinel Wyrm",
+  "sources": [
+    {
+      "source": "EDHOracleLocalEngine",
+      "status": "success",
+      "error": null,
+      "metrics": {
+        "power_score": 4.7,
+        "bracket": 2,
+        "combo_score": 1.7,
+        "interaction_score": 0.0,
+        "ramp_score": 3.8,
+        "consistency_score": 10.0,
+        "speed_score": 6.6,
+        "tutor_count": 1,
+        "fast_mana_count": 1,
+        "combo_count": 0
+      },
+      "source_metrics": {
+        "piloting_archetype": "Midrange / Engine Value",
+        "average_cmc": "3.62",
+        "non_land_cards": 29,
+        "land_cards": 14
+      },
+      "text": {
+        "summary": "Midrange / Engine Value deck built around Miirym, Sentinel Wyrm. Average CMC: 3.62.",
+        "explanations": [
+          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile."
+        ],
+        "strengths": [
+          "Fast Mana acceleration: 1 source(s)",
+          "Tutor density: 1 tutor(s)",
+          "Repeatable draw engines: 4"
+        ],
+        "weaknesses": [
+          "Sensitive to targeted disruption if key engines are neutralized."
+        ],
+        "recommendations": [],
+        "suggested_changes": [],
+        "combo_lines": [],
+        "mulligan_advice": [
+          "Keep hands with early mana acceleration and at least 2 lands."
+        ]
+      },
+      "raw_result": {
+        "engine_version": "1.1.0",
+        "sub_pillar_scores": {
+          "velocity": 66.0,
+          "engine": 100.0,
+          "interaction": 0.0,
+          "resource": 38.0,
+          "resilience": 0.0,
+          "closing": 17.0,
+          "mana": 85.0
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "deck_url": "https://archidekt.com/decks/15340360",
+    "analysis_time": "2026-09-17T05:21:37Z",
+    "successful_sources": [
+      "EDHOracleLocalEngine"
+    ],
+    "failed_sources": []
+  }
+}

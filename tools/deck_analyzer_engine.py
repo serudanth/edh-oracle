@@ -122,12 +122,13 @@ def parse_deck_markdown(filepath: pathlib.Path) -> Dict[str, Any]:
         "owner": owner,
         "commander": commander,
         "source_url": source_url,
+        "status": frontmatter.get("status", "complete"),
         "cards": cards,
         "filepath": filepath,
     }
 
 
-def classify_piloting_archetype(commander_text: str, card_types: Dict[str, int], user_cats: List[str], cards_data: List[Dict[str, Any]]) -> str:
+def classify_piloting_archetype(commander_text: str, card_types: Dict[str, int], user_cats: List[str], cards_data: List[Dict[str, Any]], x_spell_count: int = 0) -> str:
     """Classifies primary piloting intent of the deck."""
     total_cards = sum(c["qty"] for c in cards_data)
     instants_sorceries = card_types.get("Instant", 0) + card_types.get("Sorcery", 0)
@@ -143,6 +144,10 @@ def classify_piloting_archetype(commander_text: str, card_types: Dict[str, int],
 
     if "winota" in cmd_lower or "kaalia" in cmd_lower or "kinnan" in cmd_lower:
         return "Cheat / Aggro Tempo"
+
+    # X-Spell scaling engines (Hydras, X-spells, Zimone) represent Big Mana strategies
+    if x_spell_count >= 15 or "zimone" in cmd_lower or "x in its mana cost" in cmd_lower or "hydra" in cmd_lower:
+        return "Big Mana / Landfall"
 
     if instants_sorceries >= 25 or "feather" in cmd_lower or "inalla" in cmd_lower or "stella lee" in cmd_lower:
         return "Spellslinger / Storm"
@@ -189,8 +194,10 @@ def analyze_deck(deck_info: Dict[str, Any], cache: Dict[str, Any]) -> Dict[str, 
     # Card statistics & attributes
     total_non_lands = 0
     total_cmc = 0.0
+    total_eff_cmc = 0.0
     cmc_le_2 = 0
     card_types_count: Dict[str, int] = {}
+    x_spell_count = 0
     
     fast_mana_count = 0
     tutor_count = 0
@@ -231,11 +238,21 @@ def analyze_deck(deck_info: Dict[str, Any], cache: Dict[str, Any]) -> Dict[str, 
             cmc = cdata.get("cmc", 0.0)
             type_line = cdata.get("type_line", "")
             oracle = cdata.get("oracle_text", "").lower()
+            mana_cost = cdata.get("mana_cost", "") or ""
+
+            x_count = mana_cost.count("{X}")
+            if x_count > 0:
+                x_spell_count += qty
+
+            # Operational effective CMC: in gameplay, X-spells are not cast for X=0
+            # A conservative baseline models X at ~2.5 mana per {X} symbol
+            eff_cmc = cmc + (x_count * 2.5 if x_count > 0 else 0.0)
 
             if "Land" not in type_line:
                 total_non_lands += qty
                 total_cmc += cmc * qty
-                if cmc <= 2:
+                total_eff_cmc += eff_cmc * qty
+                if eff_cmc <= 2:
                     cmc_le_2 += qty
 
             # Type line aggregation
@@ -246,6 +263,13 @@ def analyze_deck(deck_info: Dict[str, Any], cache: Dict[str, Any]) -> Dict[str, 
             # Fast mana check
             if name in FAST_MANA_CARDS:
                 fast_mana_count += qty
+
+            # Ramp fallback when user categories are generic types
+            if "ramp" not in cat and "fast mana" not in cat:
+                if (("search your library for" in oracle and any(k in oracle for k in ["land", "forest", "plains", "island", "swamp", "mountain"]))
+                    or ("land card" in oracle and "onto the battlefield" in oracle)
+                    or (("add {" in oracle or "add one mana" in oracle or "add x mana" in oracle or "adds {" in oracle) and "land" not in type_line.lower())):
+                    ramp_count += qty
 
             # Oracle text pattern checks
             if "search your library for" in oracle and "basic land" not in oracle:
@@ -270,16 +294,18 @@ def analyze_deck(deck_info: Dict[str, Any], cache: Dict[str, Any]) -> Dict[str, 
                 cheat_engine_count += qty
 
     avg_cmc = (total_cmc / total_non_lands) if total_non_lands > 0 else 3.0
+    avg_eff_cmc = (total_eff_cmc / total_non_lands) if total_non_lands > 0 else 3.0
 
-    # Archetype Classification
-    archetype = classify_piloting_archetype(commander_oracle, card_types_count, user_cats, cards)
+    # Archetype Classification (pass x_spell_count)
+    archetype = classify_piloting_archetype(commander_oracle, card_types_count, user_cats, cards, x_spell_count)
     weights = ARCHETYPE_WEIGHTS.get(archetype, ARCHETYPE_WEIGHTS["Midrange / Engine Value"])
 
     # Combo Detection
     combo_count, combo_lines = detect_combos(commander, card_names)
 
     # Sub-Pillar Score Calculations
-    s_velocity = min(100.0, max(0.0, 120.0 - 30.0 * (avg_cmc - 1.5) + 40.0 * (cmc_le_2 / max(1, total_non_lands))))
+    eval_cmc = avg_eff_cmc if x_spell_count >= 8 else avg_cmc
+    s_velocity = min(100.0, max(0.0, 120.0 - 30.0 * (eval_cmc - 1.5) + 40.0 * (cmc_le_2 / max(1, total_non_lands))))
     s_engine = min(100.0, 12.0 * repeatable_draw_count + 6.0 * min(10, len(cards) // 5))
     s_interaction = min(100.0, 8.0 * (interaction_count + instant_interaction_count))
     s_resource = min(100.0, 6.0 * ramp_count + 20.0 * fast_mana_count + 18.0 * cheat_engine_count)
@@ -334,11 +360,13 @@ def analyze_deck(deck_info: Dict[str, Any], cache: Dict[str, Any]) -> Dict[str, 
                 "source_metrics": {
                     "piloting_archetype": archetype,
                     "average_cmc": f"{avg_cmc:.2f}",
+                    "effective_average_cmc": f"{avg_eff_cmc:.2f}" if x_spell_count >= 8 else None,
+                    "x_spell_count": x_spell_count if x_spell_count > 0 else None,
                     "non_land_cards": total_non_lands,
                     "land_cards": card_types_count.get("Land", 0),
                 },
                 "text": {
-                    "summary": f"{archetype} deck built around {commander}. Average CMC: {avg_cmc:.2f}.",
+                    "summary": f"{archetype} deck built around {commander}. Average CMC: {avg_cmc:.2f} (Effective: {avg_eff_cmc:.2f} across {x_spell_count} X-spells)." if x_spell_count >= 8 else f"{archetype} deck built around {commander}. Average CMC: {avg_cmc:.2f}.",
                     "explanations": [
                         f"Identified Piloting Archetype as '{archetype}'; applied adaptive strategic weighting profile."
                     ],
@@ -411,9 +439,14 @@ def main():
     if args.deck:
         deck_files.append(pathlib.Path(args.deck).resolve())
     elif args.owner:
-        owner_dir = podlist_dir / args.owner / "decks"
+        from decklist_common import resolve_owner
+        canonical_owner = resolve_owner(args.owner)
+        owner_dir = podlist_dir / canonical_owner / "decks"
         if owner_dir.exists():
             deck_files.extend(owner_dir.glob("*.md"))
+        else:
+            print(f"Owner directory {owner_dir} not found.")
+            sys.exit(1)
     elif args.all:
         deck_files.extend(podlist_dir.glob("*/decks/*.md"))
 
@@ -424,6 +457,9 @@ def main():
     for df in deck_files:
         try:
             deck_info = parse_deck_markdown(df)
+            if deck_info.get("status") == "stub" or len(deck_info.get("cards", [])) < 10:
+                print(f"Skipping stub decklist: {df.name}")
+                continue
             analysis = analyze_deck(deck_info, cache)
             if args.write_kb:
                 out_path = write_analysis_to_kb(df, analysis)

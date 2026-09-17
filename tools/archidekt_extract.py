@@ -19,7 +19,7 @@ import json
 import re
 import urllib.request
 
-from decklist_common import REPO_ROOT, build_markdown, classify_type, write_decklist
+from decklist_common import REPO_ROOT, build_markdown, classify_type, write_decklist, resolve_handle
 
 COLOR_LETTERS = {"White": "W", "Blue": "U", "Black": "B", "Red": "R", "Green": "G"}
 
@@ -110,8 +110,9 @@ def main():
     args = parser.parse_args()
 
     if args.user:
-        targets = fetch_user_decks(args.user)
-        print(f"Found {len(targets)} public deck(s) for {args.user}")
+        target_user = resolve_handle(args.user)
+        targets = fetch_user_decks(target_user)
+        print(f"Found {len(targets)} public deck(s) for {target_user}")
         for summary in targets:
             deck_id = str(summary["id"])
             source_url = f"https://archidekt.com/decks/{deck_id}"

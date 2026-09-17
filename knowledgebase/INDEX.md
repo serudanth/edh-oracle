@@ -7,211 +7,251 @@ Read the linked file when the task matches the tags or trigger.
 ---
 
 ## podlist/
-Grouped by owner. `fowlplays` is the user's own; the rest are pod members. Each owner folder has one `profile.md` (deckbuilder tendencies — read before picking or evaluating a deck for that person, or when spotting cross-deck/cross-pod patterns) and a `decks/` folder (one file per deck, pulled from that owner's public Archidekt or Moxfield profile).
+Grouped by owner. `charles` (`fowlplays`) is the user's own; the rest are pod members. Each owner folder has one `profile.md` (deckbuilder tendencies — read before picking or evaluating a deck for that person, or when spotting cross-deck/cross-pod patterns) and a `decks/` folder (one file per deck, pulled from that owner's public Archidekt or Moxfield profile).
 
-### fowlplays
+### Charles (`fowlplays`)
 
-### podlist/fowlplays/profile.md
+### podlist/charles/profile.md
 Profile: fowlplays (13 eligible decks) — **★★★☆☆ median threat, Adaptive Combat-Engine Architect**, a roaming planeswalker building distinct engines that turn beasts, armies, graveyards, stolen power, and copied spells into pressure, with The Rush's infinite-combat peak and Queen of Theft's theft-first control shell.
 
-### podlist/fowlplays/persona.md
+### podlist/charles/persona.md
 Simulated persona: fowlplays — Adaptive Combat-Engine Architect. Johnny/Spike-curious psychology, trigger-sequencing precision, mulligan heuristics, deflection politics, and direct LLM simulation prompt.
 
-### podlist/fowlplays/decks/the-best-of-friends.md
+### podlist/charles/decks/the-best-of-friends.md
 Commander: Zenos yae Galvus // Shinryu, Transcendent Rival (B)
 
-### podlist/fowlplays/decks/the-copied-factory.md
+### podlist/charles/decks/the-copied-factory.md
 Commander: Inalla, Archmage Ritualist (UBR) — wizard spellslinger/storm
 
-### podlist/fowlplays/decks/the-crystal-braves.md
+### podlist/charles/decks/the-crystal-braves.md
 Commander: Alisaie Leveilleur, Alphinaud Leveilleur (WU) — knights/tempo token support
 
-### podlist/fowlplays/decks/the-dirt-kicker.md
+### podlist/charles/decks/the-dirt-kicker.md
 Commander: Tifa Lockhart (G)
 
-### podlist/fowlplays/decks/the-gate-of-babylon.md
+### podlist/charles/decks/the-gate-of-babylon.md
 Commander: Bruenor Battlehammer (WR) — Voltron/equipment
 
-### podlist/fowlplays/decks/the-hamster-catapult.md
+### podlist/charles/decks/the-hamster-catapult.md
 Commander: Minsc & Boo, Timeless Heroes (RG)
 
-### podlist/fowlplays/decks/the-koronation.md
+### podlist/charles/decks/the-koronation.md
 Commander: Miirym, Sentinel Wyrm (URG) — dragons
 
-### podlist/fowlplays/decks/the-last-ride.md
+### podlist/charles/decks/the-last-ride.md
 Commander: Balthier and Fran (RG) — vehicles/extra combats
 
-### podlist/fowlplays/decks/the-lorehold-redux.md
+### podlist/charles/decks/the-lorehold-redux.md
 Commander: Quintorius, History Chaser (WR) — graveyard/self-mill
 
-### podlist/fowlplays/decks/the-master-chef.md
+### podlist/charles/decks/the-master-chef.md
 Commander: Master Chef, Lae'zel, Vlaakith's Champion (WG) — +1/+1 counters/tokens
 
-### podlist/fowlplays/decks/the-queen-of-theft.md
+### podlist/charles/decks/the-queen-of-theft.md
 Commander: Tasha, the Witch Queen (UB) — theft/mill
 
-### podlist/fowlplays/decks/the-rush.md
+### podlist/charles/decks/the-rush.md
 Commander: Winota, Joiner of Forces (WR) — aggro tokens
 
-### podlist/fowlplays/decks/the-warrior-of-darkness.md
+### podlist/charles/decks/the-warrior-of-darkness.md
 Commander: Ardbert, Warrior of Darkness (WB) — legends/+1+1 counters
 
-### J-Py
+### Julius (`j-py`)
 
-### podlist/j-py/profile.md
+### podlist/julius/profile.md
 Profile: J-Py (1 eligible deck, limited sample; rating provisional) — **★★★★☆ median threat, Recursive Combat Spellcaster**, a battle-mage planeswalker recycling cheap targeted spells into cards, tokens, prowess, and protection.
 
-### podlist/j-py/persona.md
+### podlist/julius/persona.md
 Simulated persona: j-py — Recursive Combat Spellcaster. Johnny/Spike psychology, hyper-focused Feather instant recursion loops, defensive mulligans, stax vulnerability, and direct LLM simulation prompt.
 
-### podlist/j-py/decks/miku-madness-miku-sparta.md
+### podlist/julius/decks/miku-madness-miku-sparta.md
 Commander: Feather, the Redeemed (WR)
 
-### LTO888
+### Lance (`lto888`)
 
-### podlist/lto888/profile.md
+### podlist/lance/profile.md
 Profile: LTO888 (12 eligible decks plus 3 mid-build stubs) — **★★★★☆ median threat, Staple-Forged Engine Conductor**, a planeswalker giving tribes, tokens, graveyards, spell copies, and control shells the same disciplined foundation. The stubs are archived but excluded.
 
-### podlist/lto888/persona.md
+### podlist/lance/persona.md
 Simulated persona: lto888 — Staple-Forged Engine Conductor. Spike/Timmy-Spike psychology, Sol Ring/The One Ring/tutor consistency, Sanguine Bond combo, archenemy politics, and direct LLM simulation prompt.
 
-### podlist/lto888/decks/bau-bau-nyaa.md
+### podlist/lance/decks/bau-bau-nyaa.md
 Commander: Rin and Seri, Inseparable (WRG)
 
-### podlist/lto888/decks/celes-recursion.md
+### podlist/lance/decks/celes-recursion.md
 Commander: Celes, Rune Knight (WBR)
 
-### podlist/lto888/decks/cid-cid-and-cid-with-cid.md
+### podlist/lance/decks/cid-cid-and-cid-with-cid.md
 Commander: Cid, Timeless Artificer — **stub, mid-build (1 card as of 2026-08-25)**, not yet worth analyzing
 
-### podlist/lto888/decks/doran-the-exploder.md
+### podlist/lance/decks/doran-the-exploder.md
 Commander: Doran, Besieged by Time — **stub, mid-build (1 card as of 2026-08-25)**, not yet worth analyzing
 
-### podlist/lto888/decks/lightning-equip-extra-attacks.md
+### podlist/lance/decks/lightning-equip-extra-attacks.md
 Commander: Lightning, Army of One (WR) — equipment/extra combats
 
-### podlist/lto888/decks/maralen-faelves.md
+### podlist/lance/decks/maralen-faelves.md
 Commander: Maralen, Fae Ascendant (UBG)
 
-### podlist/lto888/decks/prismari-artistry.md
+### podlist/lance/decks/prismari-artistry.md
 Commander: Rootha, Mastering the Moment (UR)
 
-### podlist/lto888/decks/sephiroth-pain-is-love.md
+### podlist/lance/decks/sephiroth-pain-is-love.md
 Commander: Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (B)
 
-### podlist/lto888/decks/so-i-started-blasting-with-azula.md
+### podlist/lance/decks/so-i-started-blasting-with-azula.md
 Commander: Fire Lord Azula (UBR)
 
-### podlist/lto888/decks/squirrels.md
+### podlist/lance/decks/squirrels.md
 Commander: The Unbeatable Squirrel Girl (G)
 
-### podlist/lto888/decks/thor-voltron-slinger.md
+### podlist/lance/decks/thor-voltron-slinger.md
 Commander: Thor, God of Thunder — **stub, mid-build (24 cards as of 2026-08-28)**, not yet worth analyzing
 
-### podlist/lto888/decks/turtle-power-powered.md
+### podlist/lance/decks/turtle-power-powered.md
 Commander: Leonardo, the Balance, Michelangelo, the Heart (WUBRG) — 5-color TMNT partners
 
-### podlist/lto888/decks/yshtola-slingy-wingy.md
+### podlist/lance/decks/yshtola-slingy-wingy.md
 Commander: Y'shtola, Night's Blessed (WUB)
 
-### podlist/lto888/decks/yuna-enchantress.md
+### podlist/lance/decks/yuna-enchantress.md
 Commander: Yuna, Hope of Spira (WG) — enchantress
 
-### podlist/lto888/decks/yuriko-good-ol-ninjas.md
+### podlist/lance/decks/yuriko-good-ol-ninjas.md
 Commander: Yuriko, the Tiger's Shadow (UB) — ninjas
 
-### Xanoh
+### Donny (`xanoh`)
 
-### podlist/xanoh/profile.md
+### podlist/donny/profile.md
 Profile: Xanoh (2 eligible decks, limited sample; rating provisional) — **★★★★☆ median threat, Cohesion-First Control Strategist**, a deliberate planeswalker who turns extra lands into combat pressure or uses taxes, wipes, and mass reanimation to force inevitability.
 
-### podlist/xanoh/persona.md
+### podlist/donny/persona.md
 Simulated persona: xanoh — Cohesion-First Control Strategist. Spike/Melvin psychology, strict mechanical cohesion, Rule of Law stax, neutralizing auras, Rise of the Dark Realms, and direct LLM simulation prompt.
 
-### podlist/xanoh/decks/forresta.md
+### podlist/donny/decks/forresta.md
 Commander: Gladiolus Amicitia (RG)
 
-### podlist/xanoh/decks/the-sundering.md
+### podlist/donny/decks/the-sundering.md
 Commander: Ardbert, Warrior of Darkness (WB) — Orzhov control/stax
 
-### mjsnoozer
+### MJ (`mjsnoozer`)
 
-### podlist/mjsnoozer/profile.md
+### podlist/mj/profile.md
 Profile: mjsnoozer (5 decks on file) — **★★★★☆ median threat, Burst-Momentum Artificer**, an aggressive planeswalker channeling weapons, copied incantations, tokens, and Treasure into sudden surges.
 
-### podlist/mjsnoozer/persona.md
+### podlist/mj/persona.md
 Simulated persona: mjsnoozer — Burst-Momentum Artificer. Timmy/Johnny-Burst psychology, high-variance greedy landbases, explosive Azula/Kenway burst turns, and direct LLM simulation prompt.
 
-### podlist/mjsnoozer/decks/cloud-ex-soldier-upgraded.md
+### podlist/mj/decks/cloud-ex-soldier-upgraded.md
 Commander: Cloud, Ex-SOLDIER (WRG)
 
-### podlist/mjsnoozer/decks/edward-kenway-treasure-pirates-and-vehicles-deck.md
+### podlist/mj/decks/edward-kenway-treasure-pirates-and-vehicles-deck.md
 Commander: Edward Kenway (UBR) — vehicles
 
-### podlist/mjsnoozer/decks/fire-lord-azula.md
+### podlist/mj/decks/fire-lord-azula.md
 Commander: Fire Lord Azula (UBR)
 
-### podlist/mjsnoozer/decks/squirreled-away---food-build.md
+### podlist/mj/decks/squirreled-away---food-build.md
 Commander: Hazel of the Rootbloom (BG) — food
 
-### podlist/mjsnoozer/decks/stella-lee.md
+### podlist/mj/decks/stella-lee.md
 Commander: Stella Lee, Wild Card (UR) — **retired**, per the owner: dismantled and rebuilt into Fire Lord Azula. File kept for historical reference; not an active deck.
 
-### reimaru
+### Chad (`reimaru`)
 
-### podlist/reimaru/profile.md
+### podlist/chad/profile.md
 Profile: reimaru (16 eligible decks, largest sample) — **★★★★☆ median threat, Resilient Combat-Engine Warlord**, a warlord planeswalker turning equipment, sacrifice, tokens, enchantments, and creature deaths into durable engines.
 
-### podlist/reimaru/persona.md
+### podlist/chad/persona.md
 Simulated persona: reimaru — Resilient Combat-Engine Warlord. Spike/Johnny-Grinder psychology, wipe-resilient Aristocrats recursion, equipment combat, Y'shtola control, and direct LLM simulation prompt.
 
-### podlist/reimaru/decks/aura-battler-feather.md
+### podlist/chad/decks/aura-battler-feather.md
 Commander: Feather, Radiant Arbiter (WR)
 
-### podlist/reimaru/decks/feathers-spell-all-you-can.md
+### podlist/chad/decks/feathers-spell-all-you-can.md
 Commander: Feather, the Redeemed (WR)
 
-### podlist/reimaru/decks/marneus-calgar-captain-of-tokens.md
+### podlist/chad/decks/marneus-calgar-captain-of-tokens.md
 Commander: Marneus Calgar (WUB) — tokens
 
-### podlist/reimaru/decks/miirym-miirym-on-the-wall.md
+### podlist/chad/decks/miirym-miirym-on-the-wall.md
 Commander: Miirym, Sentinel Wyrm (URG) — dragons
 
-### podlist/reimaru/decks/saheeli-copy-brilliance.md
+### podlist/chad/decks/saheeli-copy-brilliance.md
 Commander: Saheeli, the Sun's Brilliance (UR) — copy
 
-### podlist/reimaru/decks/sarumans-mighty-meaty-army.md
+### podlist/chad/decks/sarumans-mighty-meaty-army.md
 Commander: Saruman, the White Hand (UBR)
 
-### podlist/reimaru/decks/silverquill-likes-to-bring-a-crowd.md
+### podlist/chad/decks/silverquill-likes-to-bring-a-crowd.md
 Commander: Silverquill, the Disputant (WB)
 
-### podlist/reimaru/decks/sionas-enchanting-soldiers.md
+### podlist/chad/decks/sionas-enchanting-soldiers.md
 Commander: Siona, Captain of the Pyleas (WG) — enchantments
 
-### podlist/reimaru/decks/solphim-and-suffering.md
+### podlist/chad/decks/solphim-and-suffering.md
 Commander: Solphim, Mayhem Dominus (R)
 
-### podlist/reimaru/decks/stop-sacing-sephiroth.md
+### podlist/chad/decks/stop-sacing-sephiroth.md
 Commander: Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel (B)
 
-### podlist/reimaru/decks/swords-and-slicer.md
+### podlist/chad/decks/swords-and-slicer.md
 Commander: Slicer, Hired Muscle // Slicer, High-Speed Antagonist (R)
 
-### podlist/reimaru/decks/syr-gwyn-armed-and-crazy.md
+### podlist/chad/decks/syr-gwyn-armed-and-crazy.md
 Commander: Syr Gwyn, Hero of Ashvale (WBR) — voltron/equipment
 
-### podlist/reimaru/decks/thats-a-lot-of-swords-cloud.md
+### podlist/chad/decks/thats-a-lot-of-swords-cloud.md
 Commander: Cloud, Midgar Mercenary (W)
 
-### podlist/reimaru/decks/thraximundar-lord-of-sacs.md
+### podlist/chad/decks/thraximundar-lord-of-sacs.md
 Commander: Thraximundar (UBR) — sacrifice
 
-### podlist/reimaru/decks/wherere-the-rats-wick.md
+### podlist/chad/decks/wherere-the-rats-wick.md
 Commander: Wick, the Whorled Mind (UBR)
 
-### podlist/reimaru/decks/yshtolas-trigger-trigger-frown-and-fall.md
+### podlist/chad/decks/yshtolas-trigger-trigger-frown-and-fall.md
 Commander: Y'shtola, Night's Blessed (WUB)
+
+### Allen (`lentropy`)
+
+### podlist/allen/profile.md
+Profile: Allen (`lentropy`, 1 deck on file) — **★★★★☆\* provisional threat, The Tax Collector**, core pod member piloting the notorious "Tax Man" (*Valgovoth, Harrower of Souls*), maintained and curated in the care of Chad. Note: does not maintain Archidekt/Moxfield; deck tracked offline/via Chad.
+
+### podlist/allen/persona.md
+Simulated persona: Allen — The Tax Collector. Casual/entrusted pilot psychology, relentless Valgovoth trigger collection, group slug taxes, and direct LLM simulation prompt.
+
+### podlist/allen/decks/valgovoth-the-tax-man.md
+Commander: Valgovoth, Harrower of Souls (BR) — Rakdos Group Slug / Life-Loss Taxes & Attrition (maintained by Chad)
+
+---
+
+## Extended Pod Roster Stubs
+
+Observed placeholder commanders, roles, and profiles for extended pod members (awaiting full deck ingestion):
+- **Obie**: `podlist/obie/profile.md`, `podlist/obie/persona.md`
+  - Deck: `podlist/obie/decks/breena-the-demagogue.md` — Breena, the Demagogue (WB) — Group Hug / Politics
+- **Charlene**: `podlist/charlene/profile.md`, `podlist/charlene/persona.md`
+  - Deck: `podlist/charlene/decks/noctis-esper-artifacts.md` — Noctis, Prince of Lucis (WUB) — Esper Artifact Infinite Storm (Aetherflux Reservoir finish)
+- **Cea**: `podlist/cea/profile.md`, `podlist/cea/persona.md`
+  - Deck: `podlist/cea/decks/abzan-armor-toughness.md` — Felothar the Steadfast (WBG) — Abzan Armor / Toughness-Matters (Tree of Perdition tech)
+- **Ro**: `podlist/ro/profile.md`, `podlist/ro/persona.md`
+  - Deck: `podlist/ro/decks/counter-intelligence-proliferate.md` — Inspirit, Flagship Vessel (URW) — Artifacts & Proliferate
+  - Deck: `podlist/ro/decks/endless-punishment-lord-of-pain.md` — The Lord of Pain (BR) — Rakdos Group Slug
+  - Deck: `podlist/ro/decks/tifa-lockhart-mono-green.md` — Tifa Lockhart (G) — Mono Green Landfall / Power Doubler
+- **Jason**: `podlist/jason/profile.md`, `podlist/jason/persona.md`
+  - Role: Pre-eminent cEDH-adjacent sage of the extended pod (high-power optimization benchmark)
+  - Deck: `podlist/jason/decks/henzie-toolbox-torre.md` — Henzie "Toolbox" Torre (BRG) — Jund Blitz / Reanimation
+- **Raffy**: `podlist/raffy/profile.md`, `podlist/raffy/persona.md`
+  - Deck: `podlist/raffy/decks/raphael-fiendish-savior.md` — Raphael, Fiendish Savior (BR) — Typal Fiends / Lifelink Aristocrats
+- **Ijon**: `podlist/ijon/profile.md`, `podlist/ijon/persona.md`
+  - Deck: `podlist/ijon/decks/frodo-and-sam-food-and-fellowship.md` — Frodo, Adventurous Hobbit // Sam, Loyal Attendant (WBG) — Food & Fellowship *(Signature Deck)*
+  - Deck: `podlist/ijon/decks/dinosaur-fight-club.md` — Wayta, Trainer Prodigy (RGW tentative) — Dinosaur Fight Club / Enrage
+- **Emile**: `podlist/emile/profile.md`, `podlist/emile/persona.md`
+  - Deck: `podlist/emile/decks/jodah-the-unifier-final-fantasy.md` — Jodah, the Unifier (WUBRG) — Final Fantasy Themed Legend Cascade
+- **Emil**: `podlist/emil/profile.md`, `podlist/emil/persona.md`
+  - Deck: `podlist/emil/decks/limit-break-tifa-martial-artist.md` — Tifa, Martial Artist (RGW) — FFVII Limit Break (Surge Foil)
+- **Miggy**: `podlist/miggy/profile.md`, `podlist/miggy/persona.md`
 
 ---
 

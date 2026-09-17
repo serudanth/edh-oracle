@@ -1,3 +1,17 @@
+## 2026-09-17 (delta refresh, rules archival & engine re-analysis)
+
+- **[kb]** Re-ran `tools/archidekt_extract.py` and `tools/moxfield_extract.py` across all 6 owners (fowlplays, j-py, lto888, mjsnoozer, reimaru, xanoh) against remote sources:
+  - **`mjsnoozer`**: Discovered 1 new deck: `knowledgebase/podlist/mjsnoozer/decks/zimone-x-bulldozer.md` (Zimone, Infinite Analyst, Simic UG, 100 cards). Reordered Stella Lee decklist.
+  - **`lto888`**: Card updates across `knowledgebase/podlist/lto888/decks/maralen-faelves.md` (added Sol Ring, Dark Ritual, The One Ring, An Offer You Can't Refuse, Cultivate, Maskwood Nexus, lands), `yshtola-slingy-wingy.md` (added Displacer Kitten, Tataru Taru), and updated stub `doran-the-exploder.md` (assigned commander Doran, Besieged by Time, added 2 creatures).
+  - **`fowlplays`, `j-py`, `reimaru`, `xanoh`**: Re-extracted; card compositions confirmed current.
+- **[cache]** Added 65 newly discovered cards to persistent cache `knowledgebase/_cache/scryfall-cards.json`, expanding the cache to 2,086 cards.
+- **[rules]** Downloaded and archived the official WotC Magic: The Gathering Comprehensive Rules into `knowledgebase/rules/MagicCompRules.txt` (effective August 7, 2026, 9,397 lines) alongside documentation in `knowledgebase/rules/README.md`.
+- **[tools]** Executed deterministic analyzer engine `tools/deck_analyzer_engine.py` across all 53 pod decks:
+  - *Maralen Faelves* surged from Power Score 6.8 to 7.7 (EDH Bracket 3) following additions of fast mana (Sol Ring, Dark Ritual) and tutors.
+  - *Zimone X Bulldozer* initialized at Power Score 7.0 (EDH Bracket 3, Spellslinger / Storm).
+  - *The Rush* advanced to EDH Bracket 3 (Power Score 6.9).
+- **[kb]** Synchronized documentation across `knowledgebase/INDEX.md`, `knowledgebase/podlist/mjsnoozer/profile.md`, and `knowledgebase/podlist/lto888/profile.md` with updated card counts, staples, and engine metrics.
+
 ## 2026-09-10 (full pod decklist re-sync & audit)
 
 - **[kb]** Re-ran `tools/archidekt_extract.py --user` for fowlplays, j-py, lto888, mjsnoozer, xanoh, and `tools/moxfield_extract.py --user` for reimaru — a comprehensive re-sync of all 6 owners' public decklists against remote sources:

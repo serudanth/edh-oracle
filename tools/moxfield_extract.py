@@ -21,7 +21,7 @@ import re
 import urllib.error
 import urllib.request
 
-from decklist_common import REPO_ROOT, build_markdown, classify_type, write_decklist
+from decklist_common import REPO_ROOT, build_markdown, classify_type, write_decklist, resolve_handle
 
 API_BASE = "https://api2.moxfield.com"
 HEADERS = {"Accept": "application/json", "User-Agent": "Mozilla/5.0"}
@@ -121,8 +121,9 @@ def main():
     args = parser.parse_args()
 
     if args.user:
-        targets = fetch_user_decks(args.user)
-        print(f"Found {len(targets)} public deck(s) for {args.user}")
+        target_user = resolve_handle(args.user)
+        targets = fetch_user_decks(target_user)
+        print(f"Found {len(targets)} public deck(s) for {target_user}")
         for summary in targets:
             deck_id = summary["publicId"]
             source_url = summary["publicUrl"]

@@ -1,24 +1,20 @@
 # Copilot Instructions for edh-oracle
 
-Operational reference for GitHub Copilot sessions in the EDH Oracle repository.
+## 1. Operational Bounds & Safety
+* **Core Anchor (Tiers 1 & 2):** Adhere to the Dual-Flow resolution engine and safety constraints in [`~/agent-core/templates/global/core-anchor.md`](file:///home/cpc9181/agent-core/templates/global/core-anchor.md).
+* **Domain Architecture (Tier 3):** Implement standards in [`~/agent-core/core/domains/edh.md`](file:///home/cpc9181/agent-core/core/domains/edh.md).
 
 ---
 
-## 1. Repository Purpose & Architecture
-* **Status:** Pre-code knowledge base and research archive for Magic: The Gathering Commander (EDH).
+## 2. Repository Purpose & Architecture (Tier 4)
+* **Status:** Pre-code knowledge base and research archive for Magic: The Gathering Commander (EDH). No application build, test, or lint tooling exists yet.
 * **Primary Products:** `knowledgebase/podlist/<owner>/decks/<slug>.md`, `knowledgebase/research/`, `tools/`.
 * **Decklist Ingestion:** Use `python tools/archidekt_extract.py` and `python tools/moxfield_extract.py`.
 * **Mirror Policy:** External deck sites (Archidekt/Moxfield) are the source of truth. Do not manually edit local decklists.
 
 ---
 
-## 2. Live Research & Cache Rules
+## 3. Live Research & Cache Rules
 * **Cache First:** Always check `knowledgebase/_cache/scryfall-cards.json` before querying external APIs.
-* **Network Egress Probe:** Probe `api.scryfall.com` directly; only use `https://r.jina.ai/` prefix if direct connection returns HTTP 403.
+* **Network Egress Probe:** If direct connection to Scryfall returns HTTP 403, route via `https://r.jina.ai/` reader proxy.
 * **Color Identity:** Validate candidate cards against commander color identity before suggesting recommendations.
-
----
-
-## 3. Authoritative Core References
-* Universal Protocols: `~/agent-core/core/ethics-and-risk.md`
-* EDH Domain Standards: `~/agent-core/core/domains/edh.md`

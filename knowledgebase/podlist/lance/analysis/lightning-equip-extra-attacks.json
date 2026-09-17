@@ -1,0 +1,69 @@
+{
+  "deck_name": "Lightning Equip / Extra Attacks",
+  "commander": "Lightning, Army of One",
+  "sources": [
+    {
+      "source": "EDHOracleLocalEngine",
+      "status": "success",
+      "error": null,
+      "metrics": {
+        "power_score": 7.8,
+        "bracket": 3,
+        "combo_score": 4.1,
+        "interaction_score": 3.2,
+        "ramp_score": 10.0,
+        "consistency_score": 10.0,
+        "speed_score": 9.1,
+        "tutor_count": 3,
+        "fast_mana_count": 2,
+        "combo_count": 0
+      },
+      "source_metrics": {
+        "piloting_archetype": "Midrange / Engine Value",
+        "average_cmc": "3.11",
+        "non_land_cards": 74,
+        "land_cards": 18
+      },
+      "text": {
+        "summary": "Midrange / Engine Value deck built around Lightning, Army of One. Average CMC: 3.11.",
+        "explanations": [
+          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile."
+        ],
+        "strengths": [
+          "Fast Mana acceleration: 2 source(s)",
+          "Tutor density: 3 tutor(s)",
+          "Repeatable draw engines: 8"
+        ],
+        "weaknesses": [
+          "Sensitive to targeted disruption if key engines are neutralized."
+        ],
+        "recommendations": [],
+        "suggested_changes": [],
+        "combo_lines": [],
+        "mulligan_advice": [
+          "Keep hands with early mana acceleration and at least 2 lands."
+        ]
+      },
+      "raw_result": {
+        "engine_version": "1.1.0",
+        "sub_pillar_scores": {
+          "velocity": 91.2,
+          "engine": 100.0,
+          "interaction": 32.0,
+          "resource": 100.0,
+          "resilience": 100.0,
+          "closing": 41.0,
+          "mana": 85.0
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "deck_url": "https://archidekt.com/decks/22459778",
+    "analysis_time": "2026-09-17T05:21:37Z",
+    "successful_sources": [
+      "EDHOracleLocalEngine"
+    ],
+    "failed_sources": []
+  }
+}

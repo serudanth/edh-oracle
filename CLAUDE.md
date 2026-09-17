@@ -1,15 +1,14 @@
 # EDH Oracle — Claude Code Context
 
-<!-- 1. Universal Core & Operational Protocols -->
-@~/agent-core/core/ethics-and-risk.md
-@~/agent-core/core/domains/edh.md
+<!-- Global Core Anchor (Tiers 1 & 2) auto-loaded via ~/.claude/CLAUDE.md -->
+<!-- Direct reference: file:///home/cpc9181/agent-core/templates/global/core-anchor.md -->
 
-<!-- 2. Host Device Context -->
-@~/.config/agent-device.md
+<!-- Tier 3: Domain Standards -->
+@~/agent-core/core/domains/edh.md
 
 ---
 
-## Local Repository Context
+## Tier 4: Local Repository Context
 
 - **Repository Role:** MTG Commander decklist curator & deckbuilding assistant pre-code knowledge base.
 - **Pre-Code Status:** No application build, test, or lint tooling exists yet. Do not invent build commands.

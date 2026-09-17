@@ -28,10 +28,35 @@ def classify_type(type_words) -> str:
     return type_words[0] if type_words else "Other"
 
 
+HANDLE_TO_ALIAS = {
+    "fowlplays": "charles",
+    "lto888": "lance",
+    "reimaru": "chad",
+    "xanoh": "donny",
+    "mjsnoozer": "mj",
+    "j-py": "julius",
+}
+
+ALIAS_TO_HANDLE = {v: k for k, v in HANDLE_TO_ALIAS.items()}
+
+
+def resolve_owner(username_or_alias: str) -> str:
+    """Resolves an Archidekt/Moxfield username to its canonical pod alias primary key."""
+    key = username_or_alias.lower().strip()
+    return HANDLE_TO_ALIAS.get(key, key)
+
+
+def resolve_handle(username_or_alias: str) -> str:
+    """Resolves an alias to its known remote platform handle, if mapped."""
+    key = username_or_alias.lower().strip()
+    return ALIAS_TO_HANDLE.get(key, key)
+
+
 def build_markdown(
     *, title, owner, commander_names, colors, cards, bracket, source_url, updated, source_label,
 ) -> str:
     """cards: list of {"name", "qty", "type", "foil"} dicts, commanders excluded."""
+    canonical_owner = resolve_owner(owner)
     grouped: dict[str, list[dict]] = {}
     for c in cards:
         grouped.setdefault(c["type"], []).append(c)
@@ -45,7 +70,12 @@ def build_markdown(
         "---",
         "type: decklist",
         f'title: "{title}"',
-        f"owner: {owner}",
+        f"owner: {canonical_owner}",
+    ]
+    if owner.lower().strip() != canonical_owner:
+        fm.append(f"handle: {owner}")
+
+    fm.extend([
         f'commander: "{commander_str}"',
         f"colors: [{', '.join(colors)}]",
         "power_level:",
@@ -55,7 +85,7 @@ def build_markdown(
         f"source: {source_url}",
         "---",
         "",
-    ]
+    ])
 
     body = ["## Decklist", "", f"**Commander:** {commander_str}", ""]
     for t in ordered_types:
@@ -77,7 +107,8 @@ def build_markdown(
 
 
 def write_decklist(owner: str, deck_name: str, markdown: str) -> Path:
-    out_dir = PODLIST_ROOT / slugify(owner) / "decks"
+    canonical_owner = resolve_owner(owner)
+    out_dir = PODLIST_ROOT / slugify(canonical_owner) / "decks"
     out_dir.mkdir(parents=True, exist_ok=True)
     out_path = out_dir / f"{slugify(deck_name)}.md"
     out_path.write_text(markdown, encoding="utf-8")
