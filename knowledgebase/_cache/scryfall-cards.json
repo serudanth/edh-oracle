@@ -10500,6 +10500,20 @@
     "prices_usd_foil": "0.42",
     "type_line": "Legendary Creature — Human Knight"
   },
+  "Elspeth, Knight-Errant": {
+    "cmc": 4.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}{W}",
+    "oracle_text": "+1: Create a 1/1 white Soldier creature token.\n+1: Target creature gets +3/+3 and gains flying until end of turn.\n−8: You get an emblem with \"Artifacts, creatures, enchantments, and lands you control have indestructible.\"",
+    "type_line": "Legendary Planeswalker — Elspeth",
+    "fetched_at": "2026-09-18"
+  },
   "Elusive Otter // Grove's Bounty": {
     "cmc": 1.0,
     "color_identity": [
@@ -15390,6 +15404,20 @@
     "prices_usd": "0.37",
     "type_line": "Land"
   },
+  "Haliya, Guided by Light": {
+    "cmc": 3.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}",
+    "oracle_text": "Whenever Haliya or another creature or artifact you control enters, you gain 1 life.\nAt the beginning of your end step, draw a card if you have gained 3 or more life this turn.\nWarp {W}",
+    "type_line": "Legendary Creature — Human Soldier",
+    "fetched_at": "2026-09-18"
+  },
   "Hall of Heliod's Generosity": {
     "cmc": 0.0,
     "color_identity": [
@@ -15832,6 +15860,20 @@
     "prices_usd_foil": "0.17",
     "type_line": "Artifact"
   },
+  "Heidegger, Shinra Executive": {
+    "cmc": 4.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{W}",
+    "oracle_text": "At the beginning of combat on your turn, target creature you control gets +X/+0 until end of turn, where X is the number of Soldiers you control.\nAt the beginning of your end step, create a number of 1/1 white Soldier creature tokens equal to the number of opponents who control more creatures than you.",
+    "type_line": "Legendary Creature — Human Soldier",
+    "fetched_at": "2026-09-18"
+  },
   "Heliod's Pilgrim": {
     "cmc": 3.0,
     "color_identity": [
@@ -15896,16 +15938,14 @@
     "colors": [
       "W"
     ],
-    "edhrec_rank": 7939,
-    "fetched_at": "2026-08-22",
     "keywords": [
       "Flying"
     ],
     "legal_commander": "legal",
     "mana_cost": "{1}{W}",
     "oracle_text": "Flying\nWhenever this creature attacks, another target attacking creature gains flying until end of turn.\nEquip abilities you activate that target this creature cost {2} less to activate.",
-    "prices_usd": "0.16",
-    "type_line": "Creature — Human Soldier"
+    "type_line": "Creature — Human Soldier",
+    "fetched_at": "2026-09-18"
   },
   "Hellrider": {
     "cmc": 4.0,
@@ -26905,6 +26945,20 @@
     "prices_usd": "0.24",
     "prices_usd_foil": "0.38",
     "type_line": "Creature — Vampire Assassin"
+  },
+  "SOLDIER Military Program": {
+    "cmc": 3.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}",
+    "oracle_text": "At the beginning of combat on your turn, choose one. If you control a commander, you may choose both instead.\n• Create a 1/1 white Soldier creature token.\n• Put a +1/+1 counter on each of up to two Soldiers you control.",
+    "type_line": "Enchantment",
+    "fetched_at": "2026-09-18"
   },
   "Sabotender": {
     "cmc": 2.0,

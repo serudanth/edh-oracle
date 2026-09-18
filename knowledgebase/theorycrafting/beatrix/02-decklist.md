@@ -24,13 +24,16 @@ source:
 - 1x Danitha Capashen, Paragon
 - 1x Elena, Turk Recruit
 - 1x Guardian of Faith
+- 1x Haliya, Guided by Light
+- 1x Heidegger, Shinra Executive
+- 1x Helitrooper
 - 1x Knight of the White Orchid
-- 1x Mangara, the Diplomat
 - 1x Puresteel Paladin
-- 1x Skyclave Apparition
-- 1x Teshar, Ancestor's Apostle
 - 1x Tithe Taker
 - 1x Zack Fair
+
+### Planeswalker (1)
+- 1x Elspeth, Knight-Errant
 
 ### Artifact — Equipment (17)
 - 1x Aettir and Priwen
@@ -59,19 +62,19 @@ source:
 - 1x Thought Vessel
 - 1x White Auracite
 
-### Enchantment (4)
+### Enchantment (5)
 - 1x Archaeomancer's Map
 - 1x Reconnaissance
 - 1x Sigarda's Aid
+- 1x SOLDIER Military Program
 - 1x Tocasia's Welcome
 
-### Instant (12)
+### Instant (11)
 - 1x Akroma's Will
 - 1x Bovine Intervention
 - 1x Clever Concealment
 - 1x Dispatch
 - 1x Generous Gift
-- 1x Make a Stand
 - 1x Mana Tithe
 - 1x Path to Exile
 - 1x Reprieve
@@ -79,11 +82,10 @@ source:
 - 1x Swords to Plowshares
 - 1x Ultimate Magic: Holy
 
-### Sorcery (8)
+### Sorcery (7)
 - 1x Austere Command
 - 1x Open the Armory
 - 1x Requisition Raid
-- 1x Secret Rendezvous
 - 1x Sevinne's Reclamation
 - 1x Steelshaper's Gift
 - 1x Unfinished Business

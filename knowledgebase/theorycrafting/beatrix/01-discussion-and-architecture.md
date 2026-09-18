@@ -135,20 +135,15 @@ By layering **Soldier Typal** over the Heavy Armory framework, Beatrix solves th
 4. **The Steiner Exemption Rule:**
    * **Adelbert Steiner** (`Human Knight`) is retained unconditionally. He is Beatrix's designated frontline partner—his ability to scale power with equipment count and lifelink makes him the prime target for Beatrix's free equip trigger when commander damage isn't required.
 
-### Typal Alignment & Upgrade Matrix
-| Current Card | Type Line | Recommended Soldier Replacement | Typal Role |
-|---|---|---|---|
-| **Adelbert Steiner** | Human Knight | *(Retained unconditionally)* | Honorary Lieutenant & Primary Lifelink Cannon |
-| **Bastion Protector** | Human Soldier | *(Already in list)* | Commander +2/+2 & Indestructible |
-| **Guardian of Faith** | Human Soldier | *(Already in list)* | Flash Team Phasing Protection |
-| **Tithe Taker** | Human Soldier | *(Already in list)* | Opponent Turn Tax & Afterlife |
-| **Cloud, Midgar Mercenary** | Human Soldier | *(Already in list)* | Equipment Tutor & Trigger Doubler |
-| **Zack Fair** | Human Soldier | *(Already in list)* | Equipment & Counter Transfer Bodyguard |
-| **Skyclave Apparition** | Kor Cleric | **Recruitment Officer** or **Cathar Commando** | Typal Card Advantage / Flash Artifact-Enchantment Removal |
-| **Mangara, the Diplomat** | Human Cleric | **Skystrike Officer** | Typal Token Generator & Repeatable Draw Engine |
-| **Teshar, Ancestor's Apostle** | Bird Cleric | **Myrel, Shield of Argive** | Opponent Lockout on Turn & Exponential Token Swarm |
-| **Ashe, Princess of Dalmasca** | Human Noble | **Siege Veteran** | Combat Counter Buff & Wipe-Resilient Soldier Spawner |
-| **Knight of the White Orchid** | Human Knight | **Ballyrush Banneret** or **Daru Warchief** | Typal Cost Reducer & Curve Acceleration |
-| **Danitha Capashen, Paragon** | Human Knight | **Field Marshal** or **Valiant Veteran** | First Strike Lord / Graveyard Pump (or retain for {1} discount) |
-| **Puresteel Paladin** | Human Knight | *(Retain for Metalcraft {0})* | Core Equipment Engine |
+### Typal Alignment & Integrated Upgrades (2026-09-18)
+The core list in `02-decklist.md` has been updated with the following owned additions:
+* **Haliya, Guided by Light** (in for *Mangara, the Diplomat*): 3-drop Human Soldier; gains life on every creature/equipment entry and draws at end step off Steiner's lifelink.
+* **Heidegger, Shinra Executive** (in for *Teshar, Ancestor's Apostle*): 4-drop Human Soldier; grants +X/+0 combat pump based on Soldier count and spawns end-step Soldier tokens when behind.
+* **Helitrooper** (in for *Skyclave Apparition*): 2-drop flying Human Soldier; grants flying to Beatrix or Steiner on attack and reduces equip costs by {2}.
+* **SOLDIER Military Program** (in for *Secret Rendezvous*): 3-drop enchantment; triggers at combat to both spawn a 1/1 Soldier token and put +1/+1 counters on two Soldiers.
+* **Elspeth, Knight-Errant** (in for *Make a Stand*): 4-drop planeswalker; continuously creates 1/1 Soldiers, grants +3/+3 and flying evasion, and threatens an indestructible emblem.
+
+### Sideboard / Meta Options Evaluated
+* **Baird, Steward of Argive** (Human Soldier, 2/4): Reserve anti-aggro tech against token swarms (Ghostly Prison tax on a body).
+* **Thalia, Guardian of Thraben** (Human Soldier, 2/1): **Excluded / Trap Card.** Heavily taxes this deck's 46+ noncreature spells (equipment, rocks, enchantments, and removal).
 
