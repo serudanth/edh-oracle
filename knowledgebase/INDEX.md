@@ -289,7 +289,7 @@ Cross-player reference: Behavioral models, mulligan heuristics, table interactio
 Active deck designs, architecture blueprints, donor pools, and provisional decklists under development for fowlplays.
 
 ### theorycrafting/beatrix/
-Deck: The Arms of Alexandria — Beatrix, Loyal General (W) — mono-white equipment/voltron heavy armory. Complete 100-card decklist.
+Deck: The Arms of Alexandria — Beatrix, Loyal General (W) — mono-white equipment/voltron heavy armory & soldier typal. Complete 100-card decklist.
 
 ### theorycrafting/necrobloom/
 Deck: The Deadlands — The Necrobloom (WBG) — budget-lethal Abzan landfall/land dredge/aristocrats engine. Complete 100-card decklist and Archidekt export.

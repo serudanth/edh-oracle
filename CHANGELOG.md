@@ -6,6 +6,8 @@
   - The Necrobloom $\rightarrow$ *The Deadlands*
   - Gluntch, the Bestower $\rightarrow$ *The Good Tentacles*
   - The Cabbage Merchant $\rightarrow$ *The Cabbage Cartel*
+- **[kb]** Updated specification for *The Arms of Alexandria* (Beatrix, Loyal General) to integrate Soldier typal synergy into the Heavy Armory framework, formalizing the Alexandria garrison token/draw/ramp engine and explicitly exempting Adelbert Steiner (`Human Knight`) as the honorary lieutenant and chief weapon bearer.
+
 
 
 ## 2026-09-17 (delta refresh, rules archival & engine re-analysis)

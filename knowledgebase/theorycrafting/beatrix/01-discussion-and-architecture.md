@@ -4,7 +4,7 @@
 **Commander:** [Beatrix, Loyal General](https://scryfall.com/card/fic/12/beatrix-loyal-general) ({4}{W}{W})  
 **Format:** Commander / EDH  
 **Color Identity:** Mono-White ({W})  
-**Archetype:** Equipment Voltron / Heavy Armory / Combat Control  
+**Archetype:** Heavy Armory Voltron / Soldier Typal / Combat Control  
 **Target Power Bracket:** Bracket 3 (High-Synergy Mid-Power Engine)  
 **Date:** 2026-09-11  
 
@@ -30,6 +30,7 @@ Design a fresh equipment deck that:
 1. **Breaks the color mold:** Retains at most one of the two Boros colors (settling firmly on **White**) and completely cuts **Red**.
 2. **Avoids Boros supersets:** No Naya, Mardu, Jeskai, 4-color, or 5-color hulls.
 3. **Pivots the gameplay axis:** Instead of aggressive extra combats and hasty alpha strikes, build around **tactical combat control, free simultaneous equipment attachment, and resilient defense**.
+4. **Embraces Soldier Typal Synergy:** Leverage Beatrix's **Human Soldier** typeline to build a resilient Alexandria garrison that supports the heavy armory with wide token squires, typal card velocity, and cost reduction.
 
 ---
 
@@ -50,6 +51,12 @@ At the beginning of combat on your turn, you may attach any number of Equipment 
 3. **Flexibility on Targets:** Beatrix does not have to target herself. She can equip [Adelbert Steiner](https://scryfall.com/card/fic/1/adelbert-steiner) to gain 30+ life via lifelink, an unblockable token, or a protected squire.
 4. **Natural Vigilance & Defense:** A 4/4 vigilant body allows Beatrix to swing for lethal commander damage while remaining untapped to block opposing commanders (Lightning, Syr Gwyn, Cloud).
 5. **Thematic Vibe:** Fits the Alexandria knight flavor from *Final Fantasy IX* (Beatrix + Steiner leading the charge), mirroring the pod's Universes Beyond theme.
+6. **Inherent Soldier Typal Anchor:** Beatrix's official typeline is **Legendary Creature — Human Soldier**, allowing her to lead a dedicated Soldier garrison that provides wide board presence, cost reduction, and backup equipment carriers.
+
+### The Alexandria Lore & "Ignoring Steiner" Clause
+* **Lore Context:** In *Final Fantasy IX*, Beatrix commands Alexandria's elite royal guard (`Human Soldier`), while Adelbert Steiner leads the Knights of Pluto (`Human Knight`). In MTG, Steiner retains his `Human Knight` typeline.
+* **Architectural Directive:** Adelbert Steiner is **explicitly exempted** from the Soldier typal requirement. He remains the deck's irreplaceable premier lieutenant, chief weapon bearer, and primary lifelink payload regardless of creature type.
+
 
 ---
 
@@ -106,3 +113,42 @@ High-equip targets invite spot removal. The deck runs comprehensive layers of de
 * **Selfless Bodyguards:** [Zack Fair](https://scryfall.com/card/fic/38/zack-fair) sacrifices for {1} to give indestructible and transfer equipment/counters.
 * **Instant Board Shields:** [Ultimate Magic: Holy](https://scryfall.com/card/fic/35/ultimate-magic-holy) (team indestructible + damage prevention), [Clever Concealment](https://scryfall.com/card/onc/5/clever-concealment) (convoke phasing out against Farewell/Rift), and [Make a Stand](https://scryfall.com/card/cmr/32/make-a-stand).
 * **Recursion:** [Unfinished Business](https://scryfall.com/card/onc/27/unfinished-business) returns Beatrix with two heavy weapons attached; [Elena, Turk Recruit](https://scryfall.com/card/fic/20/elena-turk-recruit), [Cid, Freeflier Pilot](https://scryfall.com/card/fic/13/cid-freeflier-pilot), and [Sevinne's Reclamation](https://scryfall.com/card/soc/23/sevinnes-reclamation) recover lost artifacts.
+
+---
+
+## 5. Soldier Typal Specification & Alexandria Garrison Integration
+
+By layering **Soldier Typal** over the Heavy Armory framework, Beatrix solves the traditional single-threat vulnerabilities of Voltron while creating a thematic Alexandria army:
+
+### Core Typal Functions
+1. **Wide Token Footprint (The Squires):**
+   * Voltron decks often falter against edict effects (*Sheoldred*, *Dictate of Erebos*) and single deathtouch chump blockers.
+   * Soldier token engines like **Myrel, Shield of Argive**, **Skystrike Officer**, **Horn of Gondor**, and **Siege Veteran** flood the battlefield with 1/1 Soldier tokens. These tokens absorb edicts, serve as emergency weapon carriers if Beatrix is removed, and establish a secondary combat win condition.
+2. **Typal Card Draw & Mana Filtering:**
+   * **Skystrike Officer:** Attacks to create Soldiers and taps three untapped Soldiers to draw a card, creating sustainable card velocity without needing off-flavor noncreature cantrips.
+   * **Recruitment Officer:** Sinks late-game open mana into digging 4 cards deep for creatures, ensuring your hand stays replenished.
+   * **Ballyrush Banneret / Daru Warchief:** Reduces casting costs across your Soldier spells, accelerating Beatrix and her officers onto the curve.
+3. **The Bodyguards (Soldier Protection):**
+   * **Bastion Protector:** (Human Soldier) Grants Beatrix +2/+2 and passive Indestructible.
+   * **Guardian of Faith:** (Human Soldier) Instant-speed flash protection that phases out Beatrix and all attached equipment against board wipes (*Farewell*, *Toxic Deluge*, *Cyclonic Rift*).
+   * **Tithe Taker:** (Human Soldier) Imposes a tax on opponent actions during your turn and leaves behind a flying Spirit token upon death.
+4. **The Steiner Exemption Rule:**
+   * **Adelbert Steiner** (`Human Knight`) is retained unconditionally. He is Beatrix's designated frontline partner—his ability to scale power with equipment count and lifelink makes him the prime target for Beatrix's free equip trigger when commander damage isn't required.
+
+### Typal Alignment & Upgrade Matrix
+| Current Card | Type Line | Recommended Soldier Replacement | Typal Role |
+|---|---|---|---|
+| **Adelbert Steiner** | Human Knight | *(Retained unconditionally)* | Honorary Lieutenant & Primary Lifelink Cannon |
+| **Bastion Protector** | Human Soldier | *(Already in list)* | Commander +2/+2 & Indestructible |
+| **Guardian of Faith** | Human Soldier | *(Already in list)* | Flash Team Phasing Protection |
+| **Tithe Taker** | Human Soldier | *(Already in list)* | Opponent Turn Tax & Afterlife |
+| **Cloud, Midgar Mercenary** | Human Soldier | *(Already in list)* | Equipment Tutor & Trigger Doubler |
+| **Zack Fair** | Human Soldier | *(Already in list)* | Equipment & Counter Transfer Bodyguard |
+| **Skyclave Apparition** | Kor Cleric | **Recruitment Officer** or **Cathar Commando** | Typal Card Advantage / Flash Artifact-Enchantment Removal |
+| **Mangara, the Diplomat** | Human Cleric | **Skystrike Officer** | Typal Token Generator & Repeatable Draw Engine |
+| **Teshar, Ancestor's Apostle** | Bird Cleric | **Myrel, Shield of Argive** | Opponent Lockout on Turn & Exponential Token Swarm |
+| **Ashe, Princess of Dalmasca** | Human Noble | **Siege Veteran** | Combat Counter Buff & Wipe-Resilient Soldier Spawner |
+| **Knight of the White Orchid** | Human Knight | **Ballyrush Banneret** or **Daru Warchief** | Typal Cost Reducer & Curve Acceleration |
+| **Danitha Capashen, Paragon** | Human Knight | **Field Marshal** or **Valiant Veteran** | First Strike Lord / Graveyard Pump (or retain for {1} discount) |
+| **Puresteel Paladin** | Human Knight | *(Retain for Metalcraft {0})* | Core Equipment Engine |
+

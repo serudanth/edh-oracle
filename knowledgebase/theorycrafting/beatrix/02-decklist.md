@@ -5,7 +5,7 @@ owner: fowlplays
 commander: "Beatrix, Loyal General"
 colors: [W]
 power_level: 6.5
-tags: [#theorycrafting, #equipment, #voltron, #mono-white, #final-fantasy]
+tags: [#theorycrafting, #equipment, #voltron, #mono-white, #soldier-typal, #final-fantasy]
 related: [01-discussion-and-architecture, ../gluntch/04-reconciled-hybrid]
 last_updated: 2026-09-11
 source: 
