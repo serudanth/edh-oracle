@@ -1,6 +1,6 @@
-# The Necrobloom — Theorycrafting & Architecture Archive
+# The Deadlands (The Necrobloom) — Theorycrafting & Architecture Archive
 
-This directory serves as the strategic planning space and jumping-off point for designing an Abzan ($\text{W}\text{B}\text{G}$) deck centered around **The Necrobloom** (*Modern Horizons 3*).
+This directory serves as the strategic planning space and jumping-off point for designing an Abzan ($\text{W}\text{B}\text{G}$) deck centered around **The Necrobloom** (*Modern Horizons 3*), tentatively titled **The Deadlands**.
 
 ---
 
@@ -9,7 +9,7 @@ This directory serves as the strategic planning space and jumping-off point for 
 | File | Type | Description | Status |
 |---|---|---|:---:|
 | **[01-salvage-pool.md](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/necrobloom/01-salvage-pool.md)** | Inventory | Donor cards salvaged from *The Dirt Kicker* (Mono-G) & *The Master Chef* (WG), plus owned *The Gitrog Monster* & *Dakmor Salvage*. | Ready |
-| **[02-necrobloom-engine-blueprint.md](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/necrobloom/02-necrobloom-engine-blueprint.md)** | Decklist & Blueprint | Complete 100-card Budget-Lethal Abzan Engine decklist (Bracket 3 / 3.5), maximizing owned staples with a ~$13.90 upgrade spend. | Ready |
+| **[02-necrobloom-engine-blueprint.md](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/necrobloom/02-necrobloom-engine-blueprint.md)** | Decklist & Blueprint | Complete 100-card decklist for *The Deadlands* (Budget-Lethal Abzan Engine, Bracket 3 / 3.5), maximizing owned staples with a ~$13.90 upgrade spend. | Ready |
 | **[archidekt-export.txt](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/necrobloom/archidekt-export.txt)** | Export | Formatted text file ready for direct 1-click import into Archidekt. | Ready |
 
 ---

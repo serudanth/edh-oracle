@@ -1,6 +1,6 @@
 ---
 type: decklist
-title: "The Hugs (Archidekt Stub)"
+title: "The Good Tentacles (Archidekt Stub)"
 owner: fowlplays
 commander: "Gluntch, the Bestower"
 colors: [G, W]

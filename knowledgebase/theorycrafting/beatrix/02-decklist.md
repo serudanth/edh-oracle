@@ -1,6 +1,6 @@
 ---
 type: decklist
-title: "The Alexandria Armory — Beatrix, Loyal General"
+title: "The Arms of Alexandria — Beatrix, Loyal General"
 owner: fowlplays
 commander: "Beatrix, Loyal General"
 colors: [W]

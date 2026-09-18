@@ -1,6 +1,6 @@
-# Gluntch, the Bestower — Theorycrafting & Architecture Archive
+# The Good Tentacles (Gluntch, the Bestower) — Theorycrafting & Architecture Archive
 
-This directory serves as the centralized workspace for deconstructing, consolidating, and optimizing a Selesnya commander deck centered around **Gluntch, the Bestower**.
+This directory serves as the centralized workspace for deconstructing, consolidating, and optimizing a Selesnya commander deck centered around **Gluntch, the Bestower**, tentatively titled **The Good Tentacles**.
 
 ---
 
@@ -10,7 +10,7 @@ This directory serves as the centralized workspace for deconstructing, consolida
 |---|---|---|:---:|
 | **[01-the-dirt-kicker.md](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/gluntch/01-the-dirt-kicker.md)** | Tifa Lockhart | Donor Deck A: Mono-Green Landfall / Big-Mana Voltron (Archidekt mirror). | Bracket 2 (Casual) |
 | **[02-the-master-chef.md](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/gluntch/02-the-master-chef.md)** | Lae'zel // Master Chef | Donor Deck B: Selesnya +1/+1 Counters Engine & Token Beatdown (Archidekt mirror). | Bracket 3 (Mid-Power) |
-| **[03-the-hugs-stub.md](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/gluntch/03-the-hugs-stub.md)** | The Hugs (Archidekt Stub) | Initial 35-card Gluntch outline created by fowlplays ([Deck 20094425](https://archidekt.com/decks/20094425/the_hugs)). | Seed / Draft |
+| **[03-the-hugs-stub.md](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/gluntch/03-the-hugs-stub.md)** | The Good Tentacles (Archidekt Stub) | Initial 35-card Gluntch outline created by fowlplays ([Deck 20094425](https://archidekt.com/decks/20094425/the_hugs)). | Seed / Draft |
 | **[04-reconciled-hybrid.md](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/gluntch/04-reconciled-hybrid.md)** | Reconciled Hybrid | High-synergy consolidation retaining ~90% of your donor cards, integrating all 13 core stub cards, and adding key Gluntch staples. | Bracket 3 (Engine Value) |
 | **[05-gluntch-optimized-for-winning.md](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/gluntch/05-gluntch-optimized-for-winning.md)** | Budget-Lethal (Winning) | Realistic, high-power list (~$20–$25 upgrade spend) retaining 80 owned cards. Combines Rule of Law stax, gift weaponization, and modular 2x2 counter combos. | Bracket 3.5 / 4 (Lethal Engine) |
 

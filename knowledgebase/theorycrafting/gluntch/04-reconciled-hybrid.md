@@ -1,6 +1,6 @@
 ---
 type: decklist
-title: "Gluntch, the Bestower — Reconciled Hybrid (Stub + Donors)"
+title: "The Good Tentacles — Reconciled Hybrid (Stub + Donors)"
 owner: fowlplays
 commander: "Gluntch, the Bestower"
 colors: [G, W]

@@ -1,6 +1,12 @@
 ## 2026-09-18 (agent guidelines & terminal link integrity)
 
 - **[agent]** Added Terminal Link Integrity invariant to `GEMINI.md`, `AGENTS.md`, and `CLAUDE.md` to prevent CLI markdown link masking (preventing entity names, commanders, and headings from being overwritten with file basenames like `README.md`).
+- **[kb]** Updated tentative theorycrafting deck titles across `knowledgebase/theorycrafting/` and `knowledgebase/INDEX.md` to align with the canonical `fowlplays` "The [Name]" naming convention:
+  - Beatrix, Loyal General $\rightarrow$ *The Arms of Alexandria*
+  - The Necrobloom $\rightarrow$ *The Deadlands*
+  - Gluntch, the Bestower $\rightarrow$ *The Good Tentacles*
+  - The Cabbage Merchant $\rightarrow$ *The Cabbage Cartel*
+
 
 ## 2026-09-17 (delta refresh, rules archival & engine re-analysis)
 

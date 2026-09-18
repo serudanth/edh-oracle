@@ -285,6 +285,23 @@ Cross-player reference: Behavioral models, mulligan heuristics, table interactio
 
 ---
 
+## theorycrafting/
+Active deck designs, architecture blueprints, donor pools, and provisional decklists under development for fowlplays.
+
+### theorycrafting/beatrix/
+Deck: The Arms of Alexandria — Beatrix, Loyal General (W) — mono-white equipment/voltron heavy armory. Complete 100-card decklist.
+
+### theorycrafting/necrobloom/
+Deck: The Deadlands — The Necrobloom (WBG) — budget-lethal Abzan landfall/land dredge/aristocrats engine. Complete 100-card decklist and Archidekt export.
+
+### theorycrafting/gluntch/
+Deck: The Good Tentacles — Gluntch, the Bestower (GW) — inverted group hug, Rule of Law stax, and modular 2x2 counter combos. Two complete 100-card lists (Reconciled Hybrid & Budget-Lethal).
+
+### theorycrafting/cabbage-merchant/
+Deck: The Cabbage Cartel — The Cabbage Merchant (G) — reactive Food generation, fog defense, asymmetric stax, and artifact swarm/overrun. Architectural blueprint.
+
+---
+
 ## _cache/
 
 Not read-when content — a machine-maintained cache, not research. Listed here only per the "update INDEX.md on any knowledgebase/ change" convention.

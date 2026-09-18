@@ -1,6 +1,6 @@
 ---
 type: decklist
-title: "The Necrobloom — Budget-Lethal Abzan Engine Blueprint"
+title: "The Deadlands — The Necrobloom"
 commander: "The Necrobloom"
 colors: [W, B, G]
 power_level: 3.5
@@ -11,7 +11,7 @@ related: [README.md, 01-salvage-pool.md]
 last_updated: 2026-09-11
 ---
 
-# The Necrobloom — Budget-Lethal Abzan Engine Blueprint
+# The Deadlands — The Necrobloom
 
 A high-synergy, tournament-tested engine shell built around **The Necrobloom** that maximizes your existing collection and dismantled donor cards (*The Dirt Kicker*, *The Master Chef*, *Burgeoning*, *Sylvan Library*, *Skullclamp*, *The Gitrog Monster*, *Dakmor Salvage*, *Altar of Dementia*, *Morbid Opportunist*) while keeping the remaining card acquisition strictly budget-friendly (~$13.90 total upgrade spend).
 

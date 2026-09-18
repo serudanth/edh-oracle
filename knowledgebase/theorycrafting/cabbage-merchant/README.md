@@ -1,6 +1,6 @@
-# The Cabbage Merchant — Theorycrafting & Architecture Archive
+# The Cabbage Cartel (The Cabbage Merchant) — Theorycrafting & Architecture Archive
 
-This directory serves as the centralized workspace for theorycrafting, mechanical breakdown, and deck architecture for **The Cabbage Merchant** (*Avatar: The Last Airbender Eternal*), exploring high-synergy Mono-Green artifact token generation, asymmetric stax, combat protection, and explosive overrun finishes.
+This directory serves as the centralized workspace for theorycrafting, mechanical breakdown, and deck architecture for **The Cabbage Cartel** (*The Cabbage Merchant*), exploring high-synergy Mono-Green artifact token generation, asymmetric stax, combat protection, and explosive overrun finishes.
 
 ---
 

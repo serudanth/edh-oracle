@@ -1,6 +1,6 @@
 # Beatrix, Loyal General — Discussion & Architectural Blueprint
 
-**Deck:** The Alexandria Armory  
+**Deck:** The Arms of Alexandria  
 **Commander:** [Beatrix, Loyal General](https://scryfall.com/card/fic/12/beatrix-loyal-general) ({4}{W}{W})  
 **Format:** Commander / EDH  
 **Color Identity:** Mono-White ({W})  

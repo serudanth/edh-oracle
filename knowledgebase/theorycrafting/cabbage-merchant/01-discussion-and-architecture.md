@@ -1,6 +1,6 @@
 # The Cabbage Merchant — Discussion & Architectural Blueprint
 
-**Deck:** The Cabbage Cart Cartel  
+**Deck:** The Cabbage Cartel  
 **Commander:** [The Cabbage Merchant](https://scryfall.com/card/tle/134/the-cabbage-merchant) ({2}{G})  
 **Format:** Commander / EDH  
 **Color Identity:** Mono-Green ({G})  
