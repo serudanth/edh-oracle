@@ -1,4 +1,9 @@
+## 2026-09-18 (agent guidelines & terminal link integrity)
+
+- **[agent]** Added Terminal Link Integrity invariant to `GEMINI.md`, `AGENTS.md`, and `CLAUDE.md` to prevent CLI markdown link masking (preventing entity names, commanders, and headings from being overwritten with file basenames like `README.md`).
+
 ## 2026-09-17 (delta refresh, rules archival & engine re-analysis)
+
 
 - **[kb]** Re-ran `tools/archidekt_extract.py` and `tools/moxfield_extract.py` across all 6 owners (fowlplays, j-py, lto888, mjsnoozer, reimaru, xanoh) against remote sources:
   - **`mjsnoozer`**: Discovered 1 new deck: `knowledgebase/podlist/mjsnoozer/decks/zimone-x-bulldozer.md` (Zimone, Infinite Analyst, Simic UG, 100 cards). Reordered Stella Lee decklist.

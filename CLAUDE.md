@@ -15,3 +15,5 @@
 - **Deck Mirror Policy:** Source of truth is always Archidekt or Moxfield. Do not manually edit decklists in `knowledgebase/podlist/**/decks/*.md`.
 - **Extraction Tools:** Use `python tools/archidekt_extract.py` and `python tools/moxfield_extract.py`.
 - **Research Operations:** Follow [`.claude/skills/edh-research/SKILL.md`](.claude/skills/edh-research/SKILL.md) and [`agent-core/core/domains/edh.md`](~/agent-core/core/domains/edh.md) for cache and network egress rules.
+- **Terminal Link Integrity / No Entity Masking:** The CLI terminal renderer forcibly replaces `file://` link text with target basenames (e.g., `[Commander](file://.../README.md)` renders as `README.md`) and wipes directory links. Never wrap headings (`#`, `##`, `###`), commander names, or deck names in `file://` links. Keep entity names in plain text/bold, link files separately using their exact basename, and format directory paths as inline code without `file://` wrappers.
+
