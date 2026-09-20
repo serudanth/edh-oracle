@@ -1,3 +1,9 @@
+## 2026-09-18 (card search set delta protocol formalization)
+
+- **[skill]** Formalized the Set Delta & Temporal Boundary Protocol in `.claude/skills/edh-research/SKILL.md` to counteract LLM parametric training cutoff bias during card recommendations.
+- **[governance]** Updated `GEMINI.md`, `AGENTS.md`, and `agent-core/core/domains/edh.md` mandating a two-pronged card search (historical staples + targeted post-cutoff delta queries via Scryfall) and subsequent persistent cache ingestion.
+- **[cache]** Added post-cutoff cards `Traveling Chocobo` (FIN) and `Beifong's Bounty Hunters` (TLA) to `knowledgebase/_cache/scryfall-cards.json`, bringing total cached cards to 2,088.
+
 ## 2026-09-17 (delta refresh, rules archival & engine re-analysis)
 
 - **[kb]** Re-ran `tools/archidekt_extract.py` and `tools/moxfield_extract.py` across all 6 owners (fowlplays, j-py, lto888, mjsnoozer, reimaru, xanoh) against remote sources:

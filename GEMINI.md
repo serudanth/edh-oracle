@@ -13,4 +13,5 @@
 * **Decklist Mirror Policy:** Decklists under `knowledgebase/podlist/**/decks/*.md` are mirrors of external lists (Archidekt/Moxfield). Never edit card quantities or contents locally; owners change lists on the site, then refresh via `tools/*_extract.py`.
 * **Scryfall Cache Requirement:** Always check `knowledgebase/_cache/scryfall-cards.json` before querying Scryfall or Spellbook. Write back successful lookups. Follow cache freshness rules in [`.claude/skills/edh-research/SKILL.md`](.claude/skills/edh-research/SKILL.md).
 * **Color Identity:** Strictly enforce format color identity rules across hybrid mana, MDFC back faces, and activation costs before suggesting cards.
+* **Set Delta Protocol:** Counter LLM parametric training cutoff bias during card searches. Identify training cutoff baseline, discover post-cutoff sets via Scryfall (`GET /sets`), and execute two-pronged searches (historical synergy + targeted post-cutoff delta queries `date>=<cutoff-date>`) to guarantee modern cards are evaluated and cached.
 * **Extraction Tools:** Use `python tools/archidekt_extract.py` and `python tools/moxfield_extract.py`.

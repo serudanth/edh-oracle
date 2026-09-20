@@ -15,3 +15,4 @@
 * **Cache Requirement:** Always check `knowledgebase/_cache/scryfall-cards.json` before querying external APIs. Follow cache freshness rules in [`.claude/skills/edh-research/SKILL.md`](.claude/skills/edh-research/SKILL.md).
 * **Network Egress:** Route Scryfall/Spellbook queries through `https://r.jina.ai/` only if direct connection returns HTTP 403.
 * **Color Identity:** Strictly enforce format color identity rules across hybrid mana, MDFC back faces, and activation costs before recommending cards.
+* **Set Delta Protocol:** Proactively counter parametric training cutoff bias. Identify training boundary, discover post-cutoff sets via Scryfall (`GET /sets`), and execute targeted delta searches (`date>=<cutoff-date>`) to uncover recent printings.

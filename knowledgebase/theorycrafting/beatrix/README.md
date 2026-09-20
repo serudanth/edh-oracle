@@ -10,6 +10,7 @@ This directory serves as the centralized theorycrafting, architecture, and deckb
 |---|---|---|
 | **[01-discussion-and-architecture.md](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/beatrix/01-discussion-and-architecture.md)** | Architectural Blueprint | Synthesis of pod dynamics, avoiding Boros saturation, solving mono-white ramp and card velocity bottlenecks, and salvage notes. |
 | **[02-decklist.md](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/beatrix/02-decklist.md)** | Complete Decklist | Complete 100-card list for *The Alexandria Armory* (Bracket 3 / Mid-Power Engine). |
+| **[archidekt-export.txt](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/beatrix/archidekt-export.txt)** | Export | Formatted text file ready for direct 1-click import into Archidekt. |
 
 ---
 
