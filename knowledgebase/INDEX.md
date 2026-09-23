@@ -17,6 +17,9 @@ Profile: fowlplays (13 eligible decks) — **★★★☆☆ median threat, Adap
 ### podlist/charles/persona.md
 Simulated persona: fowlplays — Adaptive Combat-Engine Architect. Johnny/Spike-curious psychology, trigger-sequencing precision, mulligan heuristics, deflection politics, and direct LLM simulation prompt.
 
+### podlist/charles/inventory/README.md
+Inventory: fowlplays (4,049 physical cards, 2,863 line items) — Authoritative ManaBox collection export, categorized by Bulk, Binder, and 4 active physical decks.
+
 ### podlist/charles/decks/the-best-of-friends.md
 Commander: Zenos yae Galvus // Shinryu, Transcendent Rival (B)
 
