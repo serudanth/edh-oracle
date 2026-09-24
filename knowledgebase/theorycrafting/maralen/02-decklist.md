@@ -22,7 +22,6 @@ source:
 - 1x Bitterbloom Bearer
 - 1x Celeborn the Wise
 - 1x Changeling Outcast
-- 1x Chomping Changeling
 - 1x Citanul Stalwart
 - 1x Elrond, Lord of Rivendell
 - 1x Elvish Regrower
@@ -49,6 +48,7 @@ source:
 - 1x Viconia, Drow Apostate
 - 1x Virulent Emissary
 - 1x Voracious Tome-Skimmer
+- 1x Wolverine Riders
 
 ### Instant (10)
 - 1x An Offer You Can't Refuse
@@ -62,23 +62,23 @@ source:
 - 1x Snakeskin Veil
 - 1x Veil of Summer
 
-### Sorcery (9)
+### Sorcery (8)
 - 1x Culling Ritual
 - 1x Cultivate
 - 1x Diabolic Intent
 - 1x Farseek
-- 1x Harmonize
 - 1x Nature's Lore
 - 1x Rampant Growth
 - 1x Reanimate
 - 1x Rite of Replication
 
-### Artifact (8)
+### Artifact (9)
 - 1x Arcane Signet
 - 1x Blade of Selves
 - 1x Dimir Signet
 - 1x Maskwood Nexus
 - 1x Mirrormind Crown
+- 1x Skullclamp
 - 1x Sol Ring
 - 1x Swiftfoot Boots
 - 1x Thought Vessel
@@ -123,4 +123,4 @@ source:
 ## Notes
 
 - Archidekt target bracket: 3 (Optimized Engine Value)
-- 100/100 cards physically owned in paper (Rite of Replication confirmed in physical bulk from previous *The Copied Factory* build; $0 cash spend to assemble)
+- 99/100 cards physically owned in paper (Skullclamp sourced from *The Best of Friends*, Rite of Replication confirmed in physical bulk from previous *The Copied Factory* build; 1 card to acquire: Wolverine Riders ~ $12.63 TCGplayer market price)

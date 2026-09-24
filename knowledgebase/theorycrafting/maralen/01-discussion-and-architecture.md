@@ -44,15 +44,15 @@ While Lance (`lto888`) built Maralen as a tempo-oriented, flash-heavy Faerie con
 * **Bitterbloom Bearer ({B}{B}):** Flash 2-drop Faerie. Creates a 1/1 flying Faerie on each of your upkeeps, ensuring Maralen triggers before your main phase.
 * **Maskwood Nexus ({4}):** Makes all tokens (and creatures) every creature type. Taps for {3} to make an Elf/Faerie Changeling on demand.
 * **Faebloom Trick ({2}{U}):** Instant-speed burst making two Faeries on an opponent's turn, triggering Maralen twice and enabling an opponent-turn free cast.
+* **Wolverine Riders ({4}{G}{G}):** Triggers on **each upkeep** (4 times per round) to spawn a 1/1 green Elf Warrior token, granting life equal to entering toughness whenever another Elf enters.
+* **Skullclamp ({1}):** Converts 1/1 Elf tokens into 2 fresh cards after Maralen's ETB exile trigger has already resolved, chaining immense card velocity into the free-cast engine.
 
 ### Pillar B: Mirrormind Crown Duplication
-Mirrormind Crown replaces the first token creation event of each turn with a token copy of the equipped creature:
-* **Equipped to Skemfar Shadowsage:** First token becomes a Shadowsage copy $
-ightarrow$ enters and drains each opponent for your total Elf count.
-* **Equipped to Thranduil's Company:** First token becomes another Company $
-ightarrow$ stacks additional land drops and double +1/+1 counters on landfall.
-* **Equipped to Bitterbloom Bearer:** First token becomes another Bearer $
-ightarrow$ doubles your token production exponentially.
+Mirrormind Crown replaces the first token creation event of each turn with a token copy of the equipped non-legendary creature:
+* **Equipped to Wolverine Riders:** Because Crown triggers the first time you create tokens *each turn* and Riders triggers on *each upkeep*, the first token on every player's turn becomes another Wolverine Riders. Over a single 4-player orbit, this snowballs into 5 Wolverine Riders, 66 life gained, 18 cards exiled with Maralen, and an $X$ value of 11+.
+* **Equipped to Skemfar Shadowsage:** First token becomes a Shadowsage copy $\rightarrow$ enters and drains each opponent for your total Elf count.
+* **Equipped to Thranduil's Company:** First token becomes another Company $\rightarrow$ stacks additional land drops and double +1/+1 counters on landfall.
+* **Equipped to Bitterbloom Bearer:** First token becomes another Bearer $\rightarrow$ doubles your token production exponentially.
 * **Equipped to Selfless Safewright:** Gives your entire Elf army Hexproof and Indestructible on demand.
 
 ### Pillar C: The Blight Stax Lock (High Perfect Morcant)
@@ -80,5 +80,6 @@ The ultimate closing line of the deck requires only:
 
 ## 4. Collection Utilization & Acquisition Budget
 
-* **Cards Owned in Collection:** **100 / 100** (100% complete in paper; *Rite of Replication* confirmed in physical bulk salvaged from previous *The Copied Factory* build).
-* **Target Acquisition Spend:** **$0.00** (ready to sleeve up immediately with zero missing cards).
+* **Cards Owned in Collection:** **99 / 100** (99% complete in paper; *Skullclamp* salvaged from *The Best of Friends*, *Rite of Replication* confirmed in physical bulk salvaged from previous *The Copied Factory* build).
+* **Target Acquisition Need:** **1 card** — **Wolverine Riders** (TCGplayer Market Price: ~$12.63).
+

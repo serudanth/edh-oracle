@@ -4,7 +4,6 @@
 1 Bitterbloom Bearer
 1 Celeborn the Wise
 1 Changeling Outcast
-1 Chomping Changeling
 1 Citanul Stalwart
 1 Elrond, Lord of Rivendell
 1 Elvish Regrower
@@ -31,6 +30,7 @@
 1 Viconia, Drow Apostate
 1 Virulent Emissary
 1 Voracious Tome-Skimmer
+1 Wolverine Riders
 1 An Offer You Can't Refuse
 1 Assassin's Trophy
 1 Bitter Triumph
@@ -45,7 +45,6 @@
 1 Cultivate
 1 Diabolic Intent
 1 Farseek
-1 Harmonize
 1 Nature's Lore
 1 Rampant Growth
 1 Reanimate
@@ -55,6 +54,7 @@
 1 Dimir Signet
 1 Maskwood Nexus
 1 Mirrormind Crown
+1 Skullclamp
 1 Sol Ring
 1 Swiftfoot Boots
 1 Thought Vessel

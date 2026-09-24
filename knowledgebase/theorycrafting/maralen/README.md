@@ -9,7 +9,7 @@ This directory serves as the centralized workspace for theorycrafting, mechanica
 | File | Type | Description | Status |
 |---|---|---|:---:|
 | **[01-discussion-and-architecture.md](01-discussion-and-architecture.md)** | Architectural Blueprint | Comprehensive analysis of Maralen's ETB engine, token loops, Mirrormind Crown targets, Lance vs. Charles comparison, and the Skemfar + Rite of Replication OTK. | Active |
-| **[02-decklist.md](02-decklist.md)** | Complete Decklist | Complete 100-card Sultai Elf-Engine decklist (Bracket 3 / High-Synergy Engine), 100% complete in paper with $0 cash spend. | Ready |
+| **[02-decklist.md](02-decklist.md)** | Complete Decklist | Complete 100-card Sultai Elf-Engine decklist (Bracket 3 / High-Synergy Engine), 99/100 cards owned in paper with 1 target acquisition (Wolverine Riders). | Ready |
 | **[archidekt-export.txt](archidekt-export.txt)** | Export | Formatted text file ready for direct 1-click import into Archidekt. | Ready |
 
 ---

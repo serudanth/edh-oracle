@@ -1,7 +1,8 @@
 ## 2026-09-24 (reality fracture pre-release metadata & cache ingestion)
 
 - **[research]** Added comprehensive pre-release dossier `knowledgebase/research/2026-09-24-reality-fracture-prerelease-metadata.md` covering *Reality Fracture* (`fra`) and *Reality Fracture Commander* (`frc`) releasing for pre-release on Friday, September 25, 2026. Documented worldbuilding ("Echoverse"), new mechanics (`Prepare`/`Prepared`, `Empower Jace`, `Behold`, `Exhaust`), the 4-color non-green *Multiverse Reforged* commander precon led by Jace, Multiverse Architect, draft archetypes, and EDH evaluations.
-- **[cache]** Ingested 30 new cards into persistent Scryfall cache `knowledgebase/_cache/scryfall-cards.json`, covering all 18 brand-new cards from FRC (including Jace, Nissa, Omnath, Avacyn, Niv-Mizzet, The Ur-Sphinx, and the Turbulent typed dual land cycle) and standout FRA legends/mechanics. Cache expanded to 2,123 entries.
+- **[theorycrafting]** Upgraded *The Sylvan Heist* (Maralen, Fae Ascendant) decklist (`knowledgebase/theorycrafting/maralen/02-decklist.md`), architecture notes, and Archidekt export with `Skullclamp` (salvaged from *The Best of Friends*) and `Wolverine Riders` (added to Scryfall cache at ~$12.63 market price), replacing `Harmonize` and `Chomping Changeling` to supercharge the upkeep token engine and Mirrormind Crown geometric doubling.
+- **[cache]** Ingested 30 new cards into persistent Scryfall cache `knowledgebase/_cache/scryfall-cards.json`, covering all 18 brand-new cards from FRC (including Jace, Nissa, Omnath, Avacyn, Niv-Mizzet, The Ur-Sphinx, and the Turbulent typed dual land cycle) and standout FRA legends/mechanics. Merged remote inventory cards and added `Wolverine Riders`, bringing total cached cards to 2,192.
 - **[kb]** Updated `knowledgebase/INDEX.md` indexing both the Reality Fracture dossier and the operational metric calibration for Zimone X Bulldozer.
 
 ## 2026-09-18 (card search set delta protocol formalization)

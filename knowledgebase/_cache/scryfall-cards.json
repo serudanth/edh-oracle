@@ -39204,6 +39204,27 @@
     "prices_usd_foil": "0.32",
     "type_line": "Creature \u2014 Angel Detective"
   },
+  "Wolverine Riders": {
+    "cmc": 6.0,
+    "color_identity": [
+      "G"
+    ],
+    "colors": [
+      "G"
+    ],
+    "edhrec_rank": 2905,
+    "fetched_at": "2026-09-24",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{4}{G}{G}",
+    "oracle_text": "At the beginning of each upkeep, create a 1/1 green Elf Warrior creature token.\nWhenever another Elf you control enters, you gain life equal to its toughness.",
+    "prices_usd": "12.63",
+    "prices_usd_foil": null,
+    "released_at": "2021-02-05",
+    "scryfall_uri": "https://scryfall.com/card/khc/14/wolverine-riders?utm_source=api",
+    "set": "khc",
+    "type_line": "Creature \u2014 Elf Warrior"
+  },
   "Woodland Cemetery": {
     "cmc": 0.0,
     "color_identity": [
