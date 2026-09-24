@@ -1,3 +1,9 @@
+## 2026-09-24 (reality fracture pre-release metadata & cache ingestion)
+
+- **[research]** Added comprehensive pre-release dossier `knowledgebase/research/2026-09-24-reality-fracture-prerelease-metadata.md` covering *Reality Fracture* (`fra`) and *Reality Fracture Commander* (`frc`) releasing for pre-release on Friday, September 25, 2026. Documented worldbuilding ("Echoverse"), new mechanics (`Prepare`/`Prepared`, `Empower Jace`, `Behold`, `Exhaust`), the 4-color non-green *Multiverse Reforged* commander precon led by Jace, Multiverse Architect, draft archetypes, and EDH evaluations.
+- **[cache]** Ingested 30 new cards into persistent Scryfall cache `knowledgebase/_cache/scryfall-cards.json`, covering all 18 brand-new cards from FRC (including Jace, Nissa, Omnath, Avacyn, Niv-Mizzet, The Ur-Sphinx, and the Turbulent typed dual land cycle) and standout FRA legends/mechanics. Cache expanded to 2,123 entries.
+- **[kb]** Updated `knowledgebase/INDEX.md` indexing both the Reality Fracture dossier and the operational metric calibration for Zimone X Bulldozer.
+
 ## 2026-09-18 (agent guidelines & terminal link integrity)
 
 - **[agent]** Added Terminal Link Integrity invariant to `GEMINI.md`, `AGENTS.md`, and `CLAUDE.md` to prevent CLI markdown link masking (preventing entity names, commanders, and headings from being overwritten with file basenames like `README.md`).

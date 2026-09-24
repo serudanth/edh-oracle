@@ -283,6 +283,12 @@ Deck review & optimization report: The Crystal Braves (fowlplays, Alisaie Leveil
 ### research/2026-09-16-pod-simulated-personas.md
 Cross-player reference: Behavioral models, mulligan heuristics, table interaction matrix, and LLM simulation prompts for all 6 pod members. Read when simulating games, testing table politics, or evaluating matchup dynamics.
 
+### research/2026-09-17-zimone-x-bulldozer-deck-reanalysis.md
+Deck re-analysis & operational metric calibration: Zimone X Bulldozer (mjsnoozer, Zimone, Infinite Analyst) — resolves the "X-Spell Paradox" by recalibrating naive 1.79 CMC curve and pseudo-storm classification into a realistic 3.93 CMC Big Mana / Landfall engine with turn-cadence instant-speed X-counters. Read when evaluating or playing against mjsnoozer's Zimone list.
+
+### research/2026-09-24-reality-fracture-prerelease-metadata.md
+Set metadata dossier & mechanics briefing: Reality Fracture (FRA) & Reality Fracture Commander (FRC) — comprehensive reference covering the Echoverse worldbuilding, new mechanics (Prepare, Empower Jace, Behold, Exhaust), the 4-color non-green Multiverse Reforged precon deck, all 18 new commander card specifications, draft archetypes, and EDH pod evaluations ahead of pre-release weekend. Read when evaluating new commanders, deckbuilding upgrades, or limited draft lines.
+
 ---
 
 ## theorycrafting/
