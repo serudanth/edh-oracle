@@ -6149,6 +6149,22 @@
     "prices_usd": "0.25",
     "type_line": "Sorcery"
   },
+  "Chain of Vapor": {
+    "cmc": 1.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 962,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
+    "mana_cost": "{U}",
+    "oracle_text": "Return target nonland permanent to its owner's hand. Then that permanent's controller may sacrifice a land of their choice. If the player does, they may copy this spell and may choose a new target for that copy.",
+    "prices_usd": 15.95,
+    "type_line": "Instant"
+  },
   "Chainer, Nightmare Adept": {
     "cmc": 4.0,
     "color_identity": [
@@ -9248,6 +9264,22 @@
     "prices_usd": "3.15",
     "type_line": "Instant"
   },
+  "Delay": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 2191,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
+    "mana_cost": "{1}{U}",
+    "oracle_text": "Counter target spell. If the spell is countered this way, exile it with three time counters on it instead of putting it into its owner's graveyard. If it doesn't have suspend, it gains suspend. (At the beginning of its owner's upkeep, they remove a time counter. When the last is removed, they may play it without paying its mana cost. If it's a creature, it has haste.)",
+    "prices_usd": 2.63,
+    "type_line": "Instant"
+  },
   "Delighted Halfling": {
     "cmc": 1.0,
     "color_identity": [
@@ -9311,6 +9343,22 @@
     "prices_usd": "0.27",
     "prices_usd_foil": "2.02",
     "type_line": "Creature \u2014 Human Cleric"
+  },
+  "Demonic Consultation": {
+    "cmc": 1.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 891,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
+    "mana_cost": "{B}",
+    "oracle_text": "Choose a card name. Exile the top six cards of your library, then reveal cards from the top of your library until you reveal a card with the chosen name. Put that card into your hand and exile all other cards revealed this way.",
+    "prices_usd": 0.0,
+    "type_line": "Instant"
   },
   "Demonic Tutor": {
     "cmc": 2.0,
@@ -9972,6 +10020,22 @@
     "mana_cost": "{W}",
     "oracle_text": "Tap target creature.\nMetalcraft \u2014 If you control three or more artifacts, exile that creature.",
     "prices_usd": "0.32",
+    "type_line": "Instant"
+  },
+  "Dispel": {
+    "cmc": 1.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 931,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
+    "mana_cost": "{U}",
+    "oracle_text": "Counter target instant spell.",
+    "prices_usd": 0.36,
     "type_line": "Instant"
   },
   "Displacer Kitten": {
@@ -12350,16 +12414,12 @@
     "colors": [
       "U"
     ],
-    "edhrec_rank": 299,
-    "fetched_at": "2026-08-22",
-    "keywords": [
-      "Flying",
-      "Flash"
-    ],
-    "legal_commander": "legal",
+    "edhrec_rank": 288,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
     "mana_cost": "{1}{U}",
     "oracle_text": "Flash\nFlying\nWhenever an opponent draws their second card each turn, you draw a card.\n{3}{U}: Each player draws a card.",
-    "prices_usd": "12.19",
+    "prices_usd": 11.58,
     "type_line": "Creature \u2014 Faerie Rogue"
   },
   "Faerie Seer": {
@@ -13057,12 +13117,11 @@
       "U"
     ],
     "edhrec_rank": 82,
-    "fetched_at": "2026-08-22",
-    "legal_commander": "legal",
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
     "mana_cost": "{2}{U}",
     "oracle_text": "If you control a commander, you may cast this spell without paying its mana cost.\nCounter target noncreature spell.",
-    "prices_usd": "55.48",
-    "prices_usd_foil": "73.83",
+    "prices_usd": 64.87,
     "type_line": "Instant"
   },
   "Fiery Emancipation": {
@@ -13752,6 +13811,22 @@
     "prices_usd_foil": "2.45",
     "type_line": "Creature \u2014 Jellyfish"
   },
+  "Flusterstorm": {
+    "cmc": 1.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 307,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
+    "mana_cost": "{U}",
+    "oracle_text": "Counter target instant or sorcery spell unless its controller pays {1}.\nStorm (When you cast this spell, copy it for each spell cast before it this turn. You may choose new targets for the copies.)",
+    "prices_usd": 8.43,
+    "type_line": "Instant"
+  },
   "Focus the Mind": {
     "cmc": 5.0,
     "color_identity": [
@@ -13941,6 +14016,22 @@
     "oracle_text": "If it's not your turn, you may exile a green card from your hand rather than pay this spell's mana cost.\nDestroy up to two target artifacts and/or enchantments.",
     "prices_usd": "9.72",
     "prices_usd_foil": "16.20",
+    "type_line": "Instant"
+  },
+  "Force of Will": {
+    "cmc": 5.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 194,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
+    "mana_cost": "{3}{U}{U}",
+    "oracle_text": "You may pay 1 life and exile a blue card from your hand rather than pay this spell's mana cost.\nCounter target spell.",
+    "prices_usd": 59.72,
     "type_line": "Instant"
   },
   "Foreboding Landscape": {
@@ -15665,13 +15756,12 @@
     "colors": [
       "W"
     ],
-    "edhrec_rank": 250,
-    "fetched_at": "2026-08-22",
-    "legal_commander": "legal",
+    "edhrec_rank": 251,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
     "mana_cost": "{W}{W}",
     "oracle_text": "During your turn, your opponents can't cast spells or activate abilities of artifacts, creatures, or enchantments.",
-    "prices_usd": "16.39",
-    "prices_usd_foil": "19.74",
+    "prices_usd": 18.58,
     "type_line": "Creature \u2014 Human Cleric"
   },
   "Grand Coliseum": {
@@ -20534,6 +20624,24 @@
     "prices_usd_foil": "9.93",
     "type_line": "Legendary Planeswalker \u2014 Liliana"
   },
+  "Lim-D\u00fbl's Vault": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [
+      "B",
+      "U"
+    ],
+    "edhrec_rank": 2395,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
+    "mana_cost": "{U}{B}",
+    "oracle_text": "Look at the top five cards of your library. As many times as you choose, you may pay 1 life, put those cards on the bottom of your library in any order, then look at the top five cards of your library. Then shuffle and put the last cards you looked at this way on top in any order.",
+    "prices_usd": 5.5,
+    "type_line": "Instant"
+  },
   "Lindblum, Industrial Regency // Mage Siege": {
     "cmc": 0.0,
     "color_identity": [
@@ -20831,10 +20939,11 @@
     "color_identity": [],
     "colors": [],
     "edhrec_rank": 120,
-    "fetched_at": "2026-08-22",
-    "legal_commander": "legal",
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
     "mana_cost": "{0}",
     "oracle_text": "{T}, Sacrifice this artifact: Add one mana of any color.",
+    "prices_usd": 0.0,
     "type_line": "Artifact"
   },
   "Loyal Inventor": {
@@ -21851,6 +21960,22 @@
     "prices_usd_foil": "0.34",
     "type_line": "Land"
   },
+  "Mental Misstep": {
+    "cmc": 1.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 464,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
+    "mana_cost": "{U/P}",
+    "oracle_text": "({U/P} can be paid with either {U} or 2 life.)\nCounter target spell with mana value 1.",
+    "prices_usd": 8.72,
+    "type_line": "Instant"
+  },
   "Mentor of the Meek": {
     "cmc": 3.0,
     "color_identity": [
@@ -22143,6 +22268,22 @@
     "set": "sos",
     "type_line": "Sorcery"
   },
+  "Mindbreak Trap": {
+    "cmc": 4.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 544,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
+    "mana_cost": "{2}{U}{U}",
+    "oracle_text": "If an opponent cast three or more spells this turn, you may pay {0} rather than pay this spell's mana cost.\nExile any number of target spells.",
+    "prices_usd": 15.18,
+    "type_line": "Instant \u2014 Trap"
+  },
   "Mindsplice Apparatus": {
     "cmc": 4.0,
     "color_identity": [
@@ -22330,6 +22471,22 @@
     "prices_usd": "0.28",
     "type_line": "Creature \u2014 Dragon"
   },
+  "Miscast": {
+    "cmc": 1.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 2735,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
+    "mana_cost": "{U}",
+    "oracle_text": "Counter target instant or sorcery spell unless its controller pays {3}.",
+    "prices_usd": 1.21,
+    "type_line": "Instant"
+  },
   "Mist-Syndicate Naga": {
     "cmc": 3.0,
     "color_identity": [
@@ -22497,6 +22654,22 @@
     "prices_usd": "0.31",
     "prices_usd_foil": "0.50",
     "type_line": "Artifact \u2014 Vehicle"
+  },
+  "Molten Duplication": {
+    "cmc": 2.0,
+    "color_identity": [
+      "R"
+    ],
+    "colors": [
+      "R"
+    ],
+    "edhrec_rank": 1733,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
+    "mana_cost": "{1}{R}",
+    "oracle_text": "Create a token that's a copy of target artifact or creature you control, except it's an artifact in addition to its other types. It gains haste until end of turn. Sacrifice it at the beginning of the next end step.",
+    "prices_usd": 15.83,
+    "type_line": "Sorcery"
   },
   "Molten Tributary": {
     "cmc": 0.0,
@@ -22888,16 +23061,12 @@
     "colors": [
       "U"
     ],
-    "edhrec_rank": 690,
-    "fetched_at": "2026-08-22",
-    "keywords": [
-      "Transmute"
-    ],
-    "legal_commander": "legal",
+    "edhrec_rank": 695,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
     "mana_cost": "{U}{U}",
     "oracle_text": "Counter target instant or sorcery spell.\nTransmute {1}{U}{U} ({1}{U}{U}, Discard this card: Search your library for a card with the same mana value as this card, reveal it, put it into your hand, then shuffle. Transmute only as a sorcery.)",
-    "prices_usd": "2.57",
-    "prices_usd_foil": "2.44",
+    "prices_usd": 2.54,
     "type_line": "Instant"
   },
   "Muddle, the Ever-Changing": {
@@ -23085,15 +23254,11 @@
       "U"
     ],
     "edhrec_rank": 99,
-    "fetched_at": "2026-08-22",
-    "keywords": [
-      "Cumulative upkeep"
-    ],
-    "legal_commander": "legal",
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
     "mana_cost": "{U}",
     "oracle_text": "Cumulative upkeep {1} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)\nWhenever an opponent casts a noncreature spell, you may draw a card unless that player pays {4}.",
-    "prices_usd": "13.21",
-    "prices_usd_foil": "14.05",
+    "prices_usd": 12.88,
     "type_line": "Enchantment"
   },
   "Mystic Sanctuary": {
@@ -24820,6 +24985,22 @@
     "prices_usd_foil": "0.53",
     "type_line": "Creature \u2014 Dog"
   },
+  "Pact of Negation": {
+    "cmc": 0.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 364,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
+    "mana_cost": "{0}",
+    "oracle_text": "Counter target spell.\nAt the beginning of your next upkeep, pay {3}{U}{U}. If you don't, you lose the game.",
+    "prices_usd": 17.75,
+    "type_line": "Instant"
+  },
   "Padeem, Consul of Innovation": {
     "cmc": 4.0,
     "color_identity": [
@@ -26297,6 +26478,22 @@
     "prices_usd_foil": "36.83",
     "type_line": "Instant"
   },
+  "Pyroblast": {
+    "cmc": 1.0,
+    "color_identity": [
+      "R"
+    ],
+    "colors": [
+      "R"
+    ],
+    "edhrec_rank": 472,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
+    "mana_cost": "{R}",
+    "oracle_text": "Choose one \u2014\n\u2022 Counter target spell if it's blue.\n\u2022 Destroy target permanent if it's blue.",
+    "prices_usd": 10.63,
+    "type_line": "Instant"
+  },
   "Pyroclasm": {
     "cmc": 2.0,
     "color_identity": [
@@ -27180,13 +27377,12 @@
     "colors": [
       "R"
     ],
-    "edhrec_rank": 432,
-    "fetched_at": "2026-08-22",
-    "legal_commander": "legal",
+    "edhrec_rank": 443,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
     "mana_cost": "{R}",
     "oracle_text": "Choose one \u2014\n\u2022 Counter target blue spell.\n\u2022 Destroy target blue permanent.",
-    "prices_usd": "15.55",
-    "prices_usd_foil": "96.01",
+    "prices_usd": 17.93,
     "type_line": "Instant"
   },
   "Red XIII, Proud Warrior": {
@@ -30277,13 +30473,12 @@
     "colors": [
       "W"
     ],
-    "edhrec_rank": 407,
-    "fetched_at": "2026-08-22",
-    "legal_commander": "legal",
+    "edhrec_rank": 402,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
     "mana_cost": "{W}",
     "oracle_text": "Your opponents can't cast spells this turn.",
-    "prices_usd": "9.20",
-    "prices_usd_foil": "27.92",
+    "prices_usd": 10.22,
     "type_line": "Instant"
   },
   "Silent Clearing": {
@@ -30518,15 +30713,12 @@
     "colors": [
       "U"
     ],
-    "edhrec_rank": 1173,
-    "fetched_at": "2026-08-22",
-    "keywords": [
-      "Flying"
-    ],
-    "legal_commander": "legal",
+    "edhrec_rank": 1187,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
     "mana_cost": "{U}",
     "oracle_text": "Flying\n{U}, Sacrifice this creature: Counter target spell or ability that targets you or a creature you control.",
-    "prices_usd": "0.33",
+    "prices_usd": 0.38,
     "type_line": "Creature \u2014 Siren Pirate Wizard"
   },
   "Skemfar Shadowsage": {
@@ -31060,6 +31252,22 @@
     "prices_usd": "24.01",
     "prices_usd_foil": "29.37",
     "type_line": "Legendary Creature \u2014 Phyrexian Horror"
+  },
+  "Solve the Equation": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 929,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
+    "mana_cost": "{2}{U}",
+    "oracle_text": "Search your library for an instant or sorcery card, reveal it, put it into your hand, then shuffle.",
+    "prices_usd": 4.64,
+    "type_line": "Sorcery"
   },
   "Songs of the Damned": {
     "cmc": 1.0,
@@ -33207,6 +33415,22 @@
     "prices_usd": "0.23",
     "prices_usd_foil": "0.35",
     "type_line": "Creature \u2014 Vampire Soldier"
+  },
+  "Swan Song": {
+    "cmc": 1.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 68,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
+    "mana_cost": "{U}",
+    "oracle_text": "Counter target enchantment, instant, or sorcery spell. Its controller creates a 2/2 blue Bird creature token with flying.",
+    "prices_usd": 9.85,
+    "type_line": "Instant"
   },
   "Swarming of Moria": {
     "cmc": 3.0,
@@ -36871,15 +37095,12 @@
     "colors": [
       "R"
     ],
-    "edhrec_rank": 1259,
-    "fetched_at": "2026-08-22",
-    "keywords": [
-      "Strive"
-    ],
-    "legal_commander": "legal",
+    "edhrec_rank": 1258,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
     "mana_cost": "{1}{R}",
     "oracle_text": "Strive \u2014 This spell costs {2}{R} more to cast for each target beyond the first.\nChoose any number of target creatures you control. For each of them, create a token that's a copy of that creature, except it has haste. Exile those tokens at the beginning of the next end step.",
-    "prices_usd": "1.05",
+    "prices_usd": 0.76,
     "type_line": "Sorcery"
   },
   "Twinflame Tyrant": {
@@ -37237,6 +37458,22 @@
     "oracle_text": "This land enters tapped unless you have two or more opponents.\n{T}: Add {B} or {G}.",
     "prices_usd": "6.10",
     "type_line": "Land"
+  },
+  "Underworld Breach": {
+    "cmc": 2.0,
+    "color_identity": [
+      "R"
+    ],
+    "colors": [
+      "R"
+    ],
+    "edhrec_rank": 389,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
+    "mana_cost": "{1}{R}",
+    "oracle_text": "Each nonland card in your graveyard has escape. The escape cost is equal to the card's mana cost plus exile three other cards from your graveyard. (You may cast cards from your graveyard for their escape cost.)\nAt the beginning of the end step, sacrifice this enchantment.",
+    "prices_usd": 11.16,
+    "type_line": "Enchantment"
   },
   "Unearth": {
     "cmc": 1.0,
@@ -39094,6 +39331,22 @@
     "oracle_text": "Equipped creature has flying and ward {4}. (Whenever equipped creature becomes the target of a spell or ability an opponent controls, counter it unless that player pays {4}.)\nEquip {1}",
     "prices_usd": "8.79",
     "type_line": "Artifact \u2014 Equipment"
+  },
+  "Wishclaw Talisman": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 520,
+    "fetched_at": "2026-09-24",
+    "legal_commander": true,
+    "mana_cost": "{1}{B}",
+    "oracle_text": "This artifact enters with three wish counters on it.\n{1}, {T}, Remove a wish counter from this artifact: Search your library for a card, put it into your hand, then shuffle. An opponent gains control of this artifact. Activate only during your turn.",
+    "prices_usd": 2.03,
+    "type_line": "Artifact"
   },
   "Witch's Cottage": {
     "cmc": 0.0,

@@ -1,0 +1,113 @@
+# Commander
+1x Tymna the Weaver
+1x Kraum, Ludevic's Opus
+
+# Creature
+1x Thassa's Oracle
+1x Mockingbird
+1x Changeling Outcast
+1x Spectral Sailor
+1x Baleful Strix
+1x Ledger Shredder
+1x Dark Confidant
+1x Snapcaster Mage
+1x Loyal Apprentice
+1x Professional Face-Breaker
+1x Ranger-Captain of Eos
+1x Boromir, Warden of the Tower
+1x Drannith Magistrate
+1x Aven Mindcensor
+1x Cathar Commando
+1x Dualcaster Mage
+1x Simian Spirit Guide
+
+# Instant
+1x Tainted Pact
+1x Demonic Consultation
+1x Brain Freeze
+1x Lim-Dûl's Vault
+1x Pact of Negation
+1x Silence
+1x An Offer You Can't Refuse
+1x Counterspell
+1x Spell Pierce
+1x Dovin's Veto
+1x Drown in the Loch
+1x Swords to Plowshares
+1x Path to Exile
+1x Rapid Hybridization
+1x Fatal Push
+1x Cyclonic Rift
+1x Abrade
+1x Chaos Warp
+1x Stroke of Midnight
+1x Brainstorm
+1x Frantic Search
+1x Dark Ritual
+1x Twinflame
+
+# Sorcery
+1x Demonic Tutor
+1x Diabolic Intent
+1x Gamble
+1x Step Through
+1x Imperial Recruiter
+1x Preordain
+1x Faithless Looting
+1x Toxic Deluge
+1x Wishclaw Talisman
+1x Underworld Breach
+
+# Artifact
+1x Sol Ring
+1x Arcane Signet
+1x Fellwar Stone
+1x Talisman of Dominance
+1x Talisman of Progress
+1x Talisman of Hierarchy
+1x Talisman of Creativity
+1x Talisman of Conviction
+1x Dimir Signet
+1x Izzet Signet
+1x Boros Signet
+1x Mind Stone
+1x Thought Vessel
+
+# Enchantment
+1x Rhystic Study
+1x Deafening Silence
+
+# Land
+1x City of Brass
+1x Command Tower
+1x Exotic Orchard
+1x Spire of Industry
+1x Starting Town
+1x Underground River
+1x Caves of Koilos
+1x Shivan Reef
+1x Battlefield Forge
+1x Silent Clearing
+1x Spirebluff Canal
+1x Stormcarved Coast
+1x Glacial Fortress
+1x Drowned Catacomb
+1x Clifftop Retreat
+1x Dragonskull Summit
+1x Sunken Ruins
+1x Fetid Heath
+1x Rugged Prairie
+1x Shattered Sanctum
+1x Sundown Pass
+1x Prismatic Vista
+1x Fabled Passage
+1x Emergence Zone
+1x Mystic Sanctuary
+1x Great Hall of the Citadel
+1x Prairie Stream
+1x Smoldering Marsh
+1x Choked Estuary
+1x Plains
+1x Island
+1x Swamp
+1x Mountain

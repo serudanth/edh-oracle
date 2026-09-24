@@ -309,6 +309,12 @@ Deck: The Good Tentacles — Gluntch, the Bestower (GW) — inverted group hug, 
 ### theorycrafting/cabbage-merchant/
 Deck: The Cabbage Cartel — The Cabbage Merchant (G) — reactive Food generation, fog defense, asymmetric stax, and artifact swarm/overrun. Architectural blueprint.
 
+### theorycrafting/blue-farm/
+Deck: Blue Farm (Tymna & Kraum) (WUBR) — sans-green card advantage engine and compact combo assembly built under the "proxy only copies of owned cards" rule. Architectural blueprint, two complete 100-card decklists (Zero-Cost $0.00 and Expanded Combo ~$14), and Archidekt export files.
+
+### theorycrafting/winota/
+Deck: The Apex Rush — Winota, Joiner of Forces (WR) — ultra-optimized stax-aggro and infinite combat combo engine with 100% owned card parity across fowlplays's collection and active deck archive. Complete 100-card decklist, salvage pool breakdown, and Archidekt export.
+
 ---
 
 ## _cache/
