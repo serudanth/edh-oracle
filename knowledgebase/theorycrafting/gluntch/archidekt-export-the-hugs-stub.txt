@@ -1,0 +1,30 @@
+# Commander
+1x Gluntch, the Bestower
+
+# Creatures
+1x Avenger of Zendikar
+1x Emissary Green
+1x Flumph
+1x Mona Lisa, Science Geek
+1x Tataru Taru
+
+# Artifacts
+1x Arcane Signet
+1x Sol Ring
+
+# Enchantments
+1x Cleric Class
+1x High Score
+1x Together Forever
+
+# Instants
+1x Continue?
+
+# Sorceries
+1x Cultivate
+1x Harmonize
+1x Vanquish the Horde
+
+# Lands
+10x Forest
+10x Plains

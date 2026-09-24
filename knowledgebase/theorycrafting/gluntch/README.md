@@ -13,6 +13,8 @@ This directory serves as the centralized workspace for deconstructing, consolida
 | **[03-the-hugs-stub.md](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/gluntch/03-the-hugs-stub.md)** | The Good Tentacles (Archidekt Stub) | Initial 35-card Gluntch outline created by fowlplays ([Deck 20094425](https://archidekt.com/decks/20094425/the_hugs)). | Seed / Draft |
 | **[04-reconciled-hybrid.md](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/gluntch/04-reconciled-hybrid.md)** | Reconciled Hybrid | High-synergy consolidation retaining ~90% of your donor cards, integrating all 13 core stub cards, and adding key Gluntch staples. | Bracket 3 (Engine Value) |
 | **[05-gluntch-optimized-for-winning.md](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/gluntch/05-gluntch-optimized-for-winning.md)** | Budget-Lethal (Winning) | Realistic, high-power list (~$20–$25 upgrade spend) retaining 80 owned cards. Combines Rule of Law stax, gift weaponization, and modular 2x2 counter combos. | Bracket 3.5 / 4 (Lethal Engine) |
+| **[archidekt-export-optimized-for-winning.txt](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/gluntch/archidekt-export-optimized-for-winning.txt)** | Export (Winning) | Formatted Archidekt text import for Budget-Lethal (Optimized for Winning). | Ready |
+| **[archidekt-export-reconciled-hybrid.txt](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/gluntch/archidekt-export-reconciled-hybrid.txt)** | Export (Hybrid) | Formatted Archidekt text import for Reconciled Hybrid. | Ready |
 
 ---
 

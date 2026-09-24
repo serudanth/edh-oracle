@@ -378,6 +378,47 @@
     "prices_usd_foil": "0.33",
     "type_line": "Legendary Creature \u2014 Human Assassin Pirate"
   },
+  "Aerith Gainsborough": {
+    "cmc": 3.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 2169,
+    "fetched_at": "2026-09-19",
+    "keywords": [
+      "Lifelink"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}",
+    "oracle_text": "Lifelink\nWhenever you gain life, put a +1/+1 counter on Aerith Gainsborough.\nWhen Aerith Gainsborough dies, put X +1/+1 counters on each legendary creature you control, where X is the number of +1/+1 counters on Aerith Gainsborough.",
+    "prices_usd": "1.99",
+    "prices_usd_foil": "4.19",
+    "type_line": "Legendary Creature \u2014 Human Cleric"
+  },
+  "Aerith Rescue Mission": {
+    "cmc": 4.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 11571,
+    "fetched_at": "2026-09-18",
+    "keywords": [
+      "Take 59 Flights of Stairs",
+      "Take the Elevator"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{W}",
+    "oracle_text": "Choose one \u2014\n\u2022 Take the Elevator \u2014 Create three 1/1 colorless Hero creature tokens.\n\u2022 Take 59 Flights of Stairs \u2014 Tap up to three target creatures. Put a stun counter on one of them. (If a permanent with a stun counter would become untapped, remove one from it instead.)",
+    "prices_usd": "0.18",
+    "prices_usd_foil": "0.26",
+    "type_line": "Sorcery"
+  },
   "Aerith, Last Ancient": {
     "cmc": 4.0,
     "color_identity": [
@@ -825,6 +866,20 @@
     "set": "fic",
     "type_line": "Legendary Creature \u2014 Elf Wizard"
   },
+  "All Is Dust": {
+    "cmc": 7.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 1002,
+    "fetched_at": "2026-09-18",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{7}",
+    "oracle_text": "Each player sacrifices all permanents they control that are one or more colors.",
+    "prices_usd": "5.91",
+    "prices_usd_foil": null,
+    "type_line": "Kindred Sorcery \u2014 Eldrazi"
+  },
   "All That Glitters": {
     "cmc": 2.0,
     "color_identity": [
@@ -1205,6 +1260,24 @@
     "prices_usd": "0.34",
     "prices_usd_foil": "0.55",
     "type_line": "Instant"
+  },
+  "Angelic Chorus": {
+    "cmc": 5.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 5761,
+    "fetched_at": "2026-09-19",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{W}{W}",
+    "oracle_text": "Whenever a creature you control enters, you gain life equal to its toughness.",
+    "prices_usd": "8.38",
+    "prices_usd_foil": "11.42",
+    "type_line": "Enchantment"
   },
   "Angelic Intervention": {
     "cmc": 2.0,
@@ -1626,6 +1699,27 @@
     "prices_usd": "1.18",
     "type_line": "Artifact"
   },
+  "Archangel of Thune": {
+    "cmc": 5.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 1367,
+    "fetched_at": "2026-09-19",
+    "keywords": [
+      "Flying",
+      "Lifelink"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{W}{W}",
+    "oracle_text": "Flying\nLifelink (Damage dealt by this creature also causes you to gain that much life.)\nWhenever you gain life, put a +1/+1 counter on each creature you control.",
+    "prices_usd": "49.53",
+    "prices_usd_foil": "74.59",
+    "type_line": "Creature \u2014 Angel"
+  },
   "Archdruid's Charm": {
     "cmc": 3.0,
     "color_identity": [
@@ -2041,6 +2135,24 @@
     "prices_usd_foil": "1.55",
     "type_line": "Land"
   },
+  "Ashe, Princess of Dalmasca": {
+    "cmc": 3.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 9560,
+    "fetched_at": "2026-09-19",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}",
+    "oracle_text": "Whenever Ashe attacks, look at the top five cards of your library. You may reveal an artifact card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+    "prices_usd": "0.20",
+    "prices_usd_foil": "0.28",
+    "type_line": "Legendary Creature \u2014 Human Rebel Noble"
+  },
   "Ashiok, Dream Render": {
     "cmc": 3.0,
     "color_identity": [
@@ -2157,6 +2269,31 @@
     "prices_usd_foil": "2.69",
     "type_line": "Sorcery"
   },
+  "Astarion, the Decadent": {
+    "cmc": 6.0,
+    "color_identity": [
+      "B",
+      "W"
+    ],
+    "colors": [
+      "B",
+      "W"
+    ],
+    "edhrec_rank": 3745,
+    "fetched_at": "2026-09-19",
+    "keywords": [
+      "Lifelink",
+      "Feed",
+      "Friends",
+      "Deathtouch"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{4}{W}{B}",
+    "oracle_text": "Deathtouch, lifelink\nAt the beginning of your end step, choose one \u2014\n\u2022 Feed \u2014 Target opponent loses life equal to the amount of life they lost this turn.\n\u2022 Friends \u2014 You gain life equal to the amount of life you gained this turn.",
+    "prices_usd": "2.13",
+    "prices_usd_foil": "2.71",
+    "type_line": "Legendary Creature \u2014 Vampire Elf Rogue"
+  },
   "Astral Cornucopia": {
     "cmc": 0.0,
     "color_identity": [],
@@ -2192,6 +2329,28 @@
     "prices_usd": "19.23",
     "prices_usd_foil": null,
     "type_line": "Creature \u2014 Dragon"
+  },
+  "Astrologian's Planisphere": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 5275,
+    "fetched_at": "2026-09-19",
+    "keywords": [
+      "Job select",
+      "Diana",
+      "Equip"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}",
+    "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature is a Wizard in addition to its other types and has \"Whenever you cast a noncreature spell and whenever you draw your third card each turn, put a +1/+1 counter on this creature.\"\nDiana \u2014 Equip {2}",
+    "prices_usd": "0.28",
+    "prices_usd_foil": "0.66",
+    "type_line": "Artifact \u2014 Equipment"
   },
   "Atarka, World Render": {
     "cmc": 7.0,
@@ -2456,6 +2615,26 @@
     "prices_usd": "0.57",
     "prices_usd_foil": "0.78",
     "type_line": "Creature \u2014 Human Warrior"
+  },
+  "Avengers Assemble!": {
+    "cmc": 5.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 12348,
+    "fetched_at": "2026-09-18",
+    "keywords": [
+      "Flash"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{4}{W}",
+    "oracle_text": "Flash\nHeroes you control get +2/+2.\nAt the beginning of each end step, if you attacked with a Hero this turn or a Hero entered the battlefield under your control this turn, draw a card.",
+    "prices_usd": "2.75",
+    "prices_usd_foil": "1.95",
+    "type_line": "Enchantment"
   },
   "Ayara, First of Locthwain": {
     "cmc": 3.0,
@@ -2758,6 +2937,50 @@
     "prices_usd": "3.21",
     "prices_usd_foil": "3.04",
     "type_line": "Legendary Creature \u2014 Human Wizard"
+  },
+  "Bard the Bowman": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U",
+      "W"
+    ],
+    "colors": [
+      "U",
+      "W"
+    ],
+    "edhrec_rank": 15639,
+    "fetched_at": "2026-09-21",
+    "keywords": [
+      "Reach"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{W}{U}",
+    "oracle_text": "Reach\nWhenever you draw your second card each turn, put a +1/+1 counter on target creature. It gains lifelink until end of turn.",
+    "prices_usd": "0.23",
+    "prices_usd_foil": "0.23",
+    "type_line": "Legendary Creature \u2014 Human Archer"
+  },
+  "Bard's Company": {
+    "cmc": 4.0,
+    "color_identity": [
+      "U",
+      "W"
+    ],
+    "colors": [
+      "U",
+      "W"
+    ],
+    "edhrec_rank": 15927,
+    "fetched_at": "2026-09-21",
+    "keywords": [
+      "Recruit"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}{U}",
+    "oracle_text": "You may cast this spell as though it had flash if you control a Human.\nOther creatures you control get +1/+1.\nWhenever this creature enters or attacks, recruit. (Draw a card, then discard a card. If you discarded a nonland card, create a 1/1 white Human Soldier creature token.)",
+    "prices_usd": "0.26",
+    "prices_usd_foil": "0.31",
+    "type_line": "Creature \u2014 Human Citizen"
   },
   "Bard, King of Dale": {
     "cmc": 6.0,
@@ -3159,6 +3382,28 @@
     "prices_usd": "0.28",
     "type_line": "Artifact \u2014 Equipment"
   },
+  "Beifong's Bounty Hunters": {
+    "cmc": 4.0,
+    "color_identity": [
+      "B",
+      "G"
+    ],
+    "colors": [
+      "B",
+      "G"
+    ],
+    "edhrec_rank": 8822,
+    "fetched_at": "2026-09-18",
+    "keywords": [
+      "Earthbend"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}{G}",
+    "oracle_text": "Whenever a nonland creature you control dies, earthbend X, where X is that creature's power. (Target land you control becomes a 0/0 creature with haste that's still a land. Put X +1/+1 counters on it. When it dies or is exiled, return it to the battlefield tapped.)",
+    "prices_usd": "0.29",
+    "prices_usd_foil": "0.40",
+    "type_line": "Creature \u2014 Human Mercenary"
+  },
   "Beledros Witherbloom": {
     "cmc": 7.0,
     "color_identity": [
@@ -3179,6 +3424,24 @@
     "oracle_text": "Flying\nAt the beginning of each upkeep, create a 1/1 black and green Pest creature token with \"When this token dies, you gain 1 life.\"\nPay 10 life: Untap all lands you control. Activate only once each turn.",
     "prices_usd": "1.59",
     "type_line": "Legendary Creature \u2014 Elder Dragon"
+  },
+  "Belladonna Took": {
+    "cmc": 2.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 5591,
+    "fetched_at": "2026-09-21",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{W}",
+    "oracle_text": "Whenever a token you control enters, you gain 1 life if this is the first time this ability has resolved this turn. If it's the second time, draw a card. If it's the third time, put a +1/+1 counter on each creature you control.",
+    "prices_usd": "2.62",
+    "prices_usd_foil": "3.20",
+    "type_line": "Legendary Creature \u2014 Halfling Citizen"
   },
   "Bender's Waterskin": {
     "cmc": 3.0,
@@ -3445,6 +3708,27 @@
     "prices_usd": "32.40",
     "prices_usd_foil": "34.92",
     "type_line": "Kindred Enchantment \u2014 Faerie"
+  },
+  "Black Mage's Rod": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 2615,
+    "fetched_at": "2026-09-19",
+    "keywords": [
+      "Job select",
+      "Equip"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{B}",
+    "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +1/+0, has \"Whenever you cast a noncreature spell, this creature deals 1 damage to each opponent,\" and is a Wizard in addition to its other types.\nEquip {3}",
+    "prices_usd": "0.29",
+    "prices_usd_foil": "0.62",
+    "type_line": "Artifact \u2014 Equipment"
   },
   "Black Market": {
     "cmc": 5.0,
@@ -3955,6 +4239,28 @@
     "prices_usd": "0.19",
     "prices_usd_foil": "0.26",
     "type_line": "Land"
+  },
+  "Blue Mage's Cane": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 7502,
+    "fetched_at": "2026-09-18",
+    "keywords": [
+      "Job select",
+      "Spirit of the Whalaqee",
+      "Equip"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "Job select\nEquipped creature gets +0/+2, is a Wizard in addition to its other types, and has \"Whenever this creature attacks, exile up to one target instant or sorcery card from defending player's graveyard. If you do, copy it. You may cast the copy by paying {3} rather than paying its mana cost.\"\nSpirit of the Whalaqee \u2014 Equip {2}",
+    "prices_usd": "0.25",
+    "prices_usd_foil": null,
+    "type_line": "Artifact \u2014 Equipment"
   },
   "Blue Sun's Zenith": {
     "cmc": 3.0,
@@ -5434,6 +5740,24 @@
     "prices_usd": "0.36",
     "type_line": "Creature \u2014 Human Pirate"
   },
+  "Caretaker's Talent": {
+    "cmc": 3.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 631,
+    "fetched_at": "2026-09-18",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}",
+    "oracle_text": "(Gain the next level as a sorcery to add its ability.)\nWhenever one or more tokens you control enter, draw a card. This ability triggers only once each turn.\n{W}: Level 2\nWhen this Class becomes level 2, create a token that's a copy of target token you control.\n{3}{W}: Level 3\nCreature tokens you control get +2/+2.",
+    "prices_usd": "11.70",
+    "prices_usd_foil": "12.51",
+    "type_line": "Enchantment \u2014 Class"
+  },
   "Carmen, Cruel Skymarcher": {
     "cmc": 5.0,
     "color_identity": [
@@ -5661,17 +5985,15 @@
     "prices_usd": "0.65",
     "type_line": "Land"
   },
-  "Cecil, Dark Knight // Cecil, Redeemed Paladin": {
+  "Cecil, Dark Knight": {
     "cmc": 1.0,
     "color_identity": [
       "B",
       "W"
     ],
-    "colors": [
-      "B"
-    ],
-    "edhrec_rank": 9354,
-    "fetched_at": "2026-08-22",
+    "colors": [],
+    "edhrec_rank": 9264,
+    "fetched_at": "2026-09-19",
     "keywords": [
       "Lifelink",
       "Protect",
@@ -5680,10 +6002,33 @@
       "Deathtouch"
     ],
     "legal_commander": "legal",
-    "mana_cost": "{B}",
-    "oracle_text": "Deathtouch\nDarkness \u2014 Whenever Cecil deals damage, you lose that much life. Then if your life total is less than or equal to half your starting life total, untap Cecil and transform it.\n//\nLifelink\nProtect \u2014 Whenever Cecil attacks, other attacking creatures gain indestructible until end of turn.",
-    "prices_usd": "1.15",
-    "prices_usd_foil": "1.24",
+    "mana_cost": "",
+    "oracle_text": "",
+    "prices_usd": "1.13",
+    "prices_usd_foil": "1.60",
+    "type_line": "Legendary Creature \u2014 Human Knight // Legendary Creature \u2014 Human Knight"
+  },
+  "Cecil, Dark Knight // Cecil, Redeemed Paladin": {
+    "cmc": 1.0,
+    "color_identity": [
+      "B",
+      "W"
+    ],
+    "colors": [],
+    "edhrec_rank": 9264,
+    "fetched_at": "2026-09-19",
+    "keywords": [
+      "Lifelink",
+      "Protect",
+      "Transform",
+      "Darkness",
+      "Deathtouch"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "",
+    "prices_usd": "1.13",
+    "prices_usd_foil": "1.60",
     "type_line": "Legendary Creature \u2014 Human Knight // Legendary Creature \u2014 Human Knight"
   },
   "Celes, Rune Knight": {
@@ -5858,6 +6203,28 @@
     "prices_usd": "2.92",
     "prices_usd_foil": "2.75",
     "type_line": "Artifact \u2014 Equipment"
+  },
+  "Champions from Beyond": {
+    "cmc": 2.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 3766,
+    "fetched_at": "2026-09-18",
+    "keywords": [
+      "Full Party",
+      "Light Party",
+      "Scry"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{X}{W}{W}",
+    "oracle_text": "When this enchantment enters, create X 1/1 colorless Hero creature tokens.\nLight Party \u2014 Whenever you attack with four or more creatures, scry 2, then draw a card.\nFull Party \u2014 Whenever you attack with eight or more creatures, those creatures get +4/+4 until end of turn.",
+    "prices_usd": "3.01",
+    "prices_usd_foil": null,
+    "type_line": "Enchantment"
   },
   "Champions of the Perfect": {
     "cmc": 4.0,
@@ -6061,6 +6428,24 @@
     "prices_usd": "0.25",
     "prices_usd_foil": "0.32",
     "type_line": "Sorcery"
+  },
+  "Children of Korlis": {
+    "cmc": 1.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 4389,
+    "fetched_at": "2026-09-18",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{W}",
+    "oracle_text": "Sacrifice this creature: You gain life equal to the life you've lost this turn. (Damage causes loss of life.)",
+    "prices_usd": "0.33",
+    "prices_usd_foil": "5.80",
+    "type_line": "Creature \u2014 Human Rebel Cleric"
   },
   "Chishiro, the Shattered Blade": {
     "cmc": 4.0,
@@ -7578,6 +7963,24 @@
     "prices_usd": "0.32",
     "type_line": "Sorcery"
   },
+  "Crested Sunmare": {
+    "cmc": 5.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 4223,
+    "fetched_at": "2026-09-19",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{W}{W}",
+    "oracle_text": "Other Horses you control have indestructible.\nAt the beginning of each end step, if you gained life this turn, create a 5/5 white Horse creature token.",
+    "prices_usd": "8.27",
+    "prices_usd_foil": "16.11",
+    "type_line": "Creature \u2014 Horse"
+  },
   "Crib Swap": {
     "cmc": 3.0,
     "color_identity": [
@@ -8204,6 +8607,26 @@
     "set": "fra",
     "type_line": "Legendary Creature \u2014 Human Knight"
   },
+  "Danny Pink": {
+    "cmc": 4.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 2748,
+    "fetched_at": "2026-09-18",
+    "keywords": [
+      "Mentor"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{U}",
+    "oracle_text": "Mentor (Whenever this creature attacks, put a +1/+1 counter on target attacking creature with lesser power.)\nCreatures you control have \"Whenever one or more counters are put on this creature for the first time each turn, draw a card.\"",
+    "prices_usd": "20.19",
+    "prices_usd_foil": "19.57",
+    "type_line": "Legendary Creature \u2014 Human Soldier Advisor"
+  },
   "Dark Confidant": {
     "cmc": 2.0,
     "color_identity": [
@@ -8220,6 +8643,28 @@
     "prices_usd": "3.90",
     "prices_usd_foil": "4.90",
     "type_line": "Creature \u2014 Human Wizard"
+  },
+  "Dark Knight's Greatsword": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 11875,
+    "fetched_at": "2026-09-19",
+    "keywords": [
+      "Chaosbringer",
+      "Job select",
+      "Equip"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}",
+    "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +3/+0 and is a Knight in addition to its other types.\nChaosbringer \u2014 Equip\u2014Pay 3 life. Activate only once each turn.",
+    "prices_usd": "0.24",
+    "prices_usd_foil": "0.34",
+    "type_line": "Artifact \u2014 Equipment"
   },
   "Dark Leo & Shredder": {
     "cmc": 2.0,
@@ -9031,6 +9476,24 @@
     "oracle_text": "{1}, {T}: Add {W}{B}.",
     "prices_usd": "0.27",
     "type_line": "Land"
+  },
+  "Desolation of Smaug": {
+    "cmc": 4.0,
+    "color_identity": [
+      "R"
+    ],
+    "colors": [
+      "R"
+    ],
+    "edhrec_rank": 12024,
+    "fetched_at": "2026-09-21",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{R}{R}",
+    "oracle_text": "Desolation of Smaug deals 3 damage to each non-Dragon creature.\nAdd four mana in any combination of colors. Spend this mana only to cast Dragon spells.",
+    "prices_usd": "1.12",
+    "prices_usd_foil": "0.41",
+    "type_line": "Sorcery"
   },
   "Destiny Spinner": {
     "cmc": 2.0,
@@ -10055,6 +10518,28 @@
     "prices_usd_foil": null,
     "type_line": "Artifact"
   },
+  "Dragoon's Lance": {
+    "cmc": 2.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 7727,
+    "fetched_at": "2026-09-19",
+    "keywords": [
+      "Gae Bolg",
+      "Job select",
+      "Equip"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{W}",
+    "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +1/+0 and is a Knight in addition to its other types.\nDuring your turn, equipped creature has flying.\nGae Bolg \u2014 Equip {4}",
+    "prices_usd": "0.18",
+    "prices_usd_foil": "0.33",
+    "type_line": "Artifact \u2014 Equipment"
+  },
   "Dramatic Reversal": {
     "cmc": 2.0,
     "color_identity": [
@@ -10314,6 +10799,26 @@
     "prices_usd": "0.19",
     "prices_usd_foil": "0.29",
     "type_line": "Creature \u2014 Elf Warrior"
+  },
+  "Echo of Eons": {
+    "cmc": 6.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 2596,
+    "fetched_at": "2026-09-19",
+    "keywords": [
+      "Flashback"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{4}{U}{U}",
+    "oracle_text": "Each player shuffles their hand and graveyard into their library, then draws seven cards.\nFlashback {2}{U} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+    "prices_usd": "13.80",
+    "prices_usd_foil": "57.46",
+    "type_line": "Sorcery"
   },
   "Edgar, Charmed Groom // Edgar Markov's Coffin": {
     "cmc": 4.0,
@@ -11021,28 +11526,46 @@
     "prices_usd": "0.34",
     "type_line": "Legendary Creature \u2014 Elder Wizard"
   },
-  "Emet-Selch, Unsundered // Hades, Sorcerer of Eld": {
+  "Emet-Selch, Unsundered": {
     "cmc": 3.0,
     "color_identity": [
       "B",
       "U"
     ],
-    "colors": [
-      "B",
-      "U"
-    ],
-    "edhrec_rank": 6413,
-    "fetched_at": "2026-08-22",
+    "colors": [],
+    "edhrec_rank": 6309,
+    "fetched_at": "2026-09-19",
     "keywords": [
       "Vigilance",
       "Echo of the Lost",
       "Transform"
     ],
     "legal_commander": "legal",
-    "mana_cost": "{1}{U}{B}",
-    "oracle_text": "Vigilance\nWhenever Emet-Selch enters or attacks, draw a card, then discard a card.\nAt the beginning of your upkeep, if there are fourteen or more cards in your graveyard, you may transform Emet-Selch.\n//\nVigilance\nEcho of the Lost \u2014 During your turn, you may play cards from your graveyard.\nIf a card or token would be put into your graveyard from anywhere, exile it instead.",
-    "prices_usd": "2.22",
-    "prices_usd_foil": "3.89",
+    "mana_cost": "",
+    "oracle_text": "",
+    "prices_usd": "2.19",
+    "prices_usd_foil": "3.88",
+    "type_line": "Legendary Creature \u2014 Elder Wizard // Legendary Creature \u2014 Avatar"
+  },
+  "Emet-Selch, Unsundered // Hades, Sorcerer of Eld": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 6309,
+    "fetched_at": "2026-09-19",
+    "keywords": [
+      "Vigilance",
+      "Echo of the Lost",
+      "Transform"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "",
+    "prices_usd": "2.19",
+    "prices_usd_foil": "3.88",
     "type_line": "Legendary Creature \u2014 Elder Wizard // Legendary Creature \u2014 Avatar"
   },
   "Emissary Green": {
@@ -11321,6 +11844,26 @@
     "prices_usd": "0.28",
     "prices_usd_foil": "0.33",
     "type_line": "Creature \u2014 Elf Soldier"
+  },
+  "Envoy of the Ancestors": {
+    "cmc": 3.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 2496,
+    "fetched_at": "2026-09-18",
+    "keywords": [
+      "Outlast"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}",
+    "oracle_text": "Outlast {W} ({W}, {T}: Put a +1/+1 counter on this creature. Outlast only as a sorcery.)\nModified creatures you control have lifelink. (Equipment, Auras you control, and counters are modifications.)",
+    "prices_usd": "0.43",
+    "prices_usd_foil": "0.44",
+    "type_line": "Creature \u2014 Human Cleric"
   },
   "Ephemerate": {
     "cmc": 1.0,
@@ -13279,6 +13822,38 @@
     "prices_usd_foil": "0.25",
     "type_line": "Land"
   },
+  "Fomori Vault": {
+    "cmc": 0.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 1610,
+    "fetched_at": "2026-09-19",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "{T}: Add {C}.\n{3}, {T}, Discard a card: Look at the top X cards of your library, where X is the number of artifacts you control. Put one of those cards into your hand and the rest on the bottom of your library in a random order.",
+    "prices_usd": "14.70",
+    "prices_usd_foil": "17.61",
+    "type_line": "Land"
+  },
+  "Font of Agonies": {
+    "cmc": 1.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 5690,
+    "fetched_at": "2026-09-18",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{B}",
+    "oracle_text": "Whenever you pay life, put that many blood counters on this enchantment.\n{1}{B}, Remove four blood counters from this enchantment: Destroy target creature.",
+    "prices_usd": "0.74",
+    "prices_usd_foil": "2.54",
+    "type_line": "Enchantment"
+  },
   "Foot Chopper": {
     "cmc": 2.0,
     "color_identity": [
@@ -13862,6 +14437,31 @@
     "prices_usd": "2.25",
     "prices_usd_foil": "21.79",
     "type_line": "Creature \u2014 Elf Druid"
+  },
+  "G'raha Tia, Scion Reborn": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B",
+      "U",
+      "W"
+    ],
+    "colors": [
+      "B",
+      "U",
+      "W"
+    ],
+    "edhrec_rank": 5998,
+    "fetched_at": "2026-09-18",
+    "keywords": [
+      "Lifelink",
+      "Throw Wide the Gates"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{W}{U}{B}",
+    "oracle_text": "Lifelink\nThrow Wide the Gates \u2014 Whenever you cast a noncreature spell, you may pay X life, where X is that spell's mana value. If you do, create a 1/1 colorless Hero creature token and put X +1/+1 counters on it. Do this only once each turn.",
+    "prices_usd": "0.65",
+    "prices_usd_foil": "0.34",
+    "type_line": "Legendary Creature \u2014 Cat Wizard"
   },
   "Gaius van Baelsar": {
     "cmc": 4.0,
@@ -14570,6 +15170,22 @@
     "prices_usd": "0.25",
     "prices_usd_foil": "0.30",
     "type_line": "Legendary Creature \u2014 Human Warrior"
+  },
+  "Glamdring": {
+    "cmc": 2.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 5538,
+    "fetched_at": "2026-09-21",
+    "keywords": [
+      "Equip"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}",
+    "oracle_text": "Equipped creature has first strike and gets +1/+0 for each instant and sorcery card in your graveyard.\nWhenever equipped creature deals combat damage to a player, you may cast an instant or sorcery spell from your hand with mana value less than or equal to that damage without paying its mana cost.\nEquip {3}",
+    "prices_usd": "3.16",
+    "prices_usd_foil": "3.52",
+    "type_line": "Legendary Artifact \u2014 Equipment"
   },
   "Glamer Gifter": {
     "cmc": 2.0,
@@ -15828,6 +16444,28 @@
     "set": "soc",
     "type_line": "Artifact Creature \u2014 Construct"
   },
+  "Harald, King of Skemfar": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B",
+      "G"
+    ],
+    "colors": [
+      "B",
+      "G"
+    ],
+    "edhrec_rank": 8498,
+    "fetched_at": "2026-09-21",
+    "keywords": [
+      "Menace"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{B}{G}",
+    "oracle_text": "Menace (This creature can't be blocked except by two or more creatures.)\nWhen Harald enters, look at the top five cards of your library. You may reveal an Elf, Warrior, or Tyvar card from among them and put it into your hand. Put the rest on the bottom of your library in a random order.",
+    "prices_usd": "0.24",
+    "prices_usd_foil": "0.39",
+    "type_line": "Legendary Creature \u2014 Elf Warrior"
+  },
   "Hardened Scales": {
     "cmc": 1.0,
     "color_identity": [
@@ -16633,6 +17271,29 @@
     "prices_usd": "0.47",
     "type_line": "Land"
   },
+  "High Perfect Morcant": {
+    "cmc": 4.0,
+    "color_identity": [
+      "B",
+      "G"
+    ],
+    "colors": [
+      "B",
+      "G"
+    ],
+    "edhrec_rank": 3726,
+    "fetched_at": "2026-09-21",
+    "keywords": [
+      "Blight",
+      "Proliferate"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}{G}",
+    "oracle_text": "Whenever High Perfect Morcant or another Elf you control enters, each opponent blights 1. (They each put a -1/-1 counter on a creature they control.)\nTap three untapped Elves you control: Proliferate. Activate only as a sorcery. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)",
+    "prices_usd": "2.45",
+    "prices_usd_foil": "2.15",
+    "type_line": "Legendary Creature \u2014 Elf Noble"
+  },
   "High Score": {
     "cmc": 3.0,
     "color_identity": [
@@ -16914,15 +17575,15 @@
     "colors": [
       "U"
     ],
-    "edhrec_rank": 5720,
-    "fetched_at": "2026-08-22",
+    "edhrec_rank": 5741,
+    "fetched_at": "2026-09-21",
     "keywords": [
       "Flying"
     ],
     "legal_commander": "legal",
     "mana_cost": "{U}{U} // {2}{U}",
     "oracle_text": "Flying\n//\nCounter target spell with mana value 3 or less. (Then exile this card. You may cast the creature later from exile.)",
-    "prices_usd": "0.12",
+    "prices_usd": "0.13",
     "prices_usd_foil": "0.39",
     "type_line": "Creature \u2014 Faerie // Instant \u2014 Adventure"
   },
@@ -17058,6 +17719,27 @@
     "prices_usd": "0.32",
     "prices_usd_foil": "0.73",
     "type_line": "Land \u2014 Plains"
+  },
+  "Il Mheg Pixie": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 12568,
+    "fetched_at": "2026-09-21",
+    "keywords": [
+      "Flying",
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}",
+    "oracle_text": "Flying\nWhenever this creature attacks, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+    "prices_usd": "0.20",
+    "prices_usd_foil": "0.31",
+    "type_line": "Creature \u2014 Faerie"
   },
   "Illusion Spinners": {
     "cmc": 5.0,
@@ -17635,6 +18317,24 @@
     "prices_usd": "0.17",
     "prices_usd_foil": "0.27",
     "type_line": "Sorcery"
+  },
+  "Into the Story": {
+    "cmc": 7.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 5590,
+    "fetched_at": "2026-09-19",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{5}{U}{U}",
+    "oracle_text": "This spell costs {3} less to cast if an opponent has seven or more cards in their graveyard.\nDraw four cards.",
+    "prices_usd": "0.30",
+    "prices_usd_foil": "0.35",
+    "type_line": "Instant"
   },
   "Intruder Alarm": {
     "cmc": 3.0,
@@ -19346,6 +20046,24 @@
     "set": null,
     "type_line": "Creature \u2014 Bird Advisor"
   },
+  "Legion Loyalty": {
+    "cmc": 8.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 2913,
+    "fetched_at": "2026-09-19",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{6}{W}{W}",
+    "oracle_text": "Creatures you control have myriad. (Whenever a creature with myriad attacks, for each opponent other than defending player, you may create a token copy that's tapped and attacking that player or a planeswalker they control. Exile the tokens at end of combat.)",
+    "prices_usd": "0.41",
+    "prices_usd_foil": null,
+    "type_line": "Enchantment"
+  },
   "Leitmotif Composer": {
     "cmc": 3.0,
     "color_identity": [
@@ -19464,6 +20182,27 @@
     "prices_usd": "0.24",
     "prices_usd_foil": "0.37",
     "type_line": "Sorcery"
+  },
+  "Lethal Scheme": {
+    "cmc": 4.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 1285,
+    "fetched_at": "2026-09-18",
+    "keywords": [
+      "Connive",
+      "Convoke"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}{B}",
+    "oracle_text": "Convoke (Your creatures can help cast this spell. Each creature you tap while casting this spell pays for {1} or one mana of that creature's color.)\nDestroy target creature or planeswalker. Each creature that convoked this spell connives. (Draw a card, then discard a card. If you discarded a nonland card, put a +1/+1 counter on that creature.)",
+    "prices_usd": "0.29",
+    "prices_usd_foil": null,
+    "type_line": "Instant"
   },
   "Level Up": {
     "cmc": 2.0,
@@ -20159,6 +20898,26 @@
     "prices_usd": "0.27",
     "prices_usd_foil": "0.88",
     "type_line": "Legendary Creature \u2014 Dragon Shaman"
+  },
+  "Lys Alana Informant": {
+    "cmc": 2.0,
+    "color_identity": [
+      "G"
+    ],
+    "colors": [
+      "G"
+    ],
+    "edhrec_rank": 14953,
+    "fetched_at": "2026-09-21",
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{G}",
+    "oracle_text": "When this creature enters or dies, surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+    "prices_usd": "0.18",
+    "prices_usd_foil": "0.16",
+    "type_line": "Creature \u2014 Elf Scout"
   },
   "Lyse Hext": {
     "cmc": 3.0,
@@ -21837,6 +22596,23 @@
     "set": "afr",
     "type_line": "Enchantment \u2014 Class"
   },
+  "Monk's Fist": {
+    "cmc": 2.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 13497,
+    "fetched_at": "2026-09-19",
+    "keywords": [
+      "Job select",
+      "Equip"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}",
+    "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +1/+0 and is a Monk in addition to its other types.\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+    "prices_usd": "0.11",
+    "prices_usd_foil": "0.19",
+    "type_line": "Artifact \u2014 Equipment"
+  },
   "Monologue Tax": {
     "cmc": 3.0,
     "color_identity": [
@@ -22855,6 +23631,28 @@
     "oracle_text": "Ninjutsu {1}{U} ({1}{U}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhenever this creature deals combat damage to a player, you may draw a card.",
     "prices_usd": "1.98",
     "type_line": "Creature \u2014 Human Ninja"
+  },
+  "Ninja's Blades": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 8044,
+    "fetched_at": "2026-09-19",
+    "keywords": [
+      "Job select",
+      "Equip",
+      "Mutsunokami"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}",
+    "oracle_text": "Job select\nEquipped creature gets +1/+1, is a Ninja in addition to its other types, and has \"Whenever this creature deals combat damage to a player, draw a card, then discard a card. That player loses life equal to the discarded card's mana value.\"\nMutsunokami \u2014 Equip {2}",
+    "prices_usd": "0.38",
+    "prices_usd_foil": "0.63",
+    "type_line": "Artifact \u2014 Equipment"
   },
   "Nissa's Renewal": {
     "cmc": 6.0,
@@ -23943,6 +24741,24 @@
     "prices_usd_foil": "1.46",
     "type_line": "Sorcery"
   },
+  "Overwhelming Remorse": {
+    "cmc": 5.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 7427,
+    "fetched_at": "2026-09-19",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{4}{B}",
+    "oracle_text": "This spell costs {1} less to cast for each creature card in your graveyard.\nExile target creature or planeswalker.",
+    "prices_usd": "0.25",
+    "prices_usd_foil": "0.37",
+    "type_line": "Instant"
+  },
   "Owlin Spiralmancer": {
     "cmc": 4.0,
     "color_identity": [
@@ -24020,6 +24836,27 @@
     "prices_usd": "2.15",
     "prices_usd_foil": "3.75",
     "type_line": "Legendary Creature \u2014 Vedalken Artificer"
+  },
+  "Paladin's Arms": {
+    "cmc": 3.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 8684,
+    "fetched_at": "2026-09-18",
+    "keywords": [
+      "Job select",
+      "Equip"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}",
+    "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +2/+1, has ward {1}, and is a Knight in addition to its other types.\nLightbringer and Hero's Shield \u2014 Equip {4} ({4}: Attach to target creature you control. Equip only as a sorcery.)",
+    "prices_usd": "0.16",
+    "prices_usd_foil": "0.32",
+    "type_line": "Artifact \u2014 Equipment"
   },
   "Palladium Myr": {
     "cmc": 3.0,
@@ -25598,6 +26435,28 @@
     "prices_usd_foil": "3.44",
     "type_line": "Creature \u2014 Faerie Rogue"
   },
+  "Quintorius, History Chaser": {
+    "cmc": 4.0,
+    "color_identity": [
+      "R",
+      "W"
+    ],
+    "colors": [
+      "R",
+      "W"
+    ],
+    "edhrec_rank": 9424,
+    "fetched_at": "2026-09-20",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{R}{W}",
+    "oracle_text": "Whenever one or more cards leave your graveyard, create a 3/2 red and white Spirit creature token.\n+1: You may discard a card. If you do, draw two cards, then mill a card.\n\u22124: Spirits you control gain double strike and vigilance until end of turn.\nQuintorius, History Chaser can be your commander.",
+    "prices_usd": "0.72",
+    "prices_usd_foil": "0.30",
+    "type_line": "Legendary Planeswalker \u2014 Quintorius"
+  },
   "Quirion Elves": {
     "cmc": 2.0,
     "color_identity": [
@@ -25743,6 +26602,26 @@
     "oracle_text": "{1}, {T}: Add {B}{R}.",
     "prices_usd": "3.86",
     "type_line": "Artifact"
+  },
+  "Ral Zarek, Guest Lecturer": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 9723,
+    "fetched_at": "2026-09-19",
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{B}{B}",
+    "oracle_text": "+1: Surveil 2.\n\u22121: Any number of target players each discard a card.\n\u22122: Return target creature card with mana value 3 or less from your graveyard to the battlefield.\n\u22127: Flip five coins. Target opponent skips their next X turns, where X is the number of coins that came up heads.",
+    "prices_usd": "1.48",
+    "prices_usd_foil": "1.63",
+    "type_line": "Legendary Planeswalker \u2014 Ral"
   },
   "Ramirez DePietro, Pillager": {
     "cmc": 4.0,
@@ -26128,6 +27007,28 @@
     "oracle_text": "Put target creature card from a graveyard onto the battlefield under your control. You lose life equal to that card's mana value.",
     "prices_usd": "9.26",
     "type_line": "Sorcery"
+  },
+  "Reaper's Scythe": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 6962,
+    "fetched_at": "2026-09-18",
+    "keywords": [
+      "Death Sickle",
+      "Job select",
+      "Equip"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}",
+    "oracle_text": "Job select\nAt the beginning of your end step, put a soul counter on this Equipment for each player who lost life this turn.\nEquipped creature gets +1/+1 for each soul counter on this Equipment and is an Assassin in addition to its other types.\nDeath Sickle \u2014 Equip {2}",
+    "prices_usd": "0.22",
+    "prices_usd_foil": null,
+    "type_line": "Artifact \u2014 Equipment"
   },
   "Reassembling Skeleton": {
     "cmc": 2.0,
@@ -27614,6 +28515,28 @@
     "prices_usd": "0.10",
     "prices_usd_foil": "0.15",
     "type_line": "Creature \u2014 Elf Warrior"
+  },
+  "Sage's Nouliths": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 11161,
+    "fetched_at": "2026-09-19",
+    "keywords": [
+      "Hagneia",
+      "Job select",
+      "Equip"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}",
+    "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +1/+0, has \"Whenever this creature attacks, untap target attacking creature,\" and is a Cleric in addition to its other types.\nHagneia \u2014 Equip {3}",
+    "prices_usd": "0.15",
+    "prices_usd_foil": "0.23",
+    "type_line": "Artifact \u2014 Equipment"
   },
   "Sage's Reverie": {
     "cmc": 4.0,
@@ -29605,6 +30528,24 @@
     "oracle_text": "Flying\n{U}, Sacrifice this creature: Counter target spell or ability that targets you or a creature you control.",
     "prices_usd": "0.33",
     "type_line": "Creature \u2014 Siren Pirate Wizard"
+  },
+  "Skemfar Shadowsage": {
+    "cmc": 4.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 4545,
+    "fetched_at": "2026-09-21",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{B}",
+    "oracle_text": "When this creature enters, choose one \u2014\n\u2022 Each opponent loses X life, where X is the greatest number of creatures you control that have a creature type in common.\n\u2022 You gain X life, where X is the greatest number of creatures you control that have a creature type in common.",
+    "prices_usd": "0.30",
+    "prices_usd_foil": "0.62",
+    "type_line": "Creature \u2014 Elf Cleric"
   },
   "Skullclamp": {
     "cmc": 1.0,
@@ -32798,6 +33739,26 @@
     "prices_usd": "1.24",
     "type_line": "Land"
   },
+  "Tainted Sigil": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B",
+      "W"
+    ],
+    "colors": [
+      "B",
+      "W"
+    ],
+    "edhrec_rank": 9147,
+    "fetched_at": "2026-09-18",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{W}{B}",
+    "oracle_text": "{T}, Sacrifice this artifact: You gain life equal to the total life lost by all players this turn. (Damage causes loss of life.)",
+    "prices_usd": "2.52",
+    "prices_usd_foil": "4.90",
+    "type_line": "Artifact"
+  },
   "Tainted Wood": {
     "cmc": 0.0,
     "color_identity": [
@@ -33424,6 +34385,26 @@
     "prices_usd": "0.27",
     "type_line": "Land"
   },
+  "Temporal Trespass": {
+    "cmc": 11.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 3035,
+    "fetched_at": "2026-09-18",
+    "keywords": [
+      "Delve"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{8}{U}{U}{U}",
+    "oracle_text": "Delve (Each card you exile from your graveyard while casting this spell pays for {1}.)\nTake an extra turn after this one. Exile Temporal Trespass.",
+    "prices_usd": "2.95",
+    "prices_usd_foil": "12.17",
+    "type_line": "Sorcery"
+  },
   "Tempt with Discovery": {
     "cmc": 4.0,
     "color_identity": [
@@ -33913,6 +34894,24 @@
     "prices_usd_foil": "0.35",
     "type_line": "Legendary Artifact \u2014 Vehicle"
   },
+  "The Gaffer": {
+    "cmc": 3.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 1656,
+    "fetched_at": "2026-09-19",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}",
+    "oracle_text": "At the beginning of each end step, if you gained 3 or more life this turn, draw a card.",
+    "prices_usd": "7.19",
+    "prices_usd_foil": null,
+    "type_line": "Legendary Creature \u2014 Halfling Peasant"
+  },
   "The Golden Throne": {
     "cmc": 4.0,
     "color_identity": [],
@@ -34178,6 +35177,26 @@
     "prices_usd_foil": "64.37",
     "type_line": "Legendary Artifact"
   },
+  "The Queen of Dale": {
+    "cmc": 2.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 4433,
+    "fetched_at": "2026-09-21",
+    "keywords": [
+      "Recruit"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{W}",
+    "oracle_text": "Whenever an opponent casts their first noncreature spell each turn, you recruit. (Draw a card, then discard a card. If you discarded a nonland card, create a 1/1 white Human Soldier creature token.)",
+    "prices_usd": "17.75",
+    "prices_usd_foil": "20.36",
+    "type_line": "Legendary Creature \u2014 Human Noble"
+  },
   "The Reaver Cleaver": {
     "cmc": 3.0,
     "color_identity": [
@@ -34412,6 +35431,27 @@
     "set": "fra",
     "type_line": "Instant"
   },
+  "Thief's Knife": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 10658,
+    "fetched_at": "2026-09-19",
+    "keywords": [
+      "Job select",
+      "Equip"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +1/+1, has \"Whenever this creature deals combat damage to a player, draw a card,\" and is a Rogue in addition to its other types.\nEquip {4}",
+    "prices_usd": "0.20",
+    "prices_usd_foil": "0.30",
+    "type_line": "Artifact \u2014 Equipment"
+  },
   "Think Twice": {
     "cmc": 2.0,
     "color_identity": [
@@ -34547,6 +35587,26 @@
     "oracle_text": "You have no maximum hand size.\n{T}: Add {C}.",
     "type_line": "Artifact"
   },
+  "Thoughtcast": {
+    "cmc": 5.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 941,
+    "fetched_at": "2026-09-19",
+    "keywords": [
+      "Affinity"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{4}{U}",
+    "oracle_text": "Affinity for artifacts (This spell costs {1} less to cast for each artifact you control.)\nDraw two cards.",
+    "prices_usd": "3.39",
+    "prices_usd_foil": null,
+    "type_line": "Sorcery"
+  },
   "Thousand-Faced Shadow": {
     "cmc": 1.0,
     "color_identity": [
@@ -34637,6 +35697,51 @@
     "prices_usd": "0.93",
     "prices_usd_foil": "5.31",
     "type_line": "Artifact \u2014 Equipment"
+  },
+  "Thranduil's Company": {
+    "cmc": 4.0,
+    "color_identity": [
+      "G",
+      "U"
+    ],
+    "colors": [
+      "G",
+      "U"
+    ],
+    "edhrec_rank": 12059,
+    "fetched_at": "2026-09-21",
+    "keywords": [
+      "Landfall"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{G}{U}",
+    "oracle_text": "As long as you control another Elf, you may play an additional land on each of your turns.\nLandfall \u2014 Whenever a land you control enters, put two +1/+1 counters on target creature you control. It gains vigilance until end of turn.",
+    "prices_usd": "0.37",
+    "prices_usd_foil": "0.41",
+    "type_line": "Creature \u2014 Elf Soldier"
+  },
+  "Thranduil, Sindarin Liege // Silvan Rally": {
+    "cmc": 4.0,
+    "color_identity": [
+      "G",
+      "U"
+    ],
+    "colors": [
+      "G",
+      "U"
+    ],
+    "edhrec_rank": 10063,
+    "fetched_at": "2026-09-21",
+    "keywords": [
+      "Mill",
+      "Landfall"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{G/U}{G/U} // {1}{G/U}{G/U}",
+    "oracle_text": "Other Elves you control get +1/+1.\nLandfall \u2014 Whenever a land you control enters, create a 1/1 green Elf creature token.\n//\nMill four cards, then put up to two land cards from among them into your hand. (Then exile this card. You may cast the creature later from exile.)",
+    "prices_usd": "0.31",
+    "prices_usd_foil": "0.33",
+    "type_line": "Legendary Creature \u2014 Elf Noble // Sorcery \u2014 Adventure"
   },
   "Thraximundar": {
     "cmc": 7.0,
@@ -35022,6 +36127,24 @@
     "set": "fra",
     "type_line": "Legendary Creature \u2014 Skeleton Druid"
   },
+  "Tocasia's Welcome": {
+    "cmc": 3.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 825,
+    "fetched_at": "2026-09-19",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{W}",
+    "oracle_text": "Whenever one or more creatures you control with mana value 3 or less enter, draw a card. This ability triggers only once each turn.",
+    "prices_usd": "0.82",
+    "prices_usd_foil": null,
+    "type_line": "Enchantment"
+  },
   "Together Forever": {
     "cmc": 2.0,
     "color_identity": [
@@ -35383,6 +36506,24 @@
     "prices_usd": "0.71",
     "prices_usd_foil": "0.80",
     "type_line": "Instant"
+  },
+  "Traveling Chocobo": {
+    "cmc": 3.0,
+    "color_identity": [
+      "G"
+    ],
+    "colors": [
+      "G"
+    ],
+    "edhrec_rank": 1906,
+    "fetched_at": "2026-09-18",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{G}",
+    "oracle_text": "You may look at the top card of your library any time.\nYou may play lands and cast Bird spells from the top of your library.\nIf a land or Bird you control entering the battlefield causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.",
+    "prices_usd": "16.77",
+    "prices_usd_foil": "19.66",
+    "type_line": "Creature \u2014 Bird"
   },
   "Treason of Isengard": {
     "cmc": 3.0,
@@ -36724,6 +37865,26 @@
     "prices_usd_foil": "45.11",
     "type_line": "Creature \u2014 Elemental Incarnation"
   },
+  "Vilis, Broker of Blood": {
+    "cmc": 8.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 1119,
+    "fetched_at": "2026-09-18",
+    "keywords": [
+      "Flying"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{5}{B}{B}{B}",
+    "oracle_text": "Flying\n{B}, Pay 2 life: Target creature gets -1/-1 until end of turn.\nWhenever you lose life, draw that many cards. (Damage causes loss of life.)",
+    "prices_usd": "10.14",
+    "prices_usd_foil": "16.62",
+    "type_line": "Legendary Creature \u2014 Demon"
+  },
   "Village Rites": {
     "cmc": 1.0,
     "color_identity": [
@@ -37445,6 +38606,20 @@
     "prices_usd_foil": "1.91",
     "type_line": "Enchantment Creature \u2014 Snake Druid"
   },
+  "Well of Lost Dreams": {
+    "cmc": 4.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 1133,
+    "fetched_at": "2026-09-19",
+    "keywords": [],
+    "legal_commander": "legal",
+    "mana_cost": "{4}",
+    "oracle_text": "Whenever you gain life, you may pay {X}, where X is less than or equal to the amount of life you gained. If you do, draw X cards.",
+    "prices_usd": "6.81",
+    "prices_usd_foil": null,
+    "type_line": "Artifact"
+  },
   "Whirler Rogue": {
     "cmc": 4.0,
     "color_identity": [
@@ -37578,6 +38753,27 @@
     "prices_usd": "5.06",
     "prices_usd_foil": "5.72",
     "type_line": "Artifact"
+  },
+  "White Mage's Staff": {
+    "cmc": 2.0,
+    "color_identity": [
+      "W"
+    ],
+    "colors": [
+      "W"
+    ],
+    "edhrec_rank": 7987,
+    "fetched_at": "2026-09-19",
+    "keywords": [
+      "Job select",
+      "Equip"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{W}",
+    "oracle_text": "Job select (When this Equipment enters, create a 1/1 colorless Hero creature token, then attach this to it.)\nEquipped creature gets +1/+1, has \"Whenever this creature attacks, you gain 1 life,\" and is a Cleric in addition to its other types.\nEquip {3} ({3}: Attach to target creature you control. Equip only as a sorcery.)",
+    "prices_usd": "0.19",
+    "prices_usd_foil": "0.31",
+    "type_line": "Artifact \u2014 Equipment"
   },
   "Whitemane Lion": {
     "cmc": 2.0,

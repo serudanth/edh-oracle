@@ -16,4 +16,5 @@
 * **Network Egress:** Route Scryfall/Spellbook queries through `https://r.jina.ai/` only if direct connection returns HTTP 403.
 * **Color Identity:** Strictly enforce format color identity rules across hybrid mana, MDFC back faces, and activation costs before recommending cards.
 * **Terminal Link Integrity / No Entity Masking:** The CLI terminal renderer forcibly replaces `file://` link text with target basenames (e.g., `[Commander](file://.../README.md)` renders as `README.md`) and wipes directory links. NEVER wrap headings (`#`, `##`, `###`), commander names, or deck names in `file://` links. Keep entity names in plain text/bold, link files separately using their exact basename (e.g. `Gluntch, the Bestower ([README.md](file://...))` or `[02-decklist.md](file://...)`), and format directory paths as inline code without `file://` wrappers.
+* **Set Delta Protocol:** Proactively counter parametric training cutoff bias. Identify training boundary, discover post-cutoff sets via Scryfall (`GET /sets`), and execute targeted delta searches (`date>=<cutoff-date>`) to uncover recent printings.
 

@@ -4,6 +4,12 @@
 - **[cache]** Ingested 30 new cards into persistent Scryfall cache `knowledgebase/_cache/scryfall-cards.json`, covering all 18 brand-new cards from FRC (including Jace, Nissa, Omnath, Avacyn, Niv-Mizzet, The Ur-Sphinx, and the Turbulent typed dual land cycle) and standout FRA legends/mechanics. Cache expanded to 2,123 entries.
 - **[kb]** Updated `knowledgebase/INDEX.md` indexing both the Reality Fracture dossier and the operational metric calibration for Zimone X Bulldozer.
 
+## 2026-09-18 (card search set delta protocol formalization)
+
+- **[skill]** Formalized the Set Delta & Temporal Boundary Protocol in `.claude/skills/edh-research/SKILL.md` to counteract LLM parametric training cutoff bias during card recommendations.
+- **[governance]** Updated `GEMINI.md`, `AGENTS.md`, and `agent-core/core/domains/edh.md` mandating a two-pronged card search (historical staples + targeted post-cutoff delta queries via Scryfall) and subsequent persistent cache ingestion.
+- **[cache]** Added post-cutoff cards `Traveling Chocobo` (FIN) and `Beifong's Bounty Hunters` (TLA) to `knowledgebase/_cache/scryfall-cards.json`, bringing total cached cards to 2,088.
+
 ## 2026-09-18 (agent guidelines & terminal link integrity)
 
 - **[agent]** Added Terminal Link Integrity invariant to `GEMINI.md`, `AGENTS.md`, and `CLAUDE.md` to prevent CLI markdown link masking (preventing entity names, commanders, and headings from being overwritten with file basenames like `README.md`).
@@ -14,8 +20,6 @@
   - The Cabbage Merchant $\rightarrow$ *The Cabbage Cartel*
 - **[kb]** Updated specification for *The Arms of Alexandria* (Beatrix, Loyal General) to integrate Soldier typal synergy into the Heavy Armory framework, formalizing the Alexandria garrison token/draw/ramp engine and explicitly exempting Adelbert Steiner (`Human Knight`) as the honorary lieutenant and chief weapon bearer.
 - **[kb]** Integrated 5 owned card additions into *The Arms of Alexandria* decklist (`knowledgebase/theorycrafting/beatrix/02-decklist.md`): `Haliya, Guided by Light`, `Heidegger, Shinra Executive`, `Helitrooper`, `SOLDIER Military Program`, and `Elspeth, Knight-Errant`. Updated Scryfall card cache (`knowledgebase/_cache/scryfall-cards.json`) and architecture blueprint.
-
-
 
 
 ## 2026-09-17 (delta refresh, rules archival & engine re-analysis)
