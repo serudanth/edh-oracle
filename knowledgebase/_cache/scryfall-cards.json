@@ -503,6 +503,19 @@
     "prices_usd_foil": "13.39",
     "type_line": "Legendary Artifact \u2014 Equipment"
   },
+  "Afterthought Sentry": {
+    "cmc": 2.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 31821,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{2}",
+    "oracle_text": "{2}: This creature gains flying until end of turn.\nWhenever this creature attacks, exile up to one target card from a graveyard.",
+    "prices_usd": "0.49",
+    "prices_usd_foil": "0.23",
+    "type_line": "Artifact Creature \u2014 Gargoyle"
+  },
   "Agent Bishop, Man in Black": {
     "cmc": 3.0,
     "color_identity": [
@@ -966,6 +979,22 @@
     "prices_usd": "0.41",
     "prices_usd_foil": "0.57",
     "type_line": "Enchantment Creature \u2014 Nymph"
+  },
+  "Altar of Dementia": {
+    "cmc": 2.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 642,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}",
+    "oracle_text": "Sacrifice a creature: Target player mills cards equal to the sacrificed creature's power.",
+    "prices_usd": "18.25",
+    "prices_usd_foil": "20.86",
+    "type_line": "Artifact"
   },
   "Alta\u00efr Ibn-La'Ahad": {
     "cmc": 3.0,
@@ -1465,6 +1494,30 @@
     "prices_usd": "0.37",
     "type_line": "Legendary Creature \u2014 Angel"
   },
+  "Apex Witchstalker": {
+    "cmc": 6.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 31553,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Landcycling",
+      "Menace",
+      "Basic landcycling",
+      "Typecycling",
+      "Cycling"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{4}{B}{B}",
+    "oracle_text": "Menace (This creature can't be blocked except by two or more creatures.)\nWhen this creature enters or dies, you gain 2 life.\nBasic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+    "prices_usd": "0.33",
+    "prices_usd_foil": "0.30",
+    "type_line": "Creature \u2014 Wolf"
+  },
   "April O'Neil, Live on the Scene": {
     "cmc": 2.0,
     "color_identity": [
@@ -1659,11 +1712,12 @@
     "color_identity": [],
     "colors": [],
     "edhrec_rank": 3,
-    "fetched_at": "2026-08-22",
+    "fetched_at": "2026-09-30",
     "legal_commander": "legal",
     "mana_cost": "{2}",
     "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
-    "prices_usd": "0.52",
+    "prices_usd": "0.74",
+    "prices_usd_foil": null,
     "type_line": "Artifact"
   },
   "Arcbond": {
@@ -1756,6 +1810,42 @@
     "prices_usd": "3.68",
     "type_line": "Creature \u2014 Demon"
   },
+  "Archfiend of Despair": {
+    "cmc": 8.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 2630,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{6}{B}{B}",
+    "oracle_text": "Flying\nYour opponents can't gain life.\nAt the beginning of each end step, each opponent loses life equal to the life that player lost this turn. (Damage causes loss of life.)",
+    "prices_usd": "16.70",
+    "prices_usd_foil": null,
+    "type_line": "Creature \u2014 Demon"
+  },
+  "Archive Arbiter": {
+    "cmc": 6.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 25614,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{6}",
+    "oracle_text": "Flying\nWhen this creature enters, choose one \u2014\n\u2022 Destroy target noncreature, nonland permanent.\n\u2022 You gain 4 life.",
+    "prices_usd": "0.61",
+    "prices_usd_foil": "0.59",
+    "type_line": "Artifact Creature \u2014 Sphinx"
+  },
   "Archivist of Oghma": {
     "cmc": 2.0,
     "color_identity": [
@@ -1803,16 +1893,16 @@
     "colors": [
       "B"
     ],
-    "edhrec_rank": 1100,
-    "fetched_at": "2026-08-22",
+    "edhrec_rank": 1085,
+    "fetched_at": "2026-09-30",
     "keywords": [
       "Flying"
     ],
     "legal_commander": "legal",
     "mana_cost": "{6}{B}{B}",
     "oracle_text": "Flying\nWhenever this creature enters or attacks, target opponent sacrifices a creature or planeswalker of their choice, discards a card, and loses 3 life. You draw a card and gain 3 life.",
-    "prices_usd": "8.22",
-    "prices_usd_foil": "14.19",
+    "prices_usd": "3.48",
+    "prices_usd_foil": null,
     "type_line": "Creature \u2014 Archon"
   },
   "Archon of Emeria": {
@@ -2025,6 +2115,23 @@
     "oracle_text": "Create thirteen tapped 2/2 black Zombie creature tokens.\nFlashback {7}{B}{B}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
     "prices_usd": "1.46",
     "type_line": "Sorcery"
+  },
+  "Arni, Humble Scribe": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 29552,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "Whenever another nontoken creature you control enters, untap Arni.\n{T}: Draw a card, then discard a card.",
+    "prices_usd": "0.41",
+    "prices_usd_foil": "1.71",
+    "type_line": "Legendary Creature \u2014 Human Wizard"
   },
   "Arni, Renowned Champion": {
     "cmc": 4.0,
@@ -2538,20 +2645,17 @@
     "colors": [
       "B"
     ],
-    "edhrec_rank": 18094,
-    "fetched_at": "2026-09-24",
+    "edhrec_rank": 13417,
+    "fetched_at": "2026-09-30",
     "keywords": [
       "Deathtouch",
       "Flying"
     ],
-    "legal_commander": "not_legal",
+    "legal_commander": "legal",
     "mana_cost": "{5}{B}{B}{B}",
     "oracle_text": "Flying, deathtouch\nWhenever Avacyn or another nontoken creature you control dies, return that card to the battlefield under your control at the beginning of the next end step.",
-    "prices_usd": null,
+    "prices_usd": "31.15",
     "prices_usd_foil": null,
-    "released_at": "2026-10-02",
-    "scryfall_uri": "https://scryfall.com/card/frc/7/avacyn-angel-of-horror?utm_source=api",
-    "set": "frc",
     "type_line": "Legendary Creature \u2014 Angel"
   },
   "Aven Mindcensor": {
@@ -4181,27 +4285,40 @@
     "prices_usd": "2.48",
     "type_line": "Artifact Creature \u2014 Shapeshifter"
   },
+  "Bloodline Recollector": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [],
+    "edhrec_rank": 18010,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Prepared"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{B} // {B}",
+    "oracle_text": "Bloodline Recollector: At the beginning of each end step, if three or more creatures died this turn, this creature becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\n//\nAncestral Craving: Target player draws three cards and loses 3 life.",
+    "prices_usd": "10.80",
+    "prices_usd_foil": "19.77",
+    "type_line": "Creature \u2014 Vampire Warlock // Instant"
+  },
   "Bloodline Recollector // Ancestral Craving": {
     "cmc": 2.0,
     "color_identity": [
       "B"
     ],
-    "colors": [
-      "B"
-    ],
-    "edhrec_rank": 20171,
-    "fetched_at": "2026-09-24",
+    "colors": [],
+    "edhrec_rank": 18010,
+    "fetched_at": "2026-09-30",
     "keywords": [
       "Prepared"
     ],
-    "legal_commander": "not_legal",
+    "legal_commander": "legal",
     "mana_cost": "{1}{B} // {B}",
     "oracle_text": "Bloodline Recollector: At the beginning of each end step, if three or more creatures died this turn, this creature becomes prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\n//\nAncestral Craving: Target player draws three cards and loses 3 life.",
-    "prices_usd": "32.01",
-    "prices_usd_foil": "23.92",
-    "released_at": "2026-10-02",
-    "scryfall_uri": "https://scryfall.com/card/fra/49/bloodline-recollector-ancestral-craving?utm_source=api",
-    "set": "fra",
+    "prices_usd": "10.80",
+    "prices_usd_foil": "19.77",
     "type_line": "Creature \u2014 Vampire Warlock // Instant"
   },
   "Blooming Marsh": {
@@ -4694,12 +4811,12 @@
       "U"
     ],
     "edhrec_rank": 72,
-    "fetched_at": "2026-08-22",
+    "fetched_at": "2026-09-30",
     "legal_commander": "legal",
     "mana_cost": "{U}",
     "oracle_text": "Draw three cards, then put two cards from your hand on top of your library in any order.",
-    "prices_usd": "1.44",
-    "prices_usd_foil": "2.90",
+    "prices_usd": "1.06",
+    "prices_usd_foil": null,
     "type_line": "Instant"
   },
   "Brainsurge": {
@@ -4710,13 +4827,13 @@
     "colors": [
       "U"
     ],
-    "edhrec_rank": 1337,
-    "fetched_at": "2026-08-22",
+    "edhrec_rank": 1312,
+    "fetched_at": "2026-09-30",
     "legal_commander": "legal",
     "mana_cost": "{2}{U}",
     "oracle_text": "Draw four cards, then put two cards from your hand on top of your library in any order.",
-    "prices_usd": "0.37",
-    "prices_usd_foil": "1.59",
+    "prices_usd": "0.47",
+    "prices_usd_foil": null,
     "type_line": "Instant"
   },
   "Bramble Sovereign": {
@@ -4844,6 +4961,43 @@
     "oracle_text": "Flash\nFlying\nThis creature can block only creatures with flying.\n//\nReturn target nonland permanent an opponent controls to its owner's hand.",
     "prices_usd": "0.48",
     "type_line": "Creature \u2014 Faerie Rogue // Instant \u2014 Adventure"
+  },
+  "Breach the Multiverse": {
+    "cmc": 7.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 874,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{5}{B}{B}",
+    "oracle_text": "Each player mills ten cards. For each player, choose a creature or planeswalker card in that player's graveyard. Put those cards onto the battlefield under your control. Then each creature you control becomes a Phyrexian in addition to its other types.",
+    "prices_usd": "10.31",
+    "prices_usd_foil": "10.11",
+    "type_line": "Sorcery"
+  },
+  "Break Under Pressure": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 31140,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}",
+    "oracle_text": "Target opponent sacrifices a creature or planeswalker with the greatest mana value among creatures and planeswalkers they control. You gain 2 life.",
+    "prices_usd": "0.28",
+    "prices_usd_foil": "0.37",
+    "type_line": "Instant"
   },
   "Breeches, Brazen Plunderer": {
     "cmc": 4.0,
@@ -5853,6 +6007,23 @@
     "prices_usd_foil": "0.40",
     "type_line": "Legendary Creature \u2014 Human Ranger"
   },
+  "Cast Away Doubt": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 24489,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}",
+    "oracle_text": "Draw two cards. Cast Away Doubt deals 2 damage to each player.",
+    "prices_usd": "0.49",
+    "prices_usd_foil": "0.48",
+    "type_line": "Sorcery"
+  },
   "Castle Embereth": {
     "cmc": 0.0,
     "color_identity": [
@@ -6303,19 +6474,16 @@
     "colors": [
       "U"
     ],
-    "edhrec_rank": 17492,
-    "fetched_at": "2026-09-24",
+    "edhrec_rank": 15510,
+    "fetched_at": "2026-09-30",
     "keywords": [
       "Surveil"
     ],
-    "legal_commander": "not_legal",
+    "legal_commander": "legal",
     "mana_cost": "{1}{U}{U}",
     "oracle_text": "+1: Surveil 1. If you put a noncreature, nonland card into your graveyard this way, put that card into your hand.\n+1: Add {U}. Spend this mana only to cast a noncreature spell.\n\u2212X: Tap target artifact or creature. Put X stun counters on it.\n\u22126: You get an emblem with \"Whenever you cast a spell, draw a card.\"",
-    "prices_usd": "22.83",
-    "prices_usd_foil": "15.45",
-    "released_at": "2026-10-02",
-    "scryfall_uri": "https://scryfall.com/card/fra/212/chandra-chill-of-compliance?utm_source=api",
-    "set": "fra",
+    "prices_usd": "9.61",
+    "prices_usd_foil": "11.29",
     "type_line": "Legendary Planeswalker \u2014 Chandra"
   },
   "Chandra, Torch of Defiance": {
@@ -6615,10 +6783,12 @@
     "color_identity": [],
     "colors": [],
     "edhrec_rank": 85,
-    "fetched_at": "2026-08-22",
+    "fetched_at": "2026-09-30",
     "legal_commander": "legal",
     "mana_cost": "{3}",
     "oracle_text": "Lands you control have \"{T}: Add one mana of any color.\"\n{T}: Add one mana of any color.",
+    "prices_usd": "0.65",
+    "prices_usd_foil": null,
     "type_line": "Artifact"
   },
   "Chronicle of Victory": {
@@ -7160,16 +7330,12 @@
     "color_identity": [],
     "colors": [],
     "edhrec_rank": 2,
-    "fetched_at": "2026-08-06",
-    "keywords": [],
+    "fetched_at": "2026-09-30",
     "legal_commander": "legal",
-    "mana_cost": null,
+    "mana_cost": "",
     "oracle_text": "{T}: Add one mana of any color in your commander's color identity.",
-    "prices_usd": "0.30",
+    "prices_usd": "0.56",
     "prices_usd_foil": null,
-    "released_at": "2026-06-26",
-    "scryfall_uri": "https://scryfall.com/card/msc/233/command-tower?utm_source=api",
-    "set": "msc",
     "type_line": "Land"
   },
   "Commander's Plate": {
@@ -7822,20 +7988,17 @@
     "colors": [
       "U"
     ],
-    "edhrec_rank": 24029,
-    "fetched_at": "2026-09-24",
+    "edhrec_rank": 21062,
+    "fetched_at": "2026-09-30",
     "keywords": [
       "Surveil",
       "Behold"
     ],
-    "legal_commander": "not_legal",
+    "legal_commander": "legal",
     "mana_cost": "{U}{U}",
     "oracle_text": "As an additional cost to cast this spell, behold a Jace or pay {1}. (To behold a Jace, choose a Jace you control or reveal a Jace card from your hand.)\nCounter target spell. Empower Jace 1. (Put a loyalty counter on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[\u22121]: Surveil 1\" and \"[\u22123]: Draw a card.\")",
-    "prices_usd": "2.99",
-    "prices_usd_foil": null,
-    "released_at": "2026-10-02",
-    "scryfall_uri": "https://scryfall.com/card/fra/25/countersculpt?utm_source=api",
-    "set": "fra",
+    "prices_usd": "0.41",
+    "prices_usd_foil": "0.49",
     "type_line": "Instant"
   },
   "Counterspell": {
@@ -8100,6 +8263,23 @@
     "prices_usd_foil": "0.28",
     "type_line": "Land \u2014 Town"
   },
+  "Cruel Calculations": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 25370,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "Draw X cards, where X is the number of cards that were put into target player's graveyard from their library this turn.",
+    "prices_usd": "0.66",
+    "prices_usd_foil": "1.73",
+    "type_line": "Sorcery"
+  },
   "Cruel Celebrant": {
     "cmc": 2.0,
     "color_identity": [
@@ -8117,6 +8297,44 @@
     "oracle_text": "Whenever this creature or another creature or planeswalker you control dies, each opponent loses 1 life and you gain 1 life.",
     "prices_usd": "1.43",
     "type_line": "Creature \u2014 Vampire"
+  },
+  "Cruel Somnophage": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 4996,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{B} // {1}{U}",
+    "oracle_text": "Cruel Somnophage: Cruel Somnophage's power and toughness are each equal to the number of creature cards in all graveyards.\n//\nCan't Wake Up: Target player mills four cards. (Then exile this card. You may cast the creature later from exile.)",
+    "prices_usd": "0.89",
+    "prices_usd_foil": "1.09",
+    "type_line": "Creature \u2014 Nightmare // Sorcery \u2014 Adventure"
+  },
+  "Cruel Somnophage // Can't Wake Up": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 4996,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{B} // {1}{U}",
+    "oracle_text": "Cruel Somnophage: Cruel Somnophage's power and toughness are each equal to the number of creature cards in all graveyards.\n//\nCan't Wake Up: Target player mills four cards. (Then exile this card. You may cast the creature later from exile.)",
+    "prices_usd": "0.89",
+    "prices_usd_foil": "1.09",
+    "type_line": "Creature \u2014 Nightmare // Sorcery \u2014 Adventure"
   },
   "Cruel Tutor": {
     "cmc": 3.0,
@@ -8154,6 +8372,26 @@
     "prices_usd": "0.26",
     "prices_usd_foil": "0.28",
     "type_line": "Instant"
+  },
+  "Cryotheory Adept": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 32209,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Prowess"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}",
+    "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\n{3}{U}, Exile this card from your graveyard: Tap target creature and put a stun counter on it. Activate only as a sorcery. (If a permanent with a stun counter would become untapped, remove one from it instead.)",
+    "prices_usd": "0.20",
+    "prices_usd_foil": "0.24",
+    "type_line": "Creature \u2014 Human Wizard"
   },
   "Crypt Ghast": {
     "cmc": 4.0,
@@ -8379,6 +8617,22 @@
     "prices_usd_foil": "0.37",
     "type_line": "Creature \u2014 Squirrel Druid"
   },
+  "Currency Converter": {
+    "cmc": 1.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 2553,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Treasure"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}",
+    "oracle_text": "Whenever you discard a card, you may exile that card from your graveyard.\n{2}, {T}: Draw a card, then discard a card.\n{T}: Put a card exiled with this artifact into its owner's graveyard. If it's a land card, create a Treasure token. If it's a nonland card, create a 2/2 black Rogue creature token.",
+    "prices_usd": "0.56",
+    "prices_usd_foil": null,
+    "type_line": "Artifact"
+  },
   "Curse of Bloodletting": {
     "cmc": 5.0,
     "color_identity": [
@@ -8541,6 +8795,25 @@
     "set": "frc",
     "type_line": "Legendary Creature \u2014 Human Advisor"
   },
+  "Dakmor Salvage": {
+    "cmc": 0.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [],
+    "edhrec_rank": 1294,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Dredge",
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "This land enters tapped.\n{T}: Add {B}.\nDredge 2 (If you would draw a card, you may mill two cards instead. If you do, return this card from your graveyard to your hand.)",
+    "prices_usd": "0.29",
+    "prices_usd_foil": null,
+    "type_line": "Land"
+  },
   "Dance with Calamity": {
     "cmc": 8.0,
     "color_identity": [
@@ -8598,6 +8871,26 @@
     "oracle_text": "First strike, vigilance, lifelink\nAura and Equipment spells you cast cost {1} less to cast.",
     "prices_usd": "0.86",
     "prices_usd_foil": "2.45",
+    "type_line": "Legendary Creature \u2014 Human Knight"
+  },
+  "Danitha, Spear of Agony": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 31706,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "First strike"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}",
+    "oracle_text": "First strike\nWhenever you cast a spell that targets an opponent or a creature an opponent controls, put a +1/+1 counter on Danitha.",
+    "prices_usd": "0.41",
+    "prices_usd_foil": "0.37",
     "type_line": "Legendary Creature \u2014 Human Knight"
   },
   "Danitha, Sword of Hope": {
@@ -8704,6 +8997,26 @@
     "prices_usd_foil": "4.03",
     "type_line": "Legendary Creature \u2014 Mutant Ninja Turtle Human"
   },
+  "Dark Matter Manipulator": {
+    "cmc": 1.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 26339,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{B}",
+    "oracle_text": "When this creature enters, mill three cards.\nThis creature gets +2/+0 for every seven cards in your graveyard.",
+    "prices_usd": "1.14",
+    "prices_usd_foil": "1.61",
+    "type_line": "Creature \u2014 Human Warlock"
+  },
   "Dark Petition": {
     "cmc": 5.0,
     "color_identity": [
@@ -8758,6 +9071,43 @@
     "prices_usd_foil": "2.38",
     "type_line": "Enchantment"
   },
+  "Darklight Phoenix": {
+    "cmc": 4.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 27950,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying",
+      "Haste"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{B}",
+    "oracle_text": "Flying, haste\nAt the beginning of combat on your turn, if two or more creatures died this turn, return this card from your graveyard to the battlefield.",
+    "prices_usd": "16.37",
+    "prices_usd_foil": "29.88",
+    "type_line": "Creature \u2014 Phoenix"
+  },
+  "Darkslick Shores": {
+    "cmc": 0.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 1410,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "This land enters tapped unless you control two or fewer other lands.\n{T}: Add {U} or {B}.",
+    "prices_usd": "3.02",
+    "prices_usd_foil": null,
+    "type_line": "Land"
+  },
   "Darkstar Augur": {
     "cmc": 3.0,
     "color_identity": [
@@ -8783,20 +9133,17 @@
     "cmc": 9.0,
     "color_identity": [],
     "colors": [],
-    "edhrec_rank": 14938,
-    "fetched_at": "2026-09-24",
+    "edhrec_rank": 12892,
+    "fetched_at": "2026-09-30",
     "keywords": [
       "Flying",
       "Indestructible"
     ],
-    "legal_commander": "not_legal",
+    "legal_commander": "legal",
     "mana_cost": "{9}",
     "oracle_text": "Flying, indestructible\nYou can't lose the game and your opponents can't win the game.\nCreatures you control can't have -1/-1 counters put on them.",
-    "prices_usd": "43.79",
+    "prices_usd": "6.37",
     "prices_usd_foil": null,
-    "released_at": "2026-10-02",
-    "scryfall_uri": "https://scryfall.com/card/frc/13/darksteel-angel?utm_source=api",
-    "set": "frc",
     "type_line": "Artifact Creature \u2014 Angel"
   },
   "Darksteel Citadel": {
@@ -8879,6 +9226,26 @@
     "oracle_text": "{1}, {T}: Add {U}{B}.",
     "prices_usd": "0.37",
     "type_line": "Land"
+  },
+  "Dauthi Voidwalker": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 392,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Shadow"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{B}{B}",
+    "oracle_text": "Shadow (This creature can block or be blocked by only creatures with shadow.)\nIf a card would be put into an opponent's graveyard from anywhere, instead exile it with a void counter on it.\n{T}, Sacrifice this creature: Choose an exiled card an opponent owns with a void counter on it. You may play it this turn without paying its mana cost.",
+    "prices_usd": "5.47",
+    "prices_usd_foil": null,
+    "type_line": "Creature \u2014 Dauthi Rogue"
   },
   "Dawn Charm": {
     "cmc": 2.0,
@@ -9368,13 +9735,13 @@
     "colors": [
       "B"
     ],
-    "edhrec_rank": 62,
-    "fetched_at": "2026-08-22",
+    "edhrec_rank": 63,
+    "fetched_at": "2026-09-30",
     "legal_commander": "legal",
     "mana_cost": "{1}{B}",
     "oracle_text": "Search your library for a card, put that card into your hand, then shuffle.",
-    "prices_usd": "62.98",
-    "prices_usd_foil": "78.40",
+    "prices_usd": "67.78",
+    "prices_usd_foil": "79.06",
     "type_line": "Sorcery"
   },
   "Demonspine Whip": {
@@ -9434,6 +9801,26 @@
     "oracle_text": "Create X 1/1 white Soldier creature tokens, where X is the number of creatures on the battlefield.",
     "prices_usd": "2.08",
     "type_line": "Sorcery"
+  },
+  "Deranged Assistant": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 4655,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}",
+    "oracle_text": "{T}, Mill a card: Add {C}. (Activate only as an instant. To mill a card, put the top card of your library into your graveyard.)",
+    "prices_usd": "0.28",
+    "prices_usd_foil": "0.26",
+    "type_line": "Creature \u2014 Human Wizard"
   },
   "Descent into Avernus": {
     "cmc": 3.0,
@@ -9828,12 +10215,13 @@
       "U"
     ],
     "colors": [],
-    "edhrec_rank": 156,
-    "fetched_at": "2026-08-22",
+    "edhrec_rank": 159,
+    "fetched_at": "2026-09-30",
     "legal_commander": "legal",
     "mana_cost": "{2}",
     "oracle_text": "{1}, {T}: Add {U}{B}.",
-    "prices_usd": "1.21",
+    "prices_usd": "0.43",
+    "prices_usd_foil": null,
     "type_line": "Artifact"
   },
   "Dion, Bahamut's Dominant // Bahamut, Warden of Light": {
@@ -10112,6 +10500,64 @@
     "oracle_text": "If one or more creature tokens would be created under your control, that many 4/4 white Angel creature tokens with flying and vigilance are created instead.",
     "prices_usd": "0.47",
     "type_line": "Enchantment"
+  },
+  "Diviner of Victory": {
+    "cmc": 1.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 22617,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil",
+      "Prepared"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{U} // {1}{U}",
+    "oracle_text": "Diviner of Victory: This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\nWhenever you scry or surveil, this creature gets +1/+1 until end of turn.\n//\nUnwind History: Return target creature an opponent controls with mana value 3 or less to its owner's hand. Surveil 1.",
+    "prices_usd": "0.41",
+    "prices_usd_foil": "1.97",
+    "type_line": "Creature \u2014 Dwarf Wizard // Sorcery"
+  },
+  "Diviner of Victory // Unwind History": {
+    "cmc": 1.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 22617,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil",
+      "Prepared"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{U} // {1}{U}",
+    "oracle_text": "Diviner of Victory: This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\nWhenever you scry or surveil, this creature gets +1/+1 until end of turn.\n//\nUnwind History: Return target creature an opponent controls with mana value 3 or less to its owner's hand. Surveil 1.",
+    "prices_usd": "0.41",
+    "prices_usd_foil": "1.97",
+    "type_line": "Creature \u2014 Dwarf Wizard // Sorcery"
+  },
+  "Divining Duelist": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 31338,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flash"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "Flash\nWhen this creature enters, choose one \u2014\n\u2022 Tap target creature.\n\u2022 Untap target creature.\n\u2022 Draw a card, then discard a card.",
+    "prices_usd": "0.27",
+    "prices_usd_foil": "1.53",
+    "type_line": "Creature \u2014 Merfolk Wizard"
   },
   "Dokuchi Silencer": {
     "cmc": 2.0,
@@ -10690,15 +11136,16 @@
     "colors": [
       "B"
     ],
-    "edhrec_rank": 1476,
-    "fetched_at": "2026-08-22",
+    "edhrec_rank": 1433,
+    "fetched_at": "2026-09-30",
     "keywords": [
       "Amass"
     ],
     "legal_commander": "legal",
     "mana_cost": "{1}{B}",
     "oracle_text": "At the beginning of your upkeep, you lose 1 life and amass Zombies 1. (Put a +1/+1 counter on an Army you control. It's also a Zombie. If you don't control an Army, create a 0/0 black Zombie Army creature token first.)\nWhenever a Zombie token you control with power 6 or greater attacks, it gains lifelink until end of turn.",
-    "prices_usd": "1.06",
+    "prices_usd": "0.64",
+    "prices_usd_foil": null,
     "type_line": "Enchantment"
   },
   "Dreamroot Cascade": {
@@ -10761,11 +11208,12 @@
     ],
     "colors": [],
     "edhrec_rank": 108,
-    "fetched_at": "2026-08-22",
+    "fetched_at": "2026-09-30",
     "legal_commander": "legal",
-    "mana_cost": null,
+    "mana_cost": "",
     "oracle_text": "This land enters tapped unless you control an Island or a Swamp.\n{T}: Add {U} or {B}.",
-    "prices_usd": "1.02",
+    "prices_usd": "0.70",
+    "prices_usd_foil": null,
     "type_line": "Land"
   },
   "Drownyard Temple": {
@@ -10832,6 +11280,25 @@
     "prices_usd": "0.10",
     "type_line": "Sorcery"
   },
+  "Duskmantle, House of Shadow": {
+    "cmc": 0.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 12448,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "{T}: Add {C}.\n{U}{B}, {T}: Target player mills a card.",
+    "prices_usd": "0.20",
+    "prices_usd_foil": "2.86",
+    "type_line": "Land"
+  },
   "Dwarven Mine": {
     "cmc": 0.0,
     "color_identity": [
@@ -10883,6 +11350,22 @@
     "prices_usd": "13.80",
     "prices_usd_foil": "57.46",
     "type_line": "Sorcery"
+  },
+  "Eden, Seat of the Sanctum": {
+    "cmc": 0.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 3665,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "{T}: Add {C}.\n{5}, {T}: Mill two cards. Then you may sacrifice this land. When you do, return another target permanent card from your graveyard to your hand.",
+    "prices_usd": "0.25",
+    "prices_usd_foil": "0.32",
+    "type_line": "Land \u2014 Town"
   },
   "Edgar, Charmed Groom // Edgar Markov's Coffin": {
     "cmc": 4.0,
@@ -11572,6 +12055,42 @@
     "prices_usd_foil": "5.75",
     "type_line": "Creature \u2014 Human Wizard // Instant"
   },
+  "Emeritus of Woe": {
+    "cmc": 4.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [],
+    "edhrec_rank": 3158,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Prepared"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{B} // {1}{B}",
+    "oracle_text": "Emeritus of Woe: This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\nAt the beginning of your end step, if two or more creatures died this turn, this creature becomes prepared.\n//\nDemonic Tutor: Search your library for a card, put that card into your hand, then shuffle.",
+    "prices_usd": "11.55",
+    "prices_usd_foil": "13.56",
+    "type_line": "Creature \u2014 Vampire Warlock // Sorcery"
+  },
+  "Emeritus of Woe // Demonic Tutor": {
+    "cmc": 4.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [],
+    "edhrec_rank": 3158,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Prepared"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{B} // {1}{B}",
+    "oracle_text": "Emeritus of Woe: This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\nAt the beginning of your end step, if two or more creatures died this turn, this creature becomes prepared.\n//\nDemonic Tutor: Search your library for a card, put that card into your hand, then shuffle.",
+    "prices_usd": "11.55",
+    "prices_usd_foil": "13.56",
+    "type_line": "Creature \u2014 Vampire Warlock // Sorcery"
+  },
   "Emet-Selch of the Third Seat": {
     "cmc": 4.0,
     "color_identity": [
@@ -11596,19 +12115,22 @@
       "B",
       "U"
     ],
-    "colors": [],
-    "edhrec_rank": 6309,
-    "fetched_at": "2026-09-19",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "edhrec_rank": 6288,
+    "fetched_at": "2026-09-30",
     "keywords": [
       "Vigilance",
       "Echo of the Lost",
       "Transform"
     ],
     "legal_commander": "legal",
-    "mana_cost": "",
-    "oracle_text": "",
-    "prices_usd": "2.19",
-    "prices_usd_foil": "3.88",
+    "mana_cost": "{1}{U}{B} // ",
+    "oracle_text": "Emet-Selch, Unsundered: Vigilance\nWhenever Emet-Selch enters or attacks, draw a card, then discard a card.\nAt the beginning of your upkeep, if there are fourteen or more cards in your graveyard, you may transform Emet-Selch.\n//\nHades, Sorcerer of Eld: Vigilance\nEcho of the Lost \u2014 During your turn, you may play cards from your graveyard.\nIf a card or token would be put into your graveyard from anywhere, exile it instead.",
+    "prices_usd": "1.94",
+    "prices_usd_foil": "3.74",
     "type_line": "Legendary Creature \u2014 Elder Wizard // Legendary Creature \u2014 Avatar"
   },
   "Emet-Selch, Unsundered // Hades, Sorcerer of Eld": {
@@ -11617,19 +12139,22 @@
       "B",
       "U"
     ],
-    "colors": [],
-    "edhrec_rank": 6309,
-    "fetched_at": "2026-09-19",
+    "colors": [
+      "B",
+      "U"
+    ],
+    "edhrec_rank": 6288,
+    "fetched_at": "2026-09-30",
     "keywords": [
       "Vigilance",
       "Echo of the Lost",
       "Transform"
     ],
     "legal_commander": "legal",
-    "mana_cost": "",
-    "oracle_text": "",
-    "prices_usd": "2.19",
-    "prices_usd_foil": "3.88",
+    "mana_cost": "{1}{U}{B} // ",
+    "oracle_text": "Emet-Selch, Unsundered: Vigilance\nWhenever Emet-Selch enters or attacks, draw a card, then discard a card.\nAt the beginning of your upkeep, if there are fourteen or more cards in your graveyard, you may transform Emet-Selch.\n//\nHades, Sorcerer of Eld: Vigilance\nEcho of the Lost \u2014 During your turn, you may play cards from your graveyard.\nIf a card or token would be put into your graveyard from anywhere, exile it instead.",
+    "prices_usd": "1.94",
+    "prices_usd_foil": "3.74",
     "type_line": "Legendary Creature \u2014 Elder Wizard // Legendary Creature \u2014 Avatar"
   },
   "Emissary Green": {
@@ -11651,6 +12176,24 @@
     "prices_usd": "1.77",
     "prices_usd_foil": null,
     "type_line": "Legendary Creature \u2014 Human Advisor"
+  },
+  "Emrakul, the Exigent Doom": {
+    "cmc": 10.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 16171,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying",
+      "Trample",
+      "Ward"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{10}",
+    "oracle_text": "When you cast this spell, untap all lands you control.\nFlying, trample\nWard\u2014Sacrifice three permanents.\n{3}, Exile this card from your hand: Target land gains \"{T}: Add {C}{C}\" until this card is cast from exile. You may cast this card for as long as it remains exiled.",
+    "prices_usd": "32.18",
+    "prices_usd_foil": "43.75",
+    "type_line": "Legendary Creature \u2014 Eldrazi"
   },
   "Emry, Lurker of the Loch": {
     "cmc": 3.0,
@@ -12235,10 +12778,12 @@
     "color_identity": [],
     "colors": [],
     "edhrec_rank": 9,
-    "fetched_at": "2026-08-22",
+    "fetched_at": "2026-09-30",
     "legal_commander": "legal",
-    "mana_cost": null,
+    "mana_cost": "",
     "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+    "prices_usd": "0.57",
+    "prices_usd_foil": null,
     "type_line": "Land"
   },
   "Expedite": {
@@ -12338,6 +12883,40 @@
     "prices_usd_foil": "0.90",
     "type_line": "Sorcery"
   },
+  "Extended Absence": {
+    "cmc": 4.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 30773,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{3}{B}",
+    "oracle_text": "Exile target creature or planeswalker. Extended Absence deals 1 damage to each opponent and you gain 1 life.",
+    "prices_usd": "0.99",
+    "prices_usd_foil": "0.73",
+    "type_line": "Instant"
+  },
+  "Extrapolate the Impossible": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 31801,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{B}",
+    "oracle_text": "You may reveal exactly two cards you own with different names from outside the game. An opponent chooses one of them. You put that card into your hand.",
+    "prices_usd": "1.20",
+    "prices_usd_foil": "3.31",
+    "type_line": "Sorcery"
+  },
   "Extravagant Replication": {
     "cmc": 6.0,
     "color_identity": [
@@ -12354,6 +12933,22 @@
     "prices_usd": "0.39",
     "prices_usd_foil": "0.46",
     "type_line": "Enchantment"
+  },
+  "Eye of Jace": {
+    "cmc": 1.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 25733,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}",
+    "oracle_text": "At the beginning of your upkeep, surveil 1. Then if there are seven or more cards in your graveyard, sacrifice this artifact, it deals 2 damage to each opponent, and you gain 2 life. (To surveil 1, look at the top card of your library. You may put it into your graveyard.)",
+    "prices_usd": "0.40",
+    "prices_usd_foil": "0.43",
+    "type_line": "Artifact"
   },
   "Eye of Nidhogg": {
     "cmc": 3.0,
@@ -12379,13 +12974,31 @@
     "cmc": 0.0,
     "color_identity": [],
     "colors": [],
-    "edhrec_rank": 48,
-    "fetched_at": "2026-08-22",
+    "edhrec_rank": 44,
+    "fetched_at": "2026-09-30",
     "legal_commander": "legal",
-    "mana_cost": null,
+    "mana_cost": "",
     "oracle_text": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land.",
-    "prices_usd": "1.09",
+    "prices_usd": "0.71",
+    "prices_usd_foil": null,
     "type_line": "Land"
+  },
+  "Fact or Fiction": {
+    "cmc": 4.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 710,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{3}{U}",
+    "oracle_text": "Reveal the top five cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.",
+    "prices_usd": null,
+    "prices_usd_foil": null,
+    "type_line": "Instant"
   },
   "Faerie Formation": {
     "cmc": 5.0,
@@ -12779,6 +13392,23 @@
     "prices_usd": "0.22",
     "type_line": "Creature \u2014 Human Pirate"
   },
+  "Fblthp, Impossibly Lost": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 23541,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}",
+    "oracle_text": "When one or more of your opponents are dealt combat damage during your turn, draw two cards. If your library has no cards in it, you win the game. Fblthp's owner shuffles him into their library. (If you draw from an empty library this way, you still win the game.)",
+    "prices_usd": "0.30",
+    "prices_usd_foil": "1.13",
+    "type_line": "Legendary Creature \u2014 Homunculus"
+  },
   "Feat of Resistance": {
     "cmc": 2.0,
     "color_identity": [
@@ -12990,10 +13620,12 @@
     "color_identity": [],
     "colors": [],
     "edhrec_rank": 17,
-    "fetched_at": "2026-08-22",
+    "fetched_at": "2026-09-30",
     "legal_commander": "legal",
     "mana_cost": "{2}",
     "oracle_text": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+    "prices_usd": "0.62",
+    "prices_usd_foil": null,
     "type_line": "Artifact"
   },
   "Ferrous Lake": {
@@ -14593,6 +15225,26 @@
     "prices_usd": "0.40",
     "type_line": "Legendary Creature \u2014 Elder Dragon"
   },
+  "Gallia, Tragic Host": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 32038,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Menace"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{B}",
+    "oracle_text": "Menace (This creature can't be blocked except by two or more creatures.)\n{4}{B}, Exile another creature card from your graveyard: Return this card from your graveyard to the battlefield tapped with a +1/+1 counter on her.",
+    "prices_usd": "0.61",
+    "prices_usd_foil": "0.25",
+    "type_line": "Legendary Creature \u2014 Zombie Satyr"
+  },
   "Galvanic Bombardment": {
     "cmc": 1.0,
     "color_identity": [
@@ -14774,6 +15426,23 @@
     "prices_usd": "2.32",
     "type_line": "Legendary Planeswalker \u2014 Garruk"
   },
+  "Garruk, Veiled Butcher": {
+    "cmc": 5.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 23063,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{3}{B}{B}",
+    "oracle_text": "If a creature an opponent controls would die, exile it instead.\n+2: Up to one target creature gets -4/-1 until your next turn.\n\u22122: Each player sacrifices a creature of their choice. If you sacrificed a creature this way, create a 4/4 green Beast creature token with trample.\n\u22123: Each opponent discards two cards. For each opponent who didn't discard two nonland cards this way, you draw a card.",
+    "prices_usd": "4.99",
+    "prices_usd_foil": "6.94",
+    "type_line": "Legendary Planeswalker \u2014 Garruk"
+  },
   "Gathering Place": {
     "cmc": 0.0,
     "color_identity": [
@@ -14836,6 +15505,26 @@
     "oracle_text": "{T}: Add {C}.\n{2}{G}{W}, {T}: Put a +1/+1 counter on each creature you control.",
     "prices_usd": "5.65",
     "type_line": "Land"
+  },
+  "Geist of Saint Thalia": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 15286,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}",
+    "oracle_text": "Flying\nNoncreature spells you cast cost {1} less to cast.",
+    "prices_usd": "0.79",
+    "prices_usd_foil": "1.05",
+    "type_line": "Legendary Creature \u2014 Spirit Cleric"
   },
   "Gemcutter Buccaneer": {
     "cmc": 4.0,
@@ -15082,6 +15771,26 @@
     "prices_usd_foil": "1.09",
     "type_line": "Legendary Creature \u2014 Angel"
   },
+  "Gideon the Oathless": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 26638,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Ward"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}",
+    "oracle_text": "Ward\u2014Discard a card.\nWhenever a creature an opponent controls enters, Gideon deals 1 damage to that player.\nWhenever an opponent activates a loyalty ability, Gideon deals 1 damage to that player.",
+    "prices_usd": "0.65",
+    "prices_usd_foil": "1.84",
+    "type_line": "Legendary Creature \u2014 Human Mercenary"
+  },
   "Gift of Estates": {
     "cmc": 2.0,
     "color_identity": [
@@ -15189,17 +15898,13 @@
     "cmc": 6.0,
     "color_identity": [],
     "colors": [],
-    "edhrec_rank": 25476,
-    "fetched_at": "2026-09-24",
-    "keywords": [],
-    "legal_commander": "not_legal",
+    "edhrec_rank": 21268,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
     "mana_cost": "{6}",
     "oracle_text": "When Ginger enters, you become the monarch.\n{2}, {T}, Sacrifice Ginger: You gain 6 life.\nAt the beginning of each upkeep, if you're the monarch, create a Gingerbrute token. (It's a {1} 1/1 Food Golem artifact creature with haste, \"{1}: This token can't be blocked this turn except by creatures with haste,\" and \"{2}, {T}, Sacrifice this token: You gain 3 life.\")",
-    "prices_usd": null,
+    "prices_usd": "6.43",
     "prices_usd_foil": null,
-    "released_at": "2026-10-02",
-    "scryfall_uri": "https://scryfall.com/card/frc/14/ginger-queen-of-sweets?utm_source=api",
-    "set": "frc",
     "type_line": "Legendary Artifact Creature \u2014 Food Noble"
   },
   "Gisela, Blade of Goldnight": {
@@ -15402,6 +16107,28 @@
     "prices_usd": "0.40",
     "prices_usd_foil": "0.66",
     "type_line": "Creature \u2014 Faerie Wizard"
+  },
+  "Glimpse the Unthinkable": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [
+      "B",
+      "U"
+    ],
+    "edhrec_rank": 5134,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{U}{B}",
+    "oracle_text": "Target player mills ten cards.",
+    "prices_usd": "3.45",
+    "prices_usd_foil": "3.54",
+    "type_line": "Sorcery"
   },
   "Glittering Massif": {
     "cmc": 0.0,
@@ -15925,6 +16652,26 @@
     "prices_usd": "0.36",
     "type_line": "Creature \u2014 Giant"
   },
+  "Gravebreaker Lamia": {
+    "cmc": 5.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 3792,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Lifelink"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{4}{B}",
+    "oracle_text": "Lifelink\nWhen this creature enters, search your library for a card, put it into your graveyard, then shuffle.\nSpells you cast from your graveyard cost {1} less to cast.",
+    "prices_usd": "0.48",
+    "prices_usd_foil": "4.59",
+    "type_line": "Enchantment Creature \u2014 Snake Lamia"
+  },
   "Gravecrawler": {
     "cmc": 1.0,
     "color_identity": [
@@ -16424,6 +17171,19 @@
     "oracle_text": "Whenever Haliya or another creature or artifact you control enters, you gain 1 life.\nAt the beginning of your end step, draw a card if you have gained 3 or more life this turn.\nWarp {W}",
     "type_line": "Legendary Creature \u2014 Human Soldier"
   },
+  "Hall of Echoes": {
+    "cmc": 0.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 19515,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "{T}: Add {C}.\n{5}: This land becomes a copy of target creature you control until end of turn. The \"legend rule\" doesn't apply to permanents you control this turn.",
+    "prices_usd": "3.28",
+    "prices_usd_foil": "5.18",
+    "type_line": "Land"
+  },
   "Hall of Heliod's Generosity": {
     "cmc": 0.0,
     "color_identity": [
@@ -16533,6 +17293,23 @@
     "scryfall_uri": "https://scryfall.com/card/soc/348/hangarback-walker?utm_source=api",
     "set": "soc",
     "type_line": "Artifact Creature \u2014 Construct"
+  },
+  "Hapatra, the Desert Frost": {
+    "cmc": 4.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 28988,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{3}{U}",
+    "oracle_text": "When Hapatra enters, for each opponent, tap up to one target creature that player controls. Put a stun counter on each of those creatures. (If a permanent with a stun counter would become untapped, remove one from it instead.)\n{2}{U}: Untap target creature.",
+    "prices_usd": "0.31",
+    "prices_usd_foil": "0.51",
+    "type_line": "Legendary Creature \u2014 Human Wizard"
   },
   "Harald, King of Skemfar": {
     "cmc": 3.0,
@@ -16888,6 +17665,27 @@
     "prices_usd_foil": "0.17",
     "type_line": "Artifact"
   },
+  "Hedron Crab": {
+    "cmc": 1.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 1408,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill",
+      "Landfall"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{U}",
+    "oracle_text": "Landfall \u2014 Whenever a land you control enters, target player mills three cards. (They put the top three cards of their library into their graveyard.)",
+    "prices_usd": "3.16",
+    "prices_usd_foil": null,
+    "type_line": "Creature \u2014 Crab"
+  },
   "Heidegger, Shinra Executive": {
     "cmc": 4.0,
     "color_identity": [
@@ -17237,6 +18035,22 @@
     "prices_usd": "15.69",
     "prices_usd_foil": "16.34",
     "type_line": "Instant"
+  },
+  "Hexhaven Dueling Arena": {
+    "cmc": 0.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 23995,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Prepared"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "{T}: Add {C}.\n{2}, {T}: Target creature that attacked this turn becomes prepared. Activate only as a sorcery. (Only creatures with prepare spells can become prepared.)\n{4}, {T}: Target creature becomes prepared.",
+    "prices_usd": "0.35",
+    "prices_usd_foil": "0.50",
+    "type_line": "Land"
   },
   "Hexing Squelcher": {
     "cmc": 2.0,
@@ -17594,6 +18408,26 @@
     "prices_usd": "0.27",
     "type_line": "Sorcery"
   },
+  "Hullbreaker Horror": {
+    "cmc": 7.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 276,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flash"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{5}{U}{U}",
+    "oracle_text": "Flash\nThis spell can't be countered.\nWhenever you cast a spell, choose up to one \u2014\n\u2022 Return target spell you don't control to its owner's hand.\n\u2022 Return target nonland permanent to its owner's hand.",
+    "prices_usd": "6.26",
+    "prices_usd_foil": "6.55",
+    "type_line": "Creature \u2014 Kraken Horror"
+  },
   "Hungry Lynx": {
     "cmc": 2.0,
     "color_identity": [
@@ -17745,6 +18579,23 @@
     "released_at": "2014-09-26",
     "scryfall_uri": "https://scryfall.com/card/ktk/42/icy-blast?utm_source=api",
     "set": "ktk",
+    "type_line": "Instant"
+  },
+  "Icy Reception": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 30757,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}",
+    "oracle_text": "Choose one \u2014\n\u2022 Counter target creature or legendary spell unless its controller pays {3}.\n\u2022 Target creature gets -5/-0 until end of turn.",
+    "prices_usd": "0.97",
+    "prices_usd_foil": "0.35",
     "type_line": "Instant"
   },
   "Idol of Oblivion": {
@@ -18065,6 +18916,27 @@
     "prices_usd": "2.60",
     "prices_usd_foil": "7.55",
     "type_line": "Artifact \u2014 Equipment"
+  },
+  "Infinite Coursework": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 31076,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Enchant",
+      "Prepared"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "Enchant creature\nWhen this Aura enters, tap enchanted creature. It becomes unprepared.\nEnchanted creature loses all abilities and doesn't untap during its controller's untap step.",
+    "prices_usd": "0.73",
+    "prices_usd_foil": "0.39",
+    "type_line": "Enchantment \u2014 Aura"
   },
   "Ingenious Artillerist": {
     "cmc": 3.0,
@@ -18494,6 +19366,24 @@
     "prices_usd_foil": "0.30",
     "type_line": "Instant"
   },
+  "Ipnu Rivulet": {
+    "cmc": 0.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 9419,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "{T}: Add {C}.\n{T}, Pay 1 life: Add {U}.\n{1}{U}, {T}, Sacrifice a Desert: Target player mills four cards. (They put the top four cards of their library into their graveyard.)",
+    "prices_usd": "0.31",
+    "prices_usd_foil": "3.79",
+    "type_line": "Land \u2014 Desert"
+  },
   "Irencrag Feat": {
     "cmc": 4.0,
     "color_identity": [
@@ -18575,6 +19465,21 @@
     "prices_usd": "1.80",
     "prices_usd_foil": "2.38",
     "type_line": "Land \u2014 Town // Sorcery \u2014 Adventure"
+  },
+  "Island": {
+    "cmc": 0.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": null,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "({T}: Add {U}.)",
+    "prices_usd": "0.30",
+    "prices_usd_foil": null,
+    "type_line": "Basic Land \u2014 Island"
   },
   "Isochron Scepter": {
     "cmc": 2.0,
@@ -18707,6 +19612,26 @@
     "prices_usd": "0.40",
     "type_line": "Artifact"
   },
+  "Jace's Machinations": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 19283,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "Until end of turn, you may activate loyalty abilities of Jace planeswalkers you control on any player's turn any time you could cast an instant.\nEmpower Jace 8. (Put eight loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[\u22121]: Surveil 1\" and \"[\u22123]: Draw a card.\")",
+    "prices_usd": "1.02",
+    "prices_usd_foil": "2.99",
+    "type_line": "Instant"
+  },
   "Jace, Multiverse Architect": {
     "cmc": 5.0,
     "color_identity": [
@@ -18732,6 +19657,43 @@
     "released_at": "2026-10-02",
     "scryfall_uri": "https://scryfall.com/card/frc/1/jace-multiverse-architect?utm_source=api",
     "set": "frc",
+    "type_line": "Legendary Planeswalker \u2014 Jace"
+  },
+  "Jace, Reality Sculptor": {
+    "cmc": 5.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 20116,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{3}{U}{U}",
+    "oracle_text": "+1: Empower Jace X, where X is the number of Islands you control.\n\u22123: Until your next turn, whenever a creature attacks you or a planeswalker you control, it gets -5/-0 until end of turn.\n0: Exile all but the bottom card of each opponent's library. Activate only if there are twenty-five or more loyalty counters among Jaces you control.",
+    "prices_usd": "1.30",
+    "prices_usd_foil": "4.59",
+    "type_line": "Legendary Planeswalker \u2014 Jace"
+  },
+  "Jace, Wielder of Mysteries": {
+    "cmc": 4.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 1089,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}{U}{U}",
+    "oracle_text": "If you would draw a card while your library has no cards in it, you win the game instead.\n+1: Target player mills two cards. Draw a card.\n\u22128: Draw seven cards. Then if your library has no cards in it, you win the game.",
+    "prices_usd": "11.81",
+    "prices_usd_foil": "10.35",
     "type_line": "Legendary Planeswalker \u2014 Jace"
   },
   "Jackdaw": {
@@ -18986,18 +19948,50 @@
     "colors": [
       "B"
     ],
-    "edhrec_rank": 25701,
-    "fetched_at": "2026-09-24",
-    "keywords": [],
-    "legal_commander": "not_legal",
+    "edhrec_rank": 21749,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
     "mana_cost": "{4}{B}{B}",
     "oracle_text": "Whenever Jhoira enters or attacks, target opponent reveals cards from the top of their library until they reveal a historic permanent card. You put that card onto the battlefield under your control and lose life equal to that permanent's mana value. That player puts the rest of the revealed cards on the bottom of their library in a random order. (Artifacts, legendaries, and Sagas are historic.)",
-    "prices_usd": null,
+    "prices_usd": "2.56",
     "prices_usd_foil": null,
-    "released_at": "2026-10-02",
-    "scryfall_uri": "https://scryfall.com/card/frc/8/jhoira-weatherlight-corsair?utm_source=api",
-    "set": "frc",
     "type_line": "Legendary Creature \u2014 Human Pirate"
+  },
+  "Jidoor, Aristocratic Capital": {
+    "cmc": 0.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 2174,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": " // {4}{U}{U}",
+    "oracle_text": "Jidoor, Aristocratic Capital: This land enters tapped.\n{T}: Add {U}.\n//\nOverture: Target opponent mills half their library, rounded down. (Then exile this card. You may play the land later from exile.)",
+    "prices_usd": "1.12",
+    "prices_usd_foil": "2.17",
+    "type_line": "Land \u2014 Town // Sorcery \u2014 Adventure"
+  },
+  "Jidoor, Aristocratic Capital // Overture": {
+    "cmc": 0.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 2174,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": " // {4}{U}{U}",
+    "oracle_text": "Jidoor, Aristocratic Capital: This land enters tapped.\n{T}: Add {U}.\n//\nOverture: Target opponent mills half their library, rounded down. (Then exile this card. You may play the land later from exile.)",
+    "prices_usd": "1.12",
+    "prices_usd_foil": "2.17",
+    "type_line": "Land \u2014 Town // Sorcery \u2014 Adventure"
   },
   "Jin-Gitaxias // The Great Synthesis": {
     "cmc": 5.0,
@@ -19454,6 +20448,19 @@
     "prices_usd": "0.40",
     "type_line": "Creature \u2014 Angel Spirit"
   },
+  "Karn, Argent Defender": {
+    "cmc": 2.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 26979,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{2}",
+    "oracle_text": "Artifacts and creatures entering the battlefield don't cause abilities to trigger.",
+    "prices_usd": "1.43",
+    "prices_usd_foil": "7.64",
+    "type_line": "Legendary Artifact Creature \u2014 Golem"
+  },
   "Karoo": {
     "cmc": 0.0,
     "color_identity": [
@@ -19565,6 +20572,22 @@
     "oracle_text": "At the beginning of each opponent's end step, if that player controls more creatures than you, create a 1/1 white Soldier creature token.\nAt the beginning of each opponent's end step, if that player controls more lands than you, you may search your library for a basic Plains card, put it onto the battlefield tapped, then shuffle.",
     "prices_usd": "0.53",
     "type_line": "Creature \u2014 Human Soldier"
+  },
+  "Keeper of the Quiet Hour": {
+    "cmc": 3.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 28147,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}",
+    "oracle_text": "When this creature enters, empower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[\u22121]: Surveil 1\" and \"[\u22123]: Draw a card.\")",
+    "prices_usd": "0.63",
+    "prices_usd_foil": "0.28",
+    "type_line": "Artifact Creature \u2014 Chimera"
   },
   "Kefka, Court Mage // Kefka, Ruler of Ruin": {
     "cmc": 5.0,
@@ -19736,6 +20759,26 @@
     "scryfall_uri": "https://scryfall.com/card/ddg/17/kinsbaile-cavalier?utm_source=api",
     "set": "ddg",
     "type_line": "Creature \u2014 Kithkin Knight"
+  },
+  "Kiora, the Rising Tide": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 3576,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Threshold"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "When Kiora enters, draw two cards, then discard two cards.\nThreshold \u2014 Whenever Kiora attacks, if there are seven or more cards in your graveyard, you may create Scion of the Deep, a legendary 8/8 blue Octopus creature token.",
+    "prices_usd": "0.42",
+    "prices_usd_foil": "0.61",
+    "type_line": "Legendary Creature \u2014 Merfolk Noble"
   },
   "Kitesail Larcenist": {
     "cmc": 3.0,
@@ -20004,6 +21047,40 @@
     "prices_usd": "1.21",
     "prices_usd_foil": "1.53",
     "type_line": "Legendary Creature \u2014 Dwarf Scout"
+  },
+  "Laboratory Maniac": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 555,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "If you would draw a card while your library has no cards in it, you win the game instead.",
+    "prices_usd": "2.26",
+    "prices_usd_foil": "2.54",
+    "type_line": "Creature \u2014 Human Wizard"
+  },
+  "Last Gasp": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 16386,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{B}",
+    "oracle_text": "Target creature gets -3/-3 until end of turn.",
+    "prices_usd": "0.82",
+    "prices_usd_foil": "0.24",
+    "type_line": "Instant"
   },
   "Lathliss, Dragon Queen": {
     "cmc": 6.0,
@@ -20364,6 +21441,26 @@
     "prices_usd_foil": "0.63",
     "type_line": "Enchantment"
   },
+  "Lich's Relic": {
+    "cmc": 1.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 23858,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Equip"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{B}",
+    "oracle_text": "When this Equipment enters, you may pay {2}. When you do, for each opponent, destroy up to one target creature or planeswalker that player controls.\nEquipped creature gets +2/+1.\nEquip {2}",
+    "prices_usd": "1.51",
+    "prices_usd_foil": "3.84",
+    "type_line": "Artifact \u2014 Equipment"
+  },
   "Liesa, Forgotten Archangel": {
     "cmc": 5.0,
     "color_identity": [
@@ -20545,6 +21642,28 @@
     "prices_usd_foil": "13.11",
     "type_line": "Legendary Creature \u2014 Human Soldier"
   },
+  "Likeness Looter": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [
+      "B",
+      "U"
+    ],
+    "edhrec_rank": 2069,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{U}{B}",
+    "oracle_text": "Flying\n{T}: Draw a card, then discard a card.\n{X}: This creature becomes a copy of target creature card in your graveyard with mana value X, except it has flying and this ability. Activate only as a sorcery.",
+    "prices_usd": "2.68",
+    "prices_usd_foil": "4.04",
+    "type_line": "Creature \u2014 Faerie Shapeshifter"
+  },
   "Liliana the Faultless": {
     "cmc": 1.0,
     "color_identity": [
@@ -20574,20 +21693,17 @@
     "colors": [
       "B"
     ],
-    "edhrec_rank": 21181,
-    "fetched_at": "2026-09-24",
+    "edhrec_rank": 19091,
+    "fetched_at": "2026-09-30",
     "keywords": [
       "Exhaust",
       "Mill"
     ],
-    "legal_commander": "not_legal",
+    "legal_commander": "legal",
     "mana_cost": "{1}{B}",
     "oracle_text": "Whenever another creature or planeswalker you control enters, mill two cards.\nExhaust \u2014 {5}{B}: Return target creature or planeswalker card from your graveyard to the battlefield. Put a +1/+1 counter on Liliana. Activate only as a sorcery. (Activate each exhaust ability only once.)",
-    "prices_usd": "13.06",
-    "prices_usd_foil": "15.96",
-    "released_at": "2026-10-02",
-    "scryfall_uri": "https://scryfall.com/card/fra/231/liliana-the-repentant?utm_source=api",
-    "set": "fra",
+    "prices_usd": "0.87",
+    "prices_usd_foil": "12.67",
     "type_line": "Legendary Creature \u2014 Human Warlock"
   },
   "Liliana's Triumph": {
@@ -20736,6 +21852,36 @@
     "prices_usd_foil": "0.19",
     "type_line": "Artifact \u2014 Equipment"
   },
+  "Living Death": {
+    "cmc": 5.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 456,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{3}{B}{B}",
+    "oracle_text": "Each player exiles all creature cards from their graveyard, then sacrifices all creatures they control, then puts all cards they exiled this way onto the battlefield.",
+    "prices_usd": "5.99",
+    "prices_usd_foil": null,
+    "type_line": "Sorcery"
+  },
+  "Living Library": {
+    "cmc": 2.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 31545,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{2}",
+    "oracle_text": "{6}, Sacrifice this creature: Choose target creature or planeswalker an opponent controls. Its owner shuffles it into their library.",
+    "prices_usd": "0.36",
+    "prices_usd_foil": "0.31",
+    "type_line": "Artifact Creature \u2014 Book Illusion"
+  },
   "Lizard Blades": {
     "cmc": 2.0,
     "color_identity": [
@@ -20858,6 +22004,26 @@
     "prices_usd": "3.29",
     "prices_usd_foil": "4.11",
     "type_line": "Legendary Creature \u2014 Beast Noble"
+  },
+  "Loot, the Anomaly": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 27464,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Threshold"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}",
+    "oracle_text": "If Loot's power is negative, he assigns combat damage as though his power were positive.\nThreshold \u2014 Sacrifice another creature or planeswalker: Loot gets -2/-0 until end of turn. Activate only if there are seven or more cards in your graveyard.",
+    "prices_usd": "0.41",
+    "prices_usd_foil": "0.73",
+    "type_line": "Legendary Creature \u2014 Beast Horror"
   },
   "Loran of the Third Path": {
     "cmc": 3.0,
@@ -21008,6 +22174,26 @@
     "prices_usd_foil": "0.88",
     "type_line": "Legendary Creature \u2014 Dragon Shaman"
   },
+  "Lyra, Tolarian Archangel": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 24705,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}{U}",
+    "oracle_text": "Flying\nAt the beginning of each end step, if you've drawn three or more cards this turn, create a 3/3 blue Angel creature token with flying.\n{3}{U}{U}: Until end of turn, whenever Lyra deals combat damage to a player, draw two cards.",
+    "prices_usd": "1.54",
+    "prices_usd_foil": "3.49",
+    "type_line": "Legendary Creature \u2014 Angel Wizard"
+  },
   "Lys Alana Informant": {
     "cmc": 2.0,
     "color_identity": [
@@ -21048,6 +22234,26 @@
     "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nNoncreature spells you cast cost {1} less to cast.\nAs long as you've cast two or more noncreature spells this turn, Lyse Hext has double strike.",
     "prices_usd": "0.28",
     "type_line": "Legendary Creature \u2014 Human Rebel Monk"
+  },
+  "Mabel, Bitter Recluse": {
+    "cmc": 1.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 30790,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Deathtouch"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{B}",
+    "oracle_text": "Deathtouch\nWhen Mabel enters, remove up to three counters from another target creature or planeswalker.",
+    "prices_usd": "0.30",
+    "prices_usd_foil": "0.73",
+    "type_line": "Legendary Creature \u2014 Mouse Warlock"
   },
   "Machinist's Arsenal": {
     "cmc": 5.0,
@@ -21207,6 +22413,28 @@
     "prices_usd": "0.22",
     "prices_usd_foil": "0.24",
     "type_line": "Artifact"
+  },
+  "Maha, Its Feathers Night": {
+    "cmc": 5.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 1953,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying",
+      "Trample",
+      "Ward"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{B}{B}",
+    "oracle_text": "Flying, trample\nWard\u2014Discard a card.\nCreatures your opponents control have base toughness 1.",
+    "prices_usd": "20.59",
+    "prices_usd_foil": "23.09",
+    "type_line": "Legendary Creature \u2014 Elemental Bird"
   },
   "Majestic Myriarch": {
     "cmc": 5.0,
@@ -21763,6 +22991,40 @@
     "prices_usd": "2.25",
     "type_line": "Artifact"
   },
+  "Mass Polymorph": {
+    "cmc": 6.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 13233,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{5}{U}",
+    "oracle_text": "Exile all creatures you control, then reveal cards from the top of your library until you reveal that many creature cards. Put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library.",
+    "prices_usd": "0.63",
+    "prices_usd_foil": null,
+    "type_line": "Sorcery"
+  },
+  "Massacre Girl, Most Wanted": {
+    "cmc": 5.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 27927,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{4}{B}",
+    "oracle_text": "Whenever another creature or planeswalker you control dies, Massacre Girl deals 1 damage to target opponent and you gain 1 life.\nWhenever an opponent is dealt noncombat damage, put a +1/+1 counter on Massacre Girl.",
+    "prices_usd": "0.35",
+    "prices_usd_foil": "2.44",
+    "type_line": "Legendary Creature \u2014 Human Assassin"
+  },
   "Massacre Wurm": {
     "cmc": 6.0,
     "color_identity": [
@@ -21902,23 +23164,36 @@
     "prices_usd_foil": "0.43",
     "type_line": "Land"
   },
+  "Medic's Kitesail": {
+    "cmc": 2.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 30788,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Equip"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}",
+    "oracle_text": "Equipped creature gets +1/+0 and has flying and \"Whenever this creature attacks, you gain 1 life.\"\nEquip {2} ({2}: Attach to target creature you control. Equip only as a sorcery.)",
+    "prices_usd": "0.67",
+    "prices_usd_foil": "0.53",
+    "type_line": "Artifact \u2014 Equipment"
+  },
   "Memnarch, the Warden": {
     "cmc": 10.0,
     "color_identity": [],
     "colors": [],
-    "edhrec_rank": 22657,
-    "fetched_at": "2026-09-24",
+    "edhrec_rank": 18022,
+    "fetched_at": "2026-09-30",
     "keywords": [
       "Indestructible"
     ],
-    "legal_commander": "not_legal",
+    "legal_commander": "legal",
     "mana_cost": "{10}",
     "oracle_text": "Indestructible\nWhen Memnarch enters, create two 1/1 colorless Myr artifact creature tokens.\nWhenever Memnarch attacks, draw a card for each artifact you control.",
-    "prices_usd": null,
+    "prices_usd": "11.11",
     "prices_usd_foil": null,
-    "released_at": "2026-10-02",
-    "scryfall_uri": "https://scryfall.com/card/frc/15/memnarch-the-warden?utm_source=api",
-    "set": "frc",
     "type_line": "Legendary Artifact Creature \u2014 Wizard"
   },
   "Memnite": {
@@ -22217,6 +23492,22 @@
     "prices_usd_foil": "10.47",
     "type_line": "Legendary Creature \u2014 Dragon Spirit"
   },
+  "Millikin": {
+    "cmc": 2.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 1206,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}",
+    "oracle_text": "{T}, Mill a card: Add {C}. (Activate only as an instant. To mill a card, put the top card of your library into your graveyard.)",
+    "prices_usd": "0.35",
+    "prices_usd_foil": null,
+    "type_line": "Artifact Creature \u2014 Construct"
+  },
   "Mind Rot": {
     "cmc": 3.0,
     "color_identity": [
@@ -22283,6 +23574,26 @@
     "oracle_text": "If an opponent cast three or more spells this turn, you may pay {0} rather than pay this spell's mana cost.\nExile any number of target spells.",
     "prices_usd": 15.18,
     "type_line": "Instant \u2014 Trap"
+  },
+  "Mindseeker Oculus": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 28199,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "When this creature enters, empower Jace 4. (Put four loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[\u22121]: Surveil 1\" and \"[\u22123]: Draw a card.\")",
+    "prices_usd": "0.29",
+    "prices_usd_foil": "0.45",
+    "type_line": "Creature \u2014 Homunculus"
   },
   "Mindsplice Apparatus": {
     "cmc": 4.0,
@@ -23103,6 +24414,23 @@
     "prices_usd_foil": "0.39",
     "type_line": "Land"
   },
+  "Multiply by Zero": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 26328,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{B}",
+    "oracle_text": "Target creature has base power and toughness 0/0 until end of turn.",
+    "prices_usd": "0.39",
+    "prices_usd_foil": "1.17",
+    "type_line": "Instant"
+  },
   "Murder": {
     "cmc": 3.0,
     "color_identity": [
@@ -23196,6 +24524,19 @@
     "oracle_text": "Whenever you cast an instant or sorcery spell, create a 1/1 blue Bird Illusion creature token with flying.",
     "prices_usd": "1.48",
     "type_line": "Creature \u2014 Human Wizard"
+  },
+  "Murmuring Volume": {
+    "cmc": 3.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 27723,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{3}",
+    "oracle_text": "{T}: Add one mana of any color.\n{2}, {T}, Discard a card: Draw a card.",
+    "prices_usd": "0.82",
+    "prices_usd_foil": "0.46",
+    "type_line": "Artifact \u2014 Book"
   },
   "Mycosynth Wellspring": {
     "cmc": 2.0,
@@ -23505,6 +24846,26 @@
     "prices_usd_foil": "4.67",
     "type_line": "Land // Land"
   },
+  "Neerdiv, Devious Diver": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 8077,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "Whenever Neerdiv becomes tapped, target player mills cards equal to its power.\nWhenever you cast a spell from your graveyard or activate an ability of a card in your graveyard, draw a card and put a +1/+1 counter on Neerdiv.",
+    "prices_usd": "1.44",
+    "prices_usd_foil": null,
+    "type_line": "Legendary Creature \u2014 Merfolk Rogue"
+  },
   "Negate": {
     "cmc": 2.0,
     "color_identity": [
@@ -23540,6 +24901,25 @@
     "oracle_text": "Trample\nWhenever Neheb deals combat damage to a player or planeswalker, you may discard any number of cards. If you do, draw that many cards and add that much {R}. Until end of turn, you don't lose this mana as steps and phases end.",
     "prices_usd": "0.51",
     "type_line": "Legendary Creature \u2014 Zombie Minotaur Warrior"
+  },
+  "Nephalia Drownyard": {
+    "cmc": 0.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 3345,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "{T}: Add {C}.\n{1}{U}{B}, {T}: Target player mills three cards.",
+    "prices_usd": "0.28",
+    "prices_usd_foil": null,
+    "type_line": "Land"
   },
   "Nessian Wanderer": {
     "cmc": 2.0,
@@ -24030,6 +25410,28 @@
     "prices_usd_foil": "2.10",
     "type_line": "Instant"
   },
+  "Notion Rain": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [
+      "B",
+      "U"
+    ],
+    "edhrec_rank": 8698,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}{B}",
+    "oracle_text": "Surveil 2, then draw two cards. Notion Rain deals 2 damage to you. (To surveil 2, look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+    "prices_usd": "0.27",
+    "prices_usd_foil": null,
+    "type_line": "Sorcery"
+  },
   "Nourishing Shoal": {
     "cmc": 2.0,
     "color_identity": [
@@ -24050,6 +25452,28 @@
     "scryfall_uri": "https://scryfall.com/card/uma/175/nourishing-shoal?utm_source=api",
     "set": "uma",
     "type_line": "Instant \u2014 Arcane"
+  },
+  "Null Summoner": {
+    "cmc": 4.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [
+      "B",
+      "U"
+    ],
+    "edhrec_rank": 31715,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Threshold"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}{B}",
+    "oracle_text": "When this creature enters, if you cast it, target opponent reveals their hand. You choose a nonland card from it. Exile that card.\nThreshold \u2014 As long as there are seven or more cards in your graveyard, you may cast the exiled card, and mana of any type can be spent to cast that spell.",
+    "prices_usd": "0.51",
+    "prices_usd_foil": "0.53",
+    "type_line": "Creature \u2014 Human Warlock"
   },
   "Nut Collector": {
     "cmc": 6.0,
@@ -24258,6 +25682,23 @@
     "prices_usd_foil": "0.60",
     "type_line": "Legendary Creature \u2014 Faerie Warrior"
   },
+  "Occult Epiphany": {
+    "cmc": 1.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 9476,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{X}{U}",
+    "oracle_text": "Draw X cards, then discard X cards. Create a 1/1 white Spirit creature token with flying for each card type among cards discarded this way.",
+    "prices_usd": "0.68",
+    "prices_usd_foil": null,
+    "type_line": "Instant"
+  },
   "Octavia, Living Thesis": {
     "cmc": 10.0,
     "color_identity": [
@@ -24424,19 +25865,16 @@
     "cmc": 7.0,
     "color_identity": [],
     "colors": [],
-    "edhrec_rank": 20624,
-    "fetched_at": "2026-09-24",
+    "edhrec_rank": 16847,
+    "fetched_at": "2026-09-30",
     "keywords": [
       "Landfall"
     ],
-    "legal_commander": "not_legal",
+    "legal_commander": "legal",
     "mana_cost": "{7}",
     "oracle_text": "Omnath gets +1/+1 for each unspent mana you have.\nIf you would lose unspent mana, that mana becomes colorless instead.\nLandfall \u2014 Whenever a land you control enters, add {C}{C}.",
-    "prices_usd": null,
+    "prices_usd": "13.65",
     "prices_usd_foil": null,
-    "released_at": "2026-10-02",
-    "scryfall_uri": "https://scryfall.com/card/frc/3/omnath-locus-of-the-void?utm_source=api",
-    "set": "frc",
     "type_line": "Legendary Creature \u2014 Elemental"
   },
   "Ondu Spiritdancer": {
@@ -24924,6 +26362,26 @@
     "prices_usd_foil": "0.37",
     "type_line": "Instant"
   },
+  "Overwrite the Multiverse": {
+    "cmc": 6.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 20407,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{4}{B}{B}",
+    "oracle_text": "Exile all creatures. Empower Jace X, where X is the number of creatures exiled this way. (Put that many loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[\u22121]: Surveil 1\" and \"[\u22123]: Draw a card.\")",
+    "prices_usd": "2.82",
+    "prices_usd_foil": "9.94",
+    "type_line": "Sorcery"
+  },
   "Owlin Spiralmancer": {
     "cmc": 4.0,
     "color_identity": [
@@ -25104,6 +26562,46 @@
     "set": "sos",
     "type_line": "Land"
   },
+  "Paradox Shaper": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 27447,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Prepared",
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U/B} // {U/B}",
+    "oracle_text": "Paradox Shaper: At the beginning of your upkeep, if this creature isn't prepared, it becomes prepared.\n{2}: Put target card from your graveyard on the bottom of your library.\n//\nOmit Variables: Mill three cards. (Put the top three cards of your library into your graveyard.)",
+    "prices_usd": "0.31",
+    "prices_usd_foil": "1.14",
+    "type_line": "Creature \u2014 Octopus Wizard // Sorcery"
+  },
+  "Paradox Shaper // Omit Variables": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 27447,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Prepared",
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U/B} // {U/B}",
+    "oracle_text": "Paradox Shaper: At the beginning of your upkeep, if this creature isn't prepared, it becomes prepared.\n{2}: Put target card from your graveyard on the bottom of your library.\n//\nOmit Variables: Mill three cards. (Put the top three cards of your library into your graveyard.)",
+    "prices_usd": "0.31",
+    "prices_usd_foil": "1.14",
+    "type_line": "Creature \u2014 Octopus Wizard // Sorcery"
+  },
   "Parallel Lives": {
     "cmc": 4.0,
     "color_identity": [
@@ -25126,13 +26624,15 @@
     "color_identity": [],
     "colors": [],
     "edhrec_rank": 14,
-    "fetched_at": "2026-08-22",
+    "fetched_at": "2026-09-30",
     "keywords": [
       "Scry"
     ],
     "legal_commander": "legal",
-    "mana_cost": null,
+    "mana_cost": "",
     "oracle_text": "This land enters tapped.\n{T}: Add one mana of any color in your commander's color identity. When that mana is spent to cast a creature spell that shares a creature type with your commander, scry 1. (Look at the top card of your library. You may put that card on the bottom.)",
+    "prices_usd": "0.55",
+    "prices_usd_foil": null,
     "type_line": "Land"
   },
   "Path to Exile": {
@@ -25288,6 +26788,23 @@
     "prices_usd_foil": "0.45",
     "type_line": "Creature \u2014 Drake"
   },
+  "Perfected Theory": {
+    "cmc": 1.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 27763,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{U}",
+    "oracle_text": "Choose one \u2014\n\u2022 Target creature has base power and toughness 1/1 until end of turn.\n\u2022 Target creature has base power and toughness 4/5 until end of turn.",
+    "prices_usd": "0.34",
+    "prices_usd_foil": "1.00",
+    "type_line": "Instant"
+  },
   "Pestermite": {
     "cmc": 3.0,
     "color_identity": [
@@ -25411,6 +26928,28 @@
     "prices_usd_foil": "30.84",
     "type_line": "Legendary Land"
   },
+  "Pilfered Plans": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [
+      "B",
+      "U"
+    ],
+    "edhrec_rank": 9691,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}{B}",
+    "oracle_text": "Target player mills two cards. Draw two cards.",
+    "prices_usd": "0.25",
+    "prices_usd_foil": "0.33",
+    "type_line": "Sorcery"
+  },
   "Pilgrim's Eye": {
     "cmc": 3.0,
     "color_identity": [],
@@ -25501,6 +27040,26 @@
     "prices_usd": "0.40",
     "prices_usd_foil": "0.85",
     "type_line": "Creature \u2014 Human Shaman"
+  },
+  "Plan for All Outcomes": {
+    "cmc": 4.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 21287,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{U}",
+    "oracle_text": "When this enchantment enters, the owner of up to one other target nonland permanent puts it on their choice of the top or bottom of their library.\nWhenever you cast your first noncreature spell each turn, empower Jace 1. (Put a loyalty counter on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[\u22121]: Surveil 1\" and \"[\u22123]: Draw a card.\")",
+    "prices_usd": "0.61",
+    "prices_usd_foil": "1.98",
+    "type_line": "Enchantment"
   },
   "Planar Engineering": {
     "cmc": 4.0,
@@ -25822,6 +27381,23 @@
     "prices_usd": "2.36",
     "prices_usd_foil": "4.47",
     "type_line": "Artifact \u2014 Equipment"
+  },
+  "Precise Redaction": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 31382,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}",
+    "oracle_text": "Counter target white or black spell.",
+    "prices_usd": "0.34",
+    "prices_usd_foil": "0.36",
+    "type_line": "Instant"
   },
   "Prehistoric Pet": {
     "cmc": 1.0,
@@ -26294,6 +27870,44 @@
     "prices_usd": "0.21",
     "type_line": "Legendary Creature \u2014 Human Scientist"
   },
+  "Proft, Consulting Detective": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 27543,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}",
+    "oracle_text": "Whenever you scry or surveil, you may pay {2}. If you do, put a +1/+1 counter on Proft and draw a card. (Draw after you scry or surveil.)",
+    "prices_usd": "0.39",
+    "prices_usd_foil": "0.49",
+    "type_line": "Legendary Creature \u2014 Human Detective"
+  },
+  "Proft, Sinister Mastermind": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 30688,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Threshold",
+      "Menace"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}",
+    "oracle_text": "Threshold \u2014 You can't cast this spell unless there are seven or more cards in your graveyard.\nMenace\n{B}, Discard this card: Target creature gets -3/-1 until end of turn.",
+    "prices_usd": "0.38",
+    "prices_usd_foil": "0.41",
+    "type_line": "Legendary Creature \u2014 Human Rogue"
+  },
   "Propaganda": {
     "cmc": 3.0,
     "color_identity": [
@@ -26346,6 +27960,41 @@
     "prices_usd": "0.41",
     "type_line": "Instant"
   },
+  "Protege's Awakening": {
+    "cmc": 4.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 24785,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{U}",
+    "oracle_text": "Empower Jace 6. (Put six loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[\u22121]: Surveil 1\" and \"[\u22123]: Draw a card.\")\nDraw a card.",
+    "prices_usd": "0.47",
+    "prices_usd_foil": "0.39",
+    "type_line": "Sorcery"
+  },
+  "Proteus Staff": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 8358,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{3}",
+    "oracle_text": "{2}{U}, {T}: Put target creature on the bottom of its owner's library. That creature's controller reveals cards from the top of their library until they reveal a creature card. The player puts that card onto the battlefield and the rest on the bottom of their library in any order. Activate only as a sorcery.",
+    "prices_usd": "2.66",
+    "prices_usd_foil": null,
+    "type_line": "Artifact"
+  },
   "Prowling Serpopard": {
     "cmc": 3.0,
     "color_identity": [
@@ -26379,6 +28028,25 @@
     "prices_usd": "0.25",
     "prices_usd_foil": "2.05",
     "type_line": "Artifact \u2014 Equipment"
+  },
+  "Psychic Frog": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [
+      "B",
+      "U"
+    ],
+    "edhrec_rank": 2105,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{U}{B}",
+    "oracle_text": "Whenever this creature deals combat damage to a player or planeswalker, draw a card.\nDiscard a card: Put a +1/+1 counter on this creature.\nExile three cards from your graveyard: This creature gains flying until end of turn.",
+    "prices_usd": "4.63",
+    "prices_usd_foil": "6.35",
+    "type_line": "Creature \u2014 Frog"
   },
   "Pull from Tomorrow": {
     "cmc": 2.0,
@@ -26857,6 +28525,26 @@
     "prices_usd": "0.60",
     "type_line": "Sorcery"
   },
+  "Rampart Hunter": {
+    "cmc": 4.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 32177,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Deathtouch"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{B}",
+    "oracle_text": "Deathtouch\nWhen this creature enters, target creature gets +2/+2 and gains deathtouch until end of turn.",
+    "prices_usd": "1.25",
+    "prices_usd_foil": "0.26",
+    "type_line": "Creature \u2014 Horror"
+  },
   "Rancor": {
     "cmc": 1.0,
     "color_identity": [
@@ -26894,6 +28582,23 @@
     "prices_usd": "40.08",
     "prices_usd_foil": "60.31",
     "type_line": "Creature \u2014 Human Soldier Ranger"
+  },
+  "Rank Rat": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 28605,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{B}",
+    "oracle_text": "When this creature enters, each opponent discards a card.",
+    "prices_usd": "0.72",
+    "prices_usd_foil": "1.17",
+    "type_line": "Creature \u2014 Zombie Rat"
   },
   "Raph & Mikey, Troublemakers": {
     "cmc": 7.0,
@@ -27349,6 +29054,28 @@
     "prices_usd_foil": "0.49",
     "type_line": "Sorcery"
   },
+  "Recursive Recruitment": {
+    "cmc": 4.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [
+      "B",
+      "U"
+    ],
+    "edhrec_rank": 31900,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flashback"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}{B}",
+    "oracle_text": "Create two 2/2 colorless Wizard Soldier creature tokens named Cadet. If this spell was cast from a graveyard, put a +1/+1 counter on each of them for every three cards in your graveyard.\nFlashback {6}{U}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)",
+    "prices_usd": "0.33",
+    "prices_usd_foil": "1.76",
+    "type_line": "Sorcery"
+  },
   "Red Dragon": {
     "cmc": 6.0,
     "color_identity": [
@@ -27468,13 +29195,13 @@
     "cmc": 0.0,
     "color_identity": [],
     "colors": [],
-    "edhrec_rank": 173,
-    "fetched_at": "2026-08-22",
+    "edhrec_rank": 165,
+    "fetched_at": "2026-09-30",
     "legal_commander": "legal",
-    "mana_cost": null,
+    "mana_cost": "",
     "oracle_text": "{T}: Add one mana of any type that a land you control could produce.",
-    "prices_usd": "15.04",
-    "prices_usd_foil": "16.95",
+    "prices_usd": "10.77",
+    "prices_usd_foil": null,
     "type_line": "Land"
   },
   "Reflections of Littjara": {
@@ -27794,6 +29521,25 @@
     "prices_usd_foil": "0.41",
     "type_line": "Instant // Sorcery"
   },
+  "Restless Reef": {
+    "cmc": 0.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 4123,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "This land enters tapped.\n{T}: Add {U} or {B}.\n{2}{U}{B}: Until end of turn, this land becomes a 4/4 blue and black Shark creature with deathtouch. It's still a land.\nWhenever this land attacks, target player mills four cards.",
+    "prices_usd": "2.45",
+    "prices_usd_foil": "3.04",
+    "type_line": "Land"
+  },
   "Restless Spire": {
     "cmc": 0.0,
     "color_identity": [
@@ -27924,6 +29670,26 @@
     "prices_usd_foil": "0.84",
     "type_line": "Instant"
   },
+  "Rewrite Regrets": {
+    "cmc": 4.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 23788,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{B}",
+    "oracle_text": "Return target creature or planeswalker card with mana value 6 or less from your graveyard to the battlefield.\nEmpower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[\u22121]: Surveil 1\" and \"[\u22123]: Draw a card.\")",
+    "prices_usd": "0.33",
+    "prices_usd_foil": "1.26",
+    "type_line": "Sorcery"
+  },
   "Reyav, Master Smith": {
     "cmc": 2.0,
     "color_identity": [
@@ -28029,6 +29795,26 @@
     "prices_usd_foil": "2.85",
     "type_line": "Instant"
   },
+  "Ripples of Undeath": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 534,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{B}",
+    "oracle_text": "At the beginning of your first main phase, mill three cards. Then you may pay {1} and 3 life. If you do, put a card from among those cards into your hand.",
+    "prices_usd": "8.10",
+    "prices_usd_foil": "8.57",
+    "type_line": "Enchantment"
+  },
   "Rise of the Dark Realms": {
     "cmc": 9.0,
     "color_identity": [
@@ -28045,6 +29831,23 @@
     "prices_usd": "5.96",
     "prices_usd_foil": "7.46",
     "type_line": "Sorcery"
+  },
+  "Rise of the Deathbringer": {
+    "cmc": 5.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 27074,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{4}{B}",
+    "oracle_text": "Choose one \u2014\n\u2022 Draw cards equal to the greatest power among creatures you control. You lose life equal to the number of cards drawn this way.\n\u2022 All creatures get -3/-3 until end of turn.",
+    "prices_usd": "0.49",
+    "prices_usd_foil": "1.87",
+    "type_line": "Instant"
   },
   "Rise of the Dread Marn": {
     "cmc": 3.0,
@@ -28267,6 +30070,19 @@
     "prices_usd": "2.26",
     "prices_usd_foil": "3.12",
     "type_line": "Enchantment"
+  },
+  "Room of Refuge": {
+    "cmc": 0.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 30585,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "This land enters tapped. As it enters, choose a color.\n{T}: Add one mana of the chosen color.\n{5}, {T}, Sacrifice this land: Put two +1/+1 counters on target creature. Activate only as a sorcery.",
+    "prices_usd": "0.37",
+    "prices_usd_foil": "0.80",
+    "type_line": "Land"
   },
   "Rootborn Defenses": {
     "cmc": 3.0,
@@ -28555,20 +30371,17 @@
     "colors": [
       "U"
     ],
-    "edhrec_rank": 31055,
-    "fetched_at": "2026-09-24",
+    "edhrec_rank": 29725,
+    "fetched_at": "2026-09-30",
     "keywords": [
       "Flying",
       "Prowess"
     ],
-    "legal_commander": "not_legal",
+    "legal_commander": "legal",
     "mana_cost": "{4}{U}{U}",
     "oracle_text": "Flying\nProwess, prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn twice.)\nWhenever Ruric Thar becomes the target of a spell or ability an opponent controls, draw a card.",
-    "prices_usd": null,
-    "prices_usd_foil": null,
-    "released_at": "2026-10-02",
-    "scryfall_uri": "https://scryfall.com/card/fra/219/ruric-thar-biomagus?utm_source=api",
-    "set": "fra",
+    "prices_usd": "0.30",
+    "prices_usd_foil": "0.37",
     "type_line": "Legendary Creature \u2014 Ogre Crab Wizard"
   },
   "Rush of Dread": {
@@ -28881,6 +30694,40 @@
     "prices_usd": "0.25",
     "prices_usd_foil": "0.71",
     "type_line": "Instant"
+  },
+  "Samut, Tyrant of Naktamun": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 15861,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}",
+    "oracle_text": "Instant and sorcery spells you control have split second. (As long as a spell with split second is on the stack, players can't cast spells or activate abilities that aren't mana abilities.)",
+    "prices_usd": "18.09",
+    "prices_usd_foil": "29.06",
+    "type_line": "Legendary Creature \u2014 Human Wizard"
+  },
+  "Sanctum Lurker": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 17292,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}",
+    "oracle_text": "When this creature enters, empower Jace 1.\nPlaneswalkers you control aren't put into their owners' graveyards for having 0 loyalty.\nPlaneswalkers you control have \"[+2]: This planeswalker deals 1 damage to each opponent and you gain 1 life.\"",
+    "prices_usd": "2.42",
+    "prices_usd_foil": "3.26",
+    "type_line": "Creature \u2014 Horror"
   },
   "Sanctum Weaver": {
     "cmc": 2.0,
@@ -29280,6 +31127,26 @@
     "prices_usd": "2.91",
     "type_line": "Artifact Creature \u2014 Construct"
   },
+  "Screeching Soulbreaker": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 30127,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}",
+    "oracle_text": "Flying\nWhenever this creature attacks, it deals 1 damage to each opponent and you gain 1 life.",
+    "prices_usd": "0.45",
+    "prices_usd_foil": "0.49",
+    "type_line": "Creature \u2014 Siren Bard"
+  },
   "Scroll of the Masters": {
     "cmc": 2.0,
     "color_identity": [],
@@ -29412,6 +31279,23 @@
     "prices_usd_foil": "0.97",
     "type_line": "Enchantment"
   },
+  "Seasoned Cryomancer": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 28162,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}{U}",
+    "oracle_text": "When this creature enters, draw two cards, then discard two cards. When you discard one or more nonland cards this way, tap up to that many target creatures and put a stun counter on each of them.\n{3}{U}{U}, Exile this card from your graveyard: Draw two cards.",
+    "prices_usd": "8.76",
+    "prices_usd_foil": "13.12",
+    "type_line": "Creature \u2014 Human Wizard"
+  },
   "Seat of the Synod": {
     "cmc": 0.0,
     "color_identity": [
@@ -29500,6 +31384,23 @@
     "prices_usd": "2.47",
     "prices_usd_foil": "3.28",
     "type_line": "Land \u2014 Cave"
+  },
+  "Secrets of the Dead": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 3730,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "Whenever you cast a spell from your graveyard, draw a card.",
+    "prices_usd": "0.45",
+    "prices_usd_foil": null,
+    "type_line": "Enchantment"
   },
   "Sedgemoor Witch": {
     "cmc": 3.0,
@@ -29757,6 +31658,22 @@
     "prices_usd_foil": "36.43",
     "type_line": "Legendary Creature \u2014 Human Avatar Soldier // Legendary Creature \u2014 Angel Nightmare Avatar"
   },
+  "Sequestered Stash": {
+    "cmc": 0.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 10210,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "{T}: Add {C}.\n{4}, {T}, Sacrifice this land: Mill five cards. Then you may put an artifact card from your graveyard on top of your library.",
+    "prices_usd": "0.17",
+    "prices_usd_foil": "1.04",
+    "type_line": "Land"
+  },
   "Serpent's Pass": {
     "cmc": 0.0,
     "color_identity": [
@@ -29998,15 +31915,16 @@
     "colors": [
       "U"
     ],
-    "edhrec_rank": 1245,
-    "fetched_at": "2026-08-22",
+    "edhrec_rank": 1247,
+    "fetched_at": "2026-09-30",
     "keywords": [
       "Cycling"
     ],
     "legal_commander": "legal",
     "mana_cost": "{5}{U}",
     "oracle_text": "Whenever you cast a noncreature spell, create an X/X blue Shark creature token with flying, where X is that spell's mana value.\nCycling {X}{1}{U} ({X}{1}{U}, Discard this card: Draw a card.)\nWhen you cycle this card, create an X/X blue Shark creature token with flying.",
-    "prices_usd": "1.62",
+    "prices_usd": "1.55",
+    "prices_usd_foil": null,
     "type_line": "Enchantment"
   },
   "Sharlayan, Nation of Scholars": {
@@ -30206,6 +32124,22 @@
     "oracle_text": "Enchant creature\nEnchanted creature gets +2/+2 and is goaded. (It attacks each combat if able and attacks a player other than you if able.)\nWhenever enchanted creature attacks, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
     "prices_usd": "0.20",
     "type_line": "Enchantment \u2014 Aura"
+  },
+  "Shipwreck Marsh": {
+    "cmc": 0.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 230,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "This land enters tapped unless you control two or more other lands.\n{T}: Add {U} or {B}.",
+    "prices_usd": "2.45",
+    "prices_usd_foil": "3.48",
+    "type_line": "Land"
   },
   "Shire Terrace": {
     "cmc": 0.0,
@@ -30481,6 +32415,23 @@
     "prices_usd": 10.22,
     "type_line": "Instant"
   },
+  "Silence the Echo": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 31490,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{B}",
+    "oracle_text": "As an additional cost to cast this spell, sacrifice a creature or planeswalker or pay {3}.\nDestroy target creature or planeswalker.",
+    "prices_usd": "0.35",
+    "prices_usd_foil": "0.35",
+    "type_line": "Sorcery"
+  },
   "Silent Clearing": {
     "cmc": 0.0,
     "color_identity": [
@@ -30667,6 +32618,28 @@
     "oracle_text": "Each player chooses a creature or planeswalker they control, then sacrifices the rest. Players can't cast creature or planeswalker spells until the end of your next turn.",
     "prices_usd": "0.45",
     "prices_usd_foil": "2.04",
+    "type_line": "Sorcery"
+  },
+  "Singularity Rupture": {
+    "cmc": 6.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [
+      "B",
+      "U"
+    ],
+    "edhrec_rank": 2304,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{U}{B}{B}",
+    "oracle_text": "Destroy all creatures, then any number of target players each mill half their library, rounded down.",
+    "prices_usd": "2.16",
+    "prices_usd_foil": "1.97",
     "type_line": "Sorcery"
   },
   "Sink into Stupor // Soporific Springs": {
@@ -31168,16 +33141,12 @@
     "color_identity": [],
     "colors": [],
     "edhrec_rank": 1,
-    "fetched_at": "2026-08-06",
-    "keywords": [],
+    "fetched_at": "2026-09-30",
     "legal_commander": "legal",
     "mana_cost": "{1}",
     "oracle_text": "{T}: Add {C}{C}.",
-    "prices_usd": "1.40",
+    "prices_usd": "1.54",
     "prices_usd_foil": null,
-    "released_at": "2026-06-26",
-    "scryfall_uri": "https://scryfall.com/card/msc/211/sol-ring?utm_source=api",
-    "set": "msc",
     "type_line": "Artifact"
   },
   "Solar Blaze": {
@@ -31252,6 +33221,26 @@
     "prices_usd": "24.01",
     "prices_usd_foil": "29.37",
     "type_line": "Legendary Creature \u2014 Phyrexian Horror"
+  },
+  "Solve for Disappointment": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 29182,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{B}",
+    "oracle_text": "Target opponent reveals their hand. You choose a nonland permanent card from it. That player discards that card.\nEmpower Jace 1. (Put a loyalty counter on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[\u22121]: Surveil 1\" and \"[\u22123]: Draw a card.\")",
+    "prices_usd": "0.39",
+    "prices_usd_foil": "0.35",
+    "type_line": "Sorcery"
   },
   "Solve the Equation": {
     "cmc": 3.0,
@@ -31697,6 +33686,44 @@
     "oracle_text": "Creatures can't attack you or planeswalkers you control unless their controller pays {X} for each of those creatures, where X is the number of enchantments you control.",
     "prices_usd": "4.94",
     "type_line": "Enchantment"
+  },
+  "Sphinx of False Conclusions": {
+    "cmc": 4.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 20062,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying",
+      "Flash"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}{U}",
+    "oracle_text": "Flash\nFlying\nWhenever this creature attacks, draw a card, then discard a card.\nWhen this creature dies, if it isn't a token, create a token that's a copy of it.",
+    "prices_usd": "1.07",
+    "prices_usd_foil": "3.01",
+    "type_line": "Creature \u2014 Sphinx Illusion"
+  },
+  "Sphinx's Approach": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 23109,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}{U}",
+    "oracle_text": "Draw two cards. Then you may exile this spell and four cards named Sphinx's Approach from your graveyard. If you do, search your library for a Sphinx creature card, put it onto the battlefield, then shuffle.\nA deck can have any number of cards named Sphinx's Approach.",
+    "prices_usd": "2.05",
+    "prices_usd_foil": "2.70",
+    "type_line": "Instant"
   },
   "Spider-Ham, Peter Porker": {
     "cmc": 2.0,
@@ -32292,6 +34319,26 @@
     "oracle_text": "Return target creature card from your graveyard to your hand.\nThreshold \u2014 Return that card from your graveyard to the battlefield instead if there are seven or more cards in your graveyard.",
     "prices_usd": "1.65",
     "type_line": "Sorcery"
+  },
+  "Stitcher's Supplier": {
+    "cmc": 1.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 618,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{B}",
+    "oracle_text": "When this creature enters or dies, mill three cards. (Put the top three cards of your library into your graveyard.)",
+    "prices_usd": "0.37",
+    "prices_usd_foil": null,
+    "type_line": "Creature \u2014 Zombie"
   },
   "Stock Up": {
     "cmc": 3.0,
@@ -33123,13 +35170,13 @@
       "U"
     ],
     "colors": [],
-    "edhrec_rank": 995,
-    "fetched_at": "2026-08-22",
+    "edhrec_rank": 954,
+    "fetched_at": "2026-09-30",
     "legal_commander": "legal",
-    "mana_cost": null,
+    "mana_cost": "",
     "oracle_text": "{T}: Add {C}.\n{U/B}, {T}: Add {U}{U}, {U}{B}, or {B}{B}.",
-    "prices_usd": "7.84",
-    "prices_usd_foil": "12.87",
+    "prices_usd": "3.19",
+    "prices_usd_foil": null,
     "type_line": "Land"
   },
   "Sunlit Marsh": {
@@ -33343,6 +35390,29 @@
     "prices_usd_foil": "0.25",
     "type_line": "Sorcery"
   },
+  "Surveillance Phantasm": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 30418,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying",
+      "Surveil",
+      "Vigilance",
+      "Defender"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}",
+    "oracle_text": "Defender, flying, vigilance\nAs long as you've scried or surveilled this turn, this creature can attack as though it didn't have defender.\n{3}{U}: Surveil 1. (Look at the top card of your library. You may put it into your graveyard.)",
+    "prices_usd": "0.23",
+    "prices_usd_foil": "0.41",
+    "type_line": "Creature \u2014 Bird Illusion"
+  },
   "Suspended Sentence": {
     "cmc": 4.0,
     "color_identity": [
@@ -33415,6 +35485,21 @@
     "prices_usd": "0.23",
     "prices_usd_foil": "0.35",
     "type_line": "Creature \u2014 Vampire Soldier"
+  },
+  "Swamp": {
+    "cmc": 0.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [],
+    "edhrec_rank": null,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "({T}: Add {B}.)",
+    "prices_usd": "0.45",
+    "prices_usd_foil": null,
+    "type_line": "Basic Land \u2014 Swamp"
   },
   "Swan Song": {
     "cmc": 1.0,
@@ -33775,6 +35860,23 @@
     "set": "fin",
     "type_line": "Instant"
   },
+  "Synthetic Destiny": {
+    "cmc": 6.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 12600,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{4}{U}{U}",
+    "oracle_text": "Exile all creatures you control. At the beginning of the next end step, reveal cards from the top of your library until you reveal that many creature cards, put all creature cards revealed this way onto the battlefield, then shuffle the rest of the revealed cards into your library.",
+    "prices_usd": "0.57",
+    "prices_usd_foil": null,
+    "type_line": "Instant"
+  },
   "Syphon Mind": {
     "cmc": 4.0,
     "color_identity": [
@@ -33948,6 +36050,22 @@
     "prices_usd": "0.39",
     "type_line": "Land"
   },
+  "Tainted Isle": {
+    "cmc": 0.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 520,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. Activate only if you control a Swamp.",
+    "prices_usd": "1.99",
+    "prices_usd_foil": null,
+    "type_line": "Land"
+  },
   "Tainted Peak": {
     "cmc": 0.0,
     "color_identity": [
@@ -34071,12 +36189,13 @@
       "U"
     ],
     "colors": [],
-    "edhrec_rank": 92,
-    "fetched_at": "2026-08-22",
+    "edhrec_rank": 93,
+    "fetched_at": "2026-09-30",
     "legal_commander": "legal",
     "mana_cost": "{2}",
     "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. This artifact deals 1 damage to you.",
-    "prices_usd": "1.05",
+    "prices_usd": "0.72",
+    "prices_usd_foil": null,
     "type_line": "Artifact"
   },
   "Talisman of Hierarchy": {
@@ -34749,6 +36868,23 @@
     "prices_usd_foil": "18.40",
     "type_line": "Legendary Creature \u2014 God // Legendary Artifact"
   },
+  "Terminal Criticism": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 31892,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{1}{B}",
+    "oracle_text": "Destroy target creature or planeswalker that's blue or red. You gain 1 life.",
+    "prices_usd": "0.35",
+    "prices_usd_foil": "0.51",
+    "type_line": "Instant"
+  },
   "Terminate": {
     "cmc": 2.0,
     "color_identity": [
@@ -34830,14 +36966,34 @@
     "colors": [
       "U"
     ],
-    "edhrec_rank": 1612,
-    "fetched_at": "2026-08-22",
+    "edhrec_rank": 1652,
+    "fetched_at": "2026-09-30",
     "legal_commander": "legal",
     "mana_cost": "{1}{U}",
     "oracle_text": "Creatures you control with power or toughness 1 or less can't be blocked.",
-    "prices_usd": "0.15",
-    "prices_usd_foil": "0.36",
+    "prices_usd": "0.79",
+    "prices_usd_foil": "1.20",
     "type_line": "Legendary Creature \u2014 Human Rogue"
+  },
+  "Teyo, Diamondblade Mage": {
+    "cmc": 4.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 31578,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flash"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{B}",
+    "oracle_text": "Flash\nWhen Teyo enters, target permanent you control gains deathtouch until end of turn. Put a +1/+1 counter on it if it's a creature. Put a loyalty counter on it if it's a planeswalker.",
+    "prices_usd": "0.30",
+    "prices_usd_foil": "0.49",
+    "type_line": "Legendary Creature \u2014 Human Warlock"
   },
   "Teyo, the Shieldmage": {
     "cmc": 3.0,
@@ -34893,6 +37049,29 @@
     "oracle_text": "Flash\nRoyal Guard \u2014 When Thancred Waters enters, another target legendary permanent you control gains indestructible for as long as you control Thancred Waters.\nWhenever you cast a noncreature spell, Thancred Waters gains indestructible until end of turn.",
     "prices_usd": "0.17",
     "type_line": "Legendary Creature \u2014 Human Warrior"
+  },
+  "The Ancient One": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [
+      "B",
+      "U"
+    ],
+    "edhrec_rank": 5797,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Descend",
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{U}{B}",
+    "oracle_text": "Descend 8 \u2014 The Ancient One can't attack or block unless there are eight or more permanent cards in your graveyard.\n{2}{U}{B}: Draw a card, then discard a card. When you discard a card this way, target player mills cards equal to its mana value.",
+    "prices_usd": "1.67",
+    "prices_usd_foil": "2.94",
+    "type_line": "Legendary Creature \u2014 Spirit God"
   },
   "The Belligerent": {
     "cmc": 4.0,
@@ -35039,6 +37218,19 @@
     "oracle_text": "Green spells you cast cost {1} less to cast.\nIf one or more +1/+1 counters would be put on a creature you control, twice that many +1/+1 counters are put on that creature instead.\n{4}{G}{G}, {T}: Distribute two +1/+1 counters among one or two target creatures you control.",
     "prices_usd": "11.02",
     "prices_usd_foil": "14.22",
+    "type_line": "Legendary Artifact"
+  },
+  "The Echoverse Fulcrum": {
+    "cmc": 2.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 25491,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{2}",
+    "oracle_text": "When The Echoverse Fulcrum enters, draw a card, then discard a card.\n{5}, {T}, Exile The Echoverse Fulcrum: Destroy all creatures. Activate only as a sorcery.",
+    "prices_usd": "4.99",
+    "prices_usd_foil": "6.63",
     "type_line": "Legendary Artifact"
   },
   "The Eternal Wanderer": {
@@ -35541,6 +37733,23 @@
     "prices_usd_foil": "145.67",
     "type_line": "Legendary Artifact \u2014 Infinity Stone"
   },
+  "The Theorist, Jace Beleren": {
+    "cmc": 4.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 10856,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}{U}",
+    "oracle_text": "At the beginning of each opponent's draw step, you draw a card.\n+1: Create a 1/1 blue Illusion creature token.\n\u22122: For each opponent, return up to one target artifact or creature that player controls to its owner's hand.\n\u22126: Draw three cards. Then put X +1/+1 counters on each creature you control, where X is the number of cards in your hand.",
+    "prices_usd": "32.70",
+    "prices_usd_foil": "41.07",
+    "type_line": "Legendary Planeswalker \u2014 Jace"
+  },
   "The Unbeatable Squirrel Girl": {
     "cmc": 4.0,
     "color_identity": [
@@ -35609,26 +37818,96 @@
     "set": "tla",
     "type_line": "Legendary Artifact Creature \u2014 Wall"
   },
+  "The Warring Triad": {
+    "cmc": 3.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 3230,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying",
+      "Haste",
+      "Trample",
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}",
+    "oracle_text": "Flying, trample, haste\nAs long as there are fewer than eight cards in your graveyard, The Warring Triad isn't a creature.\n{T}, Mill a card: Target player adds one mana of any color. (Activate only as an instant.)",
+    "prices_usd": "0.65",
+    "prices_usd_foil": null,
+    "type_line": "Legendary Artifact Creature \u2014 God"
+  },
+  "Theoretical Necromancer": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 31953,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}",
+    "oracle_text": "{3}{B}, Exile this card from your graveyard: Return another target creature card from your graveyard to your hand.",
+    "prices_usd": "0.82",
+    "prices_usd_foil": "0.25",
+    "type_line": "Creature \u2014 Vampire Warlock"
+  },
+  "Theorist's Proxy": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 23151,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil",
+      "Flash"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{U}",
+    "oracle_text": "Flash\nWhen this creature enters, empower Jace 3. (Put three loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[\u22121]: Surveil 1\" and \"[\u22123]: Draw a card.\")\n{U}, Sacrifice this creature: The next spell you cast this turn can't be countered.",
+    "prices_usd": "0.77",
+    "prices_usd_foil": "1.76",
+    "type_line": "Creature \u2014 Illusion"
+  },
   "Theorist's Sanctum": {
     "cmc": 0.0,
     "color_identity": [
       "U"
     ],
     "colors": [],
-    "edhrec_rank": 22860,
-    "fetched_at": "2026-09-24",
+    "edhrec_rank": 19784,
+    "fetched_at": "2026-09-30",
     "keywords": [
       "Behold"
     ],
-    "legal_commander": "not_legal",
+    "legal_commander": "legal",
     "mana_cost": "",
     "oracle_text": "({T}: Add {U}.)\nAs this land enters, you may behold a Jace. If you don't, this land enters tapped. (To behold a Jace, choose a Jace you control or reveal a Jace card from your hand.)\n{2}{U}, {T}: Empower Jace 2.",
-    "prices_usd": "4.42",
-    "prices_usd_foil": "3.86",
-    "released_at": "2026-10-02",
-    "scryfall_uri": "https://scryfall.com/card/fra/191/theorists-sanctum?utm_source=api",
-    "set": "fra",
+    "prices_usd": "1.31",
+    "prices_usd_foil": "2.74",
     "type_line": "Land \u2014 Island"
+  },
+  "Theorix Annex": {
+    "cmc": 0.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 25235,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "",
+    "oracle_text": "This land enters tapped unless you control a planeswalker.\n{T}: Add {U} or {B}.",
+    "prices_usd": "0.53",
+    "prices_usd_foil": "0.71",
+    "type_line": "Land"
   },
   "Theorix Charm": {
     "cmc": 2.0,
@@ -35640,20 +37919,59 @@
       "B",
       "U"
     ],
-    "edhrec_rank": 29681,
-    "fetched_at": "2026-09-24",
+    "edhrec_rank": 26654,
+    "fetched_at": "2026-09-30",
     "keywords": [
       "Mill"
     ],
-    "legal_commander": "not_legal",
+    "legal_commander": "legal",
     "mana_cost": "{U}{B}",
     "oracle_text": "Choose one \u2014\n\u2022 Counter target noncreature spell unless its controller pays {2}.\n\u2022 Target creature gets -2/-2 until end of turn.\n\u2022 Mill three cards, then draw a card. (To mill three cards, put the top three cards of your library into your graveyard.)",
-    "prices_usd": "1.41",
-    "prices_usd_foil": null,
-    "released_at": "2026-10-02",
-    "scryfall_uri": "https://scryfall.com/card/fra/155/theorix-charm?utm_source=api",
-    "set": "fra",
+    "prices_usd": "0.33",
+    "prices_usd_foil": "0.71",
     "type_line": "Instant"
+  },
+  "Theorix Metamage": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 30537,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Threshold",
+      "Prepared",
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U/B} // {U/B}",
+    "oracle_text": "Theorix Metamage: This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\nThreshold \u2014 This creature gets +1/+0 and has flying as long as there are seven or more cards in your graveyard.\n//\nOmit Variables: Mill three cards. (Put the top three cards of your library into your graveyard.)",
+    "prices_usd": "1.41",
+    "prices_usd_foil": "0.25",
+    "type_line": "Creature \u2014 Shade Wizard // Sorcery"
+  },
+  "Theorix Metamage // Omit Variables": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 30537,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Threshold",
+      "Prepared",
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U/B} // {U/B}",
+    "oracle_text": "Theorix Metamage: This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\nThreshold \u2014 This creature gets +1/+0 and has flying as long as there are seven or more cards in your graveyard.\n//\nOmit Variables: Mill three cards. (Put the top three cards of your library into your graveyard.)",
+    "prices_usd": "1.41",
+    "prices_usd_foil": "0.25",
+    "type_line": "Creature \u2014 Shade Wizard // Sorcery"
   },
   "Thief's Knife": {
     "cmc": 3.0,
@@ -36287,6 +38605,23 @@
     "prices_usd": "0.30",
     "type_line": "Creature \u2014 Human Pirate Wizard"
   },
+  "Tinybones, Pocket Nuisance": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 19038,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}",
+    "oracle_text": "When Tinybones enters, each opponent discards a card.\nWhenever a player discards one or more cards, Tinybones deals 1 damage to each opponent.",
+    "prices_usd": "0.35",
+    "prices_usd_foil": "1.63",
+    "type_line": "Legendary Creature \u2014 Skeleton Rogue"
+  },
   "Tireless Provisioner": {
     "cmc": 3.0,
     "color_identity": [
@@ -36749,6 +39084,44 @@
     "prices_usd_foil": "19.66",
     "type_line": "Creature \u2014 Bird"
   },
+  "Traxos, Academy Guardian": {
+    "cmc": 4.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 29631,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying",
+      "Prowess",
+      "Vigilance"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{U}",
+    "oracle_text": "This spell costs {2} less to cast if you've cast a noncreature spell this turn.\nFlying, vigilance\nProwess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)",
+    "prices_usd": "0.36",
+    "prices_usd_foil": "0.95",
+    "type_line": "Legendary Artifact Creature \u2014 Dragon Construct"
+  },
+  "Traxos, Scourge Eternal": {
+    "cmc": 4.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 29467,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Trample"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{4}",
+    "oracle_text": "Trample\nTraxos doesn't untap during your untap step.\nWhenever you cast an artifact or creature spell, untap Traxos.",
+    "prices_usd": "0.75",
+    "prices_usd_foil": "0.74",
+    "type_line": "Legendary Artifact Creature \u2014 Dragon Construct"
+  },
   "Treason of Isengard": {
     "cmc": 3.0,
     "color_identity": [
@@ -37010,17 +39383,13 @@
       "U"
     ],
     "colors": [],
-    "edhrec_rank": 21120,
-    "fetched_at": "2026-09-24",
-    "keywords": [],
-    "legal_commander": "not_legal",
+    "edhrec_rank": 16358,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
     "mana_cost": "",
     "oracle_text": "({T}: Add {U} or {B}.)\nThis land enters tapped unless your opponents control eight or more lands.",
-    "prices_usd": null,
+    "prices_usd": "5.33",
     "prices_usd_foil": null,
-    "released_at": "2026-10-02",
-    "scryfall_uri": "https://scryfall.com/card/frc/18/turbulent-wetlands?utm_source=api",
-    "set": "frc",
     "type_line": "Land \u2014 Island Swamp"
   },
   "Turbulent Wilderness": {
@@ -37252,6 +39621,28 @@
     "prices_usd_foil": "0.26",
     "type_line": "Legendary Creature \u2014 Orc Soldier"
   },
+  "Uldaros Theorix": {
+    "cmc": 6.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [
+      "B",
+      "U"
+    ],
+    "edhrec_rank": 19516,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{U}{B}{B}",
+    "oracle_text": "Flying\nWhen Uldaros Theorix enters, if you cast him, exile up to one target nonland card of each card type from your graveyard. Copy those cards. You may cast any number of spells with total mana value 6 or less from among the copies without paying their mana costs. (Permanent spells cast this way become tokens.)",
+    "prices_usd": "5.44",
+    "prices_usd_foil": "9.45",
+    "type_line": "Legendary Creature \u2014 Elder Sphinx"
+  },
   "Ultima Weapon": {
     "cmc": 7.0,
     "color_identity": [],
@@ -37285,6 +39676,56 @@
     "oracle_text": "Permanents you control gain indestructible until end of turn. If this spell was cast from exile, prevent all damage that would be dealt to you this turn.\nForetell {2}{W} (During your turn, you may pay {2} and exile this card from your hand face down. Cast it on a later turn for its foretell cost.)",
     "prices_usd": "0.41",
     "type_line": "Instant"
+  },
+  "Ultimecia, Time Sorceress": {
+    "cmc": 5.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [
+      "B",
+      "U"
+    ],
+    "edhrec_rank": 11075,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil",
+      "Transform",
+      "Menace",
+      "Time Compression"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{U}{B} // ",
+    "oracle_text": "Ultimecia, Time Sorceress: Whenever Ultimecia enters or attacks, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\nAt the beginning of your end step, you may pay {4}{U}{U}{B}{B} and exile eight cards from your graveyard. If you do, transform Ultimecia.\n//\nUltimecia, Omnipotent: Menace (This creature can't be blocked except by two or more creatures.)\nTime Compression \u2014 When this creature transforms into Ultimecia, Omnipotent, take an extra turn after this one.",
+    "prices_usd": "0.25",
+    "prices_usd_foil": "0.33",
+    "type_line": "Legendary Creature \u2014 Human Warlock // Legendary Creature \u2014 Nightmare Warlock"
+  },
+  "Ultimecia, Time Sorceress // Ultimecia, Omnipotent": {
+    "cmc": 5.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [
+      "B",
+      "U"
+    ],
+    "edhrec_rank": 11075,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil",
+      "Transform",
+      "Menace",
+      "Time Compression"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{U}{B} // ",
+    "oracle_text": "Ultimecia, Time Sorceress: Whenever Ultimecia enters or attacks, surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)\nAt the beginning of your end step, you may pay {4}{U}{U}{B}{B} and exile eight cards from your graveyard. If you do, transform Ultimecia.\n//\nUltimecia, Omnipotent: Menace (This creature can't be blocked except by two or more creatures.)\nTime Compression \u2014 When this creature transforms into Ultimecia, Omnipotent, take an extra turn after this one.",
+    "prices_usd": "0.25",
+    "prices_usd_foil": "0.33",
+    "type_line": "Legendary Creature \u2014 Human Warlock // Legendary Creature \u2014 Nightmare Warlock"
   },
   "Ultramarines Honour Guard": {
     "cmc": 4.0,
@@ -37436,12 +39877,13 @@
       "U"
     ],
     "colors": [],
-    "edhrec_rank": 149,
-    "fetched_at": "2026-08-22",
+    "edhrec_rank": 146,
+    "fetched_at": "2026-09-30",
     "legal_commander": "legal",
-    "mana_cost": null,
+    "mana_cost": "",
     "oracle_text": "{T}: Add {C}.\n{T}: Add {U} or {B}. This land deals 1 damage to you.",
-    "prices_usd": "2.37",
+    "prices_usd": "1.36",
+    "prices_usd_foil": null,
     "type_line": "Land"
   },
   "Undergrowth Stadium": {
@@ -37474,6 +39916,30 @@
     "oracle_text": "Each nonland card in your graveyard has escape. The escape cost is equal to the card's mana cost plus exile three other cards from your graveyard. (You may cast cards from your graveyard for their escape cost.)\nAt the beginning of the end step, sacrifice this enchantment.",
     "prices_usd": 11.16,
     "type_line": "Enchantment"
+  },
+  "Undulating Witness": {
+    "cmc": 5.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 32136,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying",
+      "Landcycling",
+      "Basic landcycling",
+      "Typecycling",
+      "Cycling"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{4}{U}",
+    "oracle_text": "Flying\n{2}: This creature gets +1/-1 until end of turn.\nBasic landcycling {2} ({2}, Discard this card: Search your library for a basic land card, reveal it, put it into your hand, then shuffle.)",
+    "prices_usd": "0.33",
+    "prices_usd_foil": "0.40",
+    "type_line": "Creature \u2014 Serpent"
   },
   "Unearth": {
     "cmc": 1.0,
@@ -37608,6 +40074,26 @@
     "prices_usd_foil": "0.19",
     "type_line": "Creature \u2014 Human Assassin"
   },
+  "Unstoppable Slasher": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 1553,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Deathtouch"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}",
+    "oracle_text": "Deathtouch\nWhenever this creature deals combat damage to a player, they lose half their life, rounded up.\nWhen this creature dies, if it had no counters on it, return it to the battlefield tapped under its owner's control with two stun counters on it.",
+    "prices_usd": "5.65",
+    "prices_usd_foil": "6.35",
+    "type_line": "Creature \u2014 Zombie Assassin"
+  },
   "Unsummon": {
     "cmc": 1.0,
     "color_identity": [
@@ -37616,12 +40102,13 @@
     "colors": [
       "U"
     ],
-    "edhrec_rank": 2953,
-    "fetched_at": "2026-08-22",
+    "edhrec_rank": 2947,
+    "fetched_at": "2026-09-30",
     "legal_commander": "legal",
     "mana_cost": "{U}",
     "oracle_text": "Return target creature to its owner's hand.",
-    "prices_usd": "0.25",
+    "prices_usd": "0.72",
+    "prices_usd_foil": "0.38",
     "type_line": "Instant"
   },
   "Unwelcome Sprite": {
@@ -37883,6 +40370,46 @@
     "scryfall_uri": "https://scryfall.com/card/lcc/316/vanquishers-banner?utm_source=api",
     "set": "lcc",
     "type_line": "Artifact"
+  },
+  "Variable Chaser": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 23190,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying",
+      "Prowess",
+      "Prepared"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U} // {2}{U}",
+    "oracle_text": "Variable Chaser: Flying, prowess\nThis creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\n//\nArc of Fortune: Each player may discard their hand and draw seven cards.",
+    "prices_usd": "0.57",
+    "prices_usd_foil": "3.56",
+    "type_line": "Creature \u2014 Human Wizard // Sorcery"
+  },
+  "Variable Chaser // Arc of Fortune": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 23190,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying",
+      "Prowess",
+      "Prepared"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U} // {2}{U}",
+    "oracle_text": "Variable Chaser: Flying, prowess\nThis creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\n//\nArc of Fortune: Each player may discard their hand and draw seven cards.",
+    "prices_usd": "0.57",
+    "prices_usd_foil": "3.56",
+    "type_line": "Creature \u2014 Human Wizard // Sorcery"
   },
   "Vault of Champions": {
     "cmc": 0.0,
@@ -38443,6 +40970,67 @@
     "set": null,
     "type_line": "Creature \u2014 Merfolk Knight"
   },
+  "Vohar, Vodalian Desecrator": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [
+      "B",
+      "U"
+    ],
+    "edhrec_rank": 3894,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{U}{B}",
+    "oracle_text": "{T}: Draw a card, then discard a card. If you discarded an instant or sorcery card this way, each opponent loses 1 life and you gain 1 life.\n{2}, Sacrifice Vohar: You may cast target instant or sorcery card from your graveyard this turn. If that spell would be put into your graveyard, exile it instead. Activate only as a sorcery.",
+    "prices_usd": "0.31",
+    "prices_usd_foil": "0.35",
+    "type_line": "Legendary Creature \u2014 Phyrexian Merfolk Wizard"
+  },
+  "Void Extrapolator": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 30707,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Threshold",
+      "Prepared",
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{B} // {U/B}",
+    "oracle_text": "Void Extrapolator: This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\nThreshold \u2014 This creature gets +1/+1 as long as there are seven or more cards in your graveyard.\n//\nOmit Variables: Mill three cards. (Put the top three cards of your library into your graveyard.)",
+    "prices_usd": "1.24",
+    "prices_usd_foil": "0.38",
+    "type_line": "Creature \u2014 Aetherborn Warlock // Sorcery"
+  },
+  "Void Extrapolator // Omit Variables": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B",
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 30707,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Threshold",
+      "Prepared",
+      "Mill"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{B} // {U/B}",
+    "oracle_text": "Void Extrapolator: This creature enters prepared. (While it's prepared, you may cast a copy of its spell. Doing so unprepares it.)\nThreshold \u2014 This creature gets +1/+1 as long as there are seven or more cards in your graveyard.\n//\nOmit Variables: Mill three cards. (Put the top three cards of your library into your graveyard.)",
+    "prices_usd": "1.24",
+    "prices_usd_foil": "0.38",
+    "type_line": "Creature \u2014 Aetherborn Warlock // Sorcery"
+  },
   "Void Rend": {
     "cmc": 3.0,
     "color_identity": [
@@ -38577,6 +41165,26 @@
     "oracle_text": "Enchant creature\nEnchanted creature gets +2/+2, has vigilance, and can't attack you or planeswalkers you control.",
     "prices_usd": "0.29",
     "type_line": "Enchantment \u2014 Aura"
+  },
+  "Vraska's Final Mercy": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 23575,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{B}{B}",
+    "oracle_text": "Choose one \u2014\n\u2022 You lose 2 life. Destroy target creature or planeswalker.\n\u2022 You lose 2 life. Empower Jace 6. (Put six loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[\u22121]: Surveil 1\" and \"[\u22123]: Draw a card.\")",
+    "prices_usd": "0.64",
+    "prices_usd_foil": "2.47",
+    "type_line": "Sorcery"
   },
   "Vren, the Relentless": {
     "cmc": 4.0,
@@ -38780,6 +41388,86 @@
     "prices_usd": "2.54",
     "prices_usd_foil": "1.00",
     "type_line": "Sorcery"
+  },
+  "Way of the Cryomancer": {
+    "cmc": 3.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 22407,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{U}",
+    "oracle_text": "When Way of the Cryomancer enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[\u22121]: Surveil 1\" and \"[\u22123]: Draw a card.\")\nPlaneswalkers you control have \"[\u22123]: When you next cast an instant or sorcery spell this turn, copy that spell. You may choose new targets for the copy.\"",
+    "prices_usd": "0.28",
+    "prices_usd_foil": "0.48",
+    "type_line": "Legendary Enchantment"
+  },
+  "Way of the Deathbringer": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 26022,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}",
+    "oracle_text": "When Way of the Deathbringer enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[\u22121]: Surveil 1\" and \"[\u22123]: Draw a card.\")\nPlaneswalkers you control have \"[\u22122]: You may sacrifice a creature. If you do, create a 4/4 green Beast creature token with trample.\"",
+    "prices_usd": "0.72",
+    "prices_usd_foil": "0.67",
+    "type_line": "Legendary Enchantment"
+  },
+  "Way of the Mind Sculptor": {
+    "cmc": 5.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 21567,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{4}{U}",
+    "oracle_text": "When Way of the Mind Sculptor enters, empower Jace 5. (Put five loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[\u22121]: Surveil 1\" and \"[\u22123]: Draw a card.\")\nWhenever you activate a loyalty ability, if you removed two or more loyalty counters to activate it, draw a card.",
+    "prices_usd": "0.41",
+    "prices_usd_foil": "0.70",
+    "type_line": "Legendary Enchantment"
+  },
+  "Way of the Necromancer": {
+    "cmc": 2.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 20505,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{B}",
+    "oracle_text": "When Way of the Necromancer enters, empower Jace 2. (Put two loyalty counters on a Jace token you control. If you don't control one, first create a blue Jace planeswalker token with \"[\u22121]: Surveil 1\" and \"[\u22123]: Draw a card.\")\nWhenever a creature you control dies, put a loyalty counter on each planeswalker you control.",
+    "prices_usd": "0.37",
+    "prices_usd_foil": "4.01",
+    "type_line": "Legendary Enchantment"
   },
   "Wayfarer's Bauble": {
     "cmc": 1.0,
@@ -39332,6 +42020,23 @@
     "prices_usd": "8.79",
     "type_line": "Artifact \u2014 Equipment"
   },
+  "Winter, Tormented Loner": {
+    "cmc": 3.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 27424,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{2}{B}",
+    "oracle_text": "When Winter enters, you may sacrifice a creature or planeswalker. When you do, each opponent sacrifices a creature of their choice.\nWinter gets +1/+0 for each creature and planeswalker card in your graveyard.",
+    "prices_usd": "0.28",
+    "prices_usd_foil": "0.60",
+    "type_line": "Legendary Creature \u2014 Human Warlock"
+  },
   "Wishclaw Talisman": {
     "cmc": 2.0,
     "color_identity": [
@@ -39477,6 +42182,26 @@
     "scryfall_uri": "https://scryfall.com/card/khc/14/wolverine-riders?utm_source=api",
     "set": "khc",
     "type_line": "Creature \u2014 Elf Warrior"
+  },
+  "Wonder": {
+    "cmc": 4.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 830,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{U}",
+    "oracle_text": "Flying\nAs long as this card is in your graveyard and you control an Island, creatures you control have flying.",
+    "prices_usd": "3.57",
+    "prices_usd_foil": null,
+    "type_line": "Creature \u2014 Incarnation"
   },
   "Woodland Cemetery": {
     "cmc": 0.0,
@@ -39711,6 +42436,40 @@
     "prices_usd": "0.37",
     "type_line": "Legendary Creature \u2014 Aetherborn Vampire"
   },
+  "Yargle, Glutton of Urborg": {
+    "cmc": 5.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 6621,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{4}{B}",
+    "oracle_text": "",
+    "prices_usd": "0.56",
+    "prices_usd_foil": "0.33",
+    "type_line": "Legendary Creature \u2014 Frog Spirit"
+  },
+  "Yargle, Goliath of Otaria": {
+    "cmc": 5.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 31547,
+    "fetched_at": "2026-09-30",
+    "legal_commander": "legal",
+    "mana_cost": "{4}{U}",
+    "oracle_text": "",
+    "prices_usd": "0.38",
+    "prices_usd_foil": "0.35",
+    "type_line": "Legendary Creature \u2014 Frog Spirit"
+  },
   "Yavimaya Enchantress": {
     "cmc": 3.0,
     "color_identity": [
@@ -39934,6 +42693,27 @@
     "prices_usd_foil": "5.24",
     "type_line": "Legendary Creature \u2014 Human Cleric"
   },
+  "Yuriko, Hope from the Shadows": {
+    "cmc": 1.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [
+      "U"
+    ],
+    "edhrec_rank": 26871,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Surveil",
+      "Flash"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{U}",
+    "oracle_text": "Flash\nWhen Yuriko enters, choose one \u2014\n\u2022 Target creature gets -X/-0 until end of turn, where X is the number of cards in your graveyard.\n\u2022 Surveil 2. (Look at the top two cards of your library, then put any number of them into your graveyard and the rest on top of your library in any order.)",
+    "prices_usd": "0.43",
+    "prices_usd_foil": "1.10",
+    "type_line": "Legendary Creature \u2014 Human Ninja"
+  },
   "Yuriko, the Tiger's Shadow": {
     "cmc": 3.0,
     "color_identity": [
@@ -40006,6 +42786,52 @@
     "prices_usd": "0.34",
     "prices_usd_foil": "0.58",
     "type_line": "Legendary Creature \u2014 Human Monk"
+  },
+  "Zenos yae Galvus": {
+    "cmc": 5.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 4811,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying",
+      "Transform",
+      "My First Friend",
+      "Burning Chains"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{B}{B} // ",
+    "oracle_text": "Zenos yae Galvus: My First Friend \u2014 When Zenos yae Galvus enters, choose a creature an opponent controls. Until end of turn, creatures other than Zenos yae Galvus and the chosen creature get -2/-2.\nWhen the chosen creature leaves the battlefield, transform Zenos yae Galvus.\n//\nShinryu, Transcendent Rival: Flying\nAs this creature transforms into Shinryu, choose an opponent.\nBurning Chains \u2014 When the chosen player loses the game, you win the game.",
+    "prices_usd": "0.53",
+    "prices_usd_foil": "0.67",
+    "type_line": "Legendary Creature \u2014 Human Noble Warrior // Legendary Creature \u2014 Dragon"
+  },
+  "Zenos yae Galvus // Shinryu, Transcendent Rival": {
+    "cmc": 5.0,
+    "color_identity": [
+      "B"
+    ],
+    "colors": [
+      "B"
+    ],
+    "edhrec_rank": 4811,
+    "fetched_at": "2026-09-30",
+    "keywords": [
+      "Flying",
+      "Transform",
+      "My First Friend",
+      "Burning Chains"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{3}{B}{B} // ",
+    "oracle_text": "Zenos yae Galvus: My First Friend \u2014 When Zenos yae Galvus enters, choose a creature an opponent controls. Until end of turn, creatures other than Zenos yae Galvus and the chosen creature get -2/-2.\nWhen the chosen creature leaves the battlefield, transform Zenos yae Galvus.\n//\nShinryu, Transcendent Rival: Flying\nAs this creature transforms into Shinryu, choose an opponent.\nBurning Chains \u2014 When the chosen player loses the game, you win the game.",
+    "prices_usd": "0.53",
+    "prices_usd_foil": "0.67",
+    "type_line": "Legendary Creature \u2014 Human Noble Warrior // Legendary Creature \u2014 Dragon"
   },
   "Zephyr Boots": {
     "cmc": 1.0,

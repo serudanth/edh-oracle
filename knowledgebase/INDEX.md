@@ -315,6 +315,15 @@ Deck: Blue Farm (Tymna & Kraum) (WUBR) — sans-green card advantage engine and 
 ### theorycrafting/winota/
 Deck: The Apex Rush — Winota, Joiner of Forces (WR) — ultra-optimized stax-aggro and infinite combat combo engine with 100% owned card parity across fowlplays's collection and active deck archive. Complete 100-card decklist, salvage pool breakdown, and Archidekt export.
 
+### theorycrafting/graha-tia/
+Deck: The Crystal Exarch — G'raha Tia (WUB) — Esper spellslinger, hero token tall/wide lifegain engine, and FFXIV lore highlights. Architectural blueprint.
+
+### theorycrafting/maralen/
+Deck: The Sylvan Heist — Maralen, Fae Ascendant (UBG) — Sultai Elf token swarm, continuous ETB exile theft engine, and Skemfar Shadowsage 40-life OTK. Complete 100-card decklist and Archidekt export.
+
+### theorycrafting/emet-selch/
+Deck: The Sorcerer of Eld — Emet-Selch, Unsundered // Hades, Sorcerer of Eld (UB) — Dimir graveyard velocity, reanimator, and FFXIV dual antagonist endgame featuring Zenos/Shinryu OTK and Reality Fracture upgrades. Complete 100-card decklist and Archidekt export.
+
 ---
 
 ## _cache/
