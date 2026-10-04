@@ -8,7 +8,7 @@ colors: [W, R]
 power_level:
 tags: []
 related: []
-last_updated: 2026-08-03
+last_updated: 2026-10-02
 source: https://archidekt.com/decks/16345273
 ---
 
@@ -52,7 +52,7 @@ source: https://archidekt.com/decks/16345273
 - 1x Thalia, Guardian of Thraben *(foil)*
 - 1x Witch Enchanter // Witch-Blessed Meadow
 
-### Instant (19)
+### Instant (18)
 - 1x Abrade *(foil)*
 - 1x Akroma's Will
 - 1x Boros Charm
@@ -67,28 +67,24 @@ source: https://archidekt.com/decks/16345273
 - 1x Path to Exile *(foil)*
 - 1x Raise the Alarm
 - 1x Restoration Magic
-- 1x Return the Favor
 - 1x Secure the Wastes
 - 1x Silence
 - 1x Swords to Plowshares
 - 1x Unbreakable Formation *(foil)*
 
-### Sorcery (4)
+### Sorcery (3)
 - 1x Blasphemous Act
 - 1x Hordeling Outburst
 - 1x Relentless Assault
-- 1x Requisition Raid
 
 ### Artifact (2)
 - 1x Lightning Greaves
 - 1x Sol Ring
 
-### Enchantment (9)
+### Enchantment (7)
 - 1x Deafening Silence
-- 1x Endless Foot Assault
 - 1x Goblin Assault
 - 1x High Noon
-- 1x Impact Tremors
 - 1x Kinbinding *(foil)*
 - 1x Reconnaissance
 - 1x Warleader's Call

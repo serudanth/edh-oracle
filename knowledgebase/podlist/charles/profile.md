@@ -19,20 +19,20 @@ last_updated: 2026-09-17
 | Designation | **Adaptive Combat-Engine Architect** |
 | Summary | A roaming planeswalker who builds each deck around a distinct engine, turning beasts, armies, graveyards, stolen power, and copied spells into pressure. Most battles are fought through combat and board development, but a few lists sharpen that broad arsenal into denial, explosive tempo, or a deterministic combat finish. |
 
-fowlplays has 13 eligible decks with a mean local Power Score of **5.7 / 10.0**, a median of **5.2** (★★★☆☆), and a range of **4.2–7.8** (brackets 1–3). Under the EDH Oracle Analyzer Engine, the portfolio primary piloting archetypes are **Midrange / Engine Value** (10 decks), **Spellslinger / Storm** (1 deck), **Big Mana / Landfall** (1 deck), and **Voltron / Equipment** (1 deck). Across the 13 decks, the portfolio holds 15 fast mana sources, 10 tutors, and 2 verified combo configurations (*The Rush* and *The Copied Factory*). Automated analysis records are stored in `knowledgebase/podlist/charles/analysis/`.
+fowlplays has **8 active decks in rotation** (with 5 legacy decks delisted into the [dismantled card pool](../inventory/dismantled-card-pool.md) as donor stock for upcoming builds) with a mean local Power Score of **7.3 / 10.0**, a median of **7.1** (★★★★☆), and a range of **5.8–9.4** (brackets 2–4). Under the EDH Oracle Analyzer Engine, the active portfolio primary piloting archetypes are **Spellslinger / Storm** (3 decks), **Midrange / Engine Value** (3 decks), **Cheat / Aggro Tempo** (1 deck), and **Aristocrats / Sacrifice** (1 deck). Across the 8 active decks, the portfolio holds 10 fast mana sources, 15 tutors, and 2 verified combo configurations (*The Rush* and *The Copied Factory*). Automated analysis records are stored in `knowledgebase/podlist/charles/analysis/`.
 
 fowlplays prefers distinct game plans over repeatedly tuning one shell. The decks are generally creature-, combat-, and value-oriented, with carefully built mana bases and a creative spread of strategies rather than a uniform power level.
 
 ## Color & Archetype Tendencies
-Color identity across 13 active decks:
+Color identity across 8 active rotation decks (excluding the 5 delisted legacy lists):
 
 | Color | Commander identities | Share |
 |---|---:|---:|
-| White | 6 | 46.2% |
-| Blue | 4 | 30.8% |
-| Black | 4 | 30.8% |
-| Red | 7 | 53.8% |
-| Green | 5 | 38.5% |
+| White | 4 | 50.0% |
+| Blue | 4 | 50.0% |
+| Black | 3 | 37.5% |
+| Red | 5 | 62.5% |
+| Green | 2 | 25.0% |
 | Colorless | 0 | 0% |
 
 - fowlplays builds broadly, but not randomly: each deck starts with a commander-specific engine and commits to a recognizable proactive plan. The portfolio favors creature combat, board development, and value over spell-heavy control, with The Queen of Theft and The Copied Factory as the main interactive exceptions.
@@ -54,7 +54,7 @@ Color identity across 13 active decks:
 - The strongest strategic pattern is a split ceiling: most decks sit near the pod midpoint, while The Rush reaches the upper tail through a low land count, Winota pressure, hatebears, extra combats, protection, and the complete Kiki-Jiki + Combat Celebrant infinite-combat route. The Copied Factory remains a highly consistent spell engine, but its Dualcaster Mage + Ghostly Flicker loop has no clearly documented payoff in the list, so its high setup and interaction scores do not become deterministic Win Conversion. The Queen of Theft is theft-first rather than pure mill: milling supplies the graveyards Tasha needs to access opposing cards, while stolen threats and Rise of the Dark Realms provide credible secondary closes. The deck-specific index matters more than the portfolio median when choosing a table matchup.
 
 ## Decks
-Full decklist archive: `knowledgebase/podlist/charles/decks/` (13 decks — see `INDEX.md` for individual entries).
+Full decklist archive: `knowledgebase/podlist/charles/decks/` (8 active decks in rotation, 5 legacy/delisted donor decks — see `INDEX.md` and [`dismantled-card-pool.md`](../inventory/dismantled-card-pool.md)).
 
 ## External Cross-References
 Original pass 2026-07-10 against EDHREC (direct fetch), Commander Spellbook (via WebSearch), and Scryfall (via WebSearch). Extended 2026-08-22 with direct API access for the new addition, following the mechanical-first-then-EDHREC methodology (read the commander's own oracle text and work out why a card fits before checking whether the crowd agrees — EDHREC's synergy score is a popularity aggregate across thousands of differently-goaled decks, not a verdict on fit for this specific 99). Figures are as returned by these sources at lookup time and may drift — see the j-py profile's Sunforger/Spellslinger example of exactly that happening between passes.

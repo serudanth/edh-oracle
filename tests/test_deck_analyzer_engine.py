@@ -76,13 +76,18 @@ class TestDeckAnalyzerEngine(unittest.TestCase):
         self.assertLessEqual(metrics["power_score"], 10.0)
 
     def test_write_analysis_to_kb(self):
-        deck_path = REPO_ROOT / "knowledgebase" / "podlist" / "fowlplays" / "decks" / "the-best-of-friends.md"
-        mock_data = {"deck_name": "The Best of Friends", "sources": []}
-        out_path = dae.write_analysis_to_kb(deck_path, mock_data)
-
-        self.assertTrue(out_path.exists())
-        self.assertEqual(out_path.parent.name, "analysis")
-        self.assertEqual(out_path.name, "the-best-of-friends.json")
+        with tempfile.TemporaryDirectory() as tmpdir:
+            deck_path = pathlib.Path(tmpdir) / "knowledgebase" / "podlist" / "charles" / "decks" / "the-best-of-friends.md"
+            mock_data = {"deck_name": "The Best of Friends", "sources": []}
+            orig_root = dae.REPO_ROOT
+            try:
+                dae.REPO_ROOT = pathlib.Path(tmpdir)
+                out_path = dae.write_analysis_to_kb(deck_path, mock_data)
+                self.assertTrue(out_path.exists())
+                self.assertEqual(out_path.parent.name, "analysis")
+                self.assertEqual(out_path.name, "the-best-of-friends.json")
+            finally:
+                dae.REPO_ROOT = orig_root
 
 
 if __name__ == "__main__":

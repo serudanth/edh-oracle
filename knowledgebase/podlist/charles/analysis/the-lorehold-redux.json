@@ -7,32 +7,34 @@
       "status": "success",
       "error": null,
       "metrics": {
-        "power_score": 5.0,
-        "bracket": 2,
+        "power_score": 7.3,
+        "bracket": 3,
         "combo_score": 1.7,
-        "interaction_score": 1.6,
-        "ramp_score": 3.8,
-        "consistency_score": 6.0,
-        "speed_score": 9.2,
+        "interaction_score": 3.2,
+        "ramp_score": 10.0,
+        "consistency_score": 10.0,
+        "speed_score": 8.1,
         "tutor_count": 1,
         "fast_mana_count": 1,
         "combo_count": 0
       },
       "source_metrics": {
         "piloting_archetype": "Midrange / Engine Value",
-        "average_cmc": "3.00",
-        "non_land_cards": 16,
-        "land_cards": 15
+        "average_cmc": "3.29",
+        "effective_average_cmc": null,
+        "x_spell_count": null,
+        "non_land_cards": 58,
+        "land_cards": 37
       },
       "text": {
-        "summary": "Midrange / Engine Value deck built around Quintorius, History Chaser. Average CMC: 3.00.",
+        "summary": "Midrange / Engine Value deck built around Quintorius, History Chaser. Average CMC: 3.29.",
         "explanations": [
           "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile."
         ],
         "strengths": [
           "Fast Mana acceleration: 1 source(s)",
           "Tutor density: 1 tutor(s)",
-          "Repeatable draw engines: 0"
+          "Repeatable draw engines: 6"
         ],
         "weaknesses": [
           "Sensitive to targeted disruption if key engines are neutralized."
@@ -47,11 +49,11 @@
       "raw_result": {
         "engine_version": "1.1.0",
         "sub_pillar_scores": {
-          "velocity": 92.5,
-          "engine": 60.0,
-          "interaction": 16.0,
-          "resource": 38.0,
-          "resilience": 54.0,
+          "velocity": 80.7,
+          "engine": 100.0,
+          "interaction": 32.0,
+          "resource": 100.0,
+          "resilience": 100.0,
           "closing": 17.0,
           "mana": 85.0
         }
@@ -60,7 +62,7 @@
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/22431119",
-    "analysis_time": "2026-09-17T05:21:37Z",
+    "analysis_time": "2026-10-04T15:34:06Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

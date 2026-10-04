@@ -18,19 +18,25 @@ Authoritative reference copy of **Charles's (`fowlplays`)** physical Magic: The 
 * **Total Entries:** 2,863 line items
 * **Total Physical Cards:** 4,049 cards (65 foils)
 * **Recorded Collection Value:** $3,428.51 USD
+* **Dismantled Decks Pool:** [`dismantled-card-pool.md`](dismantled-card-pool.md) (5 delisted decks, 502 total cards, 350 unique entries released for new builds)
 
 ---
 
 ## 1. Breakdown by Binder & Deck
 
-| Category / Binder | Unique Entries | Total Cards | Recorded Value (USD) |
-|---|---:|---:|---:|
-| **Bulk** | 2,330 | 3,464 | $1,851.16 |
-| **Binder** | 189 | 189 | $647.19 |
-| **The Armory** | 84 | 100 | $334.16 |
-| **The Rush** | 88 | 96 | $232.94 |
-| **The Koronation** | 90 | 100 | $219.78 |
-| **The Hamster Cannon** | 82 | 100 | $143.28 |
+| Category / Binder | Unique Entries | Total Cards | Recorded Value (USD) | Status |
+|---|---:|---:|---:|---|
+| **Bulk** | 2,330 | 3,464 | $1,851.16 | General loose stock |
+| **Binder** | 189 | 189 | $647.19 | Trade/staple binder |
+| **The Rush** | 88 | 96 | $232.94 | **Active Physical Deck** |
+| **The Koronation** | 90 | 100 | $219.78 | **Active Physical Deck** |
+| **The Hamster Cannon** | 82 | 100 | $143.28 | **Active Physical Deck** |
+| **The Armory** *(The Gate of Babylon)* | 84 | 100 | $334.16 | **Dismantled / Released** into [Dismantled Pool](dismantled-card-pool.md) |
+
+> [!NOTE]
+> **Active Rotation & Dismantled Decks (2026-10-04 Update):**
+> Charles moved 5 Commander decks from active rotation to the **Legacy** folder on Archidekt (*The Gate of Babylon*, *The Dirt Kicker*, *The Master Chef*, *The Best of Friends*, and *The Last Ride*). 
+> All 502 physical cards across these 5 lists (including *The Armory*'s 100 cards and 402 cards from the other 4 decks) have been cataloged in [`dismantled-card-pool.md`](dismantled-card-pool.md) as an immediately accessible donor pool for new deck theorycrafting and construction.
 
 ---
 

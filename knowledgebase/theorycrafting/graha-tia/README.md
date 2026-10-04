@@ -8,7 +8,7 @@ This directory serves as the centralized research archive and architectural work
 
 | File | Type | Description | Status |
 |---|---|---|:---:|
-| **[01-discussion-and-architecture.md](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/graha-tia/01-discussion-and-architecture.md)** | Architectural Blueprint | Comprehensive analysis of G'raha Tia: mechanical loopholes, 4 distinct deck variants (Flash Spellslinger, Scion's Armory Artifacts, Lifegain Arbitrage, Colorless Sweepers), card evaluations, and pod synergy. | Active |
+| **[01-discussion-and-architecture.md](file:///media/Hydaelyn/Azem/dev/edh-oracle/knowledgebase/theorycrafting/graha-tia/01-discussion-and-architecture.md)** | Architectural Blueprint | Comprehensive analysis of G'raha Tia: mechanical loopholes, 4 distinct deck variants (Flash Spellslinger, Scion's Armory Artifacts, Lifegain Arbitrage, Colorless Sweepers), card evaluations, and pod synergy. | Active |
 
 ---
 

@@ -7,25 +7,27 @@
       "status": "success",
       "error": null,
       "metrics": {
-        "power_score": 5.2,
-        "bracket": 2,
+        "power_score": 6.8,
+        "bracket": 3,
         "combo_score": 0.5,
-        "interaction_score": 1.6,
-        "ramp_score": 2.0,
+        "interaction_score": 5.6,
+        "ramp_score": 7.4,
         "consistency_score": 8.4,
-        "speed_score": 8.5,
+        "speed_score": 8.3,
         "tutor_count": 0,
         "fast_mana_count": 1,
         "combo_count": 0
       },
       "source_metrics": {
         "piloting_archetype": "Midrange / Engine Value",
-        "average_cmc": "3.13",
-        "non_land_cards": 23,
-        "land_cards": 12
+        "average_cmc": "3.23",
+        "effective_average_cmc": null,
+        "x_spell_count": 1,
+        "non_land_cards": 61,
+        "land_cards": 37
       },
       "text": {
-        "summary": "Midrange / Engine Value deck built around Ardbert, Warrior of Darkness. Average CMC: 3.13.",
+        "summary": "Midrange / Engine Value deck built around Ardbert, Warrior of Darkness. Average CMC: 3.23.",
         "explanations": [
           "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile."
         ],
@@ -47,11 +49,11 @@
       "raw_result": {
         "engine_version": "1.1.0",
         "sub_pillar_scores": {
-          "velocity": 85.0,
+          "velocity": 83.2,
           "engine": 84.0,
-          "interaction": 16.0,
-          "resource": 20.0,
-          "resilience": 82.0,
+          "interaction": 56.0,
+          "resource": 74.0,
+          "resilience": 100.0,
           "closing": 5.0,
           "mana": 85.0
         }
@@ -60,7 +62,7 @@
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/15771154",
-    "analysis_time": "2026-09-17T05:21:37Z",
+    "analysis_time": "2026-10-04T15:34:06Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

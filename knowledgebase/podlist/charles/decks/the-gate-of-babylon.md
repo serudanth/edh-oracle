@@ -6,7 +6,7 @@ handle: fowlplays
 commander: "Bruenor Battlehammer"
 colors: [W, R]
 power_level:
-tags: []
+tags: [delisted, legacy]
 related: []
 last_updated: 2026-05-12
 source: https://archidekt.com/decks/15909333
@@ -114,4 +114,6 @@ source: https://archidekt.com/decks/15909333
 ## Notes
 
 - Archidekt bracket: 2
+- **Status:** Delisted from active rotation (Archidekt folder: Legacy)
+- **Donor Pool:** Cards cataloged in [dismantled-card-pool.md](../inventory/dismantled-card-pool.md)
 - Imported from [Archidekt](https://archidekt.com/decks/15909333)

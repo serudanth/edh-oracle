@@ -6,7 +6,7 @@ handle: fowlplays
 commander: "Zenos yae Galvus // Shinryu, Transcendent Rival"
 colors: [B]
 power_level:
-tags: []
+tags: [delisted, legacy]
 related: []
 last_updated: 2026-05-12
 source: https://archidekt.com/decks/22513193
@@ -99,4 +99,6 @@ source: https://archidekt.com/decks/22513193
 ## Notes
 
 - Archidekt bracket: 3
+- **Status:** Delisted from active rotation (Archidekt folder: Legacy)
+- **Donor Pool:** Cards cataloged in [dismantled-card-pool.md](../inventory/dismantled-card-pool.md)
 - Imported from [Archidekt](https://archidekt.com/decks/22513193)

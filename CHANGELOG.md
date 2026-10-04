@@ -1,3 +1,17 @@
+## 2026-10-04 (archidekt sync, active rotation trim & dismantled card pool)
+
+- **[archidekt]** Synchronized Charles's (`fowlplays`) entire Archidekt profile via `tools/archidekt_extract.py`. Updated active rotation lists reflecting recent remote changes:
+  - *The Crystal Braves* (`the-crystal-braves.md`): ingested 15 additions (`Abandoned Air Temple`, `Adarkar Wastes`, `Authority of the Consuls`, `Azorius Chancery`, `Belladonna Took`, `Deserted Beach`, `Ephemerate`, `Geist of Saint Thalia`, `Gideon's Memorial`, `Make Your Move`, `Mirrorform`, `Octopus Form`, `Perfected Theory`, `Soul Warden`, `Unsummon`) and 12 removals.
+  - *The Hamster Catapult* (`the-hamster-catapult.md`): added `Gallia, the Merrymaker`, `Rockfall Vale`, `Wilderland Scrounger`; cut `Ghalta, Primal Hunger`, `Mawloc`, `Wooded Ridgeline`.
+  - *The Koronation* (`the-koronation.md`): added `Desolation of Smaug`, `Draconic Visitor`, `Vanquisher's Banner`; cut `Chaos Dragon`, `Sarkhan, Dragon Ascendant`, `Territorial Hellkite`.
+  - *The Rush* (`the-rush.md`): trimmed 4 cards (`Endless Foot Assault`, `Impact Tremors`, `Requisition Raid`, `Return the Favor`).
+  - *The Copied Factory* (`the-copied-factory.md`) and *The Queen of Theft* (`the-queen-of-theft.md`): refreshed timestamps/metadata.
+- **[portfolio]** Accounted for Charles's active rotation trim down to **8 active decks** (*The Copied Factory*, *The Crystal Braves*, *The Hamster Catapult*, *The Koronation*, *The Lorehold Redux*, *The Queen of Theft*, *The Rush*, *The Warrior of Darkness*).
+- **[legacy]** Formally delisted 5 decks moved to the Archidekt **Legacy** folder: *The Gate of Babylon*, *The Dirt Kicker*, *The Master Chef*, *The Best of Friends*, and *The Last Ride*. Enhanced `tools/archidekt_extract.py` and `tools/decklist_common.py` to auto-detect folder hierarchies, tag legacy lists with `[delisted, legacy]`, and annotate notes with donor pool cross-references.
+- **[inventory]** Compiled authoritative catalog `knowledgebase/podlist/charles/inventory/dismantled-card-pool.md` tracking all **502 physical cards (350 unique entries)** released from the 5 dismantled lists, complete with card types, color identities, quantities, market prices, and donor deck mappings. Updated `knowledgebase/podlist/charles/inventory/README.md` reflecting *The Armory*'s transition to dismantled inventory.
+- **[cache]** Ingested 220 missing card entries into `knowledgebase/_cache/scryfall-cards.json` via Scryfall batch collection API, ensuring full metadata coverage across the entire portfolio and newly released donor card pool.
+- **[kb]** Updated `knowledgebase/INDEX.md` and `knowledgebase/podlist/charles/profile.md` reflecting the 8-deck active rotation (Mean Power Score 7.3, Median 7.1) and indexing the dismantled card pool reference. Re-ran `tools/deck_analyzer_engine.py` across all decks.
+
 ## 2026-09-30 (emet-selch theorycraft, zenos donor salvage, ffxiv lore expansion & cache update)
 
 - **[theorycrafting]** Created *The Sorcerer of Eld* (Emet-Selch, Unsundered // Hades, Sorcerer of Eld) theorycrafting workspace (`knowledgebase/theorycrafting/emet-selch/`) with architectural review (`01-discussion-and-architecture.md`), complete 100-card decklist (`02-decklist.md`), workspace overview (`README.md`), and Archidekt 1-click import (`archidekt-export.txt`).
@@ -7,8 +21,17 @@
 - **[cache]** Refreshed and expanded `knowledgebase/_cache/scryfall-cards.json` by 163 cards (total 2,355 entries), adding missing deck cards and ingesting all Dimir and colorless cards from the newly released *Reality Fracture* (`fra`) and *Reality Fracture Commander* (`frc`) sets. Integrated standout FRA mechanics/pulls (`Liliana the Repentant`, `Countersculpt`, `Rewrite Regrets`) into the blueprint.
 - **[kb]** Updated `knowledgebase/INDEX.md` indexing `theorycrafting/emet-selch/`, `theorycrafting/maralen/`, and `theorycrafting/graha-tia/`.
 
-## 2026-09-24 (reality fracture pre-release metadata & cache ingestion)
+## 2026-09-25 (the apex rush zero-whiff & creature density overhaul)
 
+- **[theorycrafting]** Revamped *The Apex Rush* (Winota, Joiner of Forces) decklist (`02-decklist.md`), donor audit (`01-salvage-pool.md`), architecture notes (`README.md`), and Archidekt export (`archidekt-export.txt`):
+  - Completely dropped the equipment package (`Conqueror's Flail`, `Lightning Greaves`, `Skullclamp`, `Umezawa's Jitte`, `Cloud, Midgar Mercenary`) and non-creature spell bloat (`Raise the Alarm`, `Secure the Wastes`, `Hordeling Outburst`, `Warleader's Call`, `Relentless Assault`, `Requisition Raid`, etc.).
+  - Boosted creature density to **51 total creatures** (27 Humans including Witch Enchanter MDFC, 24 Non-Humans), dropping single-trigger whiff rate from 27.34% to **12.90%** (87.1% hit rate) and dual-trigger whiff rate to **1.66%**.
+  - Shifted board protection, disruption, and token production entirely onto creature bodies: `Selfless Spirit`, `Guardian of Faith`, `Bastion Protector`, `Sanctifier en-Vec`, `Remorseful Cleric`, `Tithe Taker`, `Dauntless Dismantler`, `Oltec Matterweaver`, `Silverwing Squadron`, `Michiko Konda, Truth Seeker`, `Soul Warden`, `Sami, Ship's Engineer` (replacing `Rionya, Fire Dancer` after playtesting confirmed insufficient instant/sorcery spell density), `Abdel Adrian, Gorion's Ward`, `Erkenbrand, Lord of Westfold`, `Momo, Friendly Flier`, `Momo, Playful Pet`, `Topplegeist`, `Senu, Keen-Eyed Protector`, `Grenzo, Havoc Raiser`, `Magda, Brazen Outlaw`, and `Drumbellower`.
+  - Added free convoke board protection with `Clever Concealment` (phases out team for 0 mana) and swapped `Spire of Industry` for `Sundown Pass` while retaining 100% owned card parity ($0.00 spend).
+- **[cache]** Ingested 2,056+ cards into `knowledgebase/_cache/scryfall-cards.json`, mapping the entirety of Charles's physical ManaBox collection and active deck pool.
+- **[kb]** Updated `knowledgebase/INDEX.md` indexing the zero-whiff creature density engine.
+
+## 2026-09-24 (reality fracture pre-release metadata & cache ingestion)
 
 - **[research]** Added comprehensive pre-release dossier `knowledgebase/research/2026-09-24-reality-fracture-prerelease-metadata.md` covering *Reality Fracture* (`fra`) and *Reality Fracture Commander* (`frc`) releasing for pre-release on Friday, September 25, 2026. Documented worldbuilding ("Echoverse"), new mechanics (`Prepare`/`Prepared`, `Empower Jace`, `Behold`, `Exhaust`), the 4-color non-green *Multiverse Reforged* commander precon led by Jace, Multiverse Architect, draft archetypes, and EDH evaluations.
 - **[theorycrafting]** Upgraded *The Sylvan Heist* (Maralen, Fae Ascendant) decklist (`knowledgebase/theorycrafting/maralen/02-decklist.md`), architecture notes, and Archidekt export with `Skullclamp` (salvaged from *The Best of Friends*) and `Wolverine Riders` (added to Scryfall cache at ~$12.63 market price), replacing `Harmonize` and `Chomping Changeling` to supercharge the upkeep token engine and Mirrormind Crown geometric doubling.

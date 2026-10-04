@@ -61,6 +61,23 @@ def mainboard_cards(deck: dict) -> list[dict]:
     return [c for c in deck["cards"] if is_mainboard(c)]
 
 
+FOLDER_CACHE = {}
+
+
+def get_folder_name(folder_id: int) -> str | None:
+    if folder_id in FOLDER_CACHE:
+        return FOLDER_CACHE[folder_id]
+    try:
+        url = f"https://archidekt.com/api/decks/folders/{folder_id}/"
+        data = fetch_json(url)
+        name = data.get("name")
+        FOLDER_CACHE[folder_id] = name
+        return name
+    except Exception:
+        FOLDER_CACHE[folder_id] = None
+        return None
+
+
 def extract_one(deck_id: str, source_url: str):
     deck = fetch_deck(deck_id)
     if deck.get("deckFormat") != 3:
@@ -88,6 +105,9 @@ def extract_one(deck_id: str, source_url: str):
         for c in others
     ]
 
+    folder_id = deck.get("parentFolder")
+    folder_name = get_folder_name(folder_id) if folder_id else None
+
     markdown = build_markdown(
         title=deck["name"],
         owner=deck["owner"]["username"],
@@ -98,6 +118,7 @@ def extract_one(deck_id: str, source_url: str):
         source_url=source_url,
         updated=deck["updatedAt"][:10],
         source_label="Archidekt",
+        folder=folder_name,
     )
     return write_decklist(deck["owner"]["username"], deck["name"], markdown)
 

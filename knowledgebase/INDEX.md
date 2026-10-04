@@ -12,16 +12,18 @@ Grouped by owner. `charles` (`fowlplays`) is the user's own; the rest are pod me
 ### Charles (`fowlplays`)
 
 ### podlist/charles/profile.md
-Profile: fowlplays (13 eligible decks) — **★★★☆☆ median threat, Adaptive Combat-Engine Architect**, a roaming planeswalker building distinct engines that turn beasts, armies, graveyards, stolen power, and copied spells into pressure, with The Rush's infinite-combat peak and Queen of Theft's theft-first control shell.
+Profile: fowlplays (8 active rotation decks, 5 legacy/delisted) — **★★★☆☆ median threat, Adaptive Combat-Engine Architect**, a roaming planeswalker building distinct engines that turn beasts, armies, graveyards, stolen power, and copied spells into pressure, with The Rush's infinite-combat peak and Queen of Theft's theft-first control shell.
 
 ### podlist/charles/persona.md
 Simulated persona: fowlplays — Adaptive Combat-Engine Architect. Johnny/Spike-curious psychology, trigger-sequencing precision, mulligan heuristics, deflection politics, and direct LLM simulation prompt.
 
 ### podlist/charles/inventory/README.md
-Inventory: fowlplays (4,049 physical cards, 2,863 line items) — Authoritative ManaBox collection export, categorized by Bulk, Binder, and 4 active physical decks.
+Inventory: fowlplays (4,049 physical cards, 2,863 line items) — Authoritative ManaBox collection export, categorized by Bulk, Binder, and active physical decks.
 
-### podlist/charles/decks/the-best-of-friends.md
-Commander: Zenos yae Galvus // Shinryu, Transcendent Rival (B)
+### podlist/charles/inventory/dismantled-card-pool.md
+Dismantled card pool: fowlplays (502 physical cards, 350 unique entries) — All cards released from the 5 delisted/dismantled decks (The Gate of Babylon, The Dirt Kicker, The Master Chef, The Best of Friends, The Last Ride) available as immediate donor stock for new builds.
+
+#### Active Rotation Decks (8)
 
 ### podlist/charles/decks/the-copied-factory.md
 Commander: Inalla, Archmage Ritualist (UBR) — wizard spellslinger/storm
@@ -29,26 +31,14 @@ Commander: Inalla, Archmage Ritualist (UBR) — wizard spellslinger/storm
 ### podlist/charles/decks/the-crystal-braves.md
 Commander: Alisaie Leveilleur, Alphinaud Leveilleur (WU) — knights/tempo token support
 
-### podlist/charles/decks/the-dirt-kicker.md
-Commander: Tifa Lockhart (G)
-
-### podlist/charles/decks/the-gate-of-babylon.md
-Commander: Bruenor Battlehammer (WR) — Voltron/equipment
-
 ### podlist/charles/decks/the-hamster-catapult.md
 Commander: Minsc & Boo, Timeless Heroes (RG)
 
 ### podlist/charles/decks/the-koronation.md
 Commander: Miirym, Sentinel Wyrm (URG) — dragons
 
-### podlist/charles/decks/the-last-ride.md
-Commander: Balthier and Fran (RG) — vehicles/extra combats
-
 ### podlist/charles/decks/the-lorehold-redux.md
 Commander: Quintorius, History Chaser (WR) — graveyard/self-mill
-
-### podlist/charles/decks/the-master-chef.md
-Commander: Master Chef, Lae'zel, Vlaakith's Champion (WG) — +1/+1 counters/tokens
 
 ### podlist/charles/decks/the-queen-of-theft.md
 Commander: Tasha, the Witch Queen (UB) — theft/mill
@@ -58,6 +48,23 @@ Commander: Winota, Joiner of Forces (WR) — aggro tokens
 
 ### podlist/charles/decks/the-warrior-of-darkness.md
 Commander: Ardbert, Warrior of Darkness (WB) — legends/+1+1 counters
+
+#### Legacy / Delisted Decks (5 — Dismantled Donor Pools)
+
+### podlist/charles/decks/the-best-of-friends.md
+Commander: Zenos yae Galvus // Shinryu, Transcendent Rival (B) — **retired/delisted**, moved to Legacy on Archidekt; cards released into dismantled card pool.
+
+### podlist/charles/decks/the-dirt-kicker.md
+Commander: Tifa Lockhart (G) — **retired/delisted**, moved to Legacy on Archidekt; cards released into dismantled card pool.
+
+### podlist/charles/decks/the-gate-of-babylon.md
+Commander: Bruenor Battlehammer (WR) — **retired/delisted**, moved to Legacy on Archidekt; cards released into dismantled card pool.
+
+### podlist/charles/decks/the-last-ride.md
+Commander: Balthier and Fran (RG) — **retired/delisted**, moved to Legacy on Archidekt; cards released into dismantled card pool.
+
+### podlist/charles/decks/the-master-chef.md
+Commander: Master Chef, Lae'zel, Vlaakith's Champion (WG) — **retired/delisted**, moved to Legacy on Archidekt; cards released into dismantled card pool.
 
 ### Julius (`j-py`)
 
@@ -313,7 +320,7 @@ Deck: The Cabbage Cartel — The Cabbage Merchant (G) — reactive Food generati
 Deck: Blue Farm (Tymna & Kraum) (WUBR) — sans-green card advantage engine and compact combo assembly built under the "proxy only copies of owned cards" rule. Architectural blueprint, two complete 100-card decklists (Zero-Cost $0.00 and Expanded Combo ~$14), and Archidekt export files.
 
 ### theorycrafting/winota/
-Deck: The Apex Rush — Winota, Joiner of Forces (WR) — ultra-optimized stax-aggro and infinite combat combo engine with 100% owned card parity across fowlplays's collection and active deck archive. Complete 100-card decklist, salvage pool breakdown, and Archidekt export.
+Deck: The Apex Rush — Winota, Joiner of Forces (WR) — ultra-optimized stax-aggro, zero-whiff 51-creature density engine, and dual infinite combat combos with 100% owned card parity across fowlplays's collection and active deck archive. Complete 100-card decklist, salvage pool breakdown, and Archidekt export.
 
 ### theorycrafting/graha-tia/
 Deck: The Crystal Exarch — G'raha Tia (WUB) — Esper spellslinger, hero token tall/wide lifegain engine, and FFXIV lore highlights. Architectural blueprint.

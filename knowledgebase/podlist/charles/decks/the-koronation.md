@@ -8,7 +8,7 @@ colors: [U, R, G]
 power_level:
 tags: []
 related: []
-last_updated: 2026-08-23
+last_updated: 2026-10-02
 source: https://archidekt.com/decks/15340360
 ---
 
@@ -16,10 +16,10 @@ source: https://archidekt.com/decks/15340360
 
 **Commander:** Miirym, Sentinel Wyrm
 
-### Creature (30)
+### Creature (28)
 - 1x Astral Dragon
-- 1x Chaos Dragon
 - 1x Deadeye Navigator *(foil)*
+- 1x Draconic Visitor
 - 1x Dragonhawk, Fate's Tempest
 - 1x Dragonlord's Servant
 - 1x Drakuseth, Maw of Flames
@@ -37,12 +37,10 @@ source: https://archidekt.com/decks/15340360
 - 1x Nova Hellkite *(foil)*
 - 1x Renari, Merchant of Marvels
 - 1x Ryusei, the Falling Star
-- 1x Sarkhan, Dragon Ascendant
 - 1x Skanos Dragonheart
 - 1x Solemn Simulacrum
 - 1x Steel Hellkite
 - 1x Summon: Bahamut *(foil)*
-- 1x Territorial Hellkite
 - 1x Thrakkus the Butcher
 - 1x Thunder Dragon
 - 1x Vengeful Ancestor
@@ -58,15 +56,16 @@ source: https://archidekt.com/decks/15340360
 - 1x Heritage Reclamation
 - 1x Run Away Together
 
-### Sorcery (6)
+### Sorcery (7)
 - 1x Cultivate
+- 1x Desolation of Smaug
 - 1x Farseek
 - 1x Kodama's Reach
 - 1x Many Partings
 - 1x Molten Exhale
 - 1x Nature's Rhythm
 
-### Artifact (10)
+### Artifact (11)
 - 1x Arcane Signet
 - 1x Carnelian Orb of Dragonkind
 - 1x Cursed Mirror
@@ -77,6 +76,7 @@ source: https://archidekt.com/decks/15340360
 - 1x Mox Jasper
 - 1x Relic of Legends
 - 1x Sol Ring
+- 1x Vanquisher's Banner
 
 ### Enchantment (9)
 - 1x Aggravated Assault

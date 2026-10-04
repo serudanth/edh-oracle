@@ -7,32 +7,34 @@
       "status": "success",
       "error": null,
       "metrics": {
-        "power_score": 4.2,
-        "bracket": 1,
-        "combo_score": 0.5,
-        "interaction_score": 1.6,
-        "ramp_score": 2.0,
-        "consistency_score": 7.2,
-        "speed_score": 8.6,
-        "tutor_count": 0,
+        "power_score": 6.5,
+        "bracket": 2,
+        "combo_score": 1.7,
+        "interaction_score": 2.4,
+        "ramp_score": 10.0,
+        "consistency_score": 10.0,
+        "speed_score": 9.2,
+        "tutor_count": 1,
         "fast_mana_count": 1,
         "combo_count": 0
       },
       "source_metrics": {
         "piloting_archetype": "Midrange / Engine Value",
-        "average_cmc": "3.31",
-        "non_land_cards": 16,
-        "land_cards": 8
+        "average_cmc": "3.02",
+        "effective_average_cmc": null,
+        "x_spell_count": 1,
+        "non_land_cards": 61,
+        "land_cards": 37
       },
       "text": {
-        "summary": "Midrange / Engine Value deck built around Balthier and Fran. Average CMC: 3.31.",
+        "summary": "Midrange / Engine Value deck built around Balthier and Fran. Average CMC: 3.02.",
         "explanations": [
           "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile."
         ],
         "strengths": [
           "Fast Mana acceleration: 1 source(s)",
-          "Tutor density: 0 tutor(s)",
-          "Repeatable draw engines: 1"
+          "Tutor density: 1 tutor(s)",
+          "Repeatable draw engines: 5"
         ],
         "weaknesses": [
           "Sensitive to targeted disruption if key engines are neutralized."
@@ -47,12 +49,12 @@
       "raw_result": {
         "engine_version": "1.1.0",
         "sub_pillar_scores": {
-          "velocity": 85.6,
-          "engine": 72.0,
-          "interaction": 16.0,
-          "resource": 20.0,
-          "resilience": 0.0,
-          "closing": 5.0,
+          "velocity": 91.6,
+          "engine": 100.0,
+          "interaction": 24.0,
+          "resource": 100.0,
+          "resilience": 12.0,
+          "closing": 17.0,
           "mana": 85.0
         }
       }
@@ -60,7 +62,7 @@
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/16316501",
-    "analysis_time": "2026-09-17T05:21:37Z",
+    "analysis_time": "2026-10-04T15:34:06Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

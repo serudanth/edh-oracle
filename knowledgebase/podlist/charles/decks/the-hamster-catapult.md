@@ -8,7 +8,7 @@ colors: [R, G]
 power_level:
 tags: []
 related: []
-last_updated: 2026-09-10
+last_updated: 2026-10-02
 source: https://archidekt.com/decks/15733915
 ---
 
@@ -25,15 +25,14 @@ source: https://archidekt.com/decks/15733915
 - 1x Duskshell Crawler
 - 1x Exocrine
 - 1x Frenzied Baloth
+- 1x Gallia, the Merrymaker
 - 1x Gangly Stompling
-- 1x Ghalta, Primal Hunger
 - 1x Giant Ankheg
 - 1x Halana and Alena, Partners
 - 1x Iridescent Hornbeetle
 - 1x Leatherhead, Iron Gator
 - 1x Llanowar Elves
 - 1x Loyal Guardian
-- 1x Mawloc
 - 1x Michelangelo, the Heart
 - 1x Mowu, Loyal Companion
 - 1x Nyxbloom Ancient
@@ -47,6 +46,7 @@ source: https://archidekt.com/decks/15733915
 - 1x Spider Manifestation
 - 1x Tifa Lockhart
 - 1x Wandertale Mentor
+- 1x Wilderland Scrounger
 - 1x Wilson, Refined Grizzly
 - 1x Wose Pathfinder
 
@@ -103,12 +103,12 @@ source: https://archidekt.com/decks/15733915
 - 1x Kessig Wolf Run
 - 1x Mossfire Valley
 - 10x Mountain
+- 1x Rockfall Vale
 - 1x Rootbound Crag
 - 1x Rugged Highlands *(foil)*
 - 1x Spire Garden
 - 1x Temple of Abandon
 - 1x Thriving Grove
-- 1x Wooded Ridgeline
 - 1x Zanarkand, Ancient Metropolis // Lasting Fayth
 
 ## Notes

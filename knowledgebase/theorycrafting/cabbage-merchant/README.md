@@ -8,7 +8,7 @@ This directory serves as the centralized workspace for theorycrafting, mechanica
 
 | File | Type | Description | Status |
 |---|---|---|:---:|
-| **[01-discussion-and-architecture.md](file:///media/Zodiark/Atelier/dev/edh-oracle/knowledgebase/theorycrafting/cabbage-merchant/01-discussion-and-architecture.md)** | Architectural Blueprint | Comprehensive analysis of The Cabbage Merchant: mechanical engine, combat defense, mana acceleration, win paths, and pod fit. | Active |
+| **[01-discussion-and-architecture.md](file:///media/Hydaelyn/Azem/dev/edh-oracle/knowledgebase/theorycrafting/cabbage-merchant/01-discussion-and-architecture.md)** | Architectural Blueprint | Comprehensive analysis of The Cabbage Merchant: mechanical engine, combat defense, mana acceleration, win paths, and pod fit. | Active |
 
 ---
 

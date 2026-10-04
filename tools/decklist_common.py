@@ -53,7 +53,7 @@ def resolve_handle(username_or_alias: str) -> str:
 
 
 def build_markdown(
-    *, title, owner, commander_names, colors, cards, bracket, source_url, updated, source_label,
+    *, title, owner, commander_names, colors, cards, bracket, source_url, updated, source_label, folder=None,
 ) -> str:
     """cards: list of {"name", "qty", "type", "foil"} dicts, commanders excluded."""
     canonical_owner = resolve_owner(owner)
@@ -66,6 +66,10 @@ def build_markdown(
 
     commander_str = ", ".join(commander_names)
 
+    tags = []
+    if folder and folder.lower() == "legacy":
+        tags = ["delisted", "legacy"]
+
     fm = [
         "---",
         "type: decklist",
@@ -75,11 +79,12 @@ def build_markdown(
     if owner.lower().strip() != canonical_owner:
         fm.append(f"handle: {owner}")
 
+    tags_str = ", ".join(tags) if tags else ""
     fm.extend([
         f'commander: "{commander_str}"',
         f"colors: [{', '.join(colors)}]",
         "power_level:",
-        "tags: []",
+        f"tags: [{tags_str}]",
         "related: []",
         f"last_updated: {updated}",
         f"source: {source_url}",
@@ -100,6 +105,9 @@ def build_markdown(
     body.append("")
     if bracket is not None:
         body.append(f"- {source_label} bracket: {bracket}")
+    if folder and folder.lower() == "legacy":
+        body.append("- **Status:** Delisted from active rotation (Archidekt folder: Legacy)")
+        body.append("- **Donor Pool:** Cards cataloged in [dismantled-card-pool.md](../inventory/dismantled-card-pool.md)")
     body.append(f"- Imported from [{source_label}]({source_url})")
     body.append("")
 
