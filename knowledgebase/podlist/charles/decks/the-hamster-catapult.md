@@ -16,8 +16,9 @@ source: https://archidekt.com/decks/15733915
 
 **Commander:** Minsc & Boo, Timeless Heroes
 
-### Creature (32)
+### Creature (33)
 - 1x Atalan Jackal
+- 1x Birds of Paradise
 - 1x Broodguard Elite
 - 1x Bugenhagen, Wise Elder
 - 1x Casey Jones, Back Alley Brute
@@ -53,10 +54,11 @@ source: https://archidekt.com/decks/15733915
 ### Planeswalker (1)
 - 1x Samut, Tyrant Smasher
 
-### Instant (7)
+### Instant (8)
 - 1x Abrade
 - 1x Back to Nature
 - 1x Fling
+- 1x Gaea's Gift
 - 1x Heroic Intervention
 - 1x Laughing Mad
 - 1x Return the Favor
@@ -89,7 +91,7 @@ source: https://archidekt.com/decks/15733915
 ### Enchantment (1)
 - 1x Death's Presence
 
-### Land (38)
+### Land (36)
 - 1x Bonders' Enclave
 - 1x Cave of Temptation
 - 1x Cinder Glade
@@ -105,10 +107,8 @@ source: https://archidekt.com/decks/15733915
 - 10x Mountain
 - 1x Rockfall Vale
 - 1x Rootbound Crag
-- 1x Rugged Highlands *(foil)*
 - 1x Spire Garden
 - 1x Temple of Abandon
-- 1x Thriving Grove
 - 1x Zanarkand, Ancient Metropolis // Lasting Fayth
 
 ## Notes
