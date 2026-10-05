@@ -7,16 +7,29 @@
       "status": "success",
       "error": null,
       "metrics": {
-        "power_score": 7.8,
-        "bracket": 3,
-        "combo_score": 5.4,
-        "interaction_score": 6.4,
+        "power_score": 8.8,
+        "bracket": 4,
+        "combo_score": 10.0,
+        "interaction_score": 10.0,
         "ramp_score": 10.0,
         "consistency_score": 6.0,
         "speed_score": 10.0,
         "tutor_count": 2,
         "fast_mana_count": 2,
-        "combo_count": 1
+        "combo_count": 1,
+        "game_changers_count": 1,
+        "game_changers": [
+          "Drannith Magistrate"
+        ],
+        "stax_count": 6,
+        "stax_pieces": [
+          "Archon of Emeria",
+          "Aven Mindcensor",
+          "Deafening Silence",
+          "Drannith Magistrate",
+          "Eidolon of Rhetoric",
+          "Spirit of the Labyrinth"
+        ]
       },
       "source_metrics": {
         "piloting_archetype": "Cheat / Aggro Tempo",
@@ -32,6 +45,8 @@
           "Identified Piloting Archetype as 'Cheat / Aggro Tempo'; applied adaptive strategic weighting profile."
         ],
         "strengths": [
+          "Game Changers: 1 (Drannith Magistrate)",
+          "Stax / Lock pieces: 6 (Archon of Emeria, Aven Mindcensor, Deafening Silence, Drannith Magistrate, Eidolon of Rhetoric, Spirit of the Labyrinth)",
           "Fast Mana acceleration: 2 source(s)",
           "Tutor density: 2 tutor(s)",
           "Repeatable draw engines: 0"
@@ -49,14 +64,14 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.1.0",
+        "engine_version": "1.2.0",
         "sub_pillar_scores": {
           "velocity": 100.0,
           "engine": 60.0,
-          "interaction": 64.0,
+          "interaction": 100.0,
           "resource": 100.0,
           "resilience": 100.0,
-          "closing": 54.0,
+          "closing": 100.0,
           "mana": 85.0
         }
       }
@@ -64,7 +79,7 @@
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/16345273",
-    "analysis_time": "2026-10-04T15:34:06Z",
+    "analysis_time": "2026-10-05T02:17:30Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

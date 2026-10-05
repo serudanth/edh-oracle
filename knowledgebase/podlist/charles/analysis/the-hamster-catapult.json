@@ -16,7 +16,11 @@
         "speed_score": 8.6,
         "tutor_count": 1,
         "fast_mana_count": 1,
-        "combo_count": 0
+        "combo_count": 0,
+        "game_changers_count": 0,
+        "game_changers": [],
+        "stax_count": 0,
+        "stax_pieces": []
       },
       "source_metrics": {
         "piloting_archetype": "Aristocrats / Sacrifice",
@@ -32,6 +36,7 @@
           "Identified Piloting Archetype as 'Aristocrats / Sacrifice'; applied adaptive strategic weighting profile."
         ],
         "strengths": [
+          "Game Changers: 0 (None)",
           "Fast Mana acceleration: 1 source(s)",
           "Tutor density: 1 tutor(s)",
           "Repeatable draw engines: 1"
@@ -47,7 +52,7 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.1.0",
+        "engine_version": "1.2.0",
         "sub_pillar_scores": {
           "velocity": 85.7,
           "engine": 72.0,
@@ -62,7 +67,7 @@
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/15733915",
-    "analysis_time": "2026-10-04T15:34:06Z",
+    "analysis_time": "2026-10-05T02:17:30Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

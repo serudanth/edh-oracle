@@ -2,13 +2,13 @@
 type: decklist
 title: "Sephiroth Pain is Love"
 owner: lance
-handle: lto888
+handle: LTO888
 commander: "Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel"
 colors: [B]
 power_level:
 tags: []
 related: []
-last_updated: 2026-08-24
+last_updated: 2026-09-30
 source: https://archidekt.com/decks/13966160
 ---
 
@@ -68,7 +68,7 @@ source: https://archidekt.com/decks/13966160
 ### Planeswalker (1)
 - 1x Liliana, Dreadhorde General
 
-### Instant (13)
+### Instant (14)
 - 1x Culling the Weak
 - 1x Dark Ritual
 - 1x Deadly Dispute
@@ -76,6 +76,7 @@ source: https://archidekt.com/decks/13966160
 - 1x Entomb
 - 1x Fell the Profane // Fell Mire
 - 1x Flare of Malice
+- 1x Malakir Rebirth // Malakir Mire
 - 1x Not Dead After All
 - 1x Overkill
 - 1x Sheoldred's Edict
@@ -83,7 +84,8 @@ source: https://archidekt.com/decks/13966160
 - 1x Vampiric Tutor
 - 1x Withering Torment
 
-### Sorcery (10)
+### Sorcery (11)
+- 1x Agadeem's Awakening // Agadeem, the Undercrypt
 - 1x Demonic Tutor
 - 1x Diabolic Intent
 - 1x Exsanguinate
@@ -125,7 +127,7 @@ source: https://archidekt.com/decks/13966160
 - 1x Sanguine Bond
 - 1x The Meathook Massacre
 
-### Land (34)
+### Land (32)
 - 1x Bojuka Bog
 - 1x Cabal Coffers
 - 1x Cabal Stronghold
@@ -138,8 +140,9 @@ source: https://archidekt.com/decks/13966160
 - 1x Rogue's Passage
 - 1x Spymaster's Vault
 - 1x Susur Secundi, Void Altar
-- 20x Swamp
+- 17x Swamp
 - 1x Takenuma, Abandoned Mire
+- 1x Urborg, Tomb of Yawgmoth
 - 1x Witch's Cottage
 
 ## Notes

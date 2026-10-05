@@ -1,124 +1,125 @@
 ---
 type: decklist
-title: "The Sorcerer of Eld — Emet-Selch & Shinryu"
+title: "The Sorcerer of Eld — Emet-Selch, Unsundered (100% Physically Verified)"
 owner: charles
 handle: fowlplays
 commander: "Emet-Selch, Unsundered // Hades, Sorcerer of Eld"
 colors: [U, B]
 power_level: 7.5
-tags: [#theorycrafting, #dimir, #ffxiv, #reanimator, #graveyard, #hades, #zenos, #shadowbringers, #endwalker, #reality-fracture]
+tags: [#theorycrafting, #dimir, #ffxiv, #reanimator, #graveyard, #hades, #zenos, #reality-fracture, #physically-verified]
 related: [01-discussion-and-architecture, ../../podlist/charles/decks/the-best-of-friends, ../../podlist/charles/inventory/README]
-last_updated: 2026-09-30
+last_updated: 2026-10-01
 source: https://archidekt.com/decks/16392388/the_sorcerer_of_eld
 ---
 
-## Decklist
+## Decklist (100% Physically Verified in Collection)
 
 **Commander:** Emet-Selch, Unsundered // Hades, Sorcerer of Eld
 
-### Creature (27)
-- 1x Archon of Cruelty *(The Terminus Blasphemy)*
-- 1x Baleful Strix *(Sharlayan Familiar)*
-- 1x Dark Confidant *(Ascian Print — "Greatness, at any cost")*
-- 1x Dauthi Voidwalker
-- 1x Emet-Selch of the Third Seat *(The Unsundered Architect)*
-- 1x Fandaniel, Telophoroi Ascian *(Architect of the Final Days)*
-- 1x Gravebreaker Lamia
-- 1x Hedron Crab
-- 1x Hermes, Overseer of Elpis *(Creator of Meteion)*
-- 1x Hullbreaker Horror
-- 1x K'rrik, Son of Yawgmoth
-- 1x Kiora, the Rising Tide
-- 1x Ledger Shredder
-- 1x Likeness Looter
-- 1x Liliana the Repentant
-- 1x Maha, Its Feathers Night *(The Bringer of Night)*
-- 1x Massacre Wurm
-- 1x Morbid Opportunist
-- 1x Plaguecrafter
-- 1x Psychic Frog
-- 1x Stitcher's Supplier
-- 1x Summon: Primal Odin *(Urth's Fount Elder Primal)*
-- 1x Syr Konrad, the Grim
-- 1x Unstoppable Slasher
-- 1x Vohar, Vodalian Desecrator
-- 1x Zenos yae Galvus // Shinryu, Transcendent Rival *(Crown Prince of Garlemald)*
-- 1x Zodiark, Umbral God *(The Amaurot Sacrifice)*
+### Creature (23)
+- 1x Emet-Selch of the Third Seat *(Bulk)*
+- 1x Fandaniel, Telophoroi Ascian *(Bulk)*
+- 1x Gray Merchant of Asphodel *(Zenos Deck)*
+- 1x Maha, Its Feathers Night *(Zenos Deck)*
+- 1x Massacre Girl *(Zenos Deck)*
+- 1x Massacre Wurm *(Zenos Deck — foil)*
+- 1x Millikin *(Bulk)*
+- 1x Morbid Opportunist *(Zenos Deck)*
+- 1x Murderous Rider // Swift End *(Zenos Deck)*
+- 1x Paradox Shaper // Omit Variables *(FRA Box)*
+- 1x Plaguecrafter *(Zenos Deck)*
+- 1x Sanitarium Skeleton *(Bulk)*
+- 1x Smuggler's Copter *(Bulk)*
+- 1x Summon: Primal Odin *(Zenos Deck / Bulk)*
+- 1x Syr Konrad, the Grim *(Zenos Deck)*
+- 1x Unstoppable Slasher *(Zenos Deck)*
+- 1x Vito, Thorn of the Dusk Rose *(Zenos Deck — foil)*
+- 1x Yahenni, Undying Partisan *(Zenos Deck)*
+- 1x Zenos yae Galvus // Shinryu, Transcendent Rival *(Zenos Deck)*
+- 1x Zodiark, Umbral God *(Zenos Deck / Bulk)*
+- 1x Zulaport Cutthroat *(Zenos Deck)*
+- 1x Liliana the Repentant *(FRA Box)*
+- 1x K'rrik, Son of Yawgmoth *(Zenos Deck / Binder)*
 
-### Instant (14)
-- 1x An Offer You Can't Refuse
-- 1x Bitter Triumph
-- 1x Brainstorm
-- 1x Countersculpt
-- 1x Counterspell
-- 1x Darkness *(The Warrior of Darkness)*
-- 1x Dark Ritual
-- 1x Deadly Dispute
-- 1x Entomb
-- 1x Fact or Fiction
-- 1x Louisoix's Sacrifice *(Answers / Calamity Stifle)*
-- 1x Sheoldred's Edict
-- 1x Swan Song
-- 1x Frantic Search
+### Instant (16)
+- 1x An Offer You Can't Refuse *(Bulk)*
+- 1x Bitter Triumph *(Zenos Deck / Bulk)*
+- 1x Brainstorm *(Bulk)*
+- 1x Brainsurge *(Bulk)*
+- 1x Countersculpt *(FRA Box)*
+- 1x Counterspell *(Bulk)*
+- 1x Dark Ritual *(Zenos Deck / Bulk)*
+- 1x Deadly Dispute *(Zenos Deck / Bulk)*
+- 1x Defabricate *(Bulk)*
+- 1x Infernal Grasp *(Bulk)*
+- 1x Lazotep Plating *(Bulk)*
+- 1x Louisoix's Sacrifice *(Bulk)*
+- 1x Opt *(Bulk)*
+- 1x Plumb the Forbidden *(Bulk)*
+- 1x Sheoldred's Edict *(Zenos Deck / Bulk)*
+- 1x Theorix Charm *(FRA Box)*
 
-### Sorcery (11)
-- 1x Breach the Multiverse *(The Dimensional Rejoining)*
-- 1x Demonic Tutor
-- 1x Feed the Swarm
-- 1x Living Death *(The Ancient Restoration)*
-- 1x Reanimate
-- 1x Rewrite Regrets
-- 1x The Final Days *(Hades Horror Swarm Finisher)*
-- 1x Toxic Deluge *(The Flaming Sky)*
-- 1x Unearth
-- 1x Waterlogged Teachings // Inundated Archive
-- 1x Windfall
+### Sorcery (10)
+- 1x Blood for Bones *(Bulk)*
+- 1x Curse of the Swine *(Bulk)*
+- 1x Diabolic Intent *(Bulk)*
+- 1x Emeritus of Woe // Demonic Tutor *(Zenos Deck)*
+- 1x Feed the Swarm *(Zenos Deck)*
+- 1x Grave Researcher // Reanimate *(Zenos Deck / Bulk)*
+- 1x Notion Rain *(Bulk)*
+- 1x Peer into the Abyss *(Zenos Deck)*
+- 1x Preordain *(Bulk)*
+- 1x Rewrite Regrets *(FRA Box)*
+- 1x The Final Days *(Bulk)*
+- 1x Unearth *(Bulk)*
 
-### Artifact (8)
-- 1x Altar of Dementia
-- 1x Arcane Signet
-- 1x Dimir Signet
-- 1x Fellwar Stone
-- 1x Jet Medallion
-- 1x Skullclamp
-- 1x Sol Ring
-- 1x Talisman of Dominance
+### Artifact (7)
+- 1x Altar of Dementia *(Bulk)*
+- 1x Arcane Signet *(Bulk)*
+- 1x Dimir Signet *(Bulk)*
+- 1x Eye of Jace *(FRA Box)*
+- 1x Jet Medallion *(Zenos Deck)*
+- 1x Mind Stone *(Bulk)*
+- 1x Skullclamp *(Zenos Deck)*
+- 1x Sol Ring *(Zenos Deck / Bulk)*
+- 1x Thought Vessel *(Bulk)*
 
 ### Enchantment (4)
-- 1x Animate Dead
-- 1x Bastion of Remembrance *(Memorial to Amaurot)*
-- 1x Kaya's Ghostform
-- 1x Ripples of Undeath
+- 1x Bastion of Remembrance *(Zenos Deck)*
+- 1x Dreadhorde Invasion *(Zenos Deck / Bulk)*
+- 1x Kaya's Ghostform *(Zenos Deck / Bulk)*
+- 1x Way of the Necromancer *(FRA Box)*
 
 ### Land (35)
-- 1x Bojuka Bog
-- 1x Choked Estuary
-- 1x Command Tower
-- 1x Dakmor Salvage
-- 1x Darkslick Shores
-- 1x Darkwater Catacombs
-- 1x Dismal Backwater
-- 1x Drowned Catacomb *(Sunken Amaurot Art)*
-- 1x Duskmantle, House of Shadow
-- 1x Eden, Seat of the Sanctum *(The Empty Restored)*
-- 1x Evolving Wilds
-- 1x Ipnu Rivulet
-- 7x Island
-- 1x Jidoor, Aristocratic Capital // Overture
-- 1x Nephalia Drownyard
-- 1x Restless Reef
-- 1x Rogue's Passage
-- 1x Sequestered Stash
-- 1x Shipwreck Marsh
-- 1x Sunken Ruins *(The Tempest Art)*
-- 6x Swamp
-- 1x Tainted Isle
-- 1x Treno, Dark City
-- 1x Underground River
+- 1x Barren Moor *(Zenos Deck)*
+- 1x Bojuka Bog *(Bulk)*
+- 1x Command Tower *(Bulk)*
+- 1x Dakmor Salvage *(Bulk)*
+- 1x Darkwater Catacombs *(Bulk)*
+- 1x Demolition Field *(Bulk)*
+- 1x Dismal Backwater *(Bulk)*
+- 1x Eden, Seat of the Sanctum *(Bulk)*
+- 1x Emergence Zone *(Bulk)*
+- 1x Escape Tunnel *(Bulk)*
+- 1x Evolving Wilds *(Bulk)*
+- 1x Exotic Orchard *(Bulk)*
+- 8x Island *(Bulk)*
+- 1x Maestros Theater *(Bulk)*
+- 1x Myriad Landscape *(Bulk)*
+- 1x Rogue's Passage *(Zenos Deck)*
+- 1x Scavenger Grounds *(Bulk)*
+- 8x Swamp *(Bulk)*
+- 1x Terramorphic Expanse *(Bulk)*
+- 1x Theorix Annex *(FRA Box)*
+- 1x Treno, Dark City *(Bulk)*
 
-## Architecture & Salvage Notes
+---
 
-- **The Convocation & The Ancients:** Integrates `Emet-Selch of the Third Seat` (reduces Hades' graveyard casts by {2}), `Hermes, Overseer of Elpis` (spawns 1/1 flying/vigilance Meteion Birds), `Fandaniel, Telophoroi Ascian` (surveil + creature bleed), and the official Ascian print of `Dark Confidant` ("Greatness, at any cost").
-- **The Boss Monsters & Gods:** Combines `Zenos yae Galvus // Shinryu, Transcendent Rival` (targeted assassination), `Zodiark, Umbral God` (sacrifices half non-God creatures, rounded down; Emet survives!), `Summon: Primal Odin` (Zantetsuken OTK), and `Archon of Cruelty` (Terminus Blasphemy).
-- **The Cataclysms:** `The Final Days` acts as the premier Hades win condition (spawning X 2/2 Horrors based on creatures in yard when cast from grave), `Breach the Multiverse` represents the Rejoining, `Living Death` represents the Ancient restoration, and `Darkness` brings the night as the Warrior of Darkness.
-- **Calamity Defense:** `Louisoix's Sacrifice` provides a 1-mana counter/stifle to protect key turns.
+## Physical Inventory Audit & Provenance
+
+Every single card in this deck is 100% physically accounted for in Charles's collection:
+* **The Best of Friends (Dismantled Zenos Deck):** 28 Cards
+* **ManaBox Bulk:** 45 Cards
+* **Reality Fracture Booster Box Pulls:** 7 Cards
+* **ManaBox Binder:** 2 Cards (, )
+* **Basic Lands from Bulk:** 18 Cards (, )

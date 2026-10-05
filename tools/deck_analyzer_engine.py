@@ -30,6 +30,34 @@ FAST_MANA_CARDS = {
     "Elvish Spirit Guide", "Simian Spirit Guide", "Jeweled Lotus"
 }
 
+# Official Commander Format Panel (CFP / WotC) 53 Game Changers
+GAME_CHANGERS = {
+    "Ad Nauseam", "Ancient Tomb", "Aura Shards", "Biorhythm", "Bolas's Citadel",
+    "Braids, Cabal Minion", "Chrome Mox", "Coalition Victory", "Consecrated Sphinx",
+    "Crop Rotation", "Cyclonic Rift", "Demonic Tutor", "Drannith Magistrate",
+    "Enlightened Tutor", "Farewell", "Field of the Dead", "Fierce Guardianship",
+    "Force of Will", "Gaea's Cradle", "Gamble", "Gifts Ungiven", "Glacial Chasm",
+    "Grand Arbiter Augustin IV", "Grim Monolith", "Humility", "Imperial Seal",
+    "Intuition", "Jeska's Will", "Lion's Eye Diamond", "Mana Vault",
+    "Mishra's Workshop", "Mox Diamond", "Mystical Tutor", "Narset, Parter of Veils",
+    "Natural Order", "Necropotence", "Notion Thief", "Opposition Agent",
+    "Orcish Bowmasters", "Panoptic Mirror", "Rhystic Study", "Seedborn Muse",
+    "Serra's Sanctum", "Smothering Tithe", "Survival of the Fittest",
+    "Teferi's Protection", "Tergrid, God of Fright // Tergrid's Lantern",
+    "Thassa's Oracle", "The One Ring", "The Tabernacle at Pendrell Vale",
+    "Underworld Breach", "Vampiric Tutor", "Worldly Tutor"
+}
+
+# Hard Stax & Lock Pieces (Oppression / Turn-Denial)
+HARD_STAX_PIECES = {
+    "Drannith Magistrate", "Rule of Law", "Eidolon of Rhetoric", "Archon of Emeria",
+    "Deafening Silence", "Spirit of the Labyrinth", "Aven Mindcensor", "Winter Orb",
+    "Static Orb", "Stasis", "Trinisphere", "Armageddon", "Ravages of War",
+    "Hokori, Dust Drinker", "Back to Basics", "Blood Moon", "Magus of the Moon",
+    "Contamination", "Opposition Agent", "Grand Arbiter Augustin IV", "Humility",
+    "The Tabernacle at Pendrell Vale"
+}
+
 # Local Fallback Combo Database (Card Pair -> Description)
 STAPLE_COMBOS = [
     ({"Sanguine Bond", "Exquisite Blood"}, "Sanguine Bond + Exquisite Blood -> Infinite life drain & life gain"),
@@ -208,6 +236,8 @@ def analyze_deck(deck_info: Dict[str, Any], cache: Dict[str, Any]) -> Dict[str, 
     protection_count = 0
     recursion_count = 0
     cheat_engine_count = 0
+    game_changers_found: Set[str] = set()
+    stax_pieces_found: Set[str] = set()
 
     commander_oracle = ""
     for cmd_name in commander.split("//"):
@@ -219,6 +249,13 @@ def analyze_deck(deck_info: Dict[str, Any], cache: Dict[str, Any]) -> Dict[str, 
         name = c["name"]
         qty = c["qty"]
         cat = c["user_category"].lower()
+
+        # Game Changers & Hard Stax detection
+        front_name = name.split(" // ")[0].strip()
+        if name in GAME_CHANGERS or front_name in GAME_CHANGERS:
+            game_changers_found.add(name)
+        if name in HARD_STAX_PIECES or front_name in HARD_STAX_PIECES:
+            stax_pieces_found.add(name)
 
         # User Category Source of Truth Checks
         if "ramp" in cat or "fast mana" in cat:
@@ -304,13 +341,16 @@ def analyze_deck(deck_info: Dict[str, Any], cache: Dict[str, Any]) -> Dict[str, 
     combo_count, combo_lines = detect_combos(commander, card_names)
 
     # Sub-Pillar Score Calculations
+    stax_count = len(stax_pieces_found)
+    game_changers_count = len(game_changers_found)
+
     eval_cmc = avg_eff_cmc if x_spell_count >= 8 else avg_cmc
     s_velocity = min(100.0, max(0.0, 120.0 - 30.0 * (eval_cmc - 1.5) + 40.0 * (cmc_le_2 / max(1, total_non_lands))))
     s_engine = min(100.0, 12.0 * repeatable_draw_count + 6.0 * min(10, len(cards) // 5))
-    s_interaction = min(100.0, 8.0 * (interaction_count + instant_interaction_count))
+    s_interaction = min(100.0, 8.0 * (interaction_count + instant_interaction_count) + 12.0 * stax_count)
     s_resource = min(100.0, 6.0 * ramp_count + 20.0 * fast_mana_count + 18.0 * cheat_engine_count)
     s_resilience = min(100.0, 12.0 * protection_count + 10.0 * recursion_count)
-    s_closing = min(100.0, 25.0 * combo_count + 12.0 * tutor_count + (15.0 if "win" in commander_oracle.lower() else 5.0))
+    s_closing = min(100.0, 25.0 * combo_count + 12.0 * tutor_count + 10.0 * stax_count + (15.0 if "win" in commander_oracle.lower() else 5.0))
     s_mana = min(100.0, 85.0)  # Standard healthy mana base baseline
 
     # Weighted Composite Score (1.0 - 10.0 scale)
@@ -326,10 +366,22 @@ def analyze_deck(deck_info: Dict[str, Any], cache: Dict[str, Any]) -> Dict[str, 
 
     power_score = round(min(10.0, max(1.0, raw_composite)), 1)
 
-    # EDH Bracket Determination
-    if power_score >= 8.5 or (fast_mana_count >= 3 and combo_count >= 1):
+    # Official Commander Format Panel (CFP) & Metric Bracket Determination
+    # Bracket 4 Gates:
+    # 1. CFP Gate: 4 or more Game Changers (Bracket 3 caps at 3 max)
+    # 2. Composite Power Score >= 8.5
+    # 3. High-Velocity Combo: Infinite combo + (2+ fast mana OR 2+ tutors)
+    # 4. Stax-Lock Combo: Infinite combo + 2+ hard stax pieces (e.g. Winota hatebears)
+    is_bracket_4 = (
+        game_changers_count >= 4
+        or power_score >= 8.5
+        or (combo_count >= 1 and (fast_mana_count >= 2 or tutor_count >= 2))
+        or (combo_count >= 1 and stax_count >= 2)
+    )
+
+    if is_bracket_4:
         bracket = 4
-    elif power_score >= 6.8:
+    elif game_changers_count >= 1 or power_score >= 6.8:
         bracket = 3
     elif power_score >= 4.5:
         bracket = 2
@@ -356,6 +408,10 @@ def analyze_deck(deck_info: Dict[str, Any], cache: Dict[str, Any]) -> Dict[str, 
                     "tutor_count": tutor_count,
                     "fast_mana_count": fast_mana_count,
                     "combo_count": combo_count,
+                    "game_changers_count": game_changers_count,
+                    "game_changers": sorted(list(game_changers_found)),
+                    "stax_count": stax_count,
+                    "stax_pieces": sorted(list(stax_pieces_found)),
                 },
                 "source_metrics": {
                     "piloting_archetype": archetype,
@@ -371,6 +427,8 @@ def analyze_deck(deck_info: Dict[str, Any], cache: Dict[str, Any]) -> Dict[str, 
                         f"Identified Piloting Archetype as '{archetype}'; applied adaptive strategic weighting profile."
                     ],
                     "strengths": [
+                        f"Game Changers: {game_changers_count} ({', '.join(sorted(game_changers_found)) if game_changers_found else 'None'})",
+                        *( [f"Stax / Lock pieces: {stax_count} ({', '.join(sorted(stax_pieces_found))})"] if stax_count > 0 else [] ),
                         f"Fast Mana acceleration: {fast_mana_count} source(s)",
                         f"Tutor density: {tutor_count} tutor(s)",
                         f"Repeatable draw engines: {repeatable_draw_count}"
@@ -386,7 +444,7 @@ def analyze_deck(deck_info: Dict[str, Any], cache: Dict[str, Any]) -> Dict[str, 
                     ],
                 },
                 "raw_result": {
-                    "engine_version": "1.1.0",
+                    "engine_version": "1.2.0",
                     "sub_pillar_scores": {
                         "velocity": round(s_velocity, 1),
                         "engine": round(s_engine, 1),

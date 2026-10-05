@@ -16,13 +16,21 @@
         "speed_score": 6.5,
         "tutor_count": 4,
         "fast_mana_count": 0,
-        "combo_count": 0
+        "combo_count": 0,
+        "game_changers_count": 1,
+        "game_changers": [
+          "Seedborn Muse"
+        ],
+        "stax_count": 0,
+        "stax_pieces": []
       },
       "source_metrics": {
         "piloting_archetype": "Big Mana / Landfall",
         "average_cmc": "3.67",
+        "effective_average_cmc": null,
+        "x_spell_count": null,
         "non_land_cards": 64,
-        "land_cards": 15
+        "land_cards": 35
       },
       "text": {
         "summary": "Big Mana / Landfall deck built around Gladiolus Amicitia. Average CMC: 3.67.",
@@ -30,6 +38,7 @@
           "Identified Piloting Archetype as 'Big Mana / Landfall'; applied adaptive strategic weighting profile."
         ],
         "strengths": [
+          "Game Changers: 1 (Seedborn Muse)",
           "Fast Mana acceleration: 0 source(s)",
           "Tutor density: 4 tutor(s)",
           "Repeatable draw engines: 2"
@@ -45,7 +54,7 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.1.0",
+        "engine_version": "1.2.0",
         "sub_pillar_scores": {
           "velocity": 65.5,
           "engine": 84.0,
@@ -60,7 +69,7 @@
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/21400503",
-    "analysis_time": "2026-09-17T05:21:37Z",
+    "analysis_time": "2026-10-05T02:17:30Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

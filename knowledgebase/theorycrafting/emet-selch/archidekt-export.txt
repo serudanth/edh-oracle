@@ -1,89 +1,76 @@
-1 Emet-Selch, Unsundered // Hades, Sorcerer of Eld [Commander]
-1 Archon of Cruelty
-1 Baleful Strix
-1 Dark Confidant
-1 Dauthi Voidwalker
+1 Emet-Selch, Unsundered // Hades, Sorcerer of Eld *CMDR*
+1 Bloodline Recollector // Ancestral Craving
 1 Emet-Selch of the Third Seat
+1 Emeritus of Woe // Demonic Tutor
 1 Fandaniel, Telophoroi Ascian
-1 Gravebreaker Lamia
-1 Hedron Crab
-1 Hermes, Overseer of Elpis
-1 Hullbreaker Horror
+1 Geist of Saint Thalia
+1 Grave Researcher // Reanimate
+1 Gray Merchant of Asphodel
 1 K'rrik, Son of Yawgmoth
-1 Kiora, the Rising Tide
-1 Ledger Shredder
-1 Likeness Looter
 1 Liliana the Repentant
+1 Locke Cole
+1 Lyra, Tolarian Archangel
 1 Maha, Its Feathers Night
 1 Massacre Wurm
-1 Morbid Opportunist
-1 Plaguecrafter
-1 Psychic Frog
-1 Stitcher's Supplier
+1 Matoya, Archon Elder
+1 Paradox Shaper // Omit Variables
+1 Sanctum Lurker
+1 Spellbook Seeker // Careful Study
 1 Summon: Primal Odin
 1 Syr Konrad, the Grim
-1 Unstoppable Slasher
-1 Vohar, Vodalian Desecrator
+1 Theorist's Proxy
+1 Variable Chaser // Arc of Fortune
+1 Vincent Valentine // Galian Beast
+1 Vito, Thorn of the Dusk Rose
+1 Yuriko, Hope from the Shadows
 1 Zenos yae Galvus // Shinryu, Transcendent Rival
-1 Zodiark, Umbral God
+1 Ral Zarek, Guest Lecturer
 1 An Offer You Can't Refuse
 1 Bitter Triumph
-1 Brainstorm
 1 Countersculpt
 1 Counterspell
-1 Darkness
 1 Dark Ritual
 1 Deadly Dispute
-1 Entomb
-1 Fact or Fiction
-1 Louisoix's Sacrifice
+1 Defabricate
+1 Infernal Grasp
+1 Lazotep Plating
+1 Opt
 1 Sheoldred's Edict
-1 Swan Song
-1 Frantic Search
-1 Breach the Multiverse
-1 Demonic Tutor
+1 Swallowed by Leviathan
+1 Theorix Charm
+1 Thirst for Identity
 1 Feed the Swarm
-1 Living Death
-1 Reanimate
-1 Rewrite Regrets
+1 Notion Rain
+1 Peer into the Abyss
+1 Recursive Recruitment
 1 The Final Days
-1 Toxic Deluge
 1 Unearth
-1 Waterlogged Teachings // Inundated Archive
-1 Windfall
-1 Altar of Dementia
 1 Arcane Signet
-1 Dimir Signet
+1 Eye of Jace
 1 Fellwar Stone
 1 Jet Medallion
+1 Lich's Relic
 1 Skullclamp
 1 Sol Ring
-1 Talisman of Dominance
-1 Animate Dead
-1 Bastion of Remembrance
+1 Swiftfoot Boots
+1 Ballad of the Black Flag
+1 Gossip's Talent
 1 Kaya's Ghostform
-1 Ripples of Undeath
+1 Sidequest: Card Collection // Magicked Card
+1 The Clone Saga
+1 Way of the Mind Sculptor
+1 Way of the Necromancer
 1 Bojuka Bog
-1 Choked Estuary
 1 Command Tower
 1 Dakmor Salvage
-1 Darkslick Shores
 1 Darkwater Catacombs
+1 Demolition Field
+1 Dimir Guildgate
 1 Dismal Backwater
-1 Drowned Catacomb
-1 Duskmantle, House of Shadow
-1 Eden, Seat of the Sanctum
-1 Evolving Wilds
-1 Ipnu Rivulet
-7 Island
-1 Jidoor, Aristocratic Capital // Overture
-1 Nephalia Drownyard
-1 Restless Reef
+1 Exotic Orchard
+1 Hexhaven Dueling Arena
+13 Island
 1 Rogue's Passage
-1 Sequestered Stash
-1 Shipwreck Marsh
-1 Sunken Ruins
-6 Swamp
-1 Tainted Isle
+13 Swamp
+1 Theorist's Sanctum
 1 Treno, Dark City
-1 Underground River

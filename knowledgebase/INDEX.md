@@ -95,7 +95,7 @@ Commander: Celes, Rune Knight (WBR)
 Commander: Cid, Timeless Artificer — **stub, mid-build (1 card as of 2026-08-25)**, not yet worth analyzing
 
 ### podlist/lance/decks/doran-the-exploder.md
-Commander: Doran, Besieged by Time — **stub, mid-build (1 card as of 2026-08-25)**, not yet worth analyzing
+Commander: Doran, Besieged by Time (WBG) — toughness combat / Treefolk midrange
 
 ### podlist/lance/decks/lightning-equip-extra-attacks.md
 Commander: Lightning, Army of One (WR) — equipment/extra combats
@@ -161,11 +161,20 @@ Commander: Edward Kenway (UBR) — vehicles
 ### podlist/mj/decks/fire-lord-azula.md
 Commander: Fire Lord Azula (UBR)
 
+### podlist/mj/decks/orzhov-auras.md
+Commander: Eriette of the Charmed Apple (WB) — aura control / life drain
+
+### podlist/mj/decks/sephiroth-na-hindi-sweaty.md
+Commander: Sephiroth, Fallen Hero (WR) — equipment / Boros aggro
+
 ### podlist/mj/decks/squirreled-away---food-build.md
 Commander: Hazel of the Rootbloom (BG) — food
 
 ### podlist/mj/decks/stella-lee.md
 Commander: Stella Lee, Wild Card (UR) — **retired**, per the owner: dismantled and rebuilt into Fire Lord Azula. File kept for historical reference; not an active deck.
+
+### podlist/mj/decks/zimone-x-bulldozer.md
+Commander: Zimone, Paradox Sculptor (UG) — simic X-spells / +1/+1 counters
 
 ### Chad (`reimaru`)
 

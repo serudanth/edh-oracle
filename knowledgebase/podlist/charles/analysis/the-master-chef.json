@@ -7,16 +7,25 @@
       "status": "success",
       "error": null,
       "metrics": {
-        "power_score": 7.4,
+        "power_score": 8.0,
         "bracket": 3,
-        "combo_score": 1.7,
-        "interaction_score": 4.0,
+        "combo_score": 3.7,
+        "interaction_score": 6.4,
         "ramp_score": 10.0,
         "consistency_score": 10.0,
         "speed_score": 8.9,
         "tutor_count": 1,
         "fast_mana_count": 1,
-        "combo_count": 0
+        "combo_count": 0,
+        "game_changers_count": 1,
+        "game_changers": [
+          "Farewell"
+        ],
+        "stax_count": 2,
+        "stax_pieces": [
+          "Aven Mindcensor",
+          "Deafening Silence"
+        ]
       },
       "source_metrics": {
         "piloting_archetype": "Midrange / Engine Value",
@@ -32,6 +41,8 @@
           "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile."
         ],
         "strengths": [
+          "Game Changers: 1 (Farewell)",
+          "Stax / Lock pieces: 2 (Aven Mindcensor, Deafening Silence)",
           "Fast Mana acceleration: 1 source(s)",
           "Tutor density: 1 tutor(s)",
           "Repeatable draw engines: 5"
@@ -47,14 +58,14 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.1.0",
+        "engine_version": "1.2.0",
         "sub_pillar_scores": {
           "velocity": 88.9,
           "engine": 100.0,
-          "interaction": 40.0,
+          "interaction": 64.0,
           "resource": 100.0,
           "resilience": 82.0,
-          "closing": 17.0,
+          "closing": 37.0,
           "mana": 85.0
         }
       }
@@ -62,7 +73,7 @@
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/17680313",
-    "analysis_time": "2026-10-04T15:34:06Z",
+    "analysis_time": "2026-10-05T02:17:30Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],
