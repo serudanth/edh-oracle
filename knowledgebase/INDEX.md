@@ -300,6 +300,9 @@ PDD (Product Design Document): Architectural specification for a 100% determinis
 ### research/2026-09-03-the-crystal-braves-deck-review.md
 Deck review & optimization report: The Crystal Braves (fowlplays, Alisaie Leveilleur // Alphinaud Leveilleur) — comprehensive architectural review evaluating the double-spell/flurry engine, token payoffs, Knight lords, curve bottlenecks, and false typal traps (e.g. Vanquisher's Banner). Includes deterministic engine metrics, 1-for-1 swap table, cantrip enablers, and piloting heuristics. Read when upgrading or piloting this deck.
 
+### research/2026-10-05-the-hamster-catapult-deck-profile.md
+Deck profile & mechanical audit: The Hamster Catapult (fowlplays, Minsc & Boo, Timeless Heroes) — comprehensive mechanical teardown and metric recalibration. Diagnoses why the automated engine's 5.8 (Bracket 2) rating is suppressed by heuristic blind spots (Aristocrats keyword misclassification, command-zone draw/removal erasure, and infinite-combo closing bias), breaks down the +1/+1 counter exponential scaling and Threaten-and-Catapult theft engines, recalibrates its true power to 7.3 (Bracket 3), and provides a pod matchup matrix and targeted optimization roadmap. Read when piloting, tuning, or evaluating this deck against the pod.
+
 ---
 
 ### research/2026-09-16-pod-simulated-personas.md

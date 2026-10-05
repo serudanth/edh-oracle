@@ -7,8 +7,8 @@ commander: "Minsc & Boo, Timeless Heroes"
 colors: [R, G]
 power_level:
 tags: []
-related: []
-last_updated: 2026-10-02
+related: [research/2026-10-05-the-hamster-catapult-deck-profile]
+last_updated: 2026-10-05
 source: https://archidekt.com/decks/15733915
 ---
 
@@ -113,5 +113,8 @@ source: https://archidekt.com/decks/15733915
 
 ## Notes
 
-- Archidekt bracket: 2
+- **Archidekt Bracket:** 2 (Casual)
+- **Local Engine Output:** 5.8 / 10.0 (Suppressed by Aristocrats keyword heuristic)
+- **Audited Realistic Power:** 7.3 / 10.0 (Bracket 3 — Mid-Power Stompy / Fling Burn)
+- **Dedicated Profile:** [2026-10-05-the-hamster-catapult-deck-profile.md](../../../research/2026-10-05-the-hamster-catapult-deck-profile.md)
 - Imported from [Archidekt](https://archidekt.com/decks/15733915)
