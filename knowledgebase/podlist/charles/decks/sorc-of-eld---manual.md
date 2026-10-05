@@ -6,9 +6,9 @@ handle: fowlplays
 commander: "Emet-Selch, Unsundered // Hades, Sorcerer of Eld"
 colors: [U, B]
 power_level:
-tags: []
+tags: [delisted, in-progress]
 related: []
-last_updated: 2026-10-02
+last_updated: 2026-10-05
 source: https://archidekt.com/decks/26970104/sorc_of_eld_manual
 ---
 
@@ -107,4 +107,5 @@ source: https://archidekt.com/decks/26970104/sorc_of_eld_manual
 
 ## Notes
 
+- **Status:** Delisted from active rotation / Archidekt library (unfinalized build in-progress until finished).
 - Imported from [Archidekt](https://archidekt.com/decks/26970104/sorc_of_eld_manual)

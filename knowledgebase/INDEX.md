@@ -49,7 +49,10 @@ Commander: Winota, Joiner of Forces (WR) — aggro tokens
 ### podlist/charles/decks/the-warrior-of-darkness.md
 Commander: Ardbert, Warrior of Darkness (WB) — legends/+1+1 counters
 
-#### Legacy / Delisted Decks (5 — Dismantled Donor Pools)
+#### Legacy & Delisted Decks (Archidekt Delisted / In-Progress)
+
+### podlist/charles/decks/sorc-of-eld---manual.md
+Commander: Emet-Selch, Unsundered // Hades, Sorcerer of Eld (UB) — **delisted / in-progress draft**, unfinalized build pending completion.
 
 ### podlist/charles/decks/the-best-of-friends.md
 Commander: Zenos yae Galvus // Shinryu, Transcendent Rival (B) — **retired/delisted**, moved to Legacy on Archidekt; cards released into dismantled card pool.
