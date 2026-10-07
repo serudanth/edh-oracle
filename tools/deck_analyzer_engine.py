@@ -66,7 +66,8 @@ STAPLE_COMBOS = [
     ({"Dualcaster Mage", "Twinflame"}, "Dualcaster Mage + Twinflame -> Infinite hasty Dualcaster tokens"),
     ({"Heliod, Sun-Crowned", "Walking Ballista"}, "Heliod + Walking Ballista -> Infinite ping damage"),
     ({"Thassa's Oracle", "Demonic Consultation"}, "Thassa's Oracle + Demonic Consultation -> Instant library exile win"),
-    ({"Thassa's Oracle", "Tainted Pact"}, "Thassa's Oracle + Tainted Pact -> Instant library exile win")
+    ({"Thassa's Oracle", "Tainted Pact"}, "Thassa's Oracle + Tainted Pact -> Instant library exile win"),
+    ({"Isochron Scepter", "Dramatic Reversal"}, "Isochron Scepter + Dramatic Reversal -> Infinite mana & noncreature cast triggers")
 ]
 
 # Archetype Dynamic Weight Matrix

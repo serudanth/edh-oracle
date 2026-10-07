@@ -18857,12 +18857,12 @@
       "U"
     ],
     "edhrec_rank": 652,
-    "fetched_at": "2026-08-22",
+    "fetched_at": "2026-10-05",
     "legal_commander": "legal",
     "mana_cost": "{1}{U}",
     "oracle_text": "Untap all nonland permanents you control.",
-    "prices_usd": "0.49",
-    "prices_usd_foil": "1.84",
+    "prices_usd": "0.37",
+    "prices_usd_foil": "1.90",
     "type_line": "Instant"
   },
   "Drana and Linvala": {
@@ -82177,5 +82177,66 @@
     "prices_usd": "0.27",
     "type_line": "Instant",
     "prices_usd_foil": "0.37"
+  },
+  "Tomik, Izzet Sparkmage": {
+    "cmc": 2.0,
+    "color_identity": [
+      "R"
+    ],
+    "colors": [
+      "R"
+    ],
+    "edhrec_rank": 18728,
+    "fetched_at": "2026-10-05",
+    "keywords": [
+      "Prowess"
+    ],
+    "legal_commander": "legal",
+    "mana_cost": "{1}{R}",
+    "oracle_text": "Prowess (Whenever you cast a noncreature spell, this creature gets +1/+1 until end of turn.)\nIf a source you control would deal noncombat damage to an opponent or a permanent an opponent controls, it deals that much damage plus 1 instead.",
+    "prices_usd": "0.29",
+    "prices_usd_foil": "0.45",
+    "released_at": "2026-10-02",
+    "scryfall_uri": "https://scryfall.com/card/fra/156/tomik-izzet-sparkmage",
+    "set": "fra",
+    "type_line": "Legendary Creature — Human Wizard"
+  },
+  "Glamdring, Foe-hammer // Gleam of Death": {
+    "cmc": 2.0,
+    "color_identity": [
+      "U"
+    ],
+    "colors": [],
+    "edhrec_rank": 5538,
+    "fetched_at": "2026-10-05",
+    "keywords": [
+      "Equip"
+    ],
+    "legal_commander": "not_legal",
+    "mana_cost": "{2} // {3}{U}",
+    "oracle_text": "Glamdring, Foe-hammer: Instant and sorcery spells you cast cost {X} less to cast, where X is equipped creature's power.\nEquip {2}\n//\nGleam of Death: Mill six cards, then put all instant and sorcery cards from among them into your hand.",
+    "prices_usd": "0.83",
+    "prices_usd_foil": "1.18",
+    "released_at": "2026-08-14",
+    "scryfall_uri": "https://scryfall.com/card/hbt/12/glamdring-foe-hammer-gleam-of-death",
+    "set": "hbt",
+    "type_line": "Legendary Artifact — Equipment // Sorcery — Adventure"
+  },
+  "Hall of Echoes": {
+    "cmc": 0.0,
+    "color_identity": [],
+    "colors": [],
+    "edhrec_rank": 12450,
+    "fetched_at": "2026-10-05",
+    "keywords": [],
+    "legal_commander": "not_legal",
+    "mana_cost": "",
+    "oracle_text": "{T}: Add {C}.\n{5}: This land becomes a copy of target creature you control until end of turn. The \"legend rule\" doesn't apply to permanents you control this turn.",
+    "prices_usd": "2.98",
+    "prices_usd_foil": "3.42",
+    "released_at": "2026-10-02",
+    "scryfall_uri": "https://scryfall.com/card/fra/275/hall-of-echoes",
+    "set": "fra",
+    "type_line": "Land"
   }
 }
