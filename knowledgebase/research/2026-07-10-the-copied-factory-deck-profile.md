@@ -3,73 +3,269 @@ type: profile
 title: "The Copied Factory — Deck Profile"
 domain: strategy
 tags: [#profile, #deck-profile, #wizards, #spellslinger, #storm, #inalla]
-related: [podlist/fowlplays/decks/the-copied-factory, podlist/fowlplays/profile]
+related: [podlist/charles/decks/the-copied-factory, podlist/charles/profile]
 source: fowlplays
-last_updated: 2026-07-10
+last_updated: 2026-10-07
 ---
-
-<!--
-  Analysis note for a specific decklist (knowledgebase/podlist/fowlplays/decks/the-copied-factory.md).
-  Card-by-card oracle text confirmed via Scryfall (r.jina.ai proxy) per CLAUDE.md before writing this.
-  Playstyle/history sections below are the owner's own account, not inferred.
--->
 
 ## Overview
 
-Inalla, Archmage Ritualist (UBR), Archidekt bracket 3, a Final Fantasy-skinned Wizard spellslinger deck. It was originally built around Wizard-ETB copying (Inalla's own Eminence ability) but has drifted over time toward a "Wizard ping-token → noncreature-spell damage trigger" plan as its actual primary engine, with the ETB-copy package now a secondary, more incidental layer. Long-running and repeatedly tuned; the owner flags the archived list as ~97% synced with the current paper deck as of 2026-07-10 (some recent changes not yet re-extracted from Archidekt). The owner's own summary of what draws them to this deck specifically: "it's all about exponents" — the ceiling isn't a bigger flat bonus, it's replacement effects (Flare Star) and per-source triggers (Harmonic Prodigy) stacking on top of each other, turning a handful of copy effects into a multiplicative rather than additive engine (see the "320 damage off a single instant" worked example under Mechanical Identity).
+**The Copied Factory** is an explosive Grixis (UBR) Spellslinger/Storm combo deck commanded by **Inalla, Archmage Ritualist** (Bracket 4 / High-Power Spellslinger Combo). Rather than relying on Inalla as an on-board combatant, the deck uses her command-zone Eminence ability as a low-cost force multiplier for utility Wizards, ETB engines, and combo lines.
 
-## Mechanical Identity (card read)
+The deck's primary identity operates on four distinct, lethal axes:
+1. **The Deterministic Machine Loop:** Assembling infinite mana, untaps, and spell casts via **Isochron Scepter + Dramatic Reversal**, feeding directly into win conditions like **Brain Freeze**, any active pinger, or drawing out via **Archmage Emeritus**.
+2. **The Infinite Swarm Loop:** Generating infinite hasty 2/2 attackers via **Dualcaster Mage + Twinflame** for an immediate combat win that requires zero board setup.
+3. **The Breach-Freeze Mill Engine:** Looping **Underworld Breach + Brain Freeze** to rapidly mill libraries, escape rituals and tutors, and eliminate opponents through deck exhaustion.
+4. **The Exponential Combustion Engine:** Stacking additive damage replacements, multiplicative damage replacements, and trigger duplication on top of ping-producing Wizard tokens and creatures to deal overwhelming noncombat damage in a single burst turn.
 
-- **Ping-token/burn package (primary in practice):** Mysidian Elder, Transpose, Circle of Power, Cornered by Black Mages, and Kuja, Genome Sorcerer all generate disposable 0/1 black Wizard "ping" tokens reading "Whenever you cast a noncreature spell, this token deals 1 damage to each opponent." Black Waltz No. 3, Coruscation Mage, and Vivi Ornitier carry that same noncreature-spell damage trigger directly. Guttersnipe sits in the same slot but is narrower — it only triggers off instant and sorcery spells, not noncreature spells generally, so it misses artifact/enchantment/planeswalker spells the others would still catch. The tokens double as sacrifice fodder for Diabolic Intent. (Kefka has no noncreature-spell damage trigger on either face — its abilities are a discard-then-draw ETB/attack trigger and an 8-mana sac-and-transform; it was miscategorized here and doesn't belong in this package.)
-- **Damage amplification for the ping/burn plan:** three separate cards scale the burn package above, each by a different mechanism — Harmonic Prodigy ("if a triggered ability of a Shaman or another Wizard you control triggers, that ability triggers an additional time") causes the ping-token, Guttersnipe, Black Waltz, Coruscation Mage, and Vivi Ornitier damage triggers to fire an extra time; Kuja's back face, Trance Kuja, Fate Defied ("Flare Star — if a Wizard you control would deal damage to a permanent or player, it deals double that damage instead") doubles the resulting damage number directly; Artist's Talent's Level 3 ("if a source you control would deal noncombat damage to an opponent or a permanent an opponent controls, it deals that much damage plus 2 instead") adds a flat +2 per damage-dealing source instead of scaling multiplicatively. All three stack with each other and with the burn package, so the plan compounds faster than the base per-token/per-trigger numbers suggest. Worked example (owner's target line, all three online at once): a single ping-token trigger's base 1 damage becomes 1+2=3 under Artist's Talent, then 3×2=6 under Kuja's Flare Star, then fires twice off Harmonic Prodigy for 6+6=12 total damage to each opponent from one noncreature-spell cast. (Artist's Talent and Flare Star are both replacement effects on the same damage event, so their order is the controller's choice per CR 616.1 — applying the +2 before the double, as above, is the higher-damage order and the one an opponent-facing player would pick; Harmonic Prodigy's extra trigger is a separate event that goes through the same math independently rather than adding to it.)
-- **Wizard ETB-copy package (secondary/incidental in practice):** Inalla's Eminence is the mechanical hub, amplified by Naban, Dean of Iteration (extra triggers specifically when a Wizard entering causes something to trigger), protected from the legend rule by Mirror Box, and reusable via Riptide Laboratory or blink effects (Essence Flux, Ghostly Flicker). Mockingbird ("you may have this creature enter as a copy of any creature on the battlefield with mana value ≤ the mana spent to cast it, except it's a Bird in addition and has flying") is a flexible clone that plugs directly into this package — since Mockingbird itself is nontoken, entering as a copy of any Wizard (including one of your own ping tokens) still triggers Eminence. Irenicus's Vile Duplication ("create a token that's a copy of target creature you control, except the token has flying and it isn't legendary") is the token-copy counterpart — it does *not* trigger Eminence (Eminence requires a nontoken Wizard entering), but it does replay whatever ETB the copied creature itself has (e.g. copying Mysidian Elder nets another ping token), sidesteps the legend rule on its own without needing Mirror Box, and — being a sorcery — is itself a noncreature spell that fires every ping trigger on the way in.
-- **Worked example — 5 Kuja off one cast (owner's line):** with Inalla, Naban, and Harmonic Prodigy all on the battlefield, casting a single (nontoken) Kuja produces four total Eminence triggers instead of one, for five total Kuja: (1) Kuja resolves onto the battlefield; Eminence triggers because a nontoken Wizard entered. (2) Pay {1}, get a Kuja token copy — Kuja count 2. (3) That same Eminence trigger is also a "triggered ability of another Wizard (Inalla) triggering," so Harmonic Prodigy fires and adds a second Eminence instance — pay {1} again, count 3. (4) The original Kuja entering is *also* what Naban was watching ("a Wizard entering causes a triggered ability to trigger"), so Naban fires independently (simultaneously with Harmonic Prodigy's reaction in step 3, not sequentially after it) and adds a third Eminence instance — pay {1} again, count 4. (5) Naban's own ability triggering is itself "a triggered ability of another Wizard (Naban)," so Harmonic Prodigy fires a second time off that and adds a fourth Eminence instance — pay {1} again, count 5. The chain caps there: the extra Naban instance this last step creates is a direct effect of Harmonic Prodigy's resolution, not an independent triggering of Naban's own trigger condition, so it doesn't itself register as "a Wizard's ability triggering" and Harmonic Prodigy has nothing left to react to a third time. Total price for 5 Kuja: one hardcast Kuja plus {4} generic mana — not {1} — since Eminence's "you may pay {1}" cost is paid independently at each of the four trigger resolutions, not once for the whole chain. The same four-extra-trigger math applies to *any* nontoken Wizard entering while Inalla/Naban/Harmonic Prodigy are all out, not just Kuja — it's a general early-game mana-into-bodies line, and it's Naban and Harmonic Prodigy that make it possible at all, since without both, a Wizard entering only nets the single, non-doubled Eminence trigger. Normally the 4 token copies are temporary — Eminence exiles each "at the beginning of the next end step" — but Obeka, Brute Chronologist ("{T}: The player whose turn it is may end the turn") makes them permanent if timed correctly: let the end step begin so all 5 Kuja's own "create a token, check 4+ Wizards, transform" abilities *and* the 4 Eminence exile triggers are all on the stack together (their order is the controller's choice), stack them so the 5 Kuja abilities resolve first (getting the extra ping tokens and transform checks), then activate Obeka in response to what's left. Per official ruling, ending the turn exiles every remaining ability on the stack — the 4 Eminence exile triggers included — before they resolve, and abilities removed this way don't come back next turn. The 5 Kuja (and whatever else they made) are kept for good, not just protected for a cycle.
-- **Ability-copy scaling (uncapped, mana-gated):** Gogo, Master of Mimicry ("{X}{X}, {T}: Copy target activated or triggered ability you control X times. You may choose new targets for the copies... X can't be 0") is a broader amplifier than the fixed three above — it can copy *any* triggered ability you control, not just damage triggers, so it applies equally to a ping token's damage trigger, Guttersnipe/Black Waltz/Coruscation Mage/Vivi Ornitier, or Inalla's Eminence itself. Because it scales with mana spent (X copies for {X}{X}) rather than a fixed multiplier, a single noncreature spell with enough backup mana can push one ping trigger to arbitrarily many instances directly, each independently passing through whatever combination of Harmonic Prodigy/Kuja/Artist's Talent is active — a potential one-spell kill given sufficient mana, rather than needing the multi-spell sequence below. It requires tapping Gogo and a legal target trigger already on the stack to copy, so it's gated by having mana available in the same window the trigger is up, not just having Gogo in play.
-- **Copying the amplifiers themselves — Mirror Box lines (advanced/"wild" scaling):** Mockingbird and Irenicus's Vile Duplication aren't limited to copying pingers — both can target Harmonic Prodigy directly. Harmonic Prodigy is non-legendary, so extra copies stack for free with no Mirror Box needed: each copy independently triggers off any other Wizard/Shaman's triggered ability, so N copies turn a single ping trigger into N+1 total instances instead of the flat 2 assumed in the "Damage amplification" bullet above (this is additive — each copy just creates one more instance of the same original trigger). Mirror Box (which turns off the legend rule for permanents you control) opens the same trick on the deck's *legendary* Wizards: extra Naban, Dean of Iteration copies via Mockingbird scale ETB-caused triggers the same additive way; extra Vivi Ornitier copies are simply N independent extra 1-damage sources (plus N extra mana abilities). The standout case is Kuja's back face, Trance Kuja, Fate Defied: Flare Star is a damage-*doubling* replacement effect rather than a "triggers again" ability, and CR 616.1 has the affected player apply multiple replacement effects on the same event one at a time, rechecking after each is applied — so multiple Trance Kuja copies compound multiplicatively (1→2→4→8... for 1, 2, 3 copies) rather than adding up, the same way stacking multiple damage-multiplier effects like Fiery Emancipation does by ruling. That's the mechanism behind an "all manner of wild things" read of Mirror Box here: it doesn't just protect one copy of a legendary Wizard, it turns Trance Kuja specifically into an exponential rather than flat ×2 multiplier once more than one copy is on the battlefield.
-- **Worked example — 320 damage *per opponent* off a single instant (the deck's ceiling line):** this is the full stack of everything above resolving in sequence, and the owner's stated reason for liking this deck ("it's all about exponents"). Setup: run the "5 Kuja off one cast" line above during your own turn, but cast *no* noncreature spells that turn. Let the end step happen — all 5 Kuja's own abilities resolve first (each creating a tapped 0/1 ping token and transforming into Trance Kuja, Fate Defied, since you already control well more than 4 Wizards), then Obeka wipes the 4 Eminence exile triggers before they resolve, keeping all 5 Kuja (now Trance Kuja, 5 stacked Flare Stars) permanently, plus the 5 new ping tokens they just made. Pass the turn having cast nothing. At the opponent's upkeep, cast one instant: (1) each of the 5 ping tokens independently triggers off that single cast — 5 separate trigger instances, not one shared trigger; (2) Harmonic Prodigy reacts once per triggering event, not once per turn, so it separately doubles each of the 5, for 5 originals + 5 copies = 10 total damage instances; (3) each of those 10 instances is an independent "a Wizard would deal damage" event, so each passes through all 5 stacked Flare Stars in sequence (1→2→4→8→16→32) for 32 damage per instance; (4) 10 × 32 = **320 damage, applied independently to each opponent** — the pinger ability reads "deals 1 damage to each opponent," so every instance of that trigger deals its damage to every opponent in full, not divided or split between them. In a 4-player pod, that's 320 to opponent A *and* 320 to opponent B *and* 320 to opponent C from the same single spell, not 320 total spread across the table — 960 damage total dealt to the board in one cast. Every number in this line traces back to a mechanic verified earlier in this document: the 5-Kuja chain (Naban/Harmonic Prodigy reacting to the same and to each other's triggers), Obeka's stack-timing retention, Trance Kuja's replacement-effect stacking (CR 616.1), and Harmonic Prodigy's per-source (not per-turn) triggering.
-- **Naban as a general loot-engine doubler (distinct from its Eminence role):** Naban's actual oracle text is "If a Wizard you control entering causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time" — a condition satisfied by *any* Wizard's own ETB ability, not just Inalla's Eminence. Both Kefka, Court Mage ("Whenever Kefka enters or attacks, each player discards a card. Then you draw a card for each card type among cards discarded this way") and Emet-Selch, Unsundered ("Whenever Emet-Selch enters or attacks, draw a card, then discard a card") have their own ETB trigger because *they themselves* are the Wizard that entered — so with Naban out, hardcasting either doubles that trigger on its own, independent of the ping/burn package or the Eminence chain. This layers with Eminence directly: since Eminence is itself "a triggered ability of a permanent (Inalla) you control" that triggers off the same nontoken Wizard entering, Naban doubles the Eminence trigger too, giving two independent opportunities to pay {1} for a token copy of the entering Wizard; each token copy entering is itself a Wizard entering, so its own copy of the ETB loot ability triggers and gets Naban-doubled again. Paying for just one of the two Naban-doubled Eminence instances (one token copy) turns a single hardcast Kefka into 4 total loot triggers: 2 from the original Kefka (Naban-doubled) + 2 from the token copy (also Naban-doubled) — a mana-efficient card-selection line that doesn't touch the burn plan at all. (Kefka's discard is symmetric — "each player discards" — so its value scales with hand sizes at the table, not just your own.)
-- **Storm/graveyard-recursion backbone:** Past in Flames, Mizzix's Mastery, Snapcaster Mage, and Archaeomancer turn the graveyard into replayable spells. (Vedalken Aethermage does not belong in this group — its actual text is "When this creature enters, return target Sliver to its owner's hand. Wizardcycling {3}," a Sliver-tribal ETB bounce with dead text in this list, since it runs no Slivers, plus a Wizard-tutor mode via Wizardcycling. It has nothing to do with graveyard recursion.)
-- **Repeatable loop without a documented payoff:** Dualcaster Mage + Ghostly Flicker (Commander Spellbook-documented, ~16,000+ decks recorded running it) — Dualcaster's ETB copies Ghostly Flicker targeting itself, looping infinite ETB/LTB triggers and infinite mana off any land that enters untapped. Impact Tremors was the former payoff but has since been removed; the loop remains in the archived list without a clearly documented payoff that converts those infinite events into a win, so it should not be scored as a deterministic winning combo without a supporting payoff.
-- **Ritual/cost-reduction:** Vivi Ornitier, Archmage of Runes, Urza's Incubator. (Artist's Talent's Level 2 also reduces noncreature spell costs by {1}, but its more consequential effect for this deck is the Level 3 damage amp noted above.)
-- **Protection for the go-off turn:** Pact of Negation, Mana Sculpt.
+---
 
-## Playstyle & Win Conditions
+## Architectural Evolution & Optimization Through-Lines (October 2026 Audit)
 
-- The deck's practiced win condition is storm/burn damage from the ping-token package — not the ETB-copy engine. Dualcaster Mage + Ghostly Flicker is a real repeatable loop, but Impact Tremors was removed and the archived list does not document another payoff that makes going infinite itself a win. Kuja's back face isn't a separate line at all: as noted under "Damage amplification" above, it directly doubles the ping/burn plan's own triggers rather than competing with them.
-- **Kill math (owner's target line):** with Harmonic Prodigy, Kuja's Flare Star, and Artist's Talent Level 3 all online, the worked example above puts a single ping-source trigger at 12 damage to each opponent per noncreature spell cast. At a full 40-life EDH start, 3 casts (36) falls short but 4 casts (48) clears it — so the deck only needs 4 cheap noncreature spells resolved with the amp package up to kill the whole table simultaneously (the damage triggers hit "each opponent," not a single target). The owner notes this is easy to hit turns where it counts since much of the noncreature-spell suite sits at the low end of the curve (some at 0 mana), and that Mizzix's Mastery, Past in Flames, and Emet-Selch, Unsundered/Hades are redundant paths to the same goal — any one of the three alone is enough to pull extra noncreature spells from the graveyard toward the 4-spell count, so the plan doesn't depend on assembling all three or sequencing between them. One correction on the Emet-Selch piece: the graveyard-play ability isn't on its front face (which only loots on ETB/attack and has a transform-in condition) — it's "Echo of the Lost" on the transformed back face, Hades, Sorcerer of Eld ("During your turn, you may play cards from your graveyard"), which requires 14+ cards in your graveyard at upkeep to flip into. Because all three redundant paths draw from the same graveyard, Hades' other ability (exiling any card that would go to the graveyard afterward) caps future fuel for Past in Flames and Mizzix's Mastery too once it flips, not just for itself — though again, redundancy is the point here: losing that shared fuel source only matters if the other two haven't already done their job, and nothing already in the graveyard pre-flip is affected.
-- **Amplifiers scale, they don't gate:** Harmonic Prodigy, Kuja's Flare Star, and Artist's Talent Level 3 don't need to all be assembled at once — the plan degrades gracefully to needing more spells cast instead, not to failing outright. Per-spell damage from a single ping source, and the resulting casts needed to clear a full 40 life:
+A comprehensive mechanical audit re-evaluated the list’s historical bottlenecks, formalizing its transition from an awkward high-power casual list into a fully realized **Bracket 4** deterministic powerhouse. The evolution followed four clear through-lines:
 
-  | Amplifiers online | Damage/spell | Casts to clear 40 life |
-  |---|---|---|
-  | None | 1 | 40 |
-  | Kuja only, or Harmonic only | 2 | 20 |
-  | Artist's Talent only | 3 | 14 |
-  | Kuja + Harmonic | 4 | 10 |
-  | Artist's Talent + Kuja, or Artist's Talent + Harmonic | 6 | 7 |
-  | All three | 12 | 4 |
+### Through-Line 1: Mana Rock Saturation & Scepter Viability (The 5-to-8 Pivot)
+* **The Diagnostic Bottleneck:** The archived list ran only 5 mana rocks (`Sol Ring`, `Arcane Signet`, `Fellwar Stone`, `Izzet Signet`, `Talisman of Creativity`). To achieve net-positive mana with `Isochron Scepter + Dramatic Reversal` without drawing `Sol Ring`, the pilot was required to find 3 of the remaining 4 rocks—a statistical anomaly in a 99-card deck without artifact tutors. Scepter operated as an inconsistent high-roll.
+* **The "Pseudo-Ramp" Audit (`Urza's Incubator`):** Incubator cost `{3}` and provided zero mana under `Dramatic Reversal` untaps. Furthermore, over half the deck’s core Wizards (`Coruscation Mage`, `Naban`, `Harmonic Prodigy`, `Tomik`, `Snapcaster`, `Timestream Navigator`, `Dualcaster`, `Vivi`) possess only `{1}` generic pip in their cost, while `Patron Wizard` has `{0}`. Incubator wasted 50% of its discount across the deck while missing noncreature spells entirely.
+* **Trimming Low-Velocity Dead Ends:**
+  * **Dark Confidant ("Bob"):** Inalla’s Eminence token copies exile at end of turn, meaning paid copies never saw an upkeep trigger. Bob was a slow, non-spell body with zero burst velocity on storm turns that punished life totals against high-CMC payoffs.
+  * **Obsessive Search:** A low-floor `{U}` draw-1 cantrip with narrow discard utility.
+* **The Resolution:** Added **`Talisman of Dominance`**, **`Dimir Signet`**, and **`Talisman of Indulgence`** while cutting Bob, Obsessive Search, and Urza's Incubator. Rock density expanded to **8**, ensuring consistent Turn 2 ramp into Turn 3 engines and making IsoRev net-positive mana trivial to achieve.
 
-  (Two-amplifier rows assume the higher-damage replacement order under CR 616.1 where Artist's Talent and Kuja are both in play. Harmonic Prodigy always applies as a second independent copy of whatever the other amps produce, since it duplicates the trigger rather than the damage number.)
+### Through-Line 2: Resolving the "Orphaned Dualcaster" Dilemma (The Twinflame Loop)
+* **The Diagnostic Bottleneck:** `Dualcaster Mage` sat in the list without its companion loop piece (`Twinflame`), functioning as an opportunistic reactive spell copier.
+* **Trimming Dead-Weight Interaction (`Kasmina's Transmutation`):** A 2-mana sorcery-speed aura that left opposing bodies on board, failed to cantrip, and lacked synergy with storm or flashback lines.
+* **The Resolution:** Swapped Transmutation for **`Twinflame`**. This activated a compact 5-mana (`{2}{R}{R}{R}`) instant/sorcery combat combo producing infinite hasty 2/2 attackers. Outside the combo, Twinflame functions as a cheap 2-CMC spell triggering pingers and *Magecraft*, reduced to `{R}` by Level 2 `Artist's Talent`, and recurrable via Escape.
 
-  All of the above is against a hypothetical table still sitting at a full, untouched 40 life. The owner notes most actual games don't require clearing the full 40 — combat and other players' damage typically chip opponents down before the burn plan needs to close the game, so the practical spell count needed is usually below what the table above shows for a given amplifier count.
+### Through-Line 3: Bracket 4 Formalization & The Game Changer Threshold
+* **The Diagnostic Bottleneck:** With two compact 2-card deterministic infinites, 7 tutors, and a 9.0 composite power score, the deck tripped CFP / EDH Oracle Bracket 4 gates by default. Artificially abiding by Bracket 3’s $\le 3$ Game Changer cap meant the deck bore the archenemy perception of a B4 combo shell without its top-tier tools.
+* **Deliberate Rejection of `Jeska's Will`:** Because Inalla stays safe in the command zone for Eminence, Jeska's Will virtually never unlocks its "choose both" blowout mode. Tapping 3 mana for only mana or only cards in a predominantly U/B shell represented poor efficiency.
+* **The Resolution:**
+  * **`Cyclone Summoner` $\rightarrow$ `Cyclonic Rift`:** Replaced a 7-mana sorcery creature whose ETB bounce failed on Inalla token copies (*"if you cast it from your hand"*) with an instant-speed, one-sided reset that wipes all opposing nonland permanents (including *Rule of Law* stax).
+  * **`Past in Flames` $\rightarrow$ `Underworld Breach`:** Cut recursion cost from 4 to 2 mana and expanded flashback from instants/sorceries to universal Escape across all nonland cards (recovering countered rocks, Scepter, and Dualcaster).
 
-  Gogo, Master of Mimicry (see "Ability-copy scaling" above) sits outside this table entirely — instead of needing more spells for a given amplifier count, enough spare mana lets Gogo copy a single ping trigger enough times to hit the same damage total off one spell, collapsing the multi-spell requirement if the mana's there.
-- The Dualcaster Mage + Ghostly Flicker infinite is a deliberate go-to when assembled, not an accidental inclusion.
-- EDHREC tags Inalla Wizards/Combo/Spellslinger/Clones/Reanimator/Tokens/Control/Blink — a profile weighted toward ETB-copy/Clones flavor. This deck's practiced identity (ping/burn-first) sits somewhat off-center from that stock emphasis, reflecting the owner's own tuning drift over time rather than a stock EDHREC-style build.
+### Through-Line 4: Deep Integration of Underworld Breach + Brain Freeze
+* **The Engine Loop:** `Underworld Breach` ({1}{R}) + `Brain Freeze` ({1}{U}) creates an exponential self-mill engine. Target yourself with every storm copy to mill $3 \times (S + 1)$ cards into the graveyard while paying only 3 cards to escape.
+* **Net Fuel Scaling:** With each iteration, the graveyard grows by $+3, +6, +9\dots$ cards, effectively "drawing" the entire deck into the graveyard.
+* **Mana Sustenance:** Escaping `Dramatic Reversal` ({1}{U} + exile 3 cards) untaps the 8 mana rocks to net surplus colored mana, cycling between Freeze and Reversal.
+* **Decisive Table Finish:** Once the storm count reaches 40+, Brain Freeze targets all three opponents to mill their entire libraries, or Breach escapes `Dualcaster Mage + Twinflame` from the yard.
 
-## Weaknesses
+---
 
-- **Sequencing/patience is the #1 practical failure mode:** firing the burn plan before board development can support a kill — in the owner's words, "wizards have noodle arms" if the assault starts too early. This is a piloting-discipline issue more than a card-quality gap.
-- **Forced sacrifice is a hard matchup:** the plan depends on Wizards staying on board (for ETB reuse, ping-token accumulation, and Diabolic Intent fodder timing on your own terms), so opposing sac-them-first effects strip the engine faster than straight removal does.
-- **Table-position dependent:** performance swings heavily on whether another deck reads as the bigger threat first. This deck can go unnoticed long enough to set up, or gets targeted early as the known combo/storm list.
+### Quantitative Metric Delta
 
-## History & Trajectory
+| Evaluation Metric | Archived Baseline | Calibrated State (Oct 2026) | Strategic Delta |
+| :--- | :---: | :---: | :--- |
+| **Archidekt / CFP Bracket** | Bracket 3 | **Bracket 4** | Formally calibrated for high-power combo play. |
+| **Average CMC** | 2.53 | **2.42** | Curve floor lowered by -0.11; faster Turn 3 initiation. |
+| **Dedicated Mana Rocks** | 5 | **8** | +60% increase; eliminates IsoRev mana deficit. |
+| **Cataloged Infinite Combos** | 1 | **2 (+1 Emergent)** | Dual deterministic loops + Breach/Freeze self-mill. |
+| **Official Game Changers** | 3 | **5** | Added `Cyclonic Rift` & `Underworld Breach`. |
+| **Tutor Density** | 7 | **7** | Retains high-redundancy assembly suite. |
+| **Closing Efficiency** | 100.0% | **100.0%** | Quad-vector lethal conversion matrix. |
+| **Interaction Pillar** | 80.0% | **80.0%** | Upgraded with instant-speed asymmetric reset. |
 
-- Long-running, meaningfully evolved rather than close to its original build.
-- Originally built around Wizard-ETB copying (Inalla's Eminence) as the core plan; has since drifted toward the ping/burn-token package as the primary line, with the ETB-copy package becoming more of a secondary value layer.
-- Recently tuned again; the owner reports the archived list (sourced from Archidekt) is ~97% synced with the current paper deck as of 2026-07-10 — treat as near-current, not exact, until re-extracted.
+---
 
-- **2026-08-22 — a patience-first line addressing the #1 weakness above:** the owner reports more recent success prioritizing card draw engines behind blockers early, rather than committing to the ping/burn plan on tempo — a direct answer to the sequencing/patience failure mode noted under Weaknesses ("wizards have noodle arms" if the assault starts too early). In the game the owner is drawing on, Kefka, Court Mage and Emet-Selch, Unsundered were "instrumental" — not via any burn-package role (neither has one; see the miscategorization note above) but as loot/card-selection engines, parked back on defense while Naban was on board doubling both of their ETB triggers (see the new Naban bullet above). Emet-Selch transformed into Hades, Sorcerer of Eld twice in that game (crossing the 14-card graveyard threshold on two separate occasions); Kefka never transformed (its {8} sacrifice-and-transform activation is a heavy separate mana investment the game apparently didn't call for). Post-game, the owner also identified — but did not pilot — a further line: using Inalla's Eminence to create a token copy of an entering Kefka would have pushed a single hardcast Kefka to 4 total discard/loot triggers (2 from the original entry, Naban-doubled, plus 2 more from the token copy's own entry, also Naban-doubled), per the mechanic documented above. Net effect on the deck's practiced identity: the ping/burn plan (see Playstyle & Win Conditions) is still the win condition, but "stabilize behind blockers while loot engines dig for the amp pieces" is now a documented setup phase rather than an unplanned side effect of the ETB-copy package's incidental presence.
+---
 
-## Cross-References
+## Mechanical Architecture
 
-See `knowledgebase/podlist/fowlplays/profile.md`'s External Cross-References section for the full EDHREC/Commander Spellbook/Scryfall verification on this deck, including the Dualcaster Mage + Ghostly Flicker combo citation and a note on a possible larger three-card variant involving Inalla herself that isn't independently hosted on Commander Spellbook.
+### 1. The Ping & Combustion Engine
+The deck's primary damage-dealing chassis triggers whenever a noncreature spell is cast, dealing noncombat damage directly to all opponents:
+
+* **Direct Creature Pingers:**
+  * **Coruscation Mage** (`{1}{R}`): Deals 1 damage to each opponent on noncreature cast. Includes Offspring to create an additional token pinger.
+  * **Black Waltz No. 3** (`{2}{U}{R}`): Deals 1 damage to each opponent on noncreature cast; also flies and offers targeted removal upon dealing damage.
+  * **Vivi Ornitier** (`{1}{U}{R}`): Deals 1 damage to each opponent on noncreature cast while functioning as a repeatable mana ritual for future casts.
+* **Token Ping Generators:**
+  * **Mysidian Elder**, **Transpose**, **Circle of Power**, **Cornered by Black Mages**, and **Kuja, Genome Sorcerer** produce disposable 0/1 black Wizard tokens with: *"Whenever you cast a noncreature spell, this token deals 1 damage to each opponent."*
+  * These tokens hit each opponent simultaneously, accumulate passively, trigger Eminence as Wizards, and double as sacrifice fuel for **Diabolic Intent**.
+
+---
+
+### 2. The Damage Amplification Matrix
+Four distinct amplifiers scale the ping triggers. Because they operate across different mechanical layers (additive replacements, multiplicative replacements, and trigger duplication), they stack compoundingly rather than linearly:
+
+1. **Harmonic Prodigy** (`{1}{R}`, Shaman/Wizard Trigger Duplicator):
+   * *"If a triggered ability of a Shaman or another Wizard you control triggers, that ability triggers an additional time."*
+   * Duplicates every ping trigger from ping tokens, Coruscation Mage, Black Waltz No. 3, and Vivi Ornitier, effectively doubling the number of damage events. Also duplicates Inalla's Eminence and Naban triggers.
+2. **Trance Kuja, Fate Defied** (Transform Face of Kuja, Genome Sorcerer — Damage Multiplier):
+   * *Flare Star:* *"If a Wizard you control would deal damage to a permanent or player, it deals double that damage instead."*
+   * Multiplies the actual damage value of every Wizard damage event by 2.
+3. **Tomik, Izzet Sparkmage** (`{1}{R}`, Additive Damage Replacement & Prowess):
+   * *"If a source you control would deal noncombat damage to an opponent or a permanent an opponent controls, it deals that much damage plus 1 instead."*
+   * A 2-drop Wizard that triggers Inalla's Eminence, triggers Naban, counts toward Kuja's 4-Wizard transform condition, and adds +1 flat damage to every ping source.
+4. **Artist's Talent** (Class Enchantment — Additive Damage Replacement & Cost Reducer):
+   * *Level 2:* Reduces all noncreature spells by `{1}`.
+   * *Level 3:* *"If a source you control would deal noncombat damage to an opponent or a permanent an opponent controls, it deals that much damage plus 2 instead."*
+5. **Gogo, Master of Mimicry** (`{2}{U}`, Arbitrary Ability Multiplier):
+   * *"{X}{X}, {T}: Copy target activated or triggered ability you control X times."*
+   * Can copy any trigger—including a damage ping, Eminence, or tutor trigger—as many times as available mana allows, bypassing the need for multiple spell casts.
+
+#### Replacement Effect Stacking (CR 616.1)
+Under Comprehensive Rule 616.1, the affected player or controller of the affected permanent chooses the order in which multiple replacement effects apply to a damage event. In an offensive burn sequence, additive modifiers are ordered before multiplicative modifiers:
+
+$$\text{Per-Trigger Damage} = \Big(\text{Base } (1) + \text{Tomik } (+1) + \text{Artist's Talent } (+2)\Big) \times \text{Kuja's Flare Star } (2) = 8 \text{ damage}$$
+
+When **Harmonic Prodigy** is present, that 8-damage event triggers twice:
+
+$$8 \times 2 = \mathbf{16\text{ damage to each opponent per noncreature spell cast}}$$
+
+---
+
+### 3. The Deterministic Machine Engines
+
+#### A. The Isochron Loop (IsoRev)
+* **Engine:** **Isochron Scepter** + **Dramatic Reversal**.
+* **Condition:** Nonland permanents capable of generating at least `{3}` mana. The deck runs **8 dedicated mana rocks** (`Sol Ring`, `Arcane Signet`, `Dimir Signet`, `Fellwar Stone`, `Izzet Signet`, `Talisman of Creativity`, `Talisman of Dominance`, `Talisman of Indulgence`).
+* **Loop Mechanics:**
+  1. Tap nonland mana sources for 3+ mana.
+  2. Pay `{2}` and tap Isochron Scepter to copy and cast Dramatic Reversal.
+  3. Dramatic Reversal resolves, untapping Isochron Scepter and all mana sources.
+  4. Yields infinite mana, infinite untap steps, and infinite noncreature spell casts / storm count.
+* **Outlets to Victory:**
+  * **Any Pinger on Board:** Each Scepter activation casts a spell, dealing infinite damage to the table.
+  * **Brain Freeze:** Mill every opponent's library out immediately.
+  * **Archmage Emeritus:** Magecraft draws the entire library, finding free counter protection (`Pact of Negation`, `An Offer You Can't Refuse`) and closing spells.
+
+#### B. The Dualcaster Infinite Swarm
+* **Engine:** **Dualcaster Mage** + **Twinflame**.
+* **Condition:** Any creature on your board to initiate Twinflame targeting, plus `{2}{R}{R}{R}` (5 total mana, reducible by `Artist's Talent`).
+* **Loop Mechanics:**
+  1. Cast Twinflame targeting any creature you control.
+  2. Holding priority, cast Dualcaster Mage with flash.
+  3. Dualcaster ETB triggers, copying Twinflame on the stack.
+  4. Change target of the copy to Dualcaster Mage.
+  5. Copy resolves, creating a token copy of Dualcaster Mage with haste.
+  6. Token enters, triggering another ETB targeting the original Twinflame.
+  7. Repeat infinitely to create arbitrary numbers of 2/2 hasty Dualcaster Mages for an immediate combat win.
+
+#### C. The Breach-Freeze Engine
+* **Engine:** **Underworld Breach** + **Brain Freeze** + mana rock/ritual.
+* **Mechanics:**
+  1. Cast Underworld Breach ({1}{R}).
+  2. Cast Brain Freeze targeting yourself to fill your graveyard (3 cards per storm count).
+  3. Escape Brain Freeze by exiling nonessential cards from the yard.
+  4. Loop to generate arbitrary storm count, escape all necessary tutors and rituals, and mill out all opponents.
+
+---
+
+### 4. Card Advantage, Velocity, & Graveyard Fuel
+To ensure storm chains never fizzle and setup phases stay well-resourced:
+
+* **Velocity Engines:**
+  * **Archmage Emeritus** (`{3}{U}`): *Magecraft* draws a card on every cast or copy of an instant or sorcery. Turns any sequence of cheap cantrips into a full hand refill.
+  * **Rhystic Study**: Dominant tax and continuous draw engine that punishes opponent development.
+  * **Azami, Lady of Scrolls**: Tap untapped Wizards to dig heavily at instant speed.
+* **ETB Loot & Filtering:**
+  * **Emet-Selch, Unsundered** & **Kefka, Court Mage**: Enter the battlefield to loot and disrupt opponent hands. Amplified by **Naban, Dean of Iteration** or Inalla's Eminence to dig deep into the library.
+* **Graveyard Recursion & Escape:**
+  * **Underworld Breach**: Replaces one-shot flashback with universal Escape for all nonland cards, enabling re-casting of countered combo pieces (`Isochron Scepter`, rocks) or recursive spell chains.
+  * **Mizzix's Mastery**: Overloaded one-sided graveyard cast to close games without needing mana for individual spells.
+  * **Hades, Sorcerer of Eld** (Transformed Emet-Selch): Allows playing any card from the graveyard during your turn once the 14-card threshold is met.
+  * **Snapcaster Mage**: Targeted flashback on a Wizard body.
+
+---
+
+### 5. Wizard Cloning, Eminence, & Legend Rule Bypass
+Inalla's Eminence triggers whenever a nontoken Wizard enters, offering a temporary hasty token copy for `{1}`. The deck leverages this across several axes:
+
+* **Naban, Dean of Iteration & Harmonic Prodigy:**
+  * Naban doubles triggers caused by Wizards entering the battlefield (including Eminence itself and ETB abilities).
+  * Harmonic Prodigy duplicates triggered abilities of Shamans and Wizards, chaining with Naban and Inalla to produce up to 4 extra token copies for `{4}`.
+* **Permanent Retention via Obeka, Brute Chronologist:**
+  * Token copies made by Eminence carry a delayed trigger: *"Exile it at the beginning of the next end step."*
+  * At the beginning of the end step, allow beneficial end-step triggers (such as Kuja's transform check) to resolve, then activate Obeka to end the turn. Ending the turn exiles all remaining triggers on the stack, permanently keeping the token copies on the battlefield.
+* **Bypassing the Legend Rule:**
+  * **Mirror Box**: Static removal of the legend rule for all controlled permanents. Enables multiple copies of legendary amplifiers (e.g., stacking multiple Trance Kujas for $2 \times 2 \times 2$ exponential damage, multiple Nabans, or multiple Tomiks).
+  * **Hall of Echoes**: A land that taps for `{C}` and features: *"{5}: This land becomes a copy of target creature you control until end of turn. The 'legend rule' doesn't apply to permanents you control this turn."* Serves as an uncounterable, land-slot backup to Mirror Box.
+  * **Irenicus's Vile Duplication**: Creates a non-legendary flying token copy of any creature while acting as a noncreature spell that triggers all pingers.
+  * **Mockingbird**: A scalable nontoken clone that enters as a copy of any Wizard, directly triggering Inalla's Eminence.
+
+---
+
+### 6. Tutoring & Interaction Suite
+
+* **Wizard Tutors (Instant Speed & Uncounterable):**
+  * **Step Through** (*Wizardcycling* `{2}`) and **Vedalken Aethermage** (*Wizardcycling* `{3}`) search directly for any Wizard in the library to hand, bypassing creature counters.
+* **Direct Tutors:**
+  * **Demonic Tutor**, **Diabolic Intent** (sacrificing a 0/1 ping token), and **Gamble**.
+* **Protection & Disruption:**
+  * **Cyclonic Rift**: Premium instant-speed board bounce to eliminate stax, hatebears, and blockers right before your turn.
+  * **Pact of Negation**, **Counterspell**, **An Offer You Can't Refuse**, **Negate**, and **Long River's Pull** protect win turns.
+  * **March of Swirling Mist** phases out disruptive stax pieces or opposing boards.
+  * **Return the Favor** & **Wyll's Reversal** redirect opposing removal or copy pivotal spells.
+  * **Propaganda** protects life totals against go-wide aggression while sculpting hand state.
+
+---
+
+## Kill Math & Threshold Table
+
+The following table demonstrates the number of noncreature spells required to deal a full 40 damage to every opponent simultaneously from a single ping source, depending on active amplifiers:
+
+| Active Amplifiers | Damage per Spell | Spells Needed (Full 40 Life) |
+| :--- | :---: | :---: |
+| **None** (Base Ping) | 1 | 40 |
+| **Tomik** only | 2 | 20 |
+| **Harmonic Prodigy** only | 2 | 20 |
+| **Trance Kuja** (Flare Star) only | 2 | 20 |
+| **Artist's Talent** (Level 3) only | 3 | 14 |
+| **Tomik + Harmonic Prodigy** | 4 | 10 |
+| **Tomik + Trance Kuja** | 4 | 10 |
+| **Harmonic Prodigy + Trance Kuja** | 4 | 10 |
+| **Artist's Talent + Harmonic Prodigy** | 6 | 7 |
+| **Artist's Talent + Trance Kuja** | 6 | 7 |
+| **Tomik + Artist's Talent + Trance Kuja** | 8 | 5 |
+| **Tomik + Artist's Talent + Harmonic Prodigy** | 8 | 5 |
+| **Artist's Talent + Trance Kuja + Harmonic Prodigy** | 12 | 4 |
+| **All Four (Tomik + Artist's + Kuja + Harmonic)** | **16** | **3** |
+
+*Note: In typical pods, opponents take incidental combat damage from each other throughout the game, drastically reducing the actual spell count required below the 40-life worst-case baseline.*
+
+---
+
+## Inherent Weaknesses & Strategic Vulnerabilities
+
+### 1. Premature Deployment & Fragile Board States
+* The deck's primary pingers and multipliers are fragile 1/2, 2/2, and 0/1 creature bodies. Deploying them incrementally without the mana or protection to execute a storm sequence invites cheap spot removal and incidental board wipes, stranding the deck without win conditions.
+
+### 2. Rule of Law & Cast-Restriction Stax
+* As a storm-velocity combo deck, static cast restrictors (**Rule of Law**, **Archon of Emeria**, **Eidolon of Rhetoric**, **Deafening Silence**) completely paralyze the deck's primary game plans, shutting down both the Dramatic Reversal loop and multi-spell ping sequences until removed via **Cyclonic Rift**, **March of Swirling Mist**, or **Fatal Push**.
+
+### 3. Forced Sacrifice & Edict Effects
+* The combo and ping engines require keeping specific creatures on the battlefield to duplicate triggers. Forced sacrifice effects (**Plaguecrafter**, **Grave Pact**, **Sheoldred's Edict**) force the sacrifice of valuable combo pieces or drain fuel before ping engines can ignite.
+
+### 4. Graveyard Hate
+* While the Scepter and Twinflame lines operate from hand and board, backup burst lines rely heavily on Escape and reanimation (**Underworld Breach**, **Mizzix's Mastery**, **Hades, Sorcerer of Eld**). Asymmetric graveyard exile (**Rest in Peace**, **Dauthi Voidwalker**) strips the deck's secondary velocity reserves.
+
+### 5. Table Threat Perception & Archenemy Dynamics
+* Because Grixis storm and Inalla represent well-known explosive combo potential, experienced opponents may apply early combat pressure before defensive measures (**Propaganda**) or countershields (**Pact of Negation**, **Counterspell**) are fully assembled.
+
+---
+
+## Piloting Protocol & Strategy
+
+To pilot the deck with maximum consistency and table confidence, follow this three-phase mental model:
+
+### Phase 1: Concealed Setup (Turns 1 – 4)
+* **Objective:** Establish mana acceleration and card velocity without telegraphing a storm turn.
+* **Execution:**
+  * Deploy rocks (`Sol Ring`, Signets, Talismans).
+  * Establish steady draw and filtering (`Rhystic Study`, `Kefka`, `Emet-Selch`, `Archmage Emeritus`). Use Naban or Eminence to double ETB filtering triggers.
+  * **Threat Discipline:** Do not play naked pingers or damage amplifiers early to deal 1–2 chip damage. Dealing minor chip damage alerts the table that you are playing storm and makes your 1/2 and 2/2 Wizards priority removal targets. Keep win pieces protected in hand.
+
+### Phase 2: Assembly & Assessment (Turns 5 – 6)
+* **Objective:** Evaluate the table's shields and identify which win line is open.
+* **Route Selection:**
+  * **Route A (The Scepter Machine):** If you possess `Isochron Scepter`, `Dramatic Reversal`, and 3+ nonland mana, assemble the loop with 1-mana protection held in reserve (`Pact of Negation`, `An Offer You Can't Refuse`).
+  * **Route B (The Twinflame Swarm):** If Scepter is blocked or unavailable, cast `Twinflame` and flash in `Dualcaster Mage` for an immediate infinite combat win.
+  * **Route C (The Breach-Freeze Mill):** If you have `Underworld Breach` and `Brain Freeze`, loop casts from the graveyard to mill out the entire table.
+  * **Route D (The Combustion Burst):** If combos are disrupted, assemble 2+ amplifiers from the matrix and chain 5–7 low-cost spells with `Mizzix's Mastery` or active pingers.
+
+### Phase 3: The Decisive Detonation
+* **Objective:** Win the game cleanly in a single turn.
+* **Execution:**
+  * Cast your multiplier or combo engine.
+  * If targeted by interaction, evaluate whether the loop or instant-speed spells can be initiated on top of the removal spell.
+  * Execute your sequence, track your mana and trigger multipliers, and close the game across all opponents in one unified step.

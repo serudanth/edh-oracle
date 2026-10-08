@@ -7,7 +7,7 @@ commander: "Alisaie Leveilleur, Alphinaud Leveilleur"
 colors: [W, U]
 power_level:
 tags: []
-related: []
+related: [research/2026-08-06-the-crystal-braves-deck-profile]
 last_updated: 2026-10-04
 source: https://archidekt.com/decks/24427121
 ---

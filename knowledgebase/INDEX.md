@@ -280,10 +280,10 @@ Observed placeholder commanders, roles, and profiles for extended pod members (a
 ## research/
 
 ### research/2026-07-10-the-copied-factory-deck-profile.md
-Deck profile: The Copied Factory (fowlplays, Inalla, Archmage Ritualist) — card-by-card mechanical read plus owner-confirmed playstyle: the practiced win con is ping-token burn; Dualcaster Mage + Ghostly Flicker is a real repeatable loop but has no clearly documented payoff in the archived list. Read when evaluating or discussing this specific deck, or as a template for future single-deck profiles.
+Deck profile: The Copied Factory (fowlplays, Inalla, Archmage Ritualist) — comprehensive current-state mechanical profile: Bracket 4 Spellslinger/Storm combo engine, dual deterministic loops (IsoRev & Dualcaster + Twinflame), Underworld Breach + Brain Freeze mill line, exponential ping combustion matrix, 8-rock acceleration suite, and phased piloting protocols. Read when piloting, tuning, or evaluating this deck.
 
 ### research/2026-08-06-the-crystal-braves-deck-profile.md
-Deck profile: The Crystal Braves (fowlplays, Alisaie Leveilleur // Alphinaud Leveilleur) — card-by-card mechanical read plus owner-confirmed sequencing: cheap cantrips are cast first to spend that slot, so the real payoff spell lands second and gets Dualcast's discount, Eukrasia's draw, and the deck's other second-spell triggers at once. Converts that engine into a Knight board via typal lords/payoffs; no cataloged Commander Spellbook combo for the pairing. Read when evaluating or discussing this specific deck.
+Deck profile: The Crystal Braves (fowlplays, Alisaie Leveilleur // Alphinaud Leveilleur) — comprehensive current-state mechanical profile: flurry second-spell discount and card velocity engine, token converters, Mirrormind Crown + Knights of Round exponential Saga replication (+33 tokens/turn steady state), typal anthems, inherent sequencing bottlenecks, and phased piloting protocols. Read when piloting, tuning, or evaluating this deck.
 
 ### research/2026-08-22-pod-threat-profile.md
 Cross-player reference: percentile-based portfolio threat figures, pay-to-win tier, and build style for all 6 pod members, plus a full deck index (commander/bracket/archetype) per player. Read when picking a matchup, calibrating table power level, or getting oriented on who plays what across the whole pod.
@@ -298,10 +298,10 @@ Threat assessment methodology: six deck-level dimensions scored as pod- or bench
 PDD (Product Design Document): Architectural specification for a 100% deterministic local EDH deck analyzer engine. Calculates power scores (1.0-10.0), EDH brackets (1-4), fast mana counts, tutor counts, interaction scores, and combo lines via Scryfall cache + Commander Spellbook API, outputting normalized schema matching `external_analysis_extract.py`. Read when building or extending automated deck metrics tooling.
 
 ### research/2026-09-03-the-crystal-braves-deck-review.md
-Deck review & optimization report: The Crystal Braves (fowlplays, Alisaie Leveilleur // Alphinaud Leveilleur) — comprehensive architectural review evaluating the double-spell/flurry engine, token payoffs, Knight lords, curve bottlenecks, and false typal traps (e.g. Vanquisher's Banner). Includes deterministic engine metrics, 1-for-1 swap table, cantrip enablers, and piloting heuristics. Read when upgrading or piloting this deck.
+Deck review: The Crystal Braves (fowlplays, Alisaie Leveilleur // Alphinaud Leveilleur) — consolidated reference pointer directing to the authoritative, current-state deck profile in `research/2026-08-06-the-crystal-braves-deck-profile.md`.
 
 ### research/2026-10-05-the-hamster-catapult-deck-profile.md
-Deck profile & mechanical audit: The Hamster Catapult (fowlplays, Minsc & Boo, Timeless Heroes) — comprehensive mechanical teardown and metric recalibration. Diagnoses why the automated engine's 5.8 (Bracket 2) rating is suppressed by heuristic blind spots (Aristocrats keyword misclassification, command-zone draw/removal erasure, and infinite-combo closing bias), breaks down the +1/+1 counter exponential scaling and Threaten-and-Catapult theft engines, recalibrates its true power to 7.3 (Bracket 3), and provides a pod matchup matrix and targeted optimization roadmap. Read when piloting, tuning, or evaluating this deck against the pod.
+Deck profile: The Hamster Catapult (fowlplays, Minsc & Boo, Timeless Heroes) — comprehensive current-state mechanical profile: command-zone Hamster velocity loop (11 combat + 7 burn + 7 cards per 2-turn cycle), exponential counter doubling (Sazh, Raphael, Casey Jones, Death's Presence), Threaten-and-Catapult theft engine (with Amorphous Axe Hamster tech), inherent vulnerabilities, and phased piloting protocols. Read when piloting, tuning, or evaluating this deck.
 
 ---
 

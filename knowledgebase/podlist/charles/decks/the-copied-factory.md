@@ -8,7 +8,7 @@ colors: [U, B, R]
 power_level:
 tags: []
 related: []
-last_updated: 2026-10-05
+last_updated: 2026-10-07
 source: https://archidekt.com/decks/14300891
 ---
 
@@ -16,14 +16,12 @@ source: https://archidekt.com/decks/14300891
 
 **Commander:** Inalla, Archmage Ritualist
 
-### Creature (23)
+### Creature (21)
 - 1x Archmage Emeritus
 - 1x Archmage of Runes
 - 1x Azami, Lady of Scrolls *(foil)*
 - 1x Black Waltz No. 3
 - 1x Coruscation Mage
-- 1x Cyclone Summoner
-- 1x Dark Confidant
 - 1x Dualcaster Mage
 - 1x Emet-Selch, Unsundered // Hades, Sorcerer of Eld
 - 1x Gogo, Master of Mimicry *(foil)*
@@ -46,6 +44,7 @@ source: https://archidekt.com/decks/14300891
 - 1x Brain Freeze
 - 1x Brainstorm
 - 1x Counterspell *(foil)*
+- 1x Cyclonic Rift
 - 1x Dramatic Reversal
 - 1x Fatal Push
 - 1x Frantic Search
@@ -55,7 +54,6 @@ source: https://archidekt.com/decks/14300891
 - 1x Mana Sculpt
 - 1x March of Swirling Mist *(foil)*
 - 1x Negate
-- 1x Obsessive Search
 - 1x Opt *(foil)*
 - 1x Pact of Negation
 - 1x Return the Favor *(foil)*
@@ -70,25 +68,27 @@ source: https://archidekt.com/decks/14300891
 - 1x Gamble
 - 1x Irenicus's Vile Duplication
 - 1x Mizzix's Mastery
-- 1x Past in Flames
 - 1x Sleight of Hand *(foil)*
 - 1x Step Through *(foil)*
+- 1x Twinflame
 
-### Artifact (8)
+### Artifact (10)
 - 1x Arcane Signet
+- 1x Dimir Signet
 - 1x Fellwar Stone
 - 1x Isochron Scepter
 - 1x Izzet Signet
 - 1x Mirror Box
 - 1x Sol Ring
 - 1x Talisman of Creativity
-- 1x Urza's Incubator
+- 1x Talisman of Dominance
+- 1x Talisman of Indulgence
 
 ### Enchantment (4)
 - 1x Artist's Talent
-- 1x Kasmina's Transmutation
 - 1x Propaganda
 - 1x Rhystic Study
+- 1x Underworld Breach
 
 ### Land (35)
 - 1x City of Brass
@@ -120,5 +120,5 @@ source: https://archidekt.com/decks/14300891
 
 ## Notes
 
-- Archidekt bracket: 3
+- Archidekt bracket: 4
 - Imported from [Archidekt](https://archidekt.com/decks/14300891)
