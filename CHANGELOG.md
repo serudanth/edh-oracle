@@ -1,3 +1,22 @@
+## 2026-10-10 (scryfall cache pruning & single sqlite db ground truth)
+
+- **[cache]** Pruned legacy git-tracked `knowledgebase/_cache/scryfall-cards.json` (4,403 entries, ~2.4 MB) after verifying 100% coverage in local SQLite cache `knowledgebase/_cache/scryfall.db` (38,203 cards). Eliminates repository bloat and massive git diff churn.
+- **[architecture]** Streamlined `tools/scryfall_cache.py` and `tools/deck_analyzer_engine.py` to use `scryfall.db` as the sole local authoritative source of truth, with friendly initialization guidance if missing.
+- **[tooling]** Simplified `tools/sync_scryfall_bulk.py` by removing `--export-json` portfolio JSON sync.
+- **[docs]** Updated `AGENTS.md`, `GEMINI.md`, `CLAUDE.md`, `.claude/skills/edh-research/SKILL.md`, and `knowledgebase/INDEX.md` reflecting `scryfall.db` as the ground truth.
+
+## 2026-10-09 (scryfall bulk data sync & sqlite cache architecture)
+
+- **[tooling]** Added `tools/sync_scryfall_bulk.py` to ingest Scryfall's authoritative 'Oracle Cards' bulk data export (`https://api.scryfall.com/bulk-data/oracle-cards`) directly into a high-performance local SQLite database (`knowledgebase/_cache/scryfall.db`). Includes automatic fallback to `https://r.jina.ai/` if machine egress returns HTTP 403, and atomic build/replacement.
+- **[architecture]** Built `tools/scryfall_cache.py` as a unified cache access layer bridging the git-tracked JSON cache and local SQLite DB. Features:
+  - Sub-millisecond indexed queries for all ~35,000+ unique MTG cards.
+  - Multi-faced card (MDFC/split/adventure) alias resolution mapping front and back faces (`card_aliases` table) to canonical card objects.
+  - Full-text search (FTS5) table (`cards_fts`) for rapid oracle text and type line queries.
+- **[engine]** Updated `tools/deck_analyzer_engine.py` to transparently utilize `scryfall_cache.py`, eliminating cache misses and network roundtrips during portfolio evaluation.
+- **[repo]** Updated `.gitignore` to keep raw bulk dumps and SQLite databases out of git tracking, preventing repository bloat while maintaining instant local cache hits.
+- **[governance]** Enforced **Authoritative Card Ground Truth** across `AGENTS.md`, `GEMINI.md`, `CLAUDE.md`, and `SKILL.md`. Explicitly forbids agents from guessing, assuming, or hallucinating card oracle text, mana values, types, or color identities from LLM parametric memory; mandates cross-referencing `knowledgebase/_cache/scryfall.db` (or `tools/scryfall_cache.py`) before conducting analyses, deck critiques, or proposing recommendations.
+- **[tests]** Added test suite in `tests/test_sync_scryfall_bulk.py` covering card normalization, multi-face aliases, FTS indexing, and unified cache fallback (16/16 unit tests passing).
+
 ## 2026-10-04 (archidekt sync, active rotation trim & dismantled card pool)
 
 - **[archidekt]** Synchronized Charles's (`fowlplays`) entire Archidekt profile via `tools/archidekt_extract.py`. Updated active rotation lists reflecting recent remote changes:

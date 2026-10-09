@@ -13,7 +13,8 @@
 - **Repository Role:** MTG Commander decklist curator & deckbuilding assistant pre-code knowledge base.
 - **Pre-Code Status:** No application build, test, or lint tooling exists yet. Do not invent build commands.
 - **Deck Mirror Policy:** Source of truth is always Archidekt or Moxfield. Do not manually edit decklists in `knowledgebase/podlist/**/decks/*.md`.
-- **Extraction Tools:** Use `python tools/archidekt_extract.py` and `python tools/moxfield_extract.py`.
+- **Extraction & Sync Tools:** Use `python tools/archidekt_extract.py`, `python tools/moxfield_extract.py`, and `python tools/sync_scryfall_bulk.py`.
+- **Authoritative Card Ground Truth (No Hallucinations / Assumptions):** Always reference the local Scryfall database (`knowledgebase/_cache/scryfall.db` via `python tools/sync_scryfall_bulk.py --query "<card>"` or `tools/scryfall_cache.py`) when analyzing decks or proposing upgrades. Never assume or fabricate card oracle text, mana values, types, or color identities from LLM parametric memory.
 - **Research Operations:** Follow [`.claude/skills/edh-research/SKILL.md`](.claude/skills/edh-research/SKILL.md) and [`agent-core/core/domains/edh.md`](~/agent-core/core/domains/edh.md) for cache and network egress rules.
 - **Terminal Link Integrity / No Entity Masking:** The CLI terminal renderer forcibly replaces `file://` link text with target basenames (e.g., `[Commander](file://.../README.md)` renders as `README.md`) and wipes directory links. Never wrap headings (`#`, `##`, `###`), commander names, or deck names in `file://` links. Keep entity names in plain text/bold, link files separately using their exact basename, and format directory paths as inline code without `file://` wrappers.
 

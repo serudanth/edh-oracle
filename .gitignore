@@ -13,3 +13,10 @@ __pycache__/
 # Misc
 .DS_Store
 *.log
+
+# Scryfall Bulk & Local DB Cache
+knowledgebase/_cache/*.raw.*
+knowledgebase/_cache/*.db
+knowledgebase/_cache/*.db-journal
+knowledgebase/_cache/*.db-wal
+knowledgebase/_cache/*.db-shm

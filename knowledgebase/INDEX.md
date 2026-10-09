@@ -352,5 +352,5 @@ Deck: The Sorcerer of Eld — Emet-Selch, Unsundered // Hades, Sorcerer of Eld (
 
 Not read-when content — a machine-maintained cache, not research. Listed here only per the "update INDEX.md on any knowledgebase/ change" convention.
 
-### _cache/scryfall-cards.json
-Persistent cache of Scryfall card lookups (oracle text, mana cost, color identity, prices, etc.), keyed by card name, to avoid re-hitting the throttled `r.jina.ai` Scryfall proxy for cards already looked up. Maintained per the `edh-research` skill's cache workflow — check before fetching, write back after.
+### _cache/scryfall.db
+Local SQLite database built from Scryfall's bulk data export via `tools/sync_scryfall_bulk.py`. Houses ~38,000+ indexed cards with FTS5 search and alias mapping for MDFCs/split cards. Gitignored to prevent binary bloat. Referenced by `tools/scryfall_cache.py` as the local ground truth.

@@ -20,7 +20,6 @@ import urllib.request
 from typing import Any, Dict, List, Optional, Set, Tuple
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parents[1]
-CACHE_FILE = REPO_ROOT / "knowledgebase" / "_cache" / "scryfall-cards.json"
 
 # Fast Mana Whitelist
 FAST_MANA_CARDS = {
@@ -103,11 +102,20 @@ ARCHETYPE_WEIGHTS = {
 }
 
 
-def load_scryfall_cache() -> Dict[str, Any]:
-    if CACHE_FILE.exists():
-        with open(CACHE_FILE, "r", encoding="utf-8") as f:
-            return json.load(f)
-    return {}
+def load_scryfall_cache() -> Any:
+    """Loads unified Scryfall cache from local SQLite database."""
+    try:
+        from scryfall_cache import get_scryfall_cache
+        cache = get_scryfall_cache()
+        if not cache.is_available():
+            print(
+                "Warning: Local Scryfall database not found at knowledgebase/_cache/scryfall.db.\n"
+                "Run 'python tools/sync_scryfall_bulk.py' to initialize it.",
+                file=sys.stderr,
+            )
+        return cache
+    except ImportError:
+        return {}
 
 
 def parse_deck_markdown(filepath: pathlib.Path) -> Dict[str, Any]:
