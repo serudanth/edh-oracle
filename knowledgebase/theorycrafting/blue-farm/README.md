@@ -8,11 +8,11 @@ This directory serves as the centralized theorycrafting, architecture, and deckb
 
 | File | Type | Description |
 |---|---|---|
-| **[01-discussion-and-architecture.md](01-discussion-and-architecture.md)** | Architectural Blueprint | Comprehensive design analysis, pod pacing, Tainted Pact singleton geometry, salvage maps, and comparison between Variant 1 and Variant 2. |
-| **[02-zero-cost-decklist.md](02-zero-cost-decklist.md)** | Complete Decklist (V1) | 100-card list for the **$0.00 Zero-Cost Build** (100% physically owned cards + proxies of owned staples from active decks). |
-| **[03-expanded-combo-decklist.md](03-expanded-combo-decklist.md)** | Complete Decklist (V2) | 100-card list for the **Expanded Combo Build** (~$14 out-of-pocket for *Underworld Breach*, *Twinflame*, and *Wishclaw Talisman*). |
-| **[archidekt-export-v1.txt](archidekt-export-v1.txt)** | Export (V1) | Clean plaintext export formatted for direct 1-click import into Archidekt for Variant 1. |
-| **[archidekt-export-v2.txt](archidekt-export-v2.txt)** | Export (V2) | Clean plaintext export formatted for direct 1-click import into Archidekt for Variant 2. |
+| **[01-discussion-and-architecture.md](01-discussion-and-architecture.md)** | Architectural Blueprint | Comprehensive design analysis, pod pacing, Tainted Pact singleton geometry, salvage maps, and comparison between The Cheap Farm (V1) and The Budget Farm (V2). |
+| **[02-zero-cost-decklist.md](02-zero-cost-decklist.md)** | **The Cheap Farm** (V1) | 100-card list for the **$0.00 Zero-Cost Build** (100% physically owned cards + proxies of owned staples from active decks). |
+| **[03-expanded-combo-decklist.md](03-expanded-combo-decklist.md)** | **The Budget Farm** (V2) | 100-card list for the **Expanded Combo Build** (~$14 out-of-pocket for *Underworld Breach*, *Twinflame*, and *Wishclaw Talisman*). |
+| **[archidekt-export-v1.txt](archidekt-export-v1.txt)** | Export (V1: Cheap Farm) | Clean plaintext export formatted for direct 1-click import into Archidekt for The Cheap Farm. |
+| **[archidekt-export-v2.txt](archidekt-export-v2.txt)** | Export (V2: Budget Farm) | Clean plaintext export formatted for direct 1-click import into Archidekt for The Budget Farm. |
 
 ---
 

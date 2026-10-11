@@ -1,6 +1,6 @@
 # G'raha Tia, Scion Reborn — Discussion & Architectural Blueprint
 
-**Deck:** Crystal Tower Defense / The Scion's Armory  
+**Deck Variants:** The Spell Gate (V1) / The Job Market (V2) / The Life Gate (V3) / The Shield of Light (V4)  
 **Commander:** [G'raha Tia, Scion Reborn](https://scryfall.com/card/fic/3/graha-tia-scion-reborn) ({W}{U}{B})  
 **Format:** Commander / EDH  
 **Color Identity:** Esper ({W}{U}{B})  
@@ -67,7 +67,7 @@ To optimize any G'raha Tia build, the pilot must exploit five critical rules int
 
 ---
 
-### Variant A: The Draw-Go Flash Spellslinger (The 4-Turn Cycle Engine)
+### Raha V1: The Spell Gate (Draw-Go Flash Spellslinger / The 4-Turn Cycle Engine)
 
 * **Archetype:** Instant-Speed Reactive Control / Delve Spellslinger
 * **Core Philosophy:** Never tap out on your main phase. Hold up open mana, respond defensively to threats across the table, and let G'raha assemble an army of blockers and attackers during everyone else's turns.
@@ -95,7 +95,7 @@ flowchart TD
 
 ---
 
-### Variant B: "The Scion's Armory" (Artifacts & Job Select Equipment)
+### Raha V2: The Job Market (The Scion's Armory / Artifacts & Job Select Equipment)
 
 * **Archetype:** Artifact Control / Modular Equipment Voltron-Swarm
 * **Core Philosophy:** Exploit the built-in "Double Hero" cast loop of Final Fantasy *Job Select* equipment. Flash in equipment during combat to create surprise blockers and assemble an impenetrable wall of armed champions.
@@ -125,7 +125,7 @@ flowchart TD
 
 ---
 
-### Variant C: "Life as Currency" (Lifegain Arbitrage & Masochism Engine)
+### Raha V3: The Life Gate (Life as Currency / Lifegain Arbitrage & Masochism Engine)
 
 * **Archetype:** Lifegain Control / Life-Payment Burn & Drain
 * **Core Philosophy:** Solve G'raha's life drain by turning lifegain into a massive surplus. Trigger G'raha without hesitation, profit net life on every token entry, and weaponize your high life total to incinerate opponents.
@@ -153,7 +153,7 @@ flowchart TD
 
 ---
 
-### Variant D: Asymmetrical Colorless & Token Board-Wipe Control
+### Raha V4: The Shield of Light (Asymmetrical Colorless & Token Board-Wipe Control)
 
 * **Archetype:** Parity-Breaking Stax / Asymmetrical Board Wipe Control
 * **Core Philosophy:** Capitalize on the fact that Hero tokens are **colorless** and **tokens**. Run sweepers that wipe colored permanents or non-token creatures, leaving your entire army standing alone on the battlefield.

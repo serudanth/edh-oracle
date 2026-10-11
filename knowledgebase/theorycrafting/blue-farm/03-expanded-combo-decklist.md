@@ -1,6 +1,6 @@
 ---
 type: decklist
-title: "Blue Farm — Expanded Combo Build (~$14-$21 Add-on)"
+title: "The Budget Farm (Blue Farm V2 — Expanded Combo ~$14 Add-on)"
 owner: fowlplays
 commanders: ["Tymna the Weaver", "Kraum, Ludevic's Opus"]
 colors: [W, U, B, R]

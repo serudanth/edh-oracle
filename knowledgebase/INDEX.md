@@ -326,19 +326,19 @@ Deck: The Arms of Alexandria — Beatrix, Loyal General (W) — mono-white equip
 Deck: The Deadlands — The Necrobloom (WBG) — budget-lethal Abzan landfall/land dredge/aristocrats engine. Complete 100-card decklist and Archidekt export.
 
 ### theorycrafting/gluntch/
-Deck: The Good Tentacles — Gluntch, the Bestower (GW) — inverted group hug, Rule of Law stax, and modular 2x2 counter combos. Two complete 100-card lists (Reconciled Hybrid & Budget-Lethal).
+Decks: The Happy Tentacles (V1 — Reconciled Hybrid) & The Good Tentacles (V2 — Budget-Lethal) — Gluntch, the Bestower (GW) — inverted group hug, Rule of Law stax, and modular 2x2 counter combos. Two complete 100-card lists.
 
 ### theorycrafting/cabbage-merchant/
 Deck: The Cabbage Cartel — The Cabbage Merchant (G) — reactive Food generation, fog defense, asymmetric stax, and artifact swarm/overrun. Architectural blueprint.
 
 ### theorycrafting/blue-farm/
-Deck: Blue Farm (Tymna & Kraum) (WUBR) — sans-green card advantage engine and compact combo assembly built under the "proxy only copies of owned cards" rule. Architectural blueprint, two complete 100-card decklists (Zero-Cost $0.00 and Expanded Combo ~$14), and Archidekt export files.
+Decks: The Cheap Farm (V1 — $0.00 Zero-Cost) & The Budget Farm (V2 — Expanded Combo ~$14) — Tymna & Kraum (WUBR) — sans-green card advantage engine and compact combo assembly built under the "proxy only copies of owned cards" rule. Architectural blueprint, two complete 100-card decklists, and Archidekt export files.
 
 ### theorycrafting/winota/
 Deck: The Apex Rush — Winota, Joiner of Forces (WR) — ultra-optimized stax-aggro, zero-whiff 51-creature density engine, and dual infinite combat combos with 100% owned card parity across fowlplays's collection and active deck archive. Complete 100-card decklist, salvage pool breakdown, and Archidekt export.
 
 ### theorycrafting/graha-tia/
-Deck: The Crystal Exarch — G'raha Tia (WUB) — Esper spellslinger, hero token tall/wide lifegain engine, and FFXIV lore highlights. Architectural blueprint.
+Decks: The Spell Gate (V1 — Flash Spellslinger), The Job Market (V2 — Job Select Armory), The Life Gate (V3 — Lifegain Masochism), The Shield of Light (V4 — Colorless Sweepers) — G'raha Tia, Scion Reborn (WUB) — Esper control and tall Hero token engine. Architectural blueprint covering 4 distinct variants.
 
 ### theorycrafting/maralen/
 Deck: The Sylvan Heist — Maralen, Fae Ascendant (UBG) — Sultai Elf token swarm, continuous ETB exile theft engine, and Skemfar Shadowsage 40-life OTK. Complete 100-card decklist and Archidekt export.

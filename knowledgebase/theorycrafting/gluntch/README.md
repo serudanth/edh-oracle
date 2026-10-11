@@ -1,6 +1,8 @@
-# The Good Tentacles (Gluntch, the Bestower) — Theorycrafting & Architecture Archive
+# Gluntch, the Bestower — Theorycrafting & Architecture Archive
 
-This directory serves as the centralized workspace for deconstructing, consolidating, and optimizing a Selesnya commander deck centered around **Gluntch, the Bestower**, tentatively titled **The Good Tentacles**.
+This directory serves as the centralized workspace for deconstructing, consolidating, and optimizing two distinct Selesnya builds centered around **Gluntch, the Bestower**:
+- **Gluntch V1:** **The Happy Tentacles** (Reconciled Hybrid — Casual-to-Midpower Engine)
+- **Gluntch V2:** **The Good Tentacles** (Budget-Lethal — Stax & Counter Combo Engine)
 
 ---
 
@@ -8,13 +10,13 @@ This directory serves as the centralized workspace for deconstructing, consolida
 
 | File | Deck / Stage | Description | Archetype / Target Bracket |
 |---|---|---|:---:|
-| **[01-the-dirt-kicker.md](file:///media/Hydaelyn/Azem/dev/edh-oracle/knowledgebase/theorycrafting/gluntch/01-the-dirt-kicker.md)** | Tifa Lockhart | Donor Deck A: Mono-Green Landfall / Big-Mana Voltron (Archidekt mirror). | Bracket 2 (Casual) |
-| **[02-the-master-chef.md](file:///media/Hydaelyn/Azem/dev/edh-oracle/knowledgebase/theorycrafting/gluntch/02-the-master-chef.md)** | Lae'zel // Master Chef | Donor Deck B: Selesnya +1/+1 Counters Engine & Token Beatdown (Archidekt mirror). | Bracket 3 (Mid-Power) |
-| **[03-the-hugs-stub.md](file:///media/Hydaelyn/Azem/dev/edh-oracle/knowledgebase/theorycrafting/gluntch/03-the-hugs-stub.md)** | The Good Tentacles (Archidekt Stub) | Initial 35-card Gluntch outline created by fowlplays ([Deck 20094425](https://archidekt.com/decks/20094425/the_hugs)). | Seed / Draft |
-| **[04-reconciled-hybrid.md](file:///media/Hydaelyn/Azem/dev/edh-oracle/knowledgebase/theorycrafting/gluntch/04-reconciled-hybrid.md)** | Reconciled Hybrid | High-synergy consolidation retaining ~90% of your donor cards, integrating all 13 core stub cards, and adding key Gluntch staples. | Bracket 3 (Engine Value) |
-| **[05-gluntch-optimized-for-winning.md](file:///media/Hydaelyn/Azem/dev/edh-oracle/knowledgebase/theorycrafting/gluntch/05-gluntch-optimized-for-winning.md)** | Budget-Lethal (Winning) | Realistic, high-power list (~$20–$25 upgrade spend) retaining 80 owned cards. Combines Rule of Law stax, gift weaponization, and modular 2x2 counter combos. | Bracket 3.5 / 4 (Lethal Engine) |
-| **[archidekt-export-optimized-for-winning.txt](file:///media/Hydaelyn/Azem/dev/edh-oracle/knowledgebase/theorycrafting/gluntch/archidekt-export-optimized-for-winning.txt)** | Export (Winning) | Formatted Archidekt text import for Budget-Lethal (Optimized for Winning). | Ready |
-| **[archidekt-export-reconciled-hybrid.txt](file:///media/Hydaelyn/Azem/dev/edh-oracle/knowledgebase/theorycrafting/gluntch/archidekt-export-reconciled-hybrid.txt)** | Export (Hybrid) | Formatted Archidekt text import for Reconciled Hybrid. | Ready |
+| **[01-the-dirt-kicker.md](01-the-dirt-kicker.md)** | Tifa Lockhart | Donor Deck A: Mono-Green Landfall / Big-Mana Voltron (Archidekt mirror). | Bracket 2 (Casual) |
+| **[02-the-master-chef.md](02-the-master-chef.md)** | Lae'zel // Master Chef | Donor Deck B: Selesnya +1/+1 Counters Engine & Token Beatdown (Archidekt mirror). | Bracket 3 (Mid-Power) |
+| **[03-the-hugs-stub.md](03-the-hugs-stub.md)** | The Hugs (Archidekt Stub) | Initial 35-card Gluntch outline created by fowlplays ([Deck 20094425](https://archidekt.com/decks/20094425/the_hugs)). | Seed / Draft |
+| **[04-reconciled-hybrid.md](04-reconciled-hybrid.md)** | **The Happy Tentacles** (V1) | High-synergy consolidation retaining ~90% of your donor cards, integrating all 13 core stub cards, and adding key Gluntch staples. | Bracket 3 (Engine Value) |
+| **[05-gluntch-optimized-for-winning.md](05-gluntch-optimized-for-winning.md)** | **The Good Tentacles** (V2) | Realistic, high-power list (~$20–$25 upgrade spend) retaining 80 owned cards. Combines Rule of Law stax, gift weaponization, and modular 2x2 counter combos. | Bracket 3.5 / 4 (Lethal Engine) |
+| **[archidekt-export-reconciled-hybrid.txt](archidekt-export-reconciled-hybrid.txt)** | Export (V1: Happy Tentacles) | Formatted Archidekt text import for The Happy Tentacles (Reconciled Hybrid). | Ready |
+| **[archidekt-export-optimized-for-winning.txt](archidekt-export-optimized-for-winning.txt)** | Export (V2: Good Tentacles) | Formatted Archidekt text import for The Good Tentacles (Budget-Lethal). | Ready |
 
 ---
 

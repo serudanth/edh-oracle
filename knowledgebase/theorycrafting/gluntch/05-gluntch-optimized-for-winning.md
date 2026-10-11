@@ -1,6 +1,6 @@
 ---
 type: decklist
-title: "The Good Tentacles — Budget-Lethal (Optimized for Winning)"
+title: "The Good Tentacles (Gluntch V2 — Budget-Lethal)"
 owner: fowlplays
 commander: "Gluntch, the Bestower"
 colors: [G, W]

@@ -1,6 +1,6 @@
 ---
 type: decklist
-title: "Blue Farm — Zero-Cost Blueprint ($0.00)"
+title: "The Cheap Farm (Blue Farm V1 — $0.00 Zero-Cost)"
 owner: fowlplays
 commanders: ["Tymna the Weaver", "Kraum, Ludevic's Opus"]
 colors: [W, U, B, R]

@@ -26,11 +26,11 @@ This directory serves as the centralized research archive and architectural work
 
 ## Architectural Variants at a Glance
 
-1. **Variant A: Draw-Go Flash Spellslinger (The 4-Turn Cycle Engine)**  
+1. **Raha V1:** **The Spell Gate** (Draw-Go Flash Spellslinger / The 4-Turn Cycle Engine)  
    Operates entirely on opponents' turns using instants, flash cantrips, and delve spells to generate up to four 4/4 to 9/9 Heroes per round.
-2. **Variant B: "The Scion's Armory" (Artifacts & Job Select Equipment)**  
+2. **Raha V2:** **The Job Market** (The Scion's Armory / Artifacts & Job Select Equipment)  
    Exploits the "Double Hero" cast loop of Job Select artifacts, powered by `Leyline of Anticipation`, `Ashe, Princess of Dalmasca`, `Elena, Turk Recruit`, and `Fomori Vault`.
-3. **Variant C: "Life as Currency" (Lifegain Arbitrage & Masochism Engine)**  
+3. **Raha V3:** **The Life Gate** (Life as Currency / Lifegain Arbitrage & Masochism Engine)  
    Completely removes the life-payment penalty with `Angelic Chorus` (which nets positive life on every Hero), grants mass Lifelink via `Envoy of the Ancestors`, and burns the table with `Aetherflux Reservoir`, `Sanguine Bond`, and `Enduring Tenacity`.
-4. **Variant D: Asymmetrical Colorless & Token Board-Wipe Control**  
+4. **Raha V4:** **The Shield of Light** (Asymmetrical Colorless & Token Board-Wipe Control)  
    Capitalizes on the fact that Hero tokens are colorless tokens, breaking parity on `All Is Dust`, `Ugin, the Spirit Dragon`, and `Hour of Reckoning`.
