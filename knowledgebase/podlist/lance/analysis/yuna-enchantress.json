@@ -8,7 +8,8 @@
       "error": null,
       "metrics": {
         "power_score": 8.6,
-        "bracket": 4,
+        "bracket": 5,
+        "bracket_label": "Bracket 5: cEDH (Competitive Commander)",
         "combo_score": 10.0,
         "interaction_score": 3.2,
         "ramp_score": 10.0,
@@ -17,12 +18,11 @@
         "tutor_count": 7,
         "fast_mana_count": 1,
         "combo_count": 1,
-        "game_changers_count": 6,
+        "game_changers_count": 5,
         "game_changers": [
-          "Aura Shards",
           "Enlightened Tutor",
           "Smothering Tithe",
-          "Teferi's Protection",
+          "Sol Ring",
           "The One Ring",
           "Worldly Tutor"
         ],
@@ -31,19 +31,20 @@
       },
       "source_metrics": {
         "piloting_archetype": "Midrange / Engine Value",
-        "average_cmc": "3.18",
+        "average_cmc": "3.17",
         "effective_average_cmc": null,
         "x_spell_count": 1,
-        "non_land_cards": 68,
-        "land_cards": 37
+        "non_land_cards": 69,
+        "land_cards": 36
       },
       "text": {
-        "summary": "Midrange / Engine Value deck built around Yuna, Hope of Spira. Average CMC: 3.18.",
+        "summary": "Midrange / Engine Value deck built around Yuna, Hope of Spira. Average CMC: 3.17.",
         "explanations": [
-          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile."
+          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile.",
+          "cEDH tier: Meets tournament speed, hyper-dense fast mana/tutors, or competitive combo lock requirements."
         ],
         "strengths": [
-          "Game Changers: 6 (Aura Shards, Enlightened Tutor, Smothering Tithe, Teferi's Protection, The One Ring, Worldly Tutor)",
+          "Game Changers: 5 (Enlightened Tutor, Smothering Tithe, Sol Ring, The One Ring, Worldly Tutor)",
           "Fast Mana acceleration: 1 source(s)",
           "Tutor density: 7 tutor(s)",
           "Repeatable draw engines: 8"
@@ -61,22 +62,27 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.2.0",
+        "engine_version": "2.0.0",
         "sub_pillar_scores": {
-          "velocity": 86.2,
+          "velocity": 86.0,
           "engine": 100.0,
           "interaction": 32.0,
           "resource": 100.0,
           "resilience": 100.0,
           "closing": 100.0,
           "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": null,
+          "emergent_locks": [],
+          "anti_synergies": []
         }
       }
     }
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/22457604",
-    "analysis_time": "2026-10-05T02:17:30Z",
+    "analysis_time": "2026-10-13T10:20:29Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

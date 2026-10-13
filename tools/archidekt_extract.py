@@ -50,14 +50,23 @@ def fetch_user_decks(username: str) -> list[dict]:
     return decks
 
 
+EXCLUDED_CATEGORIES = {"sideboard", "maybeboard", "considering", "cuts", "cut", "outbound", "wishlist"}
+
+
 def mainboard_cards(deck: dict) -> list[dict]:
     # A card is mainboard only if every category it's tagged with is
     # includedInDeck (Archidekt uses categories for maybeboard/outbound too,
-    # and a card can carry more than one category).
+    # and a card can carry more than one category). Standard staging categories
+    # like Sideboard and Maybeboard are strictly excluded.
     included = {c["name"]: c["includedInDeck"] for c in deck["categories"]}
     def is_mainboard(card):
         cats = card.get("categories") or []
-        return all(included.get(c, True) is not False for c in cats)
+        for c in cats:
+            if c.lower() in EXCLUDED_CATEGORIES:
+                return False
+            if included.get(c, True) is False:
+                return False
+        return True
     return [c for c in deck["cards"] if is_mainboard(c)]
 
 

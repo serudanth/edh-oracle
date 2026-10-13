@@ -8,12 +8,13 @@
       "error": null,
       "metrics": {
         "power_score": 8.1,
-        "bracket": 3,
+        "bracket": 4,
+        "bracket_label": "Bracket 4: Optimized (High-Power Casual)",
         "combo_score": 1.7,
-        "interaction_score": 6.4,
+        "interaction_score": 5.6,
         "ramp_score": 10.0,
         "consistency_score": 9.6,
-        "speed_score": 10.0,
+        "speed_score": 9.9,
         "tutor_count": 1,
         "fast_mana_count": 0,
         "combo_count": 0,
@@ -33,7 +34,8 @@
       "text": {
         "summary": "Voltron / Equipment deck built around Bruenor Battlehammer. Average CMC: 2.81.",
         "explanations": [
-          "Identified Piloting Archetype as 'Voltron / Equipment'; applied adaptive strategic weighting profile."
+          "Identified Piloting Archetype as 'Voltron / Equipment'; applied adaptive strategic weighting profile.",
+          "Optimized High-Power Casual: Power score 8.1 >= 7.0."
         ],
         "strengths": [
           "Game Changers: 0 (None)",
@@ -52,22 +54,27 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.2.0",
+        "engine_version": "2.0.0",
         "sub_pillar_scores": {
           "velocity": 99.5,
           "engine": 96.0,
-          "interaction": 64.0,
+          "interaction": 56.0,
           "resource": 100.0,
           "resilience": 100.0,
           "closing": 17.0,
           "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": null,
+          "emergent_locks": [],
+          "anti_synergies": []
         }
       }
     }
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/15909333",
-    "analysis_time": "2026-10-05T02:17:30Z",
+    "analysis_time": "2026-10-13T10:20:17Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

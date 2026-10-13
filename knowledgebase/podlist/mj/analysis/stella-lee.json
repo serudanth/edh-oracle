@@ -8,7 +8,8 @@
       "error": null,
       "metrics": {
         "power_score": 7.3,
-        "bracket": 3,
+        "bracket": 4,
+        "bracket_label": "Bracket 4: Optimized (High-Power Casual)",
         "combo_score": 1.7,
         "interaction_score": 6.4,
         "ramp_score": 10.0,
@@ -33,7 +34,8 @@
       "text": {
         "summary": "Spellslinger / Storm deck built around Stella Lee, Wild Card. Average CMC: 2.95.",
         "explanations": [
-          "Identified Piloting Archetype as 'Spellslinger / Storm'; applied adaptive strategic weighting profile."
+          "Identified Piloting Archetype as 'Spellslinger / Storm'; applied adaptive strategic weighting profile.",
+          "Optimized High-Power Casual: Power score 7.3 >= 7.0."
         ],
         "strengths": [
           "Game Changers: 0 (None)",
@@ -52,7 +54,7 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.2.0",
+        "engine_version": "2.0.0",
         "sub_pillar_scores": {
           "velocity": 95.2,
           "engine": 100.0,
@@ -61,13 +63,18 @@
           "resilience": 12.0,
           "closing": 17.0,
           "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": null,
+          "emergent_locks": [],
+          "anti_synergies": []
         }
       }
     }
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/13286594",
-    "analysis_time": "2026-10-05T02:17:30Z",
+    "analysis_time": "2026-10-13T10:20:01Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

@@ -1,15 +1,15 @@
 ---
 type: decklist
-title: "Sorc of Eld - Manual"
+title: "The Sorcerer of Eld"
 owner: charles
 handle: fowlplays
 commander: "Emet-Selch, Unsundered // Hades, Sorcerer of Eld"
 colors: [U, B]
 power_level:
-tags: [delisted, in-progress]
+tags: []
 related: []
-last_updated: 2026-10-05
-source: https://archidekt.com/decks/26970104/sorc_of_eld_manual
+last_updated: 2026-10-13
+source: https://archidekt.com/decks/26970104
 ---
 
 ## Decklist
@@ -18,8 +18,8 @@ source: https://archidekt.com/decks/26970104/sorc_of_eld_manual
 
 ### Creature (25)
 - 1x Bloodline Recollector // Ancestral Craving
-- 1x Emet-Selch of the Third Seat
 - 1x Emeritus of Woe // Demonic Tutor
+- 1x Emet-Selch of the Third Seat
 - 1x Fandaniel, Telophoroi Ascian
 - 1x Geist of Saint Thalia
 - 1x Grave Researcher // Reanimate
@@ -107,5 +107,4 @@ source: https://archidekt.com/decks/26970104/sorc_of_eld_manual
 
 ## Notes
 
-- **Status:** Delisted from active rotation / Archidekt library (unfinalized build in-progress until finished).
-- Imported from [Archidekt](https://archidekt.com/decks/26970104/sorc_of_eld_manual)
+- Imported from [Archidekt](https://archidekt.com/decks/26970104)

@@ -8,7 +8,8 @@
       "error": null,
       "metrics": {
         "power_score": 8.8,
-        "bracket": 4,
+        "bracket": 5,
+        "bracket_label": "Bracket 5: cEDH (Competitive Commander)",
         "combo_score": 10.0,
         "interaction_score": 10.0,
         "ramp_score": 10.0,
@@ -17,9 +18,10 @@
         "tutor_count": 2,
         "fast_mana_count": 2,
         "combo_count": 1,
-        "game_changers_count": 1,
+        "game_changers_count": 2,
         "game_changers": [
-          "Drannith Magistrate"
+          "Drannith Magistrate",
+          "Sol Ring"
         ],
         "stax_count": 6,
         "stax_pieces": [
@@ -33,19 +35,20 @@
       },
       "source_metrics": {
         "piloting_archetype": "Cheat / Aggro Tempo",
-        "average_cmc": "2.65",
+        "average_cmc": "2.67",
         "effective_average_cmc": null,
         "x_spell_count": 1,
-        "non_land_cards": 63,
-        "land_cards": 31
+        "non_land_cards": 64,
+        "land_cards": 30
       },
       "text": {
-        "summary": "Cheat / Aggro Tempo deck built around Winota, Joiner of Forces. Average CMC: 2.65.",
+        "summary": "Cheat / Aggro Tempo deck built around Winota, Joiner of Forces. Average CMC: 2.67.",
         "explanations": [
-          "Identified Piloting Archetype as 'Cheat / Aggro Tempo'; applied adaptive strategic weighting profile."
+          "Identified Piloting Archetype as 'Cheat / Aggro Tempo'; applied adaptive strategic weighting profile.",
+          "cEDH tier: Meets tournament speed, hyper-dense fast mana/tutors, or competitive combo lock requirements."
         ],
         "strengths": [
-          "Game Changers: 1 (Drannith Magistrate)",
+          "Game Changers: 2 (Drannith Magistrate, Sol Ring)",
           "Stax / Lock pieces: 6 (Archon of Emeria, Aven Mindcensor, Deafening Silence, Drannith Magistrate, Eidolon of Rhetoric, Spirit of the Labyrinth)",
           "Fast Mana acceleration: 2 source(s)",
           "Tutor density: 2 tutor(s)",
@@ -64,7 +67,7 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.2.0",
+        "engine_version": "2.0.0",
         "sub_pillar_scores": {
           "velocity": 100.0,
           "engine": 60.0,
@@ -73,13 +76,18 @@
           "resilience": 100.0,
           "closing": 100.0,
           "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": null,
+          "emergent_locks": [],
+          "anti_synergies": []
         }
       }
     }
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/16345273",
-    "analysis_time": "2026-10-05T02:17:30Z",
+    "analysis_time": "2026-10-13T10:20:19Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

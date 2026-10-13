@@ -8,7 +8,8 @@
       "error": null,
       "metrics": {
         "power_score": 7.1,
-        "bracket": 3,
+        "bracket": 4,
+        "bracket_label": "Bracket 4: Optimized (High-Power Casual)",
         "combo_score": 2.9,
         "interaction_score": 3.2,
         "ramp_score": 10.0,
@@ -17,8 +18,10 @@
         "tutor_count": 2,
         "fast_mana_count": 2,
         "combo_count": 0,
-        "game_changers_count": 0,
-        "game_changers": [],
+        "game_changers_count": 1,
+        "game_changers": [
+          "Sol Ring"
+        ],
         "stax_count": 0,
         "stax_pieces": []
       },
@@ -33,10 +36,11 @@
       "text": {
         "summary": "Midrange / Engine Value deck built around Marneus Calgar. Average CMC: 3.47.",
         "explanations": [
-          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile."
+          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile.",
+          "Optimized High-Power Casual: Power score 7.1 >= 7.0."
         ],
         "strengths": [
-          "Game Changers: 0 (None)",
+          "Game Changers: 1 (Sol Ring)",
           "Fast Mana acceleration: 2 source(s)",
           "Tutor density: 2 tutor(s)",
           "Repeatable draw engines: 5"
@@ -52,7 +56,7 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.2.0",
+        "engine_version": "2.0.0",
         "sub_pillar_scores": {
           "velocity": 70.6,
           "engine": 100.0,
@@ -61,13 +65,18 @@
           "resilience": 82.0,
           "closing": 29.0,
           "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": null,
+          "emergent_locks": [],
+          "anti_synergies": []
         }
       }
     }
   ],
   "metadata": {
     "deck_url": "https://moxfield.com/decks/ns8CJUMMmkm2L7fwAeEsOQ",
-    "analysis_time": "2026-10-05T02:17:30Z",
+    "analysis_time": "2026-10-13T10:20:34Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

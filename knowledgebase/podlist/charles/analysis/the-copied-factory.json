@@ -8,7 +8,8 @@
       "error": null,
       "metrics": {
         "power_score": 9.0,
-        "bracket": 4,
+        "bracket": 5,
+        "bracket_label": "Bracket 5: cEDH (Competitive Commander)",
         "combo_score": 10.0,
         "interaction_score": 8.0,
         "ramp_score": 10.0,
@@ -17,12 +18,14 @@
         "tutor_count": 7,
         "fast_mana_count": 1,
         "combo_count": 2,
-        "game_changers_count": 5,
+        "game_changers_count": 7,
         "game_changers": [
           "Cyclonic Rift",
           "Demonic Tutor",
           "Gamble",
+          "Pact of Negation",
           "Rhystic Study",
+          "Sol Ring",
           "Underworld Breach"
         ],
         "stax_count": 0,
@@ -39,13 +42,14 @@
       "text": {
         "summary": "Spellslinger / Storm deck built around Inalla, Archmage Ritualist. Average CMC: 2.42.",
         "explanations": [
-          "Identified Piloting Archetype as 'Spellslinger / Storm'; applied adaptive strategic weighting profile."
+          "Identified Piloting Archetype as 'Spellslinger / Storm'; applied adaptive strategic weighting profile.",
+          "cEDH tier: Meets tournament speed, hyper-dense fast mana/tutors, or competitive combo lock requirements."
         ],
         "strengths": [
-          "Game Changers: 5 (Cyclonic Rift, Demonic Tutor, Gamble, Rhystic Study, Underworld Breach)",
+          "Game Changers: 7 (Cyclonic Rift, Demonic Tutor, Gamble, Pact of Negation, Rhystic Study, Sol Ring, Underworld Breach)",
           "Fast Mana acceleration: 1 source(s)",
           "Tutor density: 7 tutor(s)",
-          "Repeatable draw engines: 6"
+          "Repeatable draw engines: 7"
         ],
         "weaknesses": [
           "Sensitive to targeted disruption if key engines are neutralized."
@@ -61,7 +65,7 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.2.0",
+        "engine_version": "2.0.0",
         "sub_pillar_scores": {
           "velocity": 100.0,
           "engine": 100.0,
@@ -70,13 +74,18 @@
           "resilience": 12.0,
           "closing": 100.0,
           "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": null,
+          "emergent_locks": [],
+          "anti_synergies": []
         }
       }
     }
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/14300891",
-    "analysis_time": "2026-10-07T05:49:44Z",
+    "analysis_time": "2026-10-13T10:20:16Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

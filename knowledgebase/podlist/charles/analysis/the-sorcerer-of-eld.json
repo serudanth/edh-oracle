@@ -1,0 +1,101 @@
+{
+  "deck_name": "The Sorcerer of Eld",
+  "commander": "Emet-Selch, Unsundered // Hades, Sorcerer of Eld",
+  "sources": [
+    {
+      "source": "EDHOracleLocalEngine",
+      "status": "success",
+      "error": null,
+      "metrics": {
+        "power_score": 7.5,
+        "bracket": 4,
+        "bracket_label": "Bracket 4: Optimized (High-Power Casual)",
+        "combo_score": 1.7,
+        "interaction_score": 5.6,
+        "ramp_score": 10.0,
+        "consistency_score": 10.0,
+        "speed_score": 9.9,
+        "tutor_count": 1,
+        "fast_mana_count": 2,
+        "combo_count": 0,
+        "game_changers_count": 2,
+        "game_changers": [
+          "Peer into the Abyss",
+          "Sol Ring"
+        ],
+        "stax_count": 0,
+        "stax_pieces": []
+      },
+      "source_metrics": {
+        "piloting_archetype": "Midrange / Engine Value",
+        "average_cmc": "2.89",
+        "effective_average_cmc": null,
+        "x_spell_count": null,
+        "non_land_cards": 61,
+        "land_cards": 38
+      },
+      "text": {
+        "summary": "Midrange / Engine Value deck built around Emet-Selch, Unsundered // Hades, Sorcerer of Eld. Average CMC: 2.89.",
+        "explanations": [
+          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile.",
+          "Optimized High-Power Casual: Power score 7.5 >= 7.0.",
+          "Dual-Phase Tempo: Phase 1 aggressive looting to 14 cards -> Phase 2 frozen toolbox execution."
+        ],
+        "strengths": [
+          "Game Changers: 2 (Peer into the Abyss, Sol Ring)",
+          "Fast Mana acceleration: 2 source(s)",
+          "Tutor density: 1 tutor(s)",
+          "Repeatable draw engines: 5",
+          "Emergent Lock: Maha + Massacre Wurm: Sets opposing toughness to 1, one-sided board wipe and lethal life drain.",
+          "Emergent Lock: Zenos / Shinryu OTK: Targeted opponent elimination immediately triggers game win via Burning Chains.",
+          "Emergent Lock: K'rrik + Third Seat: Eliminates generic mana costs (-{2}) and black pips (2 life) for graveyard spells during Hades turn.",
+          "Emergent Lock: Peer into the Abyss + Gary: Massive draw into lethal devotion drain.",
+          "Emergent Lock: Peer into the Abyss + Syr Konrad: High-volume discard/draw burn."
+        ],
+        "weaknesses": [
+          "Sensitive to targeted disruption if key engines are neutralized.",
+          "Skullclamp: Only 1 natural 1-toughness target(s) and low sacrifice fodder; low draw conversion."
+        ],
+        "recommendations": [],
+        "suggested_changes": [],
+        "combo_lines": [],
+        "mulligan_advice": [
+          "Keep hands with early mana acceleration and at least 2 lands."
+        ]
+      },
+      "raw_result": {
+        "engine_version": "2.0.0",
+        "sub_pillar_scores": {
+          "velocity": 98.8,
+          "engine": 100.0,
+          "interaction": 56.0,
+          "resource": 100.0,
+          "resilience": 54.0,
+          "closing": 17.0,
+          "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": "Dimir Graveyard Stockpile & Reanimator Storm",
+          "emergent_locks": [
+            "Maha + Massacre Wurm: Sets opposing toughness to 1, one-sided board wipe and lethal life drain.",
+            "Zenos / Shinryu OTK: Targeted opponent elimination immediately triggers game win via Burning Chains.",
+            "K'rrik + Third Seat: Eliminates generic mana costs (-{2}) and black pips (2 life) for graveyard spells during Hades turn.",
+            "Peer into the Abyss + Gary: Massive draw into lethal devotion drain.",
+            "Peer into the Abyss + Syr Konrad: High-volume discard/draw burn."
+          ],
+          "anti_synergies": [
+            "Skullclamp: Only 1 natural 1-toughness target(s) and low sacrifice fodder; low draw conversion."
+          ]
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "deck_url": "https://archidekt.com/decks/26970104",
+    "analysis_time": "2026-10-13T10:20:24Z",
+    "successful_sources": [
+      "EDHOracleLocalEngine"
+    ],
+    "failed_sources": []
+  }
+}

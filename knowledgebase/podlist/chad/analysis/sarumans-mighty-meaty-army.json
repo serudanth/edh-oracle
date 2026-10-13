@@ -7,8 +7,9 @@
       "status": "success",
       "error": null,
       "metrics": {
-        "power_score": 7.2,
-        "bracket": 3,
+        "power_score": 7.3,
+        "bracket": 4,
+        "bracket_label": "Bracket 4: Optimized (High-Power Casual)",
         "combo_score": 1.7,
         "interaction_score": 4.8,
         "ramp_score": 10.0,
@@ -17,15 +18,16 @@
         "tutor_count": 1,
         "fast_mana_count": 2,
         "combo_count": 0,
-        "game_changers_count": 1,
+        "game_changers_count": 2,
         "game_changers": [
-          "Bolas's Citadel"
+          "Bolas's Citadel",
+          "Sol Ring"
         ],
         "stax_count": 0,
         "stax_pieces": []
       },
       "source_metrics": {
-        "piloting_archetype": "Spellslinger / Storm",
+        "piloting_archetype": "Midrange / Engine Value",
         "average_cmc": "2.85",
         "effective_average_cmc": null,
         "x_spell_count": 1,
@@ -33,12 +35,13 @@
         "land_cards": 38
       },
       "text": {
-        "summary": "Spellslinger / Storm deck built around Saruman, the White Hand. Average CMC: 2.85.",
+        "summary": "Midrange / Engine Value deck built around Saruman, the White Hand. Average CMC: 2.85.",
         "explanations": [
-          "Identified Piloting Archetype as 'Spellslinger / Storm'; applied adaptive strategic weighting profile."
+          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile.",
+          "Optimized High-Power Casual: Power score 7.3 >= 7.0."
         ],
         "strengths": [
-          "Game Changers: 1 (Bolas's Citadel)",
+          "Game Changers: 2 (Bolas's Citadel, Sol Ring)",
           "Fast Mana acceleration: 2 source(s)",
           "Tutor density: 1 tutor(s)",
           "Repeatable draw engines: 4"
@@ -54,7 +57,7 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.2.0",
+        "engine_version": "2.0.0",
         "sub_pillar_scores": {
           "velocity": 97.8,
           "engine": 100.0,
@@ -63,13 +66,18 @@
           "resilience": 48.0,
           "closing": 17.0,
           "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": null,
+          "emergent_locks": [],
+          "anti_synergies": []
         }
       }
     }
   ],
   "metadata": {
     "deck_url": "https://moxfield.com/decks/wdmNPbpSa0CzmGZlkKFtOA",
-    "analysis_time": "2026-10-05T02:17:30Z",
+    "analysis_time": "2026-10-13T10:20:34Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

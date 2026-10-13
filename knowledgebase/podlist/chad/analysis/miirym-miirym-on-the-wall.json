@@ -7,18 +7,21 @@
       "status": "success",
       "error": null,
       "metrics": {
-        "power_score": 7.2,
+        "power_score": 6.8,
         "bracket": 3,
+        "bracket_label": "Bracket 3: Upgraded (Tuned Casual)",
         "combo_score": 4.1,
-        "interaction_score": 6.4,
+        "interaction_score": 4.0,
         "ramp_score": 10.0,
         "consistency_score": 10.0,
         "speed_score": 6.7,
         "tutor_count": 3,
         "fast_mana_count": 1,
         "combo_count": 0,
-        "game_changers_count": 0,
-        "game_changers": [],
+        "game_changers_count": 1,
+        "game_changers": [
+          "Sol Ring"
+        ],
         "stax_count": 0,
         "stax_pieces": []
       },
@@ -33,10 +36,11 @@
       "text": {
         "summary": "Midrange / Engine Value deck built around Miirym, Sentinel Wyrm. Average CMC: 3.68.",
         "explanations": [
-          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile."
+          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile.",
+          "Upgraded Casual: Tuned synergy engine (Power 6.8), 1 Game Changer(s) (within <= 3 cap)."
         ],
         "strengths": [
-          "Game Changers: 0 (None)",
+          "Game Changers: 1 (Sol Ring)",
           "Fast Mana acceleration: 1 source(s)",
           "Tutor density: 3 tutor(s)",
           "Repeatable draw engines: 4"
@@ -52,22 +56,27 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.2.0",
+        "engine_version": "2.0.0",
         "sub_pillar_scores": {
           "velocity": 66.6,
           "engine": 100.0,
-          "interaction": 64.0,
+          "interaction": 40.0,
           "resource": 100.0,
           "resilience": 24.0,
           "closing": 41.0,
           "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": null,
+          "emergent_locks": [],
+          "anti_synergies": []
         }
       }
     }
   ],
   "metadata": {
     "deck_url": "https://moxfield.com/decks/2ZljS2W1nUWJZs47H4I4QA",
-    "analysis_time": "2026-10-05T02:17:30Z",
+    "analysis_time": "2026-10-13T10:20:36Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

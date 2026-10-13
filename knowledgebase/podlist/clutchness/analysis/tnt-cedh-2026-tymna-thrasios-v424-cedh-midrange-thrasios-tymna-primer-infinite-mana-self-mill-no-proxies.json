@@ -1,0 +1,110 @@
+{
+  "deck_name": "TnT cEDH 2026 | Tymna Thrasios v4.24 | cEDH Midrange | Thrasios Tymna Primer | Infinite Mana Self-Mill (No Proxies)",
+  "commander": "Thrasios, Triton Hero, Tymna the Weaver",
+  "sources": [
+    {
+      "source": "EDHOracleLocalEngine",
+      "status": "success",
+      "error": null,
+      "metrics": {
+        "power_score": 9.5,
+        "bracket": 5,
+        "bracket_label": "Bracket 5: cEDH (Competitive Commander)",
+        "combo_score": 10.0,
+        "interaction_score": 10.0,
+        "ramp_score": 10.0,
+        "consistency_score": 10.0,
+        "speed_score": 10.0,
+        "tutor_count": 14,
+        "fast_mana_count": 3,
+        "combo_count": 2,
+        "game_changers_count": 20,
+        "game_changers": [
+          "Chrome Mox",
+          "Cyclonic Rift",
+          "Demonic Tutor",
+          "Drannith Magistrate",
+          "Enlightened Tutor",
+          "Esper Sentinel",
+          "Fierce Guardianship",
+          "Flusterstorm",
+          "Force of Will",
+          "Grim Monolith",
+          "Mindbreak Trap",
+          "Mystic Remora",
+          "Mystical Tutor",
+          "Orcish Bowmasters",
+          "Rhystic Study",
+          "Smothering Tithe",
+          "Sol Ring",
+          "Thassa's Oracle",
+          "The One Ring",
+          "Vampiric Tutor"
+        ],
+        "stax_count": 1,
+        "stax_pieces": [
+          "Drannith Magistrate"
+        ]
+      },
+      "source_metrics": {
+        "piloting_archetype": "Spellslinger / Storm",
+        "average_cmc": "1.96",
+        "effective_average_cmc": null,
+        "x_spell_count": 5,
+        "non_land_cards": 70,
+        "land_cards": 28
+      },
+      "text": {
+        "summary": "Spellslinger / Storm deck built around Thrasios, Triton Hero, Tymna the Weaver. Average CMC: 1.96.",
+        "explanations": [
+          "Identified Piloting Archetype as 'Spellslinger / Storm'; applied adaptive strategic weighting profile.",
+          "cEDH tier: Meets tournament speed, hyper-dense fast mana/tutors, or competitive combo lock requirements."
+        ],
+        "strengths": [
+          "Game Changers: 20 (Chrome Mox, Cyclonic Rift, Demonic Tutor, Drannith Magistrate, Enlightened Tutor, Esper Sentinel, Fierce Guardianship, Flusterstorm, Force of Will, Grim Monolith, Mindbreak Trap, Mystic Remora, Mystical Tutor, Orcish Bowmasters, Rhystic Study, Smothering Tithe, Sol Ring, Thassa's Oracle, The One Ring, Vampiric Tutor)",
+          "Stax / Lock pieces: 1 (Drannith Magistrate)",
+          "Fast Mana acceleration: 3 source(s)",
+          "Tutor density: 14 tutor(s)",
+          "Repeatable draw engines: 10"
+        ],
+        "weaknesses": [
+          "Sensitive to targeted disruption if key engines are neutralized."
+        ],
+        "recommendations": [],
+        "suggested_changes": [],
+        "combo_lines": [
+          "Thassa's Oracle + Demonic Consultation -> Instant library exile win",
+          "Thassa's Oracle + Tainted Pact -> Instant library exile win"
+        ],
+        "mulligan_advice": [
+          "Keep hands with early mana acceleration and at least 2 lands."
+        ]
+      },
+      "raw_result": {
+        "engine_version": "2.0.0",
+        "sub_pillar_scores": {
+          "velocity": 100.0,
+          "engine": 100.0,
+          "interaction": 100.0,
+          "resource": 100.0,
+          "resilience": 22.0,
+          "closing": 100.0,
+          "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": null,
+          "emergent_locks": [],
+          "anti_synergies": []
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "deck_url": "https://archidekt.com/decks/1727139",
+    "analysis_time": "2026-10-13T10:20:26Z",
+    "successful_sources": [
+      "EDHOracleLocalEngine"
+    ],
+    "failed_sources": []
+  }
+}

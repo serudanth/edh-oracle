@@ -7,18 +7,21 @@
       "status": "success",
       "error": null,
       "metrics": {
-        "power_score": 6.0,
-        "bracket": 2,
+        "power_score": 5.9,
+        "bracket": 3,
+        "bracket_label": "Bracket 3: Upgraded (Tuned Casual)",
         "combo_score": 0.5,
-        "interaction_score": 3.2,
+        "interaction_score": 2.4,
         "ramp_score": 8.6,
         "consistency_score": 8.4,
         "speed_score": 8.7,
         "tutor_count": 0,
         "fast_mana_count": 1,
         "combo_count": 0,
-        "game_changers_count": 0,
-        "game_changers": [],
+        "game_changers_count": 1,
+        "game_changers": [
+          "Sol Ring"
+        ],
         "stax_count": 0,
         "stax_pieces": []
       },
@@ -33,10 +36,11 @@
       "text": {
         "summary": "Midrange / Engine Value deck built around Solphim, Mayhem Dominus. Average CMC: 3.16.",
         "explanations": [
-          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile."
+          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile.",
+          "Upgraded Casual: Tuned synergy engine (Power 5.9), 1 Game Changer(s) (within <= 3 cap)."
         ],
         "strengths": [
-          "Game Changers: 0 (None)",
+          "Game Changers: 1 (Sol Ring)",
           "Fast Mana acceleration: 1 source(s)",
           "Tutor density: 0 tutor(s)",
           "Repeatable draw engines: 2"
@@ -52,22 +56,27 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.2.0",
+        "engine_version": "2.0.0",
         "sub_pillar_scores": {
           "velocity": 87.2,
           "engine": 84.0,
-          "interaction": 32.0,
+          "interaction": 24.0,
           "resource": 86.0,
           "resilience": 36.0,
           "closing": 5.0,
           "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": null,
+          "emergent_locks": [],
+          "anti_synergies": []
         }
       }
     }
   ],
   "metadata": {
     "deck_url": "https://moxfield.com/decks/k3SKfIGVxk6IPauqG4xHRg",
-    "analysis_time": "2026-10-05T02:17:30Z",
+    "analysis_time": "2026-10-13T10:20:34Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

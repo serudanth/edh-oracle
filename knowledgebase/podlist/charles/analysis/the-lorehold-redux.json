@@ -8,35 +8,39 @@
       "error": null,
       "metrics": {
         "power_score": 7.3,
-        "bracket": 3,
+        "bracket": 4,
+        "bracket_label": "Bracket 4: Optimized (High-Power Casual)",
         "combo_score": 1.7,
         "interaction_score": 3.2,
         "ramp_score": 10.0,
         "consistency_score": 10.0,
-        "speed_score": 8.1,
+        "speed_score": 8.2,
         "tutor_count": 1,
         "fast_mana_count": 1,
         "combo_count": 0,
-        "game_changers_count": 0,
-        "game_changers": [],
+        "game_changers_count": 1,
+        "game_changers": [
+          "Sol Ring"
+        ],
         "stax_count": 0,
         "stax_pieces": []
       },
       "source_metrics": {
         "piloting_archetype": "Midrange / Engine Value",
-        "average_cmc": "3.29",
+        "average_cmc": "3.26",
         "effective_average_cmc": null,
         "x_spell_count": null,
-        "non_land_cards": 58,
+        "non_land_cards": 61,
         "land_cards": 37
       },
       "text": {
-        "summary": "Midrange / Engine Value deck built around Quintorius, History Chaser. Average CMC: 3.29.",
+        "summary": "Midrange / Engine Value deck built around Quintorius, History Chaser. Average CMC: 3.26.",
         "explanations": [
-          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile."
+          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile.",
+          "Optimized High-Power Casual: Power score 7.3 >= 7.0."
         ],
         "strengths": [
-          "Game Changers: 0 (None)",
+          "Game Changers: 1 (Sol Ring)",
           "Fast Mana acceleration: 1 source(s)",
           "Tutor density: 1 tutor(s)",
           "Repeatable draw engines: 6"
@@ -52,22 +56,27 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.2.0",
+        "engine_version": "2.0.0",
         "sub_pillar_scores": {
-          "velocity": 80.7,
+          "velocity": 81.6,
           "engine": 100.0,
           "interaction": 32.0,
           "resource": 100.0,
           "resilience": 100.0,
           "closing": 17.0,
           "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": null,
+          "emergent_locks": [],
+          "anti_synergies": []
         }
       }
     }
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/22431119",
-    "analysis_time": "2026-10-05T02:17:30Z",
+    "analysis_time": "2026-10-13T10:20:23Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

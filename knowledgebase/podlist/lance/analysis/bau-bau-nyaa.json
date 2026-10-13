@@ -9,6 +9,7 @@
       "metrics": {
         "power_score": 8.1,
         "bracket": 4,
+        "bracket_label": "Bracket 4: Optimized (High-Power Casual)",
         "combo_score": 6.5,
         "interaction_score": 4.0,
         "ramp_score": 10.0,
@@ -17,13 +18,11 @@
         "tutor_count": 5,
         "fast_mana_count": 2,
         "combo_count": 0,
-        "game_changers_count": 6,
+        "game_changers_count": 4,
         "game_changers": [
-          "Aura Shards",
           "Enlightened Tutor",
-          "Jeska's Will",
           "Smothering Tithe",
-          "Teferi's Protection",
+          "Sol Ring",
           "The One Ring"
         ],
         "stax_count": 0,
@@ -40,10 +39,11 @@
       "text": {
         "summary": "Midrange / Engine Value deck built around Rin and Seri, Inseparable. Average CMC: 2.99.",
         "explanations": [
-          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile."
+          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile.",
+          "Optimized High-Power Casual: 4 Game Changers (exceeds Bracket 3 cap of 3); Power score 8.1 >= 7.0."
         ],
         "strengths": [
-          "Game Changers: 6 (Aura Shards, Enlightened Tutor, Jeska's Will, Smothering Tithe, Teferi's Protection, The One Ring)",
+          "Game Changers: 4 (Enlightened Tutor, Smothering Tithe, Sol Ring, The One Ring)",
           "Fast Mana acceleration: 2 source(s)",
           "Tutor density: 5 tutor(s)",
           "Repeatable draw engines: 4"
@@ -59,7 +59,7 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.2.0",
+        "engine_version": "2.0.0",
         "sub_pillar_scores": {
           "velocity": 89.0,
           "engine": 100.0,
@@ -68,13 +68,18 @@
           "resilience": 84.0,
           "closing": 65.0,
           "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": null,
+          "emergent_locks": [],
+          "anti_synergies": []
         }
       }
     }
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/22491132",
-    "analysis_time": "2026-10-05T02:17:30Z",
+    "analysis_time": "2026-10-13T10:20:32Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

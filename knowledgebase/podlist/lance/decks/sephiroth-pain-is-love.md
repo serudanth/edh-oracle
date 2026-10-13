@@ -16,94 +16,66 @@ source: https://archidekt.com/decks/13966160
 
 **Commander:** Sephiroth, Fabled SOLDIER // Sephiroth, One-Winged Angel
 
-### Creature (47)
+### Creature (30)
 - 1x Accursed Marauder
-- 1x Avenger of the Fallen
 - 1x Ayara, First of Locthwain
 - 1x Bitterbloom Bearer
 - 1x Blood Artist
-- 1x Bloodghast
 - 1x Braids, Arisen Nightmare
-- 1x Braids, Cabal Minion
 - 1x Carrion Feeder
 - 1x Crypt Ghast
 - 1x Dark Confidant
 - 1x Demon's Disciple
-- 1x Drivnod, Carnage Dominus
 - 1x Endrek Sahr, Master Breeder
-- 1x Fleshbag Marauder
 - 1x Forsaken Miner
-- 1x Gaius van Baelsar
 - 1x Gravecrawler
 - 1x Gray Merchant of Asphodel
 - 1x Jadar, Ghoulcaller of Nephalia
 - 1x K'rrik, Son of Yawgmoth
-- 1x Lord Skitter, Sewer King
 - 1x Marionette Apprentice
-- 1x Massacre Wurm *(foil)*
-- 1x Merciless Executioner
-- 1x Mirkwood Bats
 - 1x Nether Traitor
-- 1x Nine-Lives Familiar
 - 1x Ophiomancer
 - 1x Orcish Bowmasters
 - 1x Pawn of Ulamog
 - 1x Pitiless Plunderer
 - 1x Plaguecrafter
-- 1x Priest of Forgotten Gods
 - 1x Reassembling Skeleton
 - 1x South Wind Avatar
-- 1x Susurian Voidborn
 - 1x Syr Konrad, the Grim
-- 1x Tergrid, God of Fright // Tergrid's Lantern
 - 1x Timeline Culler
-- 1x Vincent Valentine // Galian Beast
 - 1x Viscera Seer
 - 1x Warren Soultrader
-- 1x Yahenni, Undying Partisan
 - 1x Yawgmoth, Thran Physician
-- 1x Zodiark, Umbral God
 - 1x Zulaport Cutthroat
 
 ### Planeswalker (1)
 - 1x Liliana, Dreadhorde General
 
-### Instant (14)
+### Instant (9)
 - 1x Culling the Weak
 - 1x Dark Ritual
-- 1x Deadly Dispute
 - 1x Deadly Rollick
 - 1x Entomb
 - 1x Fell the Profane // Fell Mire
-- 1x Flare of Malice
 - 1x Malakir Rebirth // Malakir Mire
-- 1x Not Dead After All
-- 1x Overkill
 - 1x Sheoldred's Edict
-- 1x Tragic Slip
 - 1x Vampiric Tutor
 - 1x Withering Torment
 
-### Sorcery (11)
+### Sorcery (7)
 - 1x Agadeem's Awakening // Agadeem, the Undercrypt
 - 1x Demonic Tutor
 - 1x Diabolic Intent
-- 1x Exsanguinate
 - 1x Feed the Swarm
-- 1x Grim Tutor
-- 1x Night's Whisper
 - 1x Reanimate
 - 1x Toxic Deluge
 - 1x Unearth
-- 1x Victimize
 
-### Artifact (12)
+### Artifact (10)
 - 1x Arcane Signet
 - 1x Ashnod's Altar
 - 1x Bolas's Citadel
-- 1x Bontu's Monument
 - 1x Jet Medallion
-- 1x Lightning Greaves
 - 1x Lotus Petal
 - 1x Phyrexian Altar
 - 1x Skullclamp
@@ -111,20 +83,16 @@ source: https://archidekt.com/decks/13966160
 - 1x The One Ring
 - 1x The Soul Stone
 
-### Enchantment (14)
-- 1x Animate Dead
+### Enchantment (10)
 - 1x Bastion of Remembrance
 - 1x Bitterblossom
-- 1x Black Market
 - 1x Black Market Connections
 - 1x Chthonian Nightmare
 - 1x Dictate of Erebos
-- 1x Dreadhorde Invasion
 - 1x Exquisite Blood
 - 1x Grave Pact
 - 1x Necropotence
 - 1x Phyrexian Arena
-- 1x Sanguine Bond
 - 1x The Meathook Massacre
 
 ### Land (32)

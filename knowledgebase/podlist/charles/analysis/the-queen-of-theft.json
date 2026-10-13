@@ -7,38 +7,43 @@
       "status": "success",
       "error": null,
       "metrics": {
-        "power_score": 6.9,
-        "bracket": 3,
+        "power_score": 6.7,
+        "bracket": 4,
+        "bracket_label": "Bracket 4: Optimized (High-Power Casual)",
         "combo_score": 0.5,
         "interaction_score": 8.8,
         "ramp_score": 10.0,
         "consistency_score": 8.4,
-        "speed_score": 7.9,
+        "speed_score": 7.8,
         "tutor_count": 0,
         "fast_mana_count": 2,
         "combo_count": 0,
-        "game_changers_count": 1,
+        "game_changers_count": 4,
         "game_changers": [
-          "Cyclonic Rift"
+          "Cyclonic Rift",
+          "Peer into the Abyss",
+          "Sol Ring",
+          "Toxic Deluge"
         ],
         "stax_count": 0,
         "stax_pieces": []
       },
       "source_metrics": {
-        "piloting_archetype": "Spellslinger / Storm",
+        "piloting_archetype": "Midrange / Engine Value",
         "average_cmc": "3.35",
         "effective_average_cmc": null,
         "x_spell_count": 2,
         "non_land_cards": 62,
-        "land_cards": 36
+        "land_cards": 37
       },
       "text": {
-        "summary": "Spellslinger / Storm deck built around Tasha, the Witch Queen. Average CMC: 3.35.",
+        "summary": "Midrange / Engine Value deck built around Tasha, the Witch Queen. Average CMC: 3.35.",
         "explanations": [
-          "Identified Piloting Archetype as 'Spellslinger / Storm'; applied adaptive strategic weighting profile."
+          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile.",
+          "Optimized High-Power Casual: 4 Game Changers (exceeds Bracket 3 cap of 3)."
         ],
         "strengths": [
-          "Game Changers: 1 (Cyclonic Rift)",
+          "Game Changers: 4 (Cyclonic Rift, Peer into the Abyss, Sol Ring, Toxic Deluge)",
           "Fast Mana acceleration: 2 source(s)",
           "Tutor density: 0 tutor(s)",
           "Repeatable draw engines: 2"
@@ -54,7 +59,7 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.2.0",
+        "engine_version": "2.0.0",
         "sub_pillar_scores": {
           "velocity": 78.5,
           "engine": 84.0,
@@ -63,13 +68,18 @@
           "resilience": 12.0,
           "closing": 5.0,
           "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": null,
+          "emergent_locks": [],
+          "anti_synergies": []
         }
       }
     }
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/16155734",
-    "analysis_time": "2026-10-05T02:17:30Z",
+    "analysis_time": "2026-10-13T10:20:12Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

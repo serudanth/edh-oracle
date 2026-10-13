@@ -7,8 +7,9 @@
       "status": "success",
       "error": null,
       "metrics": {
-        "power_score": 8.6,
-        "bracket": 4,
+        "power_score": 8.9,
+        "bracket": 5,
+        "bracket_label": "Bracket 5: cEDH (Competitive Commander)",
         "combo_score": 8.9,
         "interaction_score": 4.8,
         "ramp_score": 10.0,
@@ -17,13 +18,14 @@
         "tutor_count": 7,
         "fast_mana_count": 4,
         "combo_count": 0,
-        "game_changers_count": 7,
+        "game_changers_count": 8,
         "game_changers": [
+          "Deadly Rollick",
           "Enlightened Tutor",
           "Gamble",
-          "Jeska's Will",
           "Orcish Bowmasters",
           "Smothering Tithe",
+          "Sol Ring",
           "The One Ring",
           "Vampiric Tutor"
         ],
@@ -31,7 +33,7 @@
         "stax_pieces": []
       },
       "source_metrics": {
-        "piloting_archetype": "Spellslinger / Storm",
+        "piloting_archetype": "Midrange / Engine Value",
         "average_cmc": "2.88",
         "effective_average_cmc": null,
         "x_spell_count": 1,
@@ -39,12 +41,13 @@
         "land_cards": 37
       },
       "text": {
-        "summary": "Spellslinger / Storm deck built around Celes, Rune Knight. Average CMC: 2.88.",
+        "summary": "Midrange / Engine Value deck built around Celes, Rune Knight. Average CMC: 2.88.",
         "explanations": [
-          "Identified Piloting Archetype as 'Spellslinger / Storm'; applied adaptive strategic weighting profile."
+          "Identified Piloting Archetype as 'Midrange / Engine Value'; applied adaptive strategic weighting profile.",
+          "cEDH tier: Meets tournament speed, hyper-dense fast mana/tutors, or competitive combo lock requirements."
         ],
         "strengths": [
-          "Game Changers: 7 (Enlightened Tutor, Gamble, Jeska's Will, Orcish Bowmasters, Smothering Tithe, The One Ring, Vampiric Tutor)",
+          "Game Changers: 8 (Deadly Rollick, Enlightened Tutor, Gamble, Orcish Bowmasters, Smothering Tithe, Sol Ring, The One Ring, Vampiric Tutor)",
           "Fast Mana acceleration: 4 source(s)",
           "Tutor density: 7 tutor(s)",
           "Repeatable draw engines: 4"
@@ -60,7 +63,7 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.2.0",
+        "engine_version": "2.0.0",
         "sub_pillar_scores": {
           "velocity": 97.8,
           "engine": 100.0,
@@ -69,13 +72,18 @@
           "resilience": 100.0,
           "closing": 89.0,
           "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": null,
+          "emergent_locks": [],
+          "anti_synergies": []
         }
       }
     }
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/22459099",
-    "analysis_time": "2026-10-05T02:17:30Z",
+    "analysis_time": "2026-10-13T10:20:30Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

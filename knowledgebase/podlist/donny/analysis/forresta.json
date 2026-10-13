@@ -8,7 +8,8 @@
       "error": null,
       "metrics": {
         "power_score": 7.4,
-        "bracket": 3,
+        "bracket": 4,
+        "bracket_label": "Bracket 4: Optimized (High-Power Casual)",
         "combo_score": 5.3,
         "interaction_score": 1.6,
         "ramp_score": 10.0,
@@ -17,10 +18,8 @@
         "tutor_count": 4,
         "fast_mana_count": 0,
         "combo_count": 0,
-        "game_changers_count": 1,
-        "game_changers": [
-          "Seedborn Muse"
-        ],
+        "game_changers_count": 0,
+        "game_changers": [],
         "stax_count": 0,
         "stax_pieces": []
       },
@@ -35,10 +34,11 @@
       "text": {
         "summary": "Big Mana / Landfall deck built around Gladiolus Amicitia. Average CMC: 3.67.",
         "explanations": [
-          "Identified Piloting Archetype as 'Big Mana / Landfall'; applied adaptive strategic weighting profile."
+          "Identified Piloting Archetype as 'Big Mana / Landfall'; applied adaptive strategic weighting profile.",
+          "Optimized High-Power Casual: Power score 7.4 >= 7.0."
         ],
         "strengths": [
-          "Game Changers: 1 (Seedborn Muse)",
+          "Game Changers: 0 (None)",
           "Fast Mana acceleration: 0 source(s)",
           "Tutor density: 4 tutor(s)",
           "Repeatable draw engines: 2"
@@ -54,7 +54,7 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.2.0",
+        "engine_version": "2.0.0",
         "sub_pillar_scores": {
           "velocity": 65.5,
           "engine": 84.0,
@@ -63,13 +63,18 @@
           "resilience": 34.0,
           "closing": 53.0,
           "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": null,
+          "emergent_locks": [],
+          "anti_synergies": []
         }
       }
     }
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/21400503",
-    "analysis_time": "2026-10-05T02:17:30Z",
+    "analysis_time": "2026-10-13T10:20:27Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

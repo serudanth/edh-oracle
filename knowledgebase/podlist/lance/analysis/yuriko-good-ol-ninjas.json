@@ -7,8 +7,9 @@
       "status": "success",
       "error": null,
       "metrics": {
-        "power_score": 8.0,
-        "bracket": 4,
+        "power_score": 8.4,
+        "bracket": 5,
+        "bracket_label": "Bracket 5: cEDH (Competitive Commander)",
         "combo_score": 4.1,
         "interaction_score": 10.0,
         "ramp_score": 10.0,
@@ -17,20 +18,23 @@
         "tutor_count": 3,
         "fast_mana_count": 2,
         "combo_count": 0,
-        "game_changers_count": 6,
+        "game_changers_count": 9,
         "game_changers": [
           "Cyclonic Rift",
+          "Deadly Rollick",
           "Demonic Tutor",
           "Fierce Guardianship",
+          "Mystic Remora",
           "Mystical Tutor",
           "Orcish Bowmasters",
+          "Sol Ring",
           "Vampiric Tutor"
         ],
         "stax_count": 0,
         "stax_pieces": []
       },
       "source_metrics": {
-        "piloting_archetype": "Cheat / Aggro Tempo",
+        "piloting_archetype": "Spellslinger / Storm",
         "average_cmc": "3.09",
         "effective_average_cmc": null,
         "x_spell_count": null,
@@ -38,12 +42,13 @@
         "land_cards": 35
       },
       "text": {
-        "summary": "Cheat / Aggro Tempo deck built around Yuriko, the Tiger's Shadow. Average CMC: 3.09.",
+        "summary": "Spellslinger / Storm deck built around Yuriko, the Tiger's Shadow. Average CMC: 3.09.",
         "explanations": [
-          "Identified Piloting Archetype as 'Cheat / Aggro Tempo'; applied adaptive strategic weighting profile."
+          "Identified Piloting Archetype as 'Spellslinger / Storm'; applied adaptive strategic weighting profile.",
+          "cEDH tier: Meets tournament speed, hyper-dense fast mana/tutors, or competitive combo lock requirements."
         ],
         "strengths": [
-          "Game Changers: 6 (Cyclonic Rift, Demonic Tutor, Fierce Guardianship, Mystical Tutor, Orcish Bowmasters, Vampiric Tutor)",
+          "Game Changers: 9 (Cyclonic Rift, Deadly Rollick, Demonic Tutor, Fierce Guardianship, Mystic Remora, Mystical Tutor, Orcish Bowmasters, Sol Ring, Vampiric Tutor)",
           "Fast Mana acceleration: 2 source(s)",
           "Tutor density: 3 tutor(s)",
           "Repeatable draw engines: 5"
@@ -59,7 +64,7 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.2.0",
+        "engine_version": "2.0.0",
         "sub_pillar_scores": {
           "velocity": 93.8,
           "engine": 100.0,
@@ -68,13 +73,18 @@
           "resilience": 22.0,
           "closing": 41.0,
           "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": null,
+          "emergent_locks": [],
+          "anti_synergies": []
         }
       }
     }
   ],
   "metadata": {
     "deck_url": "https://archidekt.com/decks/22461958",
-    "analysis_time": "2026-10-05T02:17:30Z",
+    "analysis_time": "2026-10-13T10:20:28Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],

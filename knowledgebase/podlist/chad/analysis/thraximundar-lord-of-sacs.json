@@ -7,8 +7,9 @@
       "status": "success",
       "error": null,
       "metrics": {
-        "power_score": 7.4,
-        "bracket": 3,
+        "power_score": 7.6,
+        "bracket": 4,
+        "bracket_label": "Bracket 4: Optimized (High-Power Casual)",
         "combo_score": 2.9,
         "interaction_score": 7.2,
         "ramp_score": 10.0,
@@ -20,14 +21,14 @@
         "game_changers_count": 3,
         "game_changers": [
           "Bolas's Citadel",
-          "Tergrid, God of Fright // Tergrid's Lantern",
+          "Sol Ring",
           "Vampiric Tutor"
         ],
         "stax_count": 0,
         "stax_pieces": []
       },
       "source_metrics": {
-        "piloting_archetype": "Cheat / Aggro Tempo",
+        "piloting_archetype": "Aristocrats / Sacrifice",
         "average_cmc": "3.45",
         "effective_average_cmc": null,
         "x_spell_count": null,
@@ -35,12 +36,13 @@
         "land_cards": 35
       },
       "text": {
-        "summary": "Cheat / Aggro Tempo deck built around Thraximundar. Average CMC: 3.45.",
+        "summary": "Aristocrats / Sacrifice deck built around Thraximundar. Average CMC: 3.45.",
         "explanations": [
-          "Identified Piloting Archetype as 'Cheat / Aggro Tempo'; applied adaptive strategic weighting profile."
+          "Identified Piloting Archetype as 'Aristocrats / Sacrifice'; applied adaptive strategic weighting profile.",
+          "Optimized High-Power Casual: Power score 7.6 >= 7.0."
         ],
         "strengths": [
-          "Game Changers: 3 (Bolas's Citadel, Tergrid, God of Fright // Tergrid's Lantern, Vampiric Tutor)",
+          "Game Changers: 3 (Bolas's Citadel, Sol Ring, Vampiric Tutor)",
           "Fast Mana acceleration: 2 source(s)",
           "Tutor density: 2 tutor(s)",
           "Repeatable draw engines: 4"
@@ -56,7 +58,7 @@
         ]
       },
       "raw_result": {
-        "engine_version": "1.2.0",
+        "engine_version": "2.0.0",
         "sub_pillar_scores": {
           "velocity": 75.8,
           "engine": 100.0,
@@ -65,13 +67,18 @@
           "resilience": 54.0,
           "closing": 29.0,
           "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": null,
+          "emergent_locks": [],
+          "anti_synergies": []
         }
       }
     }
   ],
   "metadata": {
     "deck_url": "https://moxfield.com/decks/atI7xcj580ShJoa5KwL8aA",
-    "analysis_time": "2026-10-05T02:17:30Z",
+    "analysis_time": "2026-10-13T10:20:33Z",
     "successful_sources": [
       "EDHOracleLocalEngine"
     ],
