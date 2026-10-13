@@ -1,7 +1,8 @@
 1 Emet-Selch, Unsundered // Hades, Sorcerer of Eld *CMDR*
-1 Bloodline Recollector // Ancestral Craving
-1 Emet-Selch of the Third Seat
+1 Agent of Treachery
+1 Ardyn, the Usurper
 1 Emeritus of Woe // Demonic Tutor
+1 Emet-Selch of the Third Seat
 1 Fandaniel, Telophoroi Ascian
 1 Geist of Saint Thalia
 1 Grave Researcher // Reanimate
@@ -9,48 +10,46 @@
 1 K'rrik, Son of Yawgmoth
 1 Liliana the Repentant
 1 Locke Cole
-1 Lyra, Tolarian Archangel
 1 Maha, Its Feathers Night
 1 Massacre Wurm
 1 Matoya, Archon Elder
 1 Paradox Shaper // Omit Variables
-1 Sanctum Lurker
 1 Spellbook Seeker // Careful Study
 1 Summon: Primal Odin
 1 Syr Konrad, the Grim
-1 Theorist's Proxy
+1 The Warring Triad
 1 Variable Chaser // Arc of Fortune
 1 Vincent Valentine // Galian Beast
-1 Vito, Thorn of the Dusk Rose
 1 Yuriko, Hope from the Shadows
 1 Zenos yae Galvus // Shinryu, Transcendent Rival
+1 Zodiark, Umbral God
 1 Ral Zarek, Guest Lecturer
 1 An Offer You Can't Refuse
 1 Bitter Triumph
+1 Brainstorm
 1 Countersculpt
 1 Counterspell
 1 Dark Ritual
-1 Deadly Dispute
 1 Defabricate
+1 Dig Through Time
 1 Infernal Grasp
 1 Lazotep Plating
-1 Opt
 1 Sheoldred's Edict
 1 Swallowed by Leviathan
 1 Theorix Charm
 1 Thirst for Identity
 1 Feed the Swarm
-1 Notion Rain
 1 Peer into the Abyss
-1 Recursive Recruitment
+1 Preordain
+1 Stargaze
 1 The Final Days
 1 Unearth
 1 Arcane Signet
-1 Eye of Jace
+1 Dimir Signet
 1 Fellwar Stone
 1 Jet Medallion
 1 Lich's Relic
-1 Skullclamp
+1 Lightning Greaves
 1 Sol Ring
 1 Swiftfoot Boots
 1 Ballad of the Black Flag
@@ -60,6 +59,7 @@
 1 The Clone Saga
 1 Way of the Mind Sculptor
 1 Way of the Necromancer
+1 Wound Reflection
 1 Bojuka Bog
 1 Command Tower
 1 Dakmor Salvage

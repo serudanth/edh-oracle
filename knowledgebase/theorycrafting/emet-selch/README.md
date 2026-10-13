@@ -34,7 +34,7 @@ This directory serves as the centralized workspace for theorycrafting, mechanica
 
 | Dimension | AI-Generated List (Archidekt 16392388) | Revised & Salvaged Architecture |
 |---|---|---|
-| **Win Conditions** | Laboratory Maniac & Jace WOM (Dead without Consultation; self-mill exiles library post-flip) | **Zenos/Shinryu OTK**, **Maha + Massacre Wurm board lock**, **K'rrik + Hades Yawgmoth storm** |
+| **Win Conditions** | Laboratory Maniac & Jace WOM (Dead without Consultation; self-mill exiles library post-flip) | **Zenos/Shinryu OTK**, **Maha + Massacre Wurm board lock**, **K'rrik + Third Seat + Hades cost-reduction storm** |
 | **Graveyard Fuel** | Fragile 1/1 dorks (Millikin, Deranged Assistant), slow sorceries | **Altar of Dementia**, **Bitter Triumph**, **Deadly Dispute**, **Liliana the Repentant**, **Stitcher's Supplier** |
 | **Hand Size** | Anti-synergistic Thought Vessel & Reliquary Tower | Resilient rocks (**Dimir Signet**, **Jet Medallion**) & uncounterable cleanup discard setup |
 | **Interaction Suite** | Narrow counterspells, no enchantment removal | Instant-speed edicts (**Sheoldred's Edict**), versatile removal (**Bitter Triumph**), enchantment answer (**Feed the Swarm**) |

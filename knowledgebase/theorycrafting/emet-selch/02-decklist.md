@@ -1,125 +1,112 @@
 ---
 type: decklist
-title: "The Sorcerer of Eld — Emet-Selch, Unsundered (100% Physically Verified)"
+title: "The Sorcerer of Eld — Emet-Selch, Unsundered (Purged & 100% Physically Verified)"
 owner: charles
 handle: fowlplays
 commander: "Emet-Selch, Unsundered // Hades, Sorcerer of Eld"
 colors: [U, B]
 power_level: 7.5
-tags: [#theorycrafting, #dimir, #ffxiv, #reanimator, #graveyard, #hades, #zenos, #reality-fracture, #physically-verified]
-related: [01-discussion-and-architecture, ../../podlist/charles/decks/the-best-of-friends, ../../podlist/charles/inventory/README]
-last_updated: 2026-10-01
-source: https://archidekt.com/decks/16392388/the_sorcerer_of_eld
+tags: [#theorycrafting, #dimir, #ffxiv, #ffxv, #reanimator, #graveyard, #hades, #zenos, #ardyn, #zodiark, #physically-verified, #no-aristocrats, #zero-sac-outlets]
+related: [01-discussion-and-architecture, ../../podlist/charles/decks/the-best-of-friends, ../../podlist/charles/decks/the-sorcerer-of-eld, ../../podlist/charles/inventory/README]
+last_updated: 2026-10-13
+source: https://archidekt.com/decks/26970104/the_sorcerer_of_eld
 ---
 
-## Decklist (100% Physically Verified in Collection)
+## Decklist (100% Physically Verified in Collection — $0.00 Spend)
 
 **Commander:** Emet-Selch, Unsundered // Hades, Sorcerer of Eld
 
-### Creature (23)
-- 1x Emet-Selch of the Third Seat *(Bulk)*
-- 1x Fandaniel, Telophoroi Ascian *(Bulk)*
-- 1x Gray Merchant of Asphodel *(Zenos Deck)*
-- 1x Maha, Its Feathers Night *(Zenos Deck)*
-- 1x Massacre Girl *(Zenos Deck)*
-- 1x Massacre Wurm *(Zenos Deck — foil)*
-- 1x Millikin *(Bulk)*
-- 1x Morbid Opportunist *(Zenos Deck)*
-- 1x Murderous Rider // Swift End *(Zenos Deck)*
-- 1x Paradox Shaper // Omit Variables *(FRA Box)*
-- 1x Plaguecrafter *(Zenos Deck)*
-- 1x Sanitarium Skeleton *(Bulk)*
-- 1x Smuggler's Copter *(Bulk)*
-- 1x Summon: Primal Odin *(Zenos Deck / Bulk)*
-- 1x Syr Konrad, the Grim *(Zenos Deck)*
-- 1x Unstoppable Slasher *(Zenos Deck)*
-- 1x Vito, Thorn of the Dusk Rose *(Zenos Deck — foil)*
-- 1x Yahenni, Undying Partisan *(Zenos Deck)*
-- 1x Zenos yae Galvus // Shinryu, Transcendent Rival *(Zenos Deck)*
-- 1x Zodiark, Umbral God *(Zenos Deck / Bulk)*
-- 1x Zulaport Cutthroat *(Zenos Deck)*
-- 1x Liliana the Repentant *(FRA Box)*
-- 1x K'rrik, Son of Yawgmoth *(Zenos Deck / Binder)*
+### Creature (24)
+- 1x Agent of Treachery *(ManaBox — Binder)*
+- 1x Ardyn, the Usurper *(ManaBox — Binder)*
+- 1x Emeritus of Woe // Demonic Tutor *(Dismantled — The Best of Friends)*
+- 1x Emet-Selch of the Third Seat *(ManaBox — Bulk)*
+- 1x Fandaniel, Telophoroi Ascian *(ManaBox — Bulk)*
+- 1x Geist of Saint Thalia *(Dismantled — The Last Ride)*
+- 1x Grave Researcher // Reanimate *(Dismantled — The Best of Friends)*
+- 1x Gray Merchant of Asphodel *(Dismantled — The Best of Friends)*
+- 1x K'rrik, Son of Yawgmoth *(Dismantled — The Best of Friends)*
+- 1x Liliana the Repentant *(Dismantled — The Last Ride)*
+- 1x Locke Cole *(ManaBox — Bulk)*
+- 1x Maha, Its Feathers Night *(Dismantled — The Best of Friends)*
+- 1x Massacre Wurm *(Dismantled — The Best of Friends — foil)*
+- 1x Matoya, Archon Elder *(ManaBox — Bulk)*
+- 1x Paradox Shaper // Omit Variables *(Dismantled — The Last Ride)*
+- 1x Spellbook Seeker // Careful Study *(ManaBox — Bulk)*
+- 1x Summon: Primal Odin *(Dismantled — The Best of Friends)*
+- 1x Syr Konrad, the Grim *(Dismantled — The Best of Friends)*
+- 1x The Warring Triad *(ManaBox — Bulk)*
+- 1x Variable Chaser // Arc of Fortune *(Dismantled — The Last Ride)*
+- 1x Vincent Valentine // Galian Beast *(ManaBox — Binder)*
+- 1x Yuriko, Hope from the Shadows *(Dismantled — The Last Ride)*
+- 1x Zenos yae Galvus // Shinryu, Transcendent Rival *(Dismantled — The Best of Friends)*
+- 1x Zodiark, Umbral God *(ManaBox — Bulk / The Best of Friends)*
 
-### Instant (16)
-- 1x An Offer You Can't Refuse *(Bulk)*
-- 1x Bitter Triumph *(Zenos Deck / Bulk)*
-- 1x Brainstorm *(Bulk)*
-- 1x Brainsurge *(Bulk)*
-- 1x Countersculpt *(FRA Box)*
-- 1x Counterspell *(Bulk)*
-- 1x Dark Ritual *(Zenos Deck / Bulk)*
-- 1x Deadly Dispute *(Zenos Deck / Bulk)*
-- 1x Defabricate *(Bulk)*
-- 1x Infernal Grasp *(Bulk)*
-- 1x Lazotep Plating *(Bulk)*
-- 1x Louisoix's Sacrifice *(Bulk)*
-- 1x Opt *(Bulk)*
-- 1x Plumb the Forbidden *(Bulk)*
-- 1x Sheoldred's Edict *(Zenos Deck / Bulk)*
-- 1x Theorix Charm *(FRA Box)*
+### Planeswalker (1)
+- 1x Ral Zarek, Guest Lecturer *(ManaBox — Bulk)*
 
-### Sorcery (10)
-- 1x Blood for Bones *(Bulk)*
-- 1x Curse of the Swine *(Bulk)*
-- 1x Diabolic Intent *(Bulk)*
-- 1x Emeritus of Woe // Demonic Tutor *(Zenos Deck)*
-- 1x Feed the Swarm *(Zenos Deck)*
-- 1x Grave Researcher // Reanimate *(Zenos Deck / Bulk)*
-- 1x Notion Rain *(Bulk)*
-- 1x Peer into the Abyss *(Zenos Deck)*
-- 1x Preordain *(Bulk)*
-- 1x Rewrite Regrets *(FRA Box)*
-- 1x The Final Days *(Bulk)*
-- 1x Unearth *(Bulk)*
+### Instant (14)
+- 1x An Offer You Can't Refuse *(ManaBox — Bulk)*
+- 1x Bitter Triumph *(Dismantled — The Best of Friends)*
+- 1x Brainstorm *(ManaBox — Bulk)*
+- 1x Countersculpt *(Dismantled — The Last Ride)*
+- 1x Counterspell *(ManaBox — Bulk)*
+- 1x Dark Ritual *(Dismantled — The Best of Friends)*
+- 1x Defabricate *(ManaBox — Bulk)*
+- 1x Dig Through Time *(ManaBox — Binder)*
+- 1x Infernal Grasp *(ManaBox — Bulk)*
+- 1x Lazotep Plating *(ManaBox — Bulk)*
+- 1x Sheoldred's Edict *(Dismantled — The Best of Friends)*
+- 1x Swallowed by Leviathan *(ManaBox — Bulk)*
+- 1x Theorix Charm *(Dismantled — The Last Ride)*
+- 1x Thirst for Identity *(ManaBox — Bulk)*
 
-### Artifact (7)
-- 1x Altar of Dementia *(Bulk)*
-- 1x Arcane Signet *(Bulk)*
-- 1x Dimir Signet *(Bulk)*
-- 1x Eye of Jace *(FRA Box)*
-- 1x Jet Medallion *(Zenos Deck)*
-- 1x Mind Stone *(Bulk)*
-- 1x Skullclamp *(Zenos Deck)*
-- 1x Sol Ring *(Zenos Deck / Bulk)*
-- 1x Thought Vessel *(Bulk)*
+### Sorcery (6)
+- 1x Feed the Swarm *(Dismantled — The Best of Friends)*
+- 1x Peer into the Abyss *(Dismantled — The Best of Friends)*
+- 1x Preordain *(ManaBox — Bulk)*
+- 1x Stargaze *(Dismantled — The Best of Friends)*
+- 1x The Final Days *(ManaBox — Bulk)*
+- 1x Unearth *(ManaBox — Bulk)*
 
-### Enchantment (4)
-- 1x Bastion of Remembrance *(Zenos Deck)*
-- 1x Dreadhorde Invasion *(Zenos Deck / Bulk)*
-- 1x Kaya's Ghostform *(Zenos Deck / Bulk)*
-- 1x Way of the Necromancer *(FRA Box)*
+### Artifact (8)
+- 1x Arcane Signet *(Dismantled — The Last Ride)*
+- 1x Dimir Signet *(ManaBox — Bulk)*
+- 1x Fellwar Stone *(ManaBox — The Rush)*
+- 1x Jet Medallion *(Dismantled — The Best of Friends)*
+- 1x Lich's Relic *(Dismantled — The Last Ride)*
+- 1x Lightning Greaves *(ManaBox — Bulk)*
+- 1x Sol Ring *(Dismantled — The Last Ride)*
+- 1x Swiftfoot Boots *(ManaBox — Bulk)*
 
-### Land (35)
-- 1x Barren Moor *(Zenos Deck)*
-- 1x Bojuka Bog *(Bulk)*
-- 1x Command Tower *(Bulk)*
-- 1x Dakmor Salvage *(Bulk)*
-- 1x Darkwater Catacombs *(Bulk)*
-- 1x Demolition Field *(Bulk)*
-- 1x Dismal Backwater *(Bulk)*
-- 1x Eden, Seat of the Sanctum *(Bulk)*
-- 1x Emergence Zone *(Bulk)*
-- 1x Escape Tunnel *(Bulk)*
-- 1x Evolving Wilds *(Bulk)*
-- 1x Exotic Orchard *(Bulk)*
-- 8x Island *(Bulk)*
-- 1x Maestros Theater *(Bulk)*
-- 1x Myriad Landscape *(Bulk)*
-- 1x Rogue's Passage *(Zenos Deck)*
-- 1x Scavenger Grounds *(Bulk)*
-- 8x Swamp *(Bulk)*
-- 1x Terramorphic Expanse *(Bulk)*
-- 1x Theorix Annex *(FRA Box)*
-- 1x Treno, Dark City *(Bulk)*
+### Enchantment (8)
+- 1x Ballad of the Black Flag *(ManaBox — Bulk)*
+- 1x Gossip's Talent *(ManaBox — The Koronation)*
+- 1x Kaya's Ghostform *(Dismantled — The Best of Friends)*
+- 1x Sidequest: Card Collection // Magicked Card *(ManaBox — Bulk)*
+- 1x The Clone Saga *(Dismantled — The Last Ride)*
+- 1x Way of the Mind Sculptor *(Dismantled — The Last Ride)*
+- 1x Way of the Necromancer *(Dismantled — The Last Ride)*
+- 1x Wound Reflection *(Dismantled — The Best of Friends)*
+
+### Land (38)
+- 1x Bojuka Bog *(ManaBox — Bulk)*
+- 1x Command Tower *(Dismantled — The Master Chef)*
+- 1x Dakmor Salvage *(ManaBox — Bulk)*
+- 1x Darkwater Catacombs *(ManaBox — Bulk)*
+- 1x Demolition Field *(Dismantled — The Dirt Kicker)*
+- 1x Dimir Guildgate *(ManaBox — Bulk)*
+- 1x Dismal Backwater *(ManaBox — Bulk)*
+- 1x Exotic Orchard *(Dismantled — The Last Ride)*
+- 1x Hexhaven Dueling Arena *(Dismantled — The Last Ride)*
+- 13x Island *(ManaBox — The Koronation)*
+- 1x Rogue's Passage *(Dismantled — The Dirt Kicker)*
+- 13x Swamp *(ManaBox — Bulk)*
+- 1x Theorist's Sanctum *(Dismantled — The Last Ride)*
+- 1x Treno, Dark City *(ManaBox — Bulk)*
 
 ---
 
-## Physical Inventory Audit & Provenance
+## Zero-Sacrifice Architecture
 
-Every single card in this deck is 100% physically accounted for in Charles's collection:
-* **The Best of Friends (Dismantled Zenos Deck):** 28 Cards
-* **ManaBox Bulk:** 45 Cards
-* **Reality Fracture Booster Box Pulls:** 7 Cards
-* **ManaBox Binder:** 2 Cards (, )
-* **Basic Lands from Bulk:** 18 Cards (, )
+Every single card in this build is focused on preserving your engine creatures, accelerating mana, looting/stockpiling through spells and combat, and ending the game through decisive reanimation bombs and life-drain doublers.

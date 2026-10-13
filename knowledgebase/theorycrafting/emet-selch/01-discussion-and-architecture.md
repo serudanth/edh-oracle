@@ -143,9 +143,9 @@ With the knowledgebase updated to include the newly released *Reality Fracture* 
         ▼                                     ▼                                     ▼
  [THE PRE-FLIP STOCKPILE]             [THE ZENOS / SHINRYU HUNT]             [THE REANIMATION LOCK]
 - Emet-Selch Looting & Vigilance      - Zenos -2/-2 Board Clear             - Maha + Massacre Wurm Wipe
-- Altar of Dementia / Stitcher        - Shinryu "Burning Chains" OTK        - K'rrik Mana Turbo Execution
+- Altar of Dementia / Stitcher        - Shinryu "Burning Chains" OTK        - K'rrik + Third Seat Turbo Engine
 - Bitter Triumph / Deadly Dispute     - Targeted Player Elimination         - Archon of Cruelty Drain Loops
-- Entomb / Demonic Tutor              - FFXIV Iconic Antagonist Pair        - Hullbreaker Horror Bounce Lock
+- Entomb / Demonic Tutor              - FFXIV Iconic Antagonist Pair        - Gary Devotion Life Resets
 ```
 
 ### The Three Winning Pathways:
@@ -157,7 +157,23 @@ With the knowledgebase updated to include the newly released *Reality Fracture* 
 2. **The Asymmetric Extinction (Maha + Massacre Wurm):**
    * With `Maha, Its Feathers Night` on board, all opposing creatures have 1 toughness.
    * Drop or reanimate `Massacre Wurm` (giving -2/-2 to all opponents' creatures) $\rightarrow$ Entire opposing boards are wiped, draining 2 life per creature.
-3. **The Hades Super-Turn (K'rrik + Echo of the Lost):**
+3. **The Hades Super-Turn (K'rrik + Emet-Selch of the Third Seat + Jet Medallion + Echo of the Lost):**
    * Transform into Hades with 14+ cards in yard.
-   * Cast `K'rrik, Son of Yawgmoth` from hand or graveyard.
-   * Play `Dark Ritual`, cheap removal, tutors, and reanimation spells directly from your graveyard paying Phyrexian life, assembling a lethal board state and locking opponents out of the game.
+   * Assemble `K'rrik, Son of Yawgmoth`, `Emet-Selch of the Third Seat`, and optionally `Jet Medallion` (all castable or reanimatable directly from your graveyard via Hades; note that per CR 704.5j, there is no Legend Rule clash with "Emet-Selch, Unsundered // Hades, Sorcerer of Eld").
+   * **The Cost-Reduction Matrix:**
+     * `Emet-Selch of the Third Seat` reduces generic mana costs by `{2}` for all spells cast from your graveyard.
+     * `Jet Medallion` reduces all black spells by `{1}` generic mana.
+     * Combined generic discount for black graveyard spells = **-{3} generic mana**!
+     * `K'rrik, Son of Yawgmoth` converts every `{B}` into 2 life.
+   * **The Zero-Mana Board Storm (0 Mana Spent):**
+     * Spells with costs like `{1}{B}` or `{2}{B}` (`Bitter Triumph`, `Infernal Grasp`, `Sheoldred's Edict`, `Diabolic Intent`, `Feed the Swarm`, `Deadly Dispute`) become **0 mana and 2 life**!
+     * `Dark Ritual` ({B}) costs **0 mana and 2 life**, generating **{B}{B}{B}** positive mana directly from the yard!
+     * Pure black recursion (`Reanimate`, `Unearth`) costs **0 mana and 2 life**.
+     * With `Jet Medallion` + `Third Seat` (-{3} generic reduction):
+       * `Blood for Bones` ({3}{B}) $\rightarrow$ **0 mana and 2 life**!
+       * `Zenos yae Galvus` ({3}{B}{B}) $\rightarrow$ **0 mana and 4 life** (wiping the board and threatening Shinryu OTK for 0 mana)!
+       * `Gray Merchant of Asphodel` ({3}{B}{B}) $\rightarrow$ **0 mana and 4 life**!
+       * `Massacre Wurm` / `The Final Days` ({3}{B}{B}{B}) $\rightarrow$ **0 mana and 6 life**!
+       * `Peer into the Abyss` ({4}{B}{B}{B}) $\rightarrow$ Costs only **{1} generic mana and 6 life** to draw half your library!
+   * **Devotion Life Restock:**
+     * Casting `Gray Merchant of Asphodel` for **0 mana and 4 life** (or 1 mana without Medallion) with K'rrik (3 devotion), Third Seat (1 devotion), Gary (2 devotion), and board permanents immediately drains opponents for 6–10+ each and gains **18–30+ life**, completely refueling K'rrik's life pool to deploy the rest of the graveyard with zero mana constraints.
