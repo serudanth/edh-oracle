@@ -16,7 +16,11 @@ __pycache__/
 
 # Scryfall Bulk & Local DB Cache
 knowledgebase/_cache/*.raw.*
-knowledgebase/_cache/*.db
-knowledgebase/_cache/*.db-journal
-knowledgebase/_cache/*.db-wal
-knowledgebase/_cache/*.db-shm
+knowledgebase/_cache/*.db*
+knowledgebase/_cache/scryfall-cards.json*
+
+# Large data dumps & local databases
+AllPrintings.json*
+*.db
+*.db-*
+*.bak

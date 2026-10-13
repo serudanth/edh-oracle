@@ -1,482 +1,52 @@
 #!/usr/bin/env python3
-"""EDH Oracle Local Deck Analyzer & Metric Engine.
+"""EDH Oracle Local Deck Analyzer & Metric Calculation Engine (CLI Orchestrator).
 
-Calculates 100% deterministic deck metrics, power ratings, curve evaluations, fast mana counts,
-tutor counts, and infinite combo paths using Scryfall card cache data, user-defined categories
-(source of truth), EDHRec package aggregates, and Commander Spellbook combo detection.
+Executes deterministic curve calculations, 5-bracket format auditing, and strategic
+inference across local markdown decklists in knowledgebase/podlist/.
 
 Usage:
-    python tools/deck_analyzer_engine.py --deck knowledgebase/podlist/fowlplays/decks/the-best-of-friends.md
-    python tools/deck_analyzer_engine.py --owner fowlplays --write-kb
+    python tools/deck_analyzer_engine.py --deck knowledgebase/podlist/charles/decks/the-sorcerer-of-eld.md
+    python tools/deck_analyzer_engine.py --deck <path> --write-kb
+    python tools/deck_analyzer_engine.py --owner charles --write-kb
     python tools/deck_analyzer_engine.py --all --write-kb
 """
+
 import argparse
-import datetime
 import json
 import pathlib
-import re
 import sys
-import urllib.request
-from typing import Any, Dict, List, Optional, Set, Tuple
+from typing import Any, Dict
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO_ROOT / "tools"))
 
-# Fast Mana Whitelist
-FAST_MANA_CARDS = {
-    "Sol Ring", "Mana Crypt", "Lotus Petal", "Chrome Mox", "Mox Diamond",
-    "Mox Opal", "Mana Vault", "Grim Monolith", "Ancient Tomb", "Gemstone Caverns",
-    "Dark Ritual", "Pyretic Ritual", "Seething Song", "Cabal Ritual",
-    "Elvish Spirit Guide", "Simian Spirit Guide", "Jeweled Lotus"
-}
-
-# Official Commander Format Panel (CFP / WotC) 53 Game Changers
-GAME_CHANGERS = {
-    "Ad Nauseam", "Ancient Tomb", "Aura Shards", "Biorhythm", "Bolas's Citadel",
-    "Braids, Cabal Minion", "Chrome Mox", "Coalition Victory", "Consecrated Sphinx",
-    "Crop Rotation", "Cyclonic Rift", "Demonic Tutor", "Drannith Magistrate",
-    "Enlightened Tutor", "Farewell", "Field of the Dead", "Fierce Guardianship",
-    "Force of Will", "Gaea's Cradle", "Gamble", "Gifts Ungiven", "Glacial Chasm",
-    "Grand Arbiter Augustin IV", "Grim Monolith", "Humility", "Imperial Seal",
-    "Intuition", "Jeska's Will", "Lion's Eye Diamond", "Mana Vault",
-    "Mishra's Workshop", "Mox Diamond", "Mystical Tutor", "Narset, Parter of Veils",
-    "Natural Order", "Necropotence", "Notion Thief", "Opposition Agent",
-    "Orcish Bowmasters", "Panoptic Mirror", "Rhystic Study", "Seedborn Muse",
-    "Serra's Sanctum", "Smothering Tithe", "Survival of the Fittest",
-    "Teferi's Protection", "Tergrid, God of Fright // Tergrid's Lantern",
-    "Thassa's Oracle", "The One Ring", "The Tabernacle at Pendrell Vale",
-    "Underworld Breach", "Vampiric Tutor", "Worldly Tutor"
-}
-
-# Hard Stax & Lock Pieces (Oppression / Turn-Denial)
-HARD_STAX_PIECES = {
-    "Drannith Magistrate", "Rule of Law", "Eidolon of Rhetoric", "Archon of Emeria",
-    "Deafening Silence", "Spirit of the Labyrinth", "Aven Mindcensor", "Winter Orb",
-    "Static Orb", "Stasis", "Trinisphere", "Armageddon", "Ravages of War",
-    "Hokori, Dust Drinker", "Back to Basics", "Blood Moon", "Magus of the Moon",
-    "Contamination", "Opposition Agent", "Grand Arbiter Augustin IV", "Humility",
-    "The Tabernacle at Pendrell Vale"
-}
-
-# Local Fallback Combo Database (Card Pair -> Description)
-STAPLE_COMBOS = [
-    ({"Sanguine Bond", "Exquisite Blood"}, "Sanguine Bond + Exquisite Blood -> Infinite life drain & life gain"),
-    ({"Kiki-Jiki, Mirror Breaker", "Combat Celebrant"}, "Kiki-Jiki + Combat Celebrant -> Infinite combat steps & tokens"),
-    ({"Dualcaster Mage", "Ghostly Flicker"}, "Dualcaster Mage + Ghostly Flicker -> Infinite mana & magecraft triggers"),
-    ({"Dualcaster Mage", "Twinflame"}, "Dualcaster Mage + Twinflame -> Infinite hasty Dualcaster tokens"),
-    ({"Heliod, Sun-Crowned", "Walking Ballista"}, "Heliod + Walking Ballista -> Infinite ping damage"),
-    ({"Thassa's Oracle", "Demonic Consultation"}, "Thassa's Oracle + Demonic Consultation -> Instant library exile win"),
-    ({"Thassa's Oracle", "Tainted Pact"}, "Thassa's Oracle + Tainted Pact -> Instant library exile win"),
-    ({"Isochron Scepter", "Dramatic Reversal"}, "Isochron Scepter + Dramatic Reversal -> Infinite mana & noncreature cast triggers")
-]
-
-# Archetype Dynamic Weight Matrix
-ARCHETYPE_WEIGHTS = {
-    "Cheat / Aggro Tempo": {
-        "w_vel": 0.25, "w_eng": 0.25, "w_int": 0.10, "w_res": 0.05,
-        "w_resi": 0.10, "w_clos": 0.15, "w_mana": 0.10
-    },
-    "Spellslinger / Storm": {
-        "w_vel": 0.25, "w_eng": 0.20, "w_int": 0.20, "w_res": 0.05,
-        "w_resi": 0.05, "w_clos": 0.15, "w_mana": 0.10
-    },
-    "Aristocrats / Sacrifice": {
-        "w_vel": 0.10, "w_eng": 0.30, "w_int": 0.10, "w_res": 0.10,
-        "w_resi": 0.15, "w_clos": 0.15, "w_mana": 0.10
-    },
-    "Big Mana / Landfall": {
-        "w_vel": 0.10, "w_eng": 0.15, "w_int": 0.10, "w_res": 0.35,
-        "w_resi": 0.05, "w_clos": 0.15, "w_mana": 0.10
-    },
-    "Control / Stax": {
-        "w_vel": 0.10, "w_eng": 0.20, "w_int": 0.30, "w_res": 0.10,
-        "w_resi": 0.15, "w_clos": 0.05, "w_mana": 0.10
-    },
-    "Voltron / Equipment": {
-        "w_vel": 0.15, "w_eng": 0.25, "w_int": 0.10, "w_res": 0.10,
-        "w_resi": 0.15, "w_clos": 0.15, "w_mana": 0.10
-    },
-    "Midrange / Engine Value": {
-        "w_vel": 0.15, "w_eng": 0.20, "w_int": 0.15, "w_res": 0.15,
-        "w_resi": 0.10, "w_clos": 0.15, "w_mana": 0.10
-    }
-}
+from analyzer import DeckAnalyzer
+from analyzer.parsers.markdown import parse_deck_markdown
 
 
-def load_scryfall_cache() -> Any:
-    """Loads unified Scryfall cache from local SQLite database."""
-    try:
-        from scryfall_cache import get_scryfall_cache
-        cache = get_scryfall_cache()
-        if not cache.is_available():
-            print(
-                "Warning: Local Scryfall database not found at knowledgebase/_cache/scryfall.db.\n"
-                "Run 'python tools/sync_scryfall_bulk.py' to initialize it.",
-                file=sys.stderr,
-            )
-        return cache
-    except ImportError:
-        return {}
-
-
-def parse_deck_markdown(filepath: pathlib.Path) -> Dict[str, Any]:
-    """Parses deck markdown file returning frontmatter, commander, cards, and user categories."""
-    with open(filepath, "r", encoding="utf-8") as f:
-        content = f.read()
-
-    frontmatter = {}
-    fm_match = re.search(r"^---\s*\n(.*?)\n---\s*\n", content, re.DOTALL)
-    if fm_match:
-        for line in fm_match.group(1).splitlines():
-            if ":" in line:
-                k, v = line.split(":", 1)
-                frontmatter[k.strip()] = v.strip().strip('"').strip("'")
-
-    owner = frontmatter.get("owner", "unknown")
-    commander = frontmatter.get("commander", "Unknown Commander")
-    deck_name = frontmatter.get("title", filepath.stem.replace("-", " ").title())
-    source_url = frontmatter.get("source", "")
-
-    # Parse card lines & category headers
-    cards = []
-    current_category = "Other"
-    
-    for line in content.splitlines():
-        line_s = line.strip()
-        if line_s.startswith("###"):
-            # Header like ### Creature (30) or ### Instant
-            cat_name = line_s.lstrip("#").strip()
-            cat_name = re.sub(r"\s*\(\d+\)$", "", cat_name).strip()
-            current_category = cat_name
-        elif line_s.startswith("- ") or line_s.startswith("* "):
-            card_match = re.search(r"[-*]\s*(\d+)x?\s+(.+?)(?:\s+\*\((?:foil|etched)\)\*)?$", line_s)
-            if card_match:
-                qty = int(card_match.group(1))
-                name = card_match.group(2).strip()
-                cards.append({"name": name, "qty": qty, "user_category": current_category})
-
-    return {
-        "deck_name": deck_name,
-        "owner": owner,
-        "commander": commander,
-        "source_url": source_url,
-        "status": frontmatter.get("status", "complete"),
-        "cards": cards,
-        "filepath": filepath,
-    }
-
-
-def classify_piloting_archetype(commander_text: str, card_types: Dict[str, int], user_cats: List[str], cards_data: List[Dict[str, Any]], x_spell_count: int = 0) -> str:
-    """Classifies primary piloting intent of the deck."""
-    total_cards = sum(c["qty"] for c in cards_data)
-    instants_sorceries = card_types.get("Instant", 0) + card_types.get("Sorcery", 0)
-    enchantments = card_types.get("Enchantment", 0)
-    artifacts = card_types.get("Artifact", 0)
-    creatures = card_types.get("Creature", 0)
-
-    # Check Commander text & keywords
-    cmd_lower = commander_text.lower()
-    
-    if "whenever" in cmd_lower and ("attack" in cmd_lower or "combat" in cmd_lower) and ("cheat" in cmd_lower or "put" in cmd_lower or "without paying" in cmd_lower):
-        return "Cheat / Aggro Tempo"
-
-    if "winota" in cmd_lower or "kaalia" in cmd_lower or "kinnan" in cmd_lower:
-        return "Cheat / Aggro Tempo"
-
-    # X-Spell scaling engines (Hydras, X-spells, Zimone) represent Big Mana strategies
-    if x_spell_count >= 15 or "zimone" in cmd_lower or "x in its mana cost" in cmd_lower or "hydra" in cmd_lower:
-        return "Big Mana / Landfall"
-
-    if instants_sorceries >= 25 or "feather" in cmd_lower or "inalla" in cmd_lower or "stella lee" in cmd_lower:
-        return "Spellslinger / Storm"
-
-    if "sac" in cmd_lower or "death" in cmd_lower or any("sac" in c.lower() for c in user_cats):
-        return "Aristocrats / Sacrifice"
-
-    if card_types.get("Land", 0) >= 38 or "landfall" in cmd_lower or "gladiolus" in cmd_lower or "omnath" in cmd_lower:
-        return "Big Mana / Landfall"
-
-    if "equipment" in cmd_lower or "aura" in cmd_lower or (artifacts >= 12 and any("equipment" in c.lower() for c in user_cats)):
-        return "Voltron / Equipment"
-
-    if card_types.get("Instant", 0) >= 15 and ("counter" in cmd_lower or "destroy" in cmd_lower or "y'shtola" in cmd_lower):
-        return "Control / Stax"
-
-    return "Midrange / Engine Value"
-
-
-def detect_combos(commander: str, card_names: Set[str]) -> Tuple[int, List[str]]:
-    """Detects verified infinite combos from card names using local combo DB."""
-    all_cards = card_names.copy()
-    for cmd in commander.split("//"):
-        all_cards.add(cmd.strip())
-
-    found_combos = []
-    for combo_set, desc in STAPLE_COMBOS:
-        if combo_set.issubset(all_cards):
-            found_combos.append(desc)
-
-    return len(found_combos), found_combos
-
-
-def analyze_deck(deck_info: Dict[str, Any], cache: Dict[str, Any]) -> Dict[str, Any]:
-    """Calculates all metrics, scores, dynamic weighting, and constructs normalized JSON."""
-    deck_name = deck_info["deck_name"]
-    commander = deck_info["commander"]
-    deck_url = deck_info["source_url"]
-    cards = deck_info["cards"]
-
-    card_names = {c["name"] for c in cards}
-    user_cats = [c["user_category"] for c in cards]
-
-    # Card statistics & attributes
-    total_non_lands = 0
-    total_cmc = 0.0
-    total_eff_cmc = 0.0
-    cmc_le_2 = 0
-    card_types_count: Dict[str, int] = {}
-    x_spell_count = 0
-    
-    fast_mana_count = 0
-    tutor_count = 0
-    repeatable_draw_count = 0
-    interaction_count = 0
-    instant_interaction_count = 0
-    ramp_count = 0
-    protection_count = 0
-    recursion_count = 0
-    cheat_engine_count = 0
-    game_changers_found: Set[str] = set()
-    stax_pieces_found: Set[str] = set()
-
-    commander_oracle = ""
-    for cmd_name in commander.split("//"):
-        cmd_name = cmd_name.strip()
-        if cmd_name in cache:
-            commander_oracle += " " + cache[cmd_name].get("oracle_text", "")
-
-    for c in cards:
-        name = c["name"]
-        qty = c["qty"]
-        cat = c["user_category"].lower()
-
-        # Game Changers & Hard Stax detection
-        front_name = name.split(" // ")[0].strip()
-        if name in GAME_CHANGERS or front_name in GAME_CHANGERS:
-            game_changers_found.add(name)
-        if name in HARD_STAX_PIECES or front_name in HARD_STAX_PIECES:
-            stax_pieces_found.add(name)
-
-        # User Category Source of Truth Checks
-        if "ramp" in cat or "fast mana" in cat:
-            ramp_count += qty
-        if "draw" in cat or "card advantage" in cat:
-            repeatable_draw_count += qty
-        if "removal" in cat or "interaction" in cat or "counter" in cat:
-            interaction_count += qty
-        if "tutor" in cat:
-            tutor_count += qty
-        if "protection" in cat:
-            protection_count += qty
-
-        # Scryfall Cache Attribute Enrichment
-        if name in cache:
-            cdata = cache[name]
-            cmc = cdata.get("cmc", 0.0)
-            type_line = cdata.get("type_line", "")
-            oracle = cdata.get("oracle_text", "").lower()
-            mana_cost = cdata.get("mana_cost", "") or ""
-
-            x_count = mana_cost.count("{X}")
-            if x_count > 0:
-                x_spell_count += qty
-
-            # Operational effective CMC: in gameplay, X-spells are not cast for X=0
-            # A conservative baseline models X at ~2.5 mana per {X} symbol
-            eff_cmc = cmc + (x_count * 2.5 if x_count > 0 else 0.0)
-
-            if "Land" not in type_line:
-                total_non_lands += qty
-                total_cmc += cmc * qty
-                total_eff_cmc += eff_cmc * qty
-                if eff_cmc <= 2:
-                    cmc_le_2 += qty
-
-            # Type line aggregation
-            for t in ["Creature", "Instant", "Sorcery", "Artifact", "Enchantment", "Planeswalker", "Land"]:
-                if t in type_line:
-                    card_types_count[t] = card_types_count.get(t, 0) + qty
-
-            # Fast mana check
-            if name in FAST_MANA_CARDS:
-                fast_mana_count += qty
-
-            # Ramp fallback when user categories are generic types
-            if "ramp" not in cat and "fast mana" not in cat:
-                if (("search your library for" in oracle and any(k in oracle for k in ["land", "forest", "plains", "island", "swamp", "mountain"]))
-                    or ("land card" in oracle and "onto the battlefield" in oracle)
-                    or (("add {" in oracle or "add one mana" in oracle or "add x mana" in oracle or "adds {" in oracle) and "land" not in type_line.lower())):
-                    ramp_count += qty
-
-            # Oracle text pattern checks
-            if "search your library for" in oracle and "basic land" not in oracle:
-                if "tutor" not in cat:
-                    tutor_count += qty
-
-            if ("whenever" in oracle or "at the beginning" in oracle) and "draw a card" in oracle:
-                if "draw" not in cat:
-                    repeatable_draw_count += qty
-
-            if "Instant" in type_line and ("destroy" in oracle or "exile" in oracle or "counter target" in oracle or "return target" in oracle):
-                instant_interaction_count += qty
-
-            if "hexproof" in oracle or "indestructible" in oracle or "protection from" in oracle or "phase out" in oracle:
-                if "protection" not in cat:
-                    protection_count += qty
-
-            if "return target" in oracle and ("graveyard" in oracle or "battlefield" in oracle):
-                recursion_count += qty
-
-            if "without paying its mana cost" in oracle or ("put" in oracle and "onto the battlefield" in oracle and "creature" in oracle):
-                cheat_engine_count += qty
-
-    avg_cmc = (total_cmc / total_non_lands) if total_non_lands > 0 else 3.0
-    avg_eff_cmc = (total_eff_cmc / total_non_lands) if total_non_lands > 0 else 3.0
-
-    # Archetype Classification (pass x_spell_count)
-    archetype = classify_piloting_archetype(commander_oracle, card_types_count, user_cats, cards, x_spell_count)
-    weights = ARCHETYPE_WEIGHTS.get(archetype, ARCHETYPE_WEIGHTS["Midrange / Engine Value"])
-
-    # Combo Detection
-    combo_count, combo_lines = detect_combos(commander, card_names)
-
-    # Sub-Pillar Score Calculations
-    stax_count = len(stax_pieces_found)
-    game_changers_count = len(game_changers_found)
-
-    eval_cmc = avg_eff_cmc if x_spell_count >= 8 else avg_cmc
-    s_velocity = min(100.0, max(0.0, 120.0 - 30.0 * (eval_cmc - 1.5) + 40.0 * (cmc_le_2 / max(1, total_non_lands))))
-    s_engine = min(100.0, 12.0 * repeatable_draw_count + 6.0 * min(10, len(cards) // 5))
-    s_interaction = min(100.0, 8.0 * (interaction_count + instant_interaction_count) + 12.0 * stax_count)
-    s_resource = min(100.0, 6.0 * ramp_count + 20.0 * fast_mana_count + 18.0 * cheat_engine_count)
-    s_resilience = min(100.0, 12.0 * protection_count + 10.0 * recursion_count)
-    s_closing = min(100.0, 25.0 * combo_count + 12.0 * tutor_count + 10.0 * stax_count + (15.0 if "win" in commander_oracle.lower() else 5.0))
-    s_mana = min(100.0, 85.0)  # Standard healthy mana base baseline
-
-    # Weighted Composite Score (1.0 - 10.0 scale)
-    raw_composite = (
-        weights["w_vel"] * s_velocity +
-        weights["w_eng"] * s_engine +
-        weights["w_int"] * s_interaction +
-        weights["w_res"] * s_resource +
-        weights["w_resi"] * s_resilience +
-        weights["w_clos"] * s_closing +
-        weights["w_mana"] * s_mana
-    ) / 10.0
-
-    power_score = round(min(10.0, max(1.0, raw_composite)), 1)
-
-    # Official Commander Format Panel (CFP) & Metric Bracket Determination
-    # Bracket 4 Gates:
-    # 1. CFP Gate: 4 or more Game Changers (Bracket 3 caps at 3 max)
-    # 2. Composite Power Score >= 8.5
-    # 3. High-Velocity Combo: Infinite combo + (2+ fast mana OR 2+ tutors)
-    # 4. Stax-Lock Combo: Infinite combo + 2+ hard stax pieces (e.g. Winota hatebears)
-    is_bracket_4 = (
-        game_changers_count >= 4
-        or power_score >= 8.5
-        or (combo_count >= 1 and (fast_mana_count >= 2 or tutor_count >= 2))
-        or (combo_count >= 1 and stax_count >= 2)
-    )
-
-    if is_bracket_4:
-        bracket = 4
-    elif game_changers_count >= 1 or power_score >= 6.8:
-        bracket = 3
-    elif power_score >= 4.5:
-        bracket = 2
+def analyze_deck(deck_info_or_dict: Any, cache: Any = None) -> Dict[str, Any]:
+    """Legacy compatibility bridge for programmatic analyze_deck calls."""
+    analyzer = DeckAnalyzer()
+    if hasattr(deck_info_or_dict, "cards"):
+        result = analyzer.analyze_deck(deck_info_or_dict)
+    elif isinstance(deck_info_or_dict, dict) and "filepath" in deck_info_or_dict and deck_info_or_dict["filepath"]:
+        result = analyzer.analyze_file(deck_info_or_dict["filepath"])
     else:
-        bracket = 1
-
-    # Format Standardized Output JSON
-    output = {
-        "deck_name": deck_name,
-        "commander": commander,
-        "sources": [
-            {
-                "source": "EDHOracleLocalEngine",
-                "status": "success",
-                "error": None,
-                "metrics": {
-                    "power_score": power_score,
-                    "bracket": bracket,
-                    "combo_score": round(s_closing / 10.0, 1),
-                    "interaction_score": round(s_interaction / 10.0, 1),
-                    "ramp_score": round(s_resource / 10.0, 1),
-                    "consistency_score": round(s_engine / 10.0, 1),
-                    "speed_score": round(s_velocity / 10.0, 1),
-                    "tutor_count": tutor_count,
-                    "fast_mana_count": fast_mana_count,
-                    "combo_count": combo_count,
-                    "game_changers_count": game_changers_count,
-                    "game_changers": sorted(list(game_changers_found)),
-                    "stax_count": stax_count,
-                    "stax_pieces": sorted(list(stax_pieces_found)),
-                },
-                "source_metrics": {
-                    "piloting_archetype": archetype,
-                    "average_cmc": f"{avg_cmc:.2f}",
-                    "effective_average_cmc": f"{avg_eff_cmc:.2f}" if x_spell_count >= 8 else None,
-                    "x_spell_count": x_spell_count if x_spell_count > 0 else None,
-                    "non_land_cards": total_non_lands,
-                    "land_cards": card_types_count.get("Land", 0),
-                },
-                "text": {
-                    "summary": f"{archetype} deck built around {commander}. Average CMC: {avg_cmc:.2f} (Effective: {avg_eff_cmc:.2f} across {x_spell_count} X-spells)." if x_spell_count >= 8 else f"{archetype} deck built around {commander}. Average CMC: {avg_cmc:.2f}.",
-                    "explanations": [
-                        f"Identified Piloting Archetype as '{archetype}'; applied adaptive strategic weighting profile."
-                    ],
-                    "strengths": [
-                        f"Game Changers: {game_changers_count} ({', '.join(sorted(game_changers_found)) if game_changers_found else 'None'})",
-                        *( [f"Stax / Lock pieces: {stax_count} ({', '.join(sorted(stax_pieces_found))})"] if stax_count > 0 else [] ),
-                        f"Fast Mana acceleration: {fast_mana_count} source(s)",
-                        f"Tutor density: {tutor_count} tutor(s)",
-                        f"Repeatable draw engines: {repeatable_draw_count}"
-                    ],
-                    "weaknesses": [
-                        "Sensitive to targeted disruption if key engines are neutralized."
-                    ],
-                    "recommendations": [],
-                    "suggested_changes": [],
-                    "combo_lines": combo_lines,
-                    "mulligan_advice": [
-                        "Keep hands with early mana acceleration and at least 2 lands."
-                    ],
-                },
-                "raw_result": {
-                    "engine_version": "1.2.0",
-                    "sub_pillar_scores": {
-                        "velocity": round(s_velocity, 1),
-                        "engine": round(s_engine, 1),
-                        "interaction": round(s_interaction, 1),
-                        "resource": round(s_resource, 1),
-                        "resilience": round(s_resilience, 1),
-                        "closing": round(s_closing, 1),
-                        "mana": round(s_mana, 1),
-                    },
-                },
-            }
-        ],
-        "metadata": {
-            "deck_url": deck_url,
-            "analysis_time": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-            "successful_sources": ["EDHOracleLocalEngine"],
-            "failed_sources": [],
-        },
-    }
-    return output
+        # Fallback if raw dict passed
+        from analyzer.models import CardEntry, DeckInfo
+        cards = [CardEntry(name=c["name"], qty=c.get("qty", 1), user_category=c.get("user_category", "Other")) for c in deck_info_or_dict.get("cards", [])]
+        deck = DeckInfo(
+            deck_name=deck_info_or_dict.get("deck_name", "Unknown"),
+            owner=deck_info_or_dict.get("owner", "unknown"),
+            commander=deck_info_or_dict.get("commander", "Unknown Commander"),
+            source_url=deck_info_or_dict.get("source_url", ""),
+            cards=cards
+        )
+        result = analyzer.analyze_deck(deck)
+    return analyzer.format_json(result)
 
 
-def write_analysis_to_kb(deck_filepath: pathlib.Path, analysis_data: Dict[str, Any]):
+def write_analysis_to_kb(deck_filepath: pathlib.Path, analysis_data: Dict[str, Any]) -> pathlib.Path:
     """Writes analysis output JSON to knowledgebase/podlist/<owner>/analysis/<deck-slug>.json."""
     owner = deck_filepath.parent.parent.name
     deck_slug = deck_filepath.stem
@@ -491,15 +61,16 @@ def write_analysis_to_kb(deck_filepath: pathlib.Path, analysis_data: Dict[str, A
 
 
 def main():
-    parser = argparse.ArgumentParser(description="EDH Oracle Local Deck Analyzer & Metric Engine")
+    parser = argparse.ArgumentParser(description="EDH Oracle Local Deck Analyzer & Metric Engine (v2.0 Modular)")
     parser.add_argument("--deck", help="Path to deck markdown file")
     parser.add_argument("--owner", help="Owner username to analyze all their decks")
     parser.add_argument("--all", action="store_true", help="Analyze all decks in knowledgebase/podlist/")
     parser.add_argument("--write-kb", action="store_true", help="Save analysis JSON into knowledgebase/podlist/<owner>/analysis/")
+    parser.add_argument("--llm", action="store_true", help="Enable deep LLM strategic inference pass")
 
     args = parser.parse_args()
 
-    cache = load_scryfall_cache()
+    analyzer = DeckAnalyzer()
     podlist_dir = REPO_ROOT / "knowledgebase" / "podlist"
 
     deck_files = []
@@ -524,10 +95,13 @@ def main():
     for df in deck_files:
         try:
             deck_info = parse_deck_markdown(df)
-            if deck_info.get("status") == "stub" or len(deck_info.get("cards", [])) < 10:
+            if deck_info.status == "stub" or len(deck_info.cards) < 10:
                 print(f"Skipping stub decklist: {df.name}")
                 continue
-            analysis = analyze_deck(deck_info, cache)
+
+            result = analyzer.analyze_deck(deck_info, enable_llm=args.llm)
+            analysis = analyzer.format_json(result)
+
             if args.write_kb:
                 out_path = write_analysis_to_kb(df, analysis)
                 print(f"Wrote analysis to {out_path.relative_to(REPO_ROOT)}")
