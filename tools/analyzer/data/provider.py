@@ -11,18 +11,30 @@ from typing import Any, Dict, Optional
 
 REPO_ROOT = pathlib.Path(__file__).resolve().parents[3]
 DB_PATH = REPO_ROOT / "knowledgebase" / "_cache" / "mtg.db"
+SCRYFALL_DB_PATH = REPO_ROOT / "knowledgebase" / "_cache" / "scryfall.db"
 SCRYFALL_CACHE_PATH = REPO_ROOT / "knowledgebase" / "_cache" / "scryfall-cards.json"
 
 
 class CardDataProvider:
     """Provides normalized MTG card attributes from local offline databases."""
 
-    def __init__(self, db_path: pathlib.Path = DB_PATH, cache_path: pathlib.Path = SCRYFALL_CACHE_PATH):
+    def __init__(
+        self,
+        db_path: pathlib.Path = DB_PATH,
+        cache_path: pathlib.Path = SCRYFALL_CACHE_PATH,
+        cache: Optional[Dict[str, Any]] = None,
+        scryfall_db_path: pathlib.Path = SCRYFALL_DB_PATH,
+    ):
         self.db_path = db_path
+        self.scryfall_db_path = scryfall_db_path
         self.cache_path = cache_path
         self._memory_cache: Dict[str, Optional[Dict[str, Any]]] = {}
+        if cache:
+            for k, v in cache.items():
+                self._memory_cache[k] = self._normalize(v) if v else None
         self._json_cache: Optional[Dict[str, Any]] = None
         self._has_sqlite = self.db_path.exists()
+        self._has_scryfall_db = self.scryfall_db_path.exists()
 
     def _get_json_cache(self) -> Dict[str, Any]:
         if self._json_cache is None:
@@ -55,13 +67,41 @@ class CardDataProvider:
         if self._has_sqlite:
             card_data = self._lookup_sqlite(clean_name)
 
-        # 2. Fallback to scryfall-cards.json
+        # 2. Try Scryfall SQLite scryfall.db if available
+        if not card_data and self._has_scryfall_db:
+            card_data = self._lookup_scryfall_db(clean_name)
+
+        # 3. Fallback to scryfall-cards.json
         if not card_data:
             card_data = self._lookup_json(clean_name)
 
         normalized = self._normalize(card_data) if card_data else None
         self._memory_cache[clean_name] = normalized
         return normalized
+
+    def _lookup_scryfall_db(self, name: str) -> Optional[Dict[str, Any]]:
+        try:
+            import sqlite3
+            conn = sqlite3.connect(f"file:{self.scryfall_db_path}?mode=ro", uri=True)
+            conn.row_factory = sqlite3.Row
+            cur = conn.cursor()
+            cur.execute("SELECT data FROM cards WHERE name = ? COLLATE NOCASE", (name,))
+            row = cur.fetchone()
+            if not row and " // " in name:
+                cur.execute("SELECT data FROM cards WHERE name = ? COLLATE NOCASE", (name.split(" // ")[0].strip(),))
+                row = cur.fetchone()
+            if not row:
+                cur.execute(
+                    "SELECT c.data FROM cards c JOIN card_aliases a ON a.canonical_name = c.name WHERE a.alias = ? COLLATE NOCASE LIMIT 1",
+                    (name,),
+                )
+                row = cur.fetchone()
+            conn.close()
+            if row:
+                return json.loads(row["data"])
+        except Exception:
+            pass
+        return None
 
     def _lookup_sqlite(self, name: str) -> Optional[Dict[str, Any]]:
         try:

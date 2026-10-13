@@ -26,24 +26,90 @@ from analyzer.parsers.markdown import parse_deck_markdown
 
 def analyze_deck(deck_info_or_dict: Any, cache: Any = None) -> Dict[str, Any]:
     """Legacy compatibility bridge for programmatic analyze_deck calls."""
-    analyzer = DeckAnalyzer()
+    from analyzer.data.provider import CardDataProvider
+    provider = CardDataProvider(cache=cache if isinstance(cache, dict) else None)
+    analyzer = DeckAnalyzer(provider=provider)
+
     if hasattr(deck_info_or_dict, "cards"):
         result = analyzer.analyze_deck(deck_info_or_dict)
-    elif isinstance(deck_info_or_dict, dict) and "filepath" in deck_info_or_dict and deck_info_or_dict["filepath"]:
-        result = analyzer.analyze_file(deck_info_or_dict["filepath"])
-    else:
-        # Fallback if raw dict passed
+    elif isinstance(deck_info_or_dict, dict) and "cards" in deck_info_or_dict:
         from analyzer.models import CardEntry, DeckInfo
-        cards = [CardEntry(name=c["name"], qty=c.get("qty", 1), user_category=c.get("user_category", "Other")) for c in deck_info_or_dict.get("cards", [])]
+        cards = [
+            CardEntry(
+                name=c["name"],
+                qty=c.get("qty", 1),
+                user_category=c.get("user_category", "Other"),
+                data=cache.get(c["name"]) if cache and isinstance(cache, dict) else None,
+            )
+            for c in deck_info_or_dict.get("cards", [])
+        ]
         deck = DeckInfo(
             deck_name=deck_info_or_dict.get("deck_name", "Unknown"),
             owner=deck_info_or_dict.get("owner", "unknown"),
             commander=deck_info_or_dict.get("commander", "Unknown Commander"),
             source_url=deck_info_or_dict.get("source_url", ""),
-            cards=cards
+            cards=cards,
+        )
+        result = analyzer.analyze_deck(deck)
+    elif isinstance(deck_info_or_dict, dict) and "filepath" in deck_info_or_dict and deck_info_or_dict["filepath"]:
+        result = analyzer.analyze_file(deck_info_or_dict["filepath"])
+    else:
+        from analyzer.models import DeckInfo
+        deck = DeckInfo(
+            deck_name=deck_info_or_dict.get("deck_name", "Unknown") if isinstance(deck_info_or_dict, dict) else "Unknown",
+            owner=deck_info_or_dict.get("owner", "unknown") if isinstance(deck_info_or_dict, dict) else "unknown",
+            commander=deck_info_or_dict.get("commander", "Unknown Commander") if isinstance(deck_info_or_dict, dict) else "Unknown Commander",
+            source_url="",
+            cards=[],
         )
         result = analyzer.analyze_deck(deck)
     return analyzer.format_json(result)
+
+
+def detect_combos(commander: str, cards: Any) -> tuple[int, list[str]]:
+    """Legacy compatibility helper."""
+    from analyzer.models import CardEntry, DeckInfo
+    from analyzer.evaluators.combos import ComboEvaluator
+
+    card_set = set(cards) if isinstance(cards, (set, list, tuple)) else set()
+    deck = DeckInfo(
+        deck_name="",
+        owner="",
+        commander=commander,
+        source_url="",
+        cards=[CardEntry(name=n) for n in card_set],
+    )
+    res = ComboEvaluator.evaluate(deck)
+    return res.combo_count, res.combo_lines
+
+
+def classify_piloting_archetype(
+    commander_text: str,
+    card_types: dict[str, int],
+    user_cats: list[str],
+    cards_data: list[Any],
+    x_spell_count: int = 0,
+) -> str:
+    """Legacy compatibility helper."""
+    from analyzer.models import CardEntry, DeckInfo
+    from analyzer.data.provider import CardDataProvider
+    from analyzer.evaluators.archetype import ArchetypeClassifier
+
+    cards = []
+    for t, count in card_types.items():
+        for _ in range(count):
+            cards.append(CardEntry(name=f"Sample {t}", user_category=user_cats[0] if user_cats else "Other", data={"type_line": t}))
+
+    deck = DeckInfo(
+        deck_name="",
+        owner="",
+        commander=commander_text,
+        source_url="",
+        cards=cards,
+    )
+    provider = CardDataProvider()
+    res = ArchetypeClassifier.classify(deck, provider, x_spell_count=x_spell_count)
+    return res.archetype
 
 
 def write_analysis_to_kb(deck_filepath: pathlib.Path, analysis_data: Dict[str, Any]) -> pathlib.Path:

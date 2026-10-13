@@ -75,6 +75,10 @@ class ArchetypeResult:
     primary_archetype: str
     weights: Dict[str, float] = field(default_factory=dict)
 
+    @property
+    def archetype(self) -> str:
+        return self.primary_archetype
+
 
 @dataclass
 class SubPillars:
