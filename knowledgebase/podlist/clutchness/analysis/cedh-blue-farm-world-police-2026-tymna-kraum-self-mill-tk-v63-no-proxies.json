@@ -1,0 +1,113 @@
+{
+  "deck_name": "cEDH Blue Farm, World Police 2026 | Tymna Kraum | Self-Mill | T+K v6.3 No Proxies",
+  "commander": "Kraum, Ludevic's Opus, Tymna the Weaver",
+  "sources": [
+    {
+      "source": "EDHOracleLocalEngine",
+      "status": "success",
+      "error": null,
+      "metrics": {
+        "power_score": 9.4,
+        "bracket": 5,
+        "bracket_label": "Bracket 5: cEDH (Competitive Commander)",
+        "combo_score": 10.0,
+        "interaction_score": 10.0,
+        "ramp_score": 10.0,
+        "consistency_score": 10.0,
+        "speed_score": 10.0,
+        "tutor_count": 16,
+        "fast_mana_count": 7,
+        "combo_count": 2,
+        "game_changers_count": 23,
+        "game_changers": [
+          "Ad Nauseam",
+          "Chrome Mox",
+          "Demonic Tutor",
+          "Drannith Magistrate",
+          "Enlightened Tutor",
+          "Esper Sentinel",
+          "Fierce Guardianship",
+          "Flusterstorm",
+          "Force of Will",
+          "Gamble",
+          "Intuition",
+          "Mindbreak Trap",
+          "Mox Diamond",
+          "Mystic Remora",
+          "Mystical Tutor",
+          "Necropotence",
+          "Orcish Bowmasters",
+          "Rhystic Study",
+          "Smothering Tithe",
+          "Sol Ring",
+          "Thassa's Oracle",
+          "Underworld Breach",
+          "Vampiric Tutor"
+        ],
+        "stax_count": 1,
+        "stax_pieces": [
+          "Drannith Magistrate"
+        ]
+      },
+      "source_metrics": {
+        "piloting_archetype": "Spellslinger / Storm",
+        "average_cmc": "1.92",
+        "effective_average_cmc": null,
+        "x_spell_count": 1,
+        "non_land_cards": 72,
+        "land_cards": 26
+      },
+      "text": {
+        "summary": "Spellslinger / Storm deck built around Kraum, Ludevic's Opus, Tymna the Weaver. Average CMC: 1.92.",
+        "explanations": [
+          "Identified Piloting Archetype as 'Spellslinger / Storm'; applied adaptive strategic weighting profile.",
+          "cEDH tier: Meets tournament speed, hyper-dense fast mana/tutors, or competitive combo lock requirements."
+        ],
+        "strengths": [
+          "Game Changers: 23 (Ad Nauseam, Chrome Mox, Demonic Tutor, Drannith Magistrate, Enlightened Tutor, Esper Sentinel, Fierce Guardianship, Flusterstorm, Force of Will, Gamble, Intuition, Mindbreak Trap, Mox Diamond, Mystic Remora, Mystical Tutor, Necropotence, Orcish Bowmasters, Rhystic Study, Smothering Tithe, Sol Ring, Thassa's Oracle, Underworld Breach, Vampiric Tutor)",
+          "Stax / Lock pieces: 1 (Drannith Magistrate)",
+          "Fast Mana acceleration: 7 source(s)",
+          "Tutor density: 16 tutor(s)",
+          "Repeatable draw engines: 8"
+        ],
+        "weaknesses": [
+          "Sensitive to targeted disruption if key engines are neutralized."
+        ],
+        "recommendations": [],
+        "suggested_changes": [],
+        "combo_lines": [
+          "Thassa's Oracle + Demonic Consultation -> Instant library exile win",
+          "Thassa's Oracle + Tainted Pact -> Instant library exile win"
+        ],
+        "mulligan_advice": [
+          "Keep hands with early mana acceleration and at least 2 lands."
+        ]
+      },
+      "raw_result": {
+        "engine_version": "2.0.0",
+        "sub_pillar_scores": {
+          "velocity": 100.0,
+          "engine": 100.0,
+          "interaction": 100.0,
+          "resource": 100.0,
+          "resilience": 10.0,
+          "closing": 100.0,
+          "mana": 85.0
+        },
+        "strategic_audit": {
+          "true_archetype": null,
+          "emergent_locks": [],
+          "anti_synergies": []
+        }
+      }
+    }
+  ],
+  "metadata": {
+    "deck_url": "https://archidekt.com/decks/3384924",
+    "analysis_time": "2026-10-13T16:39:21Z",
+    "successful_sources": [
+      "EDHOracleLocalEngine"
+    ],
+    "failed_sources": []
+  }
+}

@@ -5,8 +5,8 @@ owner: clutchness
 commander: "Thrasios, Triton Hero, Tymna the Weaver"
 colors: [W, U, B, G]
 power_level:
-tags: []
-related: []
+tags: [reference, cedh-benchmark, non-pod]
+related: [podlist/clutchness/profile.md]
 last_updated: 2026-09-28
 source: https://archidekt.com/decks/1727139
 ---

@@ -7,7 +7,7 @@ Read the linked file when the task matches the tags or trigger.
 ---
 
 ## podlist/
-Grouped by owner. `charles` (`fowlplays`) is the user's own; the rest are pod members. Each owner folder has one `profile.md` (deckbuilder tendencies — read before picking or evaluating a deck for that person, or when spotting cross-deck/cross-pod patterns) and a `decks/` folder (one file per deck, pulled from that owner's public Archidekt or Moxfield profile).
+Grouped by owner. `charles` (`fowlplays`) is the user's own; the rest are pod members (with external control benchmarks cataloged under `clutchness/`). Each owner folder has one `profile.md` (deckbuilder tendencies — read before picking or evaluating a deck for that person, or when spotting cross-deck/cross-pod patterns) and a `decks/` folder (one file per deck, pulled from that owner's public Archidekt or Moxfield profile).
 
 ### Charles (`fowlplays`)
 
@@ -51,8 +51,8 @@ Commander: Ardbert, Warrior of Darkness (WB) — legends/+1+1 counters
 
 #### Legacy & Delisted Decks (Archidekt Delisted / In-Progress)
 
-### podlist/charles/decks/sorc-of-eld---manual.md
-Commander: Emet-Selch, Unsundered // Hades, Sorcerer of Eld (UB) — **delisted / in-progress draft**, unfinalized build pending completion.
+### podlist/charles/decks/the-sorcerer-of-eld.md
+Commander: Emet-Selch, Unsundered // Hades, Sorcerer of Eld (UB) — **delisted / in-progress draft**, finalized in theorycrafting archive.
 
 ### podlist/charles/decks/the-best-of-friends.md
 Commander: Zenos yae Galvus // Shinryu, Transcendent Rival (B) — **retired/delisted**, moved to Legacy on Archidekt; cards released into dismantled card pool.
@@ -277,6 +277,21 @@ Observed placeholder commanders, roles, and profiles for extended pod members (a
 
 ---
 
+## External Benchmarks / Control Decks
+
+Non-pod reference decks and external tournament primers used as deterministic analytical controls to evaluate the delta between high-power pod lists and uncompromised competitive play (cEDH):
+
+### podlist/clutchness/profile.md
+Profile: clutchness (Archidekt) — **★★★★★ Power 9.4–9.5 / 10.0, Bracket 5 (cEDH)**. External cEDH tournament control baselines across Blue Farm and TnT. Excluded from pod rosters, simulation matchmaking, and internal meta rankings.
+
+### podlist/clutchness/decks/cedh-blue-farm-world-police-2026-tymna-kraum-self-mill-tk-v63-no-proxies.md
+Deck: cEDH Blue Farm, World Police 2026 | Tymna Kraum | Self-Mill | T+K v6.3 — Kraum, Ludevic's Opus // Tymna the Weaver (WUBR). Authoritative tournament reference featuring 23 CFP Game Changers, 16 tutors, 7 fast mana rocks, and Underworld Breach / Thassa's Oracle win lines.
+
+### podlist/clutchness/decks/tnt-cedh-2026-tymna-thrasios-v424-cedh-midrange-thrasios-tymna-primer-infinite-mana-self-mill-no-proxies.md
+Deck: TnT cEDH 2026 | Tymna Thrasios v4.24 | cEDH Midrange Primer — Thrasios, Triton Hero // Tymna the Weaver (WUBG). Authoritative tournament reference featuring 20 CFP Game Changers, 14 tutors, and compact infinite mana self-mill win lines.
+
+---
+
 ## research/
 
 ### research/2026-07-10-the-copied-factory-deck-profile.md
@@ -346,7 +361,11 @@ Deck: The Sylvan Heist — Maralen, Fae Ascendant (UBG) — Sultai Elf token swa
 ### theorycrafting/emet-selch/
 Deck: The Sorcerer of Eld — Emet-Selch, Unsundered // Hades, Sorcerer of Eld (UB) — Dimir graveyard velocity, reanimator, and FFXIV dual antagonist endgame featuring Zenos/Shinryu OTK and Reality Fracture upgrades. Complete 100-card decklist and Archidekt export.
 
+### theorycrafting/mahadi/
+Deck: The Blood Bazaar — Mahadi, Emporium Master (BR) — Rakdos Aristocrats-Slug, War's Toll combat lockdown, Rule 608.2g Ancient Runes priority exploit, and Solphim noncombat burn multiplier. 100% owned physical card build. Complete 100-card decklist and Archidekt export.
+
 ---
+
 
 ## _cache/
 
